@@ -1,0 +1,326 @@
+/***********************************************
+   Wrapper
+***********************************************/
+
+#sa-wrapper {
+	width: 640px;
+	margin: 20px 0 20px 10px;
+	background: #dfdfdf;
+	border: 5px solid #dfdfdf;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#sa-wrapper-shell {
+	position: relative;
+	background: #fafafa url(../images/wrapper-shell.png) repeat-y;
+	min-height: 400px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: 0 0 5px #bbb;
+	-moz-box-shadow: 0 0 5px #bbb;
+	-webkit-box-shadow: 0 0 5px #bbb;
+}
+
+
+
+/***********************************************
+   Top elements
+***********************************************/
+
+#sa-logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 190px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #eee;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0 #222;
+	-moz-text-shadow: 1px 1px 0 #222;
+	-webkit-text-shadow: 1px 1px 0 #222;
+}
+
+#sa-support {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 410px;
+	height: 40px;
+	line-height: 20px;
+	padding: 10px 20px;
+	background: #004B63 url(../images/support.png) no-repeat;
+	text-align: right;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-right-radius: 8px;
+	text-shadow: -1px -1px 0 #333;
+	-moz-text-shadow: -1px -1px 0 #333;
+	-webkit-text-shadow: -1px -1px 0 #333;
+}
+#sa-support a {
+	display: inline-block;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 0.9em;
+	color: #CCF2FF;
+}
+#sa-support a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+#sa-support strong {
+	font-size: 1.1em;
+	color: #fff;
+}
+
+
+
+/***********************************************
+   Tabs
+***********************************************/
+
+#sa-tabs {
+	float: left;
+	width: 184px;
+	margin: 60px 0 0 6px;
+}
+#sa-tabs a {
+	display: block;
+	font-size: 12px;
+	color: #d0d0d0;
+	text-decoration: none;
+	background: url(../images/tabs.png) no-repeat;
+	text-shadow: 1px 1px 0 #222;
+	-moz-text-shadow: 1px 1px 0 #222;
+	-webkit-text-shadow: 1px 1px 0 #222;
+}
+#sa-tabs span {
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 12px 10px 12px 33px;
+}
+#sa-tabs a:hover {
+	color: #fff;
+}
+#sa-tabs a.sa-current {
+	background: #FAFAFA;
+	color: #434343;
+	text-shadow: none;
+	-moz-text-shadow: none;
+	-webkit-text-shadow: none;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+
+
+/***********************************************
+   Panes
+***********************************************/
+
+#sa-panes {
+	float: left;
+	width: 450px;
+	padding-top: 60px;
+}
+.sa-pane {
+	display: none;
+}
+.no-js .sa-pane {
+	display: block;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #ccc;
+}
+
+
+
+/***********************************************
+	Option container
+***********************************************/
+
+.sa-option-box {
+	position: relative;
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.sa-option-title { margin: 0 0 15px 0 }
+
+.sa-option-field {}
+
+.sa-help {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: 50% 50% url(../images/help.png) no-repeat;
+	text-indent: -99999px;
+	z-index: 100;
+}
+.sa-help-open,
+.sa-help:hover {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	text-indent: 0;
+	width: auto;
+	height: auto;
+	max-width: 300px;
+	max-height: 200px;
+	padding: 10px;
+	overflow: auto;
+	color: #fff;
+	font-size: 0.9em;
+	font-style: italic;
+	background: url(../images/transparent.png);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	z-index: 101;
+}
+
+
+
+/***********************************************
+	Options
+***********************************************/
+
+.sa-option-box-title {
+	padding: 10px;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+.sa-option-box-content { padding: 15px }
+
+
+
+/***********************************************
+	Form elements
+***********************************************/
+
+.sa-option-field input[type="text"] {
+	width: 410px;
+	padding: 10px;
+}
+.sa-option-field textarea {
+	width: 410px;
+	padding: 10px;
+}
+.sa-radio-label {
+	display: block;
+	height: 23px;
+	line-height: 23px;
+}
+.sa-checkbox-group label {
+	float: left;
+	display: block;
+	width: 47%;
+	margin: 0 3% 10px 0;
+}
+.sa-swatch {
+	position: absolute;
+	right: 30px;
+	top: 62px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: 50% 50% url(../images/color.png) no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+.sa-upload-button {
+	position: absolute;
+	right: 30px;
+	top: 62px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: 50% 50% url(../images/upload.png) no-repeat;
+	text-indent: -9999px;
+}
+.no-js .sa-upload-button,
+.no-js .sa-swatch {
+	display: none;
+}
+
+.sa-spin,
+.sa-spin-success {
+	display: none;
+	margin: 3px 0 0 5px;
+	color: #777;
+}
+.sa-spin img {
+	margin: 0 3px -3px 0;
+}
+.sa-spin-success {
+	color: #0b0;
+}
+.sa-spin-success img {
+	margin: 0 3px -4px 0;
+}
+
+.sa-action-buttons {
+	height: 25px;
+	padding: 20px;
+	background: #eee;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+
+
+/***********************************************
+	Notifications
+***********************************************/
+
+.sa-notification {
+	margin: 20px !important;
+}
+
+.sa-success {
+	padding: 0 0.6em;
+	background: #D3F2D3;
+	border: 1px solid #2FE92F;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.sa-success p {
+	margin: 0.5em 0;
+	padding: 2px;
+}
+
+
+
+/***********************************************
+	Common stuff
+***********************************************/
+
+.js .sa-no-js { display: none }
+.sa-clear {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}

@@ -1,0 +1,1 @@
+These images should have the same names as the ID of tab

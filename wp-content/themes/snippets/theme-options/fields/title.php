@@ -1,0 +1,1 @@
+<div class="sa-option-box sa-option-box-title"><?php echo $params['name'] ?></div>

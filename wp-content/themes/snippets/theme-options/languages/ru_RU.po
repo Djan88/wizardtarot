@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gn_themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-11 00:47+0300\n"
+"PO-Revision-Date: 2012-01-11 00:47+0300\n"
+"Last-Translator: Vladimir Anokhin <ano.vladimir@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:59
+msgid "For full functionality of this page it is recommended to enable JavaScript."
+msgstr "Для полной функциональности этой страницы, необходимо включить javascript."
+
+#: functions.php:59
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: functions.php:63
+msgid "Options reseted"
+msgstr "Настройки сброшены"
+
+#: functions.php:68
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: functions.php:73
+msgid "No changes"
+msgstr "Нет изменений"
+
+#: fields/closetab.php:2
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: fields/closetab.php:3
+msgid "Saving"
+msgstr "Сохранение"
+
+#: fields/closetab.php:4
+msgid "Saved"
+msgstr "Сохранено"
+
+#: fields/closetab.php:5
+msgid "Are you sure? It can not be undone!"
+msgstr "Вы уверены? Это нельзя будет отменить!"
+
+#: fields/closetab.php:5
+msgid "Reset all settings"
+msgstr "Сбросить все настройки"
+
+#: fields/upload.php:4
+msgid "Upload"
+msgstr "Загрузить"
+
+#~ msgid "Add slide"
+#~ msgstr "Добавить слайд"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Remove slide. Are you sure?"
+#~ msgstr "Удаление слайда. Вы уверены?"
+
+#~ msgid "No slides"
+#~ msgstr "Нет слайдов"
+
+#~ msgid "Theme options"
+#~ msgstr "Настройки темы"
+
+#~ msgid "Standard elements"
+#~ msgstr "Стандартные элементы"
+
+#~ msgid "Textfield"
+#~ msgstr "Текстовое поле"
+
+#~ msgid "Textfield description"
+#~ msgstr "Описание текстовго поля"
+
+#~ msgid "Default value"
+#~ msgstr "Значение по умолчанию"
+
+#~ msgid "Checkbox"
+#~ msgstr "Флажок"
+
+#~ msgid "Checkbox description"
+#~ msgstr "Описание для флажка"
+
+#~ msgid "Checkbox label"
+#~ msgstr "Текст флажка"
+
+#~ msgid "Select"
+#~ msgstr "Выпадающий список"
+
+#~ msgid "Select description"
+#~ msgstr "Описание выпадающего списка"
+
+#~ msgid "Option 1"
+#~ msgstr "Вариант 1"
+
+#~ msgid "Option 2"
+#~ msgstr "Вариант 2"
+
+#~ msgid "Option 3"
+#~ msgstr "Вариант 3"
+
+#~ msgid "Radio buttons"
+#~ msgstr "Радио кнопки"
+
+#~ msgid "Radio buttons description"
+#~ msgstr "Описание радио кнопок"
+
+#~ msgid "Textarea"
+#~ msgstr "Текстовое поле"
+
+#~ msgid "Textarea description"
+#~ msgstr "Описание текстовго поля"
+
+#~ msgid "Advanced elements"
+#~ msgstr "Специальные элементы"
+
+#~ msgid "Text title"
+#~ msgstr "Текстовый заголовок"
+
+#~ msgid "Color picker"
+#~ msgstr "Выбор цвета"
+
+#~ msgid "Color picker description"
+#~ msgstr "Описание для поля выбора цвета"
+
+#~ msgid "Upload description"
+#~ msgstr "Описание загрузчика"
+
+#~ msgid "HTML content"
+#~ msgstr "HTML содержимое"
+
+#~ msgid "Slider"
+#~ msgstr "Слайдер"
+
+#~ msgid "Manage slides"
+#~ msgstr "Управление слайдами"
+
+#~ msgid "Slider description"
+#~ msgstr "Описание менеджера слайдов"
+
+#~ msgid "Slide 1 title"
+#~ msgstr "Имя 1"
+
+#~ msgid "Slide 1 image url"
+#~ msgstr "Изображение 1"
+
+#~ msgid "Slide 1 link"
+#~ msgstr "Ссылка 1"
+
+#~ msgid "Slide 1 text"
+#~ msgstr "Текст 1"
+
+#~ msgid "Slide 2 title"
+#~ msgstr "Имя 2"
+
+#~ msgid "Slide 2 image url"
+#~ msgstr "Изображение 2"
+
+#~ msgid "Slide 2 link"
+#~ msgstr "Ссылка 2"
+
+#~ msgid "Slide 2 text"
+#~ msgstr "Текст 2"
+
+#~ msgid "SEO"
+#~ msgstr "SEO"
+
+#~ msgid "Home title"
+#~ msgstr "Заголовок для главной"
+
+#~ msgid "Title tag for homepage"
+#~ msgstr "Тег title для главной страницы"
+
+#~ msgid "Home keywords"
+#~ msgstr "Ключевые слова для главной страницы"
+
+#~ msgid "Comma-separated keywords for homepage"
+#~ msgstr "Ключевые слова слова для главной страницы, разделенные запятыми"
+
+#~ msgid "Home description"
+#~ msgstr "Описание для главной страницы"
+
+#~ msgid "SEO description for homepage"
+#~ msgstr "Описание для главной страницы"
+
+#~ msgid "Standard form fields"
+#~ msgstr "Стандартные поля формы"
+
+#~ msgid "Hidden option"
+#~ msgstr "Скрытая опция"
+
+#~ msgid "Hidden option description"
+#~ msgstr "Описание скрытого поля"
+
+#~ msgid "Categories, pages, posts"
+#~ msgstr "Катеории, страницы, записи"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "Category description"
+#~ msgstr "Описание выбора категории"
+
+#~ msgid "Categories"
+#~ msgstr "Катеории"
+
+#~ msgid "Categories description"
+#~ msgstr "Описание выбора категорий"
+
+#~ msgid "Pages"
+#~ msgstr "Страницы"
+
+#~ msgid "Pages description"
+#~ msgstr "Описание выбора страниц"
+
+#~ msgid "Posts"
+#~ msgstr "Записи"
+
+#~ msgid "Posts description"
+#~ msgstr "Описание выбора записей"
