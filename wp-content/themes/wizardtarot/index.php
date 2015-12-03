@@ -72,349 +72,99 @@
 			</div> <!-- /.container -->
 		</div> <!-- /.main-navigation -->
 	</div> <!-- /.site-header -->
-    <div id="menu-container">
-    <!-- gallery start -->
-    <div class="content homepage" id="menu-1">
-    <div class="container">
-	    <div class="row templatemorow">
-    		<div class="hex col-sm-6">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/1.jpg);">
-             	 	<div class="overlay">
-						<a href="images/gallery/1.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="hex col-sm-6">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/2.jpg);">
-              	<div class="overlay">
-						<a href="images/gallery/2.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="hex col-sm-6  templatemo-hex-top2">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/3.jpg);">
-              	<div class="overlay">
-						<a href="images/gallery/3.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="hex col-sm-6  templatemo-hex-top3">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/4.jpg);">
-              	<div class="overlay">
-						<a href="images/gallery/4.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="hex col-sm-6  templatemo-hex-top3">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/5.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/5.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-  	     <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/6.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/6.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-     <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/7.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/7.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
-      	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/8.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/8.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
-      	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/9.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/9.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    	</div>
-	</div>
-    <div  id="newpost" style="display:none;" class="container answer_list templatemo_gallerytop">
-	    <div class="row templatemorow">
-    		<div class="hex col-sm-6">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/10.jpg);">
-             	 	<div class="overlay">
-						<a href="images/gallery/10.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="hex col-sm-6">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/11.jpg);">
-              	<div class="overlay">
-						<a href="images/gallery/11.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="hex col-sm-6  templatemo-hex-top2">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/12.jpg);">
-              	<div class="overlay">
-						<a href="images/gallery/12.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="hex col-sm-6  templatemo-hex-top3">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/13.jpg);">
-              	<div class="overlay">
-						<a href="images/gallery/13.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="hex col-sm-6  templatemo-hex-top3">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/14.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/14.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-  	     <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/15.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/15.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-     <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
-    	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/16.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/16.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
-      	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/17.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/17.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
-      	<div>
-          <div class="hexagon hexagon2 gallery-item">
-            <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/18.jpg);">
-              		<div class="overlay">
-						<a href="images/gallery/18.jpg" data-rel="lightbox" class="fa fa-expand"></a>
-					</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    	</div>
-	</div>
-    <div class="container">
-    	<div class="row">
-        	<div class="templatemo_loadmore">
-			 <button class="gallery_more" id="button" onClick="showhide()">Load More</button>
-            </div>
-        </div>
-    </div>
-    </div>
-      <!-- gallery end -->
+  <div id="menu-container">
+  <?php if(is_front_page()) { ?>
+    <?php include(TEMPLATEPATH . '/frontpage.php'); ?>
+  <?php } else { ?>
     <!-- team start -->
     <div class="content team" id="menu-2">
      <div class="templatemo_ourteam">
-     		<div class="container templatemo_hexteam">
-            	<div class="row">
-                	<div class="col-md-3 col-sm-4">
-                        	 <div class="hexagon hexagonteam gallery-item">
+        <div class="container templatemo_hexteam">
+              <div class="row">
+                  <div class="col-md-3 col-sm-4">
+                           <div class="hexagon hexagonteam gallery-item">
                                <div class="hexagon-in1">
                                 <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/team/1.jpg);">
                                 <div class="overlay templatemo_overlay1">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-facebook"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-facebook"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay2">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-twitter"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-twitter"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay3">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-linkedin"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-linkedin"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay4">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-rss"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-rss"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="clear"></div>
-                               	<div class="overlay templatemo_overlaytxt">Phasellus interdum</div>
+                                <div class="overlay templatemo_overlaytxt">Phasellus interdum</div>
                                 </div>
                             </div>
                           </div>
-  			       </div>
+               </div>
                     <div class="col-md-3 col-sm-8 templatemo_servicetxt" >
-                    	<h2>Free Template</h2>
+                      <h2>Free Template</h2>
                         <p>Polygon is free HTML5 template by <span class="blue">template</span><span class="green">mo</span> that can be used for any purpose. You can remove any credit link. Please tell your friends about our website. Cras lobortis, ligula ut hendrerit condimentum, magna lorem lobortis nisi, ac suscipit nunc est vitae turpis.</p>
                     </div>
                     <div class="templatemo_servicecol2">
                     <div class="col-md-3 col-sm-4">
-                        	 <div class="hexagon hexagonteam gallery-item">
+                           <div class="hexagon hexagonteam gallery-item">
                                <div class="hexagon-in1">
                                 <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/team/2.jpg);">
                                 <div class="overlay templatemo_overlay1">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-facebook"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-facebook"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay2">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-twitter"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-twitter"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay3">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-linkedin"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-linkedin"></span>
+                                    </div>
                                     </a>
                                 </div>
 
                                 <div class="overlay templatemo_overlay4">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-rss"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-rss"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="clear"></div>
-                               	<div class="overlay templatemo_overlaytxt">Cras interdum accumsan diam</div>
+                                <div class="overlay templatemo_overlaytxt">Cras interdum accumsan diam</div>
                                 </div>
                             </div>
                           </div>
-  			       </div>
+               </div>
                     <div class="col-md-3 col-sm-8 templatemo_servicetxt">
-                    	<h2>Responsive Design</h2>
+                      <h2>Responsive Design</h2>
                         <p>This is free mobile template which is compatible with tablets and mobile phones. Mauris eget neque at sapien faucibus egestas vel vitae mi. Maecenas commodo augue risus, sed placerat neque feugiat vel. Fusce augue urna, faucibus et nulla bibendum, luctus porttitor nulla.</p>
                     </div>
                     </div>
@@ -422,90 +172,90 @@
             </div>
             <div class="clear"></div>
             <div class="container templatemo_hexteam s_top">
-            	<div class="row">
-                	<div class="col-md-3 col-sm-4">
-                        	 <div class="hexagon hexagonteam gallery-item">
+              <div class="row">
+                  <div class="col-md-3 col-sm-4">
+                           <div class="hexagon hexagonteam gallery-item">
                                <div class="hexagon-in1">
                                 <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/team/3.jpg);">
                                 <div class="overlay templatemo_overlay1">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-facebook"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-facebook"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay2">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-twitter"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-twitter"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay3">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-linkedin"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-linkedin"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay4">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-rss"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-rss"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="clear"></div>
-                               	<div class="overlay templatemo_overlaytxt">Morbi pulvinar</div>
+                                <div class="overlay templatemo_overlaytxt">Morbi pulvinar</div>
                                 </div>
                             </div>
                           </div>
-  			       </div>
+               </div>
                     <div class="col-md-3 col-sm-8 templatemo_servicetxt" >
-                    	<h2>Mobile Ready</h2>
+                      <h2>Mobile Ready</h2>
                         <p>Sed laoreet, enim quis euismod egestas, risus tortor tincidunt lacus, in iaculis mauris lectus at augue. Donec luctus nibh nec ullamcorper feugiat. Phasellus felis urna, lobortis vitae lacus sit amet, tristique consectetur nibh.</p>
                     </div>
                     <div class="templatemo_servicecol2">
                     <div class="col-md-3 col-sm-4">
-                        	 <div class="hexagon hexagonteam gallery-item">
+                           <div class="hexagon hexagonteam gallery-item">
                                <div class="hexagon-in1">
                                 <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/team/4.jpg);">
                                 <div class="overlay templatemo_overlay1">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-facebook"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-facebook"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay2">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-twitter"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-twitter"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay3">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-linkedin"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-linkedin"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="overlay templatemo_overlay4">
-                                	<a href="#">
-                                   	 <div class="smallhexagon">
-                                  	 	 <span class="fa fa-rss"></span>
-                                 	  </div>
+                                  <a href="#">
+                                     <div class="smallhexagon">
+                                       <span class="fa fa-rss"></span>
+                                    </div>
                                     </a>
                                 </div>
                                 <div class="clear"></div>
-                               	<div class="overlay templatemo_overlaytxt">Sed nonummy</div>
+                                <div class="overlay templatemo_overlaytxt">Sed nonummy</div>
                                 </div>
                             </div>
                           </div>
-  			       </div>
+               </div>
                     <div class="col-md-3 col-sm-8 templatemo_servicetxt">
-                    	<h2>HTML5 CSS3</h2>
+                      <h2>HTML5 CSS3</h2>
                         <p>Phasellus sodales magna orci, id scelerisque lectus faucibus a. Vivamus varius tincidunt sem. Etiam ultricies orci sit amet sem egestas varius vitae at lacus. Nunc blandit elit in mauris semper, id iaculis felis condimentum.</p>
                     </div>
                     </div>
@@ -519,13 +269,13 @@
     <!-- service start -->
     <div class="content services" id="menu-3">
     <div class="container">
-    	<div class="row templatemo_servicerow">
-        	<div class="templatemo_hexservices col-sm-6">
-            	<div class="blok text-center">
+      <div class="row templatemo_servicerow">
+          <div class="templatemo_hexservices col-sm-6">
+              <div class="blok text-center">
                   <div class="hexagon-a">
                      <a class="hlinktop" href="#">
-                     	 <div class="hexa-a">
-                         	<div class="hcontainer-a">
+                       <div class="hexa-a">
+                          <div class="hcontainer-a">
                           <div class="vertical-align-a">
                             <span class="texts-a"><i class="fa fa-bell"></i></span>
                           </div>
@@ -534,9 +284,9 @@
                      </a>
                   </div>  
                      <div class="hexagonservices">
-                     	<a class="hlinkbott" href="#">
+                      <a class="hlinkbott" href="#">
                         <div class="hexa">
-                      	  <div class="hcontainer">
+                          <div class="hcontainer">
                           <div class="vertical-align">
                           <span class="texts"></span>
                           </div>
@@ -551,11 +301,11 @@
                     </div>
               </div>
               <div class="templatemo_hexservices col-sm-6">
-            	<div class="blok text-center">
+              <div class="blok text-center">
                   <div class="hexagon-a">
                      <a class="hlinktop" href="#">
-                     	 <div class="hexa-a">
-                         	<div class="hcontainer-a">
+                       <div class="hexa-a">
+                          <div class="hcontainer-a">
                           <div class="vertical-align-a">
                             <span class="texts-a"><i class="fa fa-briefcase"></i></span>
                           </div>
@@ -564,9 +314,9 @@
                      </a>
                   </div>  
                      <div class="hexagonservices">
-                     	<a class="hlinkbott" href="#">
+                      <a class="hlinkbott" href="#">
                         <div class="hexa">
-                      	  <div class="hcontainer">
+                          <div class="hcontainer">
                           <div class="vertical-align">
                           <span class="texts"></span>
                           </div>
@@ -581,11 +331,11 @@
                     </div>
               </div>
               <div class="templatemo_hexservices col-sm-6">
-            	<div class="blok text-center">
+              <div class="blok text-center">
                   <div class="hexagon-a">
                      <a class="hlinktop" href="#">
-                     	 <div class="hexa-a">
-                         	<div class="hcontainer-a">
+                       <div class="hexa-a">
+                          <div class="hcontainer-a">
                           <div class="vertical-align-a">
                             <span class="texts-a"><i class="fa fa-mobile"></i></span>
                           </div>
@@ -594,9 +344,9 @@
                      </a>
                   </div>  
                      <div class="hexagonservices">
-                     	<a class="hlinkbott" href="#">
+                      <a class="hlinkbott" href="#">
                         <div class="hexa">
-                      	  <div class="hcontainer">
+                          <div class="hcontainer">
                           <div class="vertical-align">
                           <span class="texts"></span>
                           </div>
@@ -611,11 +361,11 @@
                     </div>
               </div>
               <div class="templatemo_hexservices col-sm-6">
-            	<div class="blok text-center">
+              <div class="blok text-center">
                   <div class="hexagon-a">
                      <a class="hlinktop" href="#">
-                     	 <div class="hexa-a">
-                         	<div class="hcontainer-a">
+                       <div class="hexa-a">
+                          <div class="hcontainer-a">
                           <div class="vertical-align-a">
                             <span class="texts-a"><i class="fa fa-trophy"></i></span>
                           </div>
@@ -624,9 +374,9 @@
                      </a>
                   </div>  
                      <div class="hexagonservices">
-                     	<a class="hlinkbott" href="#">
+                      <a class="hlinkbott" href="#">
                         <div class="hexa">
-                      	  <div class="hcontainer">
+                          <div class="hcontainer">
                           <div class="vertical-align">
                           <span class="texts"></span>
                           </div>
@@ -641,11 +391,11 @@
                     </div>
               </div>
               <div class="templatemo_hexservices col-sm-6">
-            	<div class="blok text-center">
+              <div class="blok text-center">
                   <div class="hexagon-a">
                      <a class="hlinktop" href="#">
-                     	 <div class="hexa-a">
-                         	<div class="hcontainer-a">
+                       <div class="hexa-a">
+                          <div class="hcontainer-a">
                           <div class="vertical-align-a">
                             <span class="texts-a"><i class="fa fa-thumb-tack"></i></span>
                           </div>
@@ -654,9 +404,9 @@
                      </a>
                   </div>  
                      <div class="hexagonservices">
-                     	<a class="hlinkbott" href="#">
+                      <a class="hlinkbott" href="#">
                         <div class="hexa">
-                      	  <div class="hcontainer">
+                          <div class="hcontainer">
                           <div class="vertical-align">
                           <span class="texts"></span>
                           </div>
@@ -678,20 +428,20 @@
     <!-- contact start -->
     <div class="content contact" id="menu-5">
     <div class="container">
-     	<div class="row">
-        	<div class="col-md-4 col-sm-12">
-            	<div class="templatemo_contactmap">
-    			<div id="templatemo_map"></div>
+      <div class="row">
+          <div class="col-md-4 col-sm-12">
+              <div class="templatemo_contactmap">
+          <div id="templatemo_map"></div>
                 <img src="images/templatemo_contactiframe.png" alt="contact map">
                 </div>
                 </div>
             <div class="col-md-3 col-sm-12 leftalign">
-            	<div class="templatemo_contacttitle">Contact Information</div>
+              <div class="templatemo_contacttitle">Contact Information</div>
                 <div class="clear"></div>
                 <p>Integer eu neque sed mi fringilla pellentesque a eget leo. Duis ornare diam lorem, sit amet tempor mauris fringilla in. Etiam semper tempus augue, at vehicula metus. Nam vestibulum tortor nec congue ornare.</p>
                 <div class="templatemo_address">
-                	<ul>
-                	<li class="left fa fa-map-marker"></li>
+                  <ul>
+                  <li class="left fa fa-map-marker"></li>
                     <li class="right">Nulla ut tellus, sit amet urna, <br>scelerisque pretium 10560</li>
                     <li class="clear"></li>
                     <li class="left fa fa-phone"></li>
@@ -703,28 +453,27 @@
                 </div>
             </div>
             <div class="col-md-5 col-sm-12">
-            	<form role="form">
-              	<div class="templatemo_form">
-                	<input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name" maxlength="40">
-              	</div>
-              	<div class="templatemo_form">
-                	<input name="email" type="text" class="form-control" id="email" placeholder="Your Email" maxlength="40">
-              	</div>
-               	<div class="templatemo_form">
-                	<input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" maxlength="40">
-              	</div>
-              	<div class="templatemo_form">
-	            	<textarea name="message" rows="10" class="form-control" id="message" placeholder="Message"></textarea>
-              	</div>
-              	<div class="templatemo_form"><button type="button" class="btn btn-primary">Send Message</button></div>
+              <form role="form">
+                <div class="templatemo_form">
+                  <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name" maxlength="40">
+                </div>
+                <div class="templatemo_form">
+                  <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" maxlength="40">
+                </div>
+                <div class="templatemo_form">
+                  <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" maxlength="40">
+                </div>
+                <div class="templatemo_form">
+                <textarea name="message" rows="10" class="form-control" id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="templatemo_form"><button type="button" class="btn btn-primary">Send Message</button></div>
             </form>
             </div>
-        </div>
-    	
+        </div> 
+      </div>
+      </div>
+  <?php } ?>
     </div>
-    </div>
-    </div>
-    <!-- contact end -->
 	<!-- footer start -->
     <div class="templatemo_footer">
     	<div class="container">
