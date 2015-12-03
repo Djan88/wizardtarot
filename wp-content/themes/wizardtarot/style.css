@@ -98,7 +98,7 @@ span.fa { width: 100%; text-align: center; }
   text-transform: uppercase;
 }
 .site-header .main-navigation ul li a.active {
-  color: #b69e40;
+  color: #db4c3f;
   text-decoration: none;
 }
 .site-header .templatemo_logo {
@@ -440,7 +440,7 @@ a.menu-toggle-btn {
   color: #2a2a2a;
   width: 32px;
   height: 32px;
-  background-color: #d3b850;
+  background-color: #fff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -460,7 +460,7 @@ a.menu-toggle-btn {
 .templatemo_loadmore    { 
     margin: 0 auto; 
     padding: 7px 0px; 
-    background: #b79e41; 
+    background: #db4c3f; 
     margin-top: 15%; 
     text-align: center; 
     font-size: 16px; 
@@ -470,7 +470,7 @@ a.menu-toggle-btn {
 
 .templatemo_loadmore button{ 
     border: none; 
-    background: #b79e41; 
+    background: #db4c3f; 
     color: #ffffff; 
     text-transform: uppercase;
     width: 100%;
