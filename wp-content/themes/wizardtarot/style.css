@@ -453,7 +453,7 @@ a.menu-toggle-btn {
   margin-left: -16px;
 }
 .templatemo_gallerygap { margin-bottom: 13%; }
-.templatemo_gallerygap img{ margin-top: 30px; }
+.templatemo_gallerygap img{ margin-top: 30px; width: 350px;}
 .templatemo_gallerygap span.fa  { font-size: 22px; margin-bottom: 15px; }
 .templatemo_gallerytop  { margin-top: 7%; }
 .templatemo_loadmore    { 
