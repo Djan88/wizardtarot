@@ -17,7 +17,6 @@ http://www.templatemo.com/preview/templatemo_400_polygon
     <link href="<?php bloginfo('template_url'); ?>/css/templatemo_style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
-    
     <?php wp_head(); ?>  
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
