@@ -3,10 +3,6 @@
     <title><?php wp_title(); ?></title>
     <meta name="keywords" content="" />
 	<meta name="description" content="" />
-<!-- 
-Polygon Template 
-http://www.templatemo.com/preview/templatemo_400_polygon 
--->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -14,7 +10,6 @@ http://www.templatemo.com/preview/templatemo_400_polygon
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/templatemo_misc.css">
-    <link href="<?php bloginfo('template_url'); ?>/css/templatemo_style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
     <?php wp_head(); ?>  
