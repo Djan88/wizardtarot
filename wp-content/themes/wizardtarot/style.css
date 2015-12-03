@@ -13,7 +13,7 @@ html, body {
     margin: 0px; 
     color: #e7e7e7;
     background: #393e42;
-    background: #eee;
+    background: #fff;
     font-size: 12px;
 }
 
@@ -93,7 +93,7 @@ span.fa { width: 100%; text-align: center; }
   display: inline-block;
   color: white;
   font-size: 16px;
-  background: #343536;
+  background: #ccc;
   text-transform: uppercase;
 }
 .site-header .main-navigation ul li a.active {
@@ -550,7 +550,7 @@ a.menu-toggle-btn {
     height: 388px;
 }
 
-.templatemo_footer { background: #343536; padding: 20px 0px; width: 100%; margin-top: 100px; }
+.templatemo_footer { background: #ccc; padding: 20px 0px; width: 100%; margin-top: 100px; }
 .templatemo_footer .hex_footer  { float: left; margin-right: 5px; height: 40px; }
 
 /* Smartphones (portrait and landscape) ----------- */
