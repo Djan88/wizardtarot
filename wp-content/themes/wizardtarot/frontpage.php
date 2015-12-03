@@ -6,9 +6,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/1-t.png);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/1);">
              	 	<div class="overlay">
-						<a href="images/gallery/1.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="<?php bloginfo('template_url'); ?>/images/gallery/1-t.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -21,7 +21,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/2-t.png);">
               	<div class="overlay">
-						<a href="images/gallery/2.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="<?php bloginfo('template_url'); ?>/images/gallery/2-t.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -34,7 +34,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/3-t.png);">
               	<div class="overlay">
-						<a href="images/gallery/3.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="<?php bloginfo('template_url'); ?>/images/gallery/3-t.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
