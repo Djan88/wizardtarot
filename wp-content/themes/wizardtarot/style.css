@@ -26,7 +26,7 @@ html, body {
 }
 
 a {
-    color: #b69e40; outline: 0;
+    color: #428bca; outline: 0;
 }
 
 a:hover {
@@ -499,7 +499,7 @@ a.menu-toggle-btn {
 .templatemo_address ul li.left{
     float: left;
     width: 40px;
-    color: #b69e40;
+    color: #db4c3f;
     font-size: 22px;
 }
 .templatemo_address ul li.rigth{
@@ -537,7 +537,7 @@ a.menu-toggle-btn {
     text-align: center;
     color: #ffffff;
     border-radius: 0px;
-    background: #b69e40;
+    background: #db4c3f;
     border: none;
     text-transform: uppercase;
     font-size: 14px;
