@@ -50,7 +50,7 @@
 				        </a>
 					</div> <!-- /.col-md-12 -->
                     <div class="col-md-3 col-sm-12">
-                    	<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/templatemo_logo.jpg" alt="Polygon HTML5 Template"></a>
+                    	<a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="<?php wp_title(); ?>"></a>
                     </div>
 					<div class="col-md-9 main_menu">
 						<ul>
