@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <head>
-    <title>Polygon HTML5 Template</title>
+    <title><?php wp_title(); ?></title>
     <meta name="keywords" content="" />
 	<meta name="description" content="" />
 <!-- 
@@ -16,7 +16,9 @@ http://www.templatemo.com/preview/templatemo_400_polygon
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/templatemo_misc.css">
     <link href="<?php bloginfo('template_url'); ?>/css/templatemo_style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
-      
+    <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
+    
+    <?php wp_head(); ?>  
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
@@ -773,5 +775,6 @@ http://www.templatemo.com/preview/templatemo_400_polygon
 	});
     </script>
 <!-- templatemo 400 polygon -->
+  <?php wp_footer(); ?>
   </body>
 </html>
