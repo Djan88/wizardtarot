@@ -91,9 +91,10 @@ span.fa { width: 100%; text-align: center; }
 .site-header .main-navigation ul li a {
   padding: 20px 20px;
   display: inline-block;
-  color: white;
+  color: #bbb;
   font-size: 16px;
-  background: #bbb;
+  background: transparent;
+  border-bottom: 2px solid #bbb;
   text-transform: uppercase;
 }
 .site-header .main-navigation ul li a.active {
