@@ -11,9 +11,9 @@ html, body {
     font-family: Tahoma, Arial; 
     padding: 0px; 
     margin: 0px; 
-    /*color: #e7e7e7;*/
-    color: #eee;
+    color: #e7e7e7;
     background: #393e42;
+    background: #eee;
     font-size: 12px;
 }
 
