@@ -56,16 +56,16 @@
 						<ul>
 							<li><a class="show-1 templatemo_home" href="#">
                             	<span class="fa fa-camera"></span>
-                                Gallery</a></li>
+                                Wizard Tarot</a></li>
 							<li><a class="show-2 templatemo_page2" href="#">
                             	<span class="fa fa-users"></span>
-                          		  Our team</a></li>
+                          		  Wizard Machine</a></li>
 							<li><a class="show-3 templatemo_page3" href="#">
                             	<span class="fa fa-cogs"></span>
-                            	Services</a></li>
+                            	  Wizard Duos</a></li>
 							<li><a class="show-5 templatemo_page5" href="#">
                             	<span class="fa fa-envelope"></span>
-                                Contact</a></li>
+                                Braincleaner</a></li>
 						</ul>
 					</div> <!-- /.col-md-12 -->
 				</div> <!-- /.row -->

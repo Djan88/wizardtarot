@@ -245,7 +245,7 @@
     <div class="container">
     	<div class="row">
         	<div class="templatemo_loadmore">
-			 <button class="gallery_more" id="button" onClick="showhide()">Load More</button>
+			 <button class="gallery_more" id="button" onClick="showhide()">Показать больше</button>
             </div>
         </div>
     </div>
