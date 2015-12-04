@@ -36,10 +36,10 @@
 		<div class="main-navigation">
 			<div class="responsive_menu">
 				<ul>
-					<li><a class="show-1 templatemo_home" href="#">Gallery</a></li>
-					<li><a class="show-2 templatemo_page2" href="#">Our team</a></li>
-					<li><a class="show-3 templatemo_page3" href="#">Services</a></li>
-					<li><a class="show-5 templatemo_page5" href="#">Contact</a></li>
+					<li><a class="show-1 templatemo_home" href="/">Wizard Tarot</a></li>
+					<li><a class="show-2 templatemo_page2" href="/">Wizard Machine</a></li>
+					<li><a class="show-3 templatemo_page3" href="/">Wizard Duos</a></li>
+					<li><a class="show-5 templatemo_page5" href="/">Braincleaner</a></li>
 				</ul>
 			</div>
 			<div class="container">
@@ -83,8 +83,7 @@
     <div class="templatemo_footer">
     	<div class="container">
     	<div class="row">
-        	<div class="col-md-9 col-sm-12">Copyright &copy; 2084 Company Name | 
-            Photos by <a rel="nofollow" href="http://unsplash.com">Unsplash</a></div>
+        	<div class="col-md-9 col-sm-12">Все права защищены &copy; 2015 Wizard Tarot</div>
             <div class="col-md-3 col-sm-12 templatemo_rfooter">
             	  <a href="#">
                  	<div class="hex_footer">
@@ -116,9 +115,9 @@
 		var $this = $(this);
 		$this.toggleClass('gallery_more');
 		if($this.hasClass('gallery_more')){
-			$this.text('Load More');			
+			$this.text('Показать больше');			
 		} else {
-			$this.text('Load Less');
+			$this.text('Показать меньше');
 		}
 	});
     </script>
