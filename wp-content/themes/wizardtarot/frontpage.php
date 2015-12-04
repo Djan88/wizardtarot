@@ -6,9 +6,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/1);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/15-Major-Devil.png);">
              	 	<div class="overlay">
-						<a href="<?php bloginfo('template_url'); ?>/images/gallery/1-t.png" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="<?php bloginfo('template_url'); ?>/images/gallery/15-Major-Devil.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -19,9 +19,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/2-t.png);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/76-Minor-Wands-Queen.png);">
               	<div class="overlay">
-						<a href="<?php bloginfo('template_url'); ?>/images/gallery/2-t.png" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="<?php bloginfo('template_url'); ?>/images/gallery/76-Minor-Wands-Queen.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -32,9 +32,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/3-t.png);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/62-Minor-Cups-Queen.png);">
               	<div class="overlay">
-						<a href="<?php bloginfo('template_url'); ?>/images/gallery/3-t.png" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="<?php bloginfo('template_url'); ?>/images/gallery/62-Minor-Cups-Queen.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -45,9 +45,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/4.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/48-Minor-Swords-Queen.png);">
               	<div class="overlay">
-						<a href="images/gallery/4.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/48-Minor-Swords-Queen.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -58,9 +58,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/5.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/34-Minor-Discs-Queen.png);">
               		<div class="overlay">
-						<a href="images/gallery/5.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/34-Minor-Discs-Queen.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -71,9 +71,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/6.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/77-Minor-Wands-King.png);">
               		<div class="overlay">
-						<a href="images/gallery/6.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/77-Minor-Wands-King.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -84,9 +84,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/7.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/63-Minor-Cups-King.png);">
               		<div class="overlay">
-						<a href="images/gallery/7.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/63-Minor-Cups-King.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -97,9 +97,9 @@
       	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/8.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/49-Minor-Swords-King.png);">
               		<div class="overlay">
-						<a href="images/gallery/8.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/49-Minor-Swords-King.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -110,9 +110,9 @@
       	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/9.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/35-Minor-Discs-King.png);">
               		<div class="overlay">
-						<a href="images/gallery/9.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/35-Minor-Discs-King.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -127,9 +127,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/10.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/75-Minor-Wands-Knight.png);">
              	 	<div class="overlay">
-						<a href="images/gallery/10.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/75-Minor-Wands-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -140,9 +140,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/11.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/61-Minor-Cups-Knight.png);">
               	<div class="overlay">
-						<a href="images/gallery/11.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/61-Minor-Cups-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -153,9 +153,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/12.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/47-Minor-Swords-Knight.png);">
               	<div class="overlay">
-						<a href="images/gallery/12.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/47-Minor-Swords-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -166,9 +166,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/13.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/33-Minor-Discs-Knight.png);">
               	<div class="overlay">
-						<a href="images/gallery/13.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/33-Minor-Discs-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -179,9 +179,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/14.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/74-Minor-Wands-Page.png);">
               		<div class="overlay">
-						<a href="images/gallery/14.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/74-Minor-Wands-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -192,9 +192,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/15.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/60-Minor-Cups-Page.png);">
               		<div class="overlay">
-						<a href="images/gallery/15.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/60-Minor-Cups-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -205,9 +205,9 @@
     	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/16.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/46-Minor-Swords-Page.png);">
               		<div class="overlay">
-						<a href="images/gallery/16.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/46-Minor-Swords-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -218,9 +218,9 @@
       	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/17.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/32-Minor-Discs-Page.png);">
               		<div class="overlay">
-						<a href="images/gallery/17.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/32-Minor-Discs-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
@@ -231,9 +231,9 @@
       	<div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
-              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/18.jpg);">
+              <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/21-Major-World.png);">
               		<div class="overlay">
-						<a href="images/gallery/18.jpg" data-rel="lightbox" class="fa fa-expand"></a>
+						<a href="images/gallery/21-Major-World.png" data-rel="lightbox" class="fa fa-expand"></a>
 					</div>
               </div>
             </div>
