@@ -41,12 +41,14 @@ jQuery(function() {
         },
         tarot_cur_card,
         tarot_randomizer = function(){
-            tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
+            do {
+                tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
+            } while (tarot_cards[tarot_cur_card]);
             console.log(tarot_cur_card);
             delete tarot_cards[tarot_cur_card];
         }
     phaseOne = setInterval(function(){
         tarot_randomizer();
         console.log(tarot_cards);
-    }, 1000);   
+    }, 100);   
 });
