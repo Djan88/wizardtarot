@@ -46,10 +46,8 @@ jQuery(function() {
                 delete tarot_cards[tarot_cur_card];
                 console.log('right—'+tarot_cur_card);
             } else {
-                do {
-                    tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
-                    console.log('wrong—'+tarot_cur_card);
-                } while (tarot_cards.hasOwnProperty(tarot_cur_card));
+                console.log('wrong—'+tarot_cur_card);
+                tarot_randomizer();
                 delete tarot_cards[tarot_cur_card];
             }
             console.log(tarot_cards);
