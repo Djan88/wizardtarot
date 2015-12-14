@@ -1,5 +1,5 @@
 jQuery(function() {
-    var tarot_cards{
+    var tarot_cards = {
             0: '/images/gallery/15-Major-Devil-min.png',
             2: '/images/gallery/76-Minor-Wands-Queen.png',
             3: '/images/gallery/62-Minor-Cups-Queen-min.png',
@@ -39,7 +39,7 @@ jQuery(function() {
             37: '/images/gallery/01-Major-Magician-min.png',
             38: '/images/gallery/00-Major-Fool-min.png',
         },
-        tarot_cur_card
+        tarot_cur_card,
         tarot_randomizer = function(){
             console.log(Math.round(Math.random() * (38 - 0));
 
