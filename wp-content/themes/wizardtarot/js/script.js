@@ -42,6 +42,8 @@ jQuery(function() {
         tarot_cur_card,
         tarot_randomizer = function(){
             console.log(Math.round(Math.random() * (38 - 0)));
-
         }
+    phaseOne = setInterval(function(){
+        tarot_randomizer();
+    }, 1000);   
 });
