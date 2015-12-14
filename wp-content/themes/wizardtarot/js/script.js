@@ -45,12 +45,12 @@ jQuery(function() {
             if(tarot_cards[tarot_cur_card]){
                 delete tarot_cards[tarot_cur_card];
                 console.log('right—'+tarot_cur_card);
+                console.log(tarot_cards);
             } else {
                 console.log('wrong—'+tarot_cur_card);
                 tarot_randomizer();
                 delete tarot_cards[tarot_cur_card];
             }
-            console.log(tarot_cards);
         }
         jQuery('body').on('click', function(event) {
             tarot_randomizer();
