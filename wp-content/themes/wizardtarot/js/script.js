@@ -43,7 +43,7 @@ jQuery(function() {
         tarot_randomizer = function(){
             tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
             console.log(tarot_cur_card);
-            delete tarot_cards.+tarot_cur_card;
+            delete tarot_cards[tarot_cur_card];
         }
     phaseOne = setInterval(function(){
         tarot_randomizer();
