@@ -121,13 +121,127 @@
       </div>
     </div>
   </div>
-    <div class="container">
-      <div class="row">
-          <div class="templatemo_loadmore">
-       <button class="gallery_more" id="button" onClick="showhide()">Показать больше</button>
-            </div>
+  <div  id="newpost" class="container answer_list templatemo_gallerytop">
+    <div class="row templatemorow">
+      <div class="hex col-sm-6">
+    <div>
+      <div class="hexagon hexagon2 gallery-item">
+        <div class="hexagon-in1">
+          <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/75-Minor-Wands-Knight-min.png);">
+            <div class="overlay">
+        <a href="<?php bloginfo('template_url'); ?>/images/gallery/75-Minor-Wands-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
+      </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+  <div class="hex col-sm-6">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/61-Minor-Cups-Knight-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/61-Minor-Cups-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top2">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/47-Minor-Swords-Knight-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/47-Minor-Swords-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/33-Minor-Discs-Knight-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/33-Minor-Discs-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/74-Minor-Wands-Page-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/74-Minor-Wands-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+       <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/60-Minor-Cups-Page-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/60-Minor-Cups-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+   <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/46-Minor-Swords-Page-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/46-Minor-Swords-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+      <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/32-Minor-Discs-Page-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/32-Minor-Discs-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+      <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/21-Major-World-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/21-Major-World.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
     </div>
       <!-- gallery end -->
     <!-- contact end -->
