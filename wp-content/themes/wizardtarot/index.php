@@ -15,7 +15,8 @@
     <?php wp_head(); ?>  
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
     <script>
     function showhide()
     {
@@ -75,8 +76,8 @@
   <div id="menu-container">
   <?php if(is_front_page()) { ?>
     <?php include(TEMPLATEPATH . '/frontpage.php'); ?>
-  <?php } else { ?>
-    
+  <?php } else if(is_page('6')) { ?>
+    <?php include(TEMPLATEPATH . '/wizard.php'); ?>
   <?php } ?>
     </div>
 	<!-- footer start -->
