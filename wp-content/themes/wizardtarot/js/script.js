@@ -45,5 +45,6 @@ jQuery(function() {
         }
     phaseOne = setInterval(function(){
         tarot_randomizer();
+        console.log(tarot_cards());
     }, 1000);   
 });
