@@ -43,14 +43,15 @@ jQuery(function() {
         tarot_randomizer = function(){
             tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
             if(tarot_cards[tarot_cur_card]){
+                delete tarot_cards[tarot_cur_card];
                 console.log('right—'+tarot_cur_card);
             } else {
                 do {
                     tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
                     console.log('wrong—'+tarot_cur_card);
                 } while (tarot_cards.hasOwnProperty(tarot_cur_card));
+                delete tarot_cards[tarot_cur_card];
             }
-            delete tarot_cards[tarot_cur_card];
         }
     phaseOne = setInterval(function(){
         tarot_randomizer();
