@@ -242,6 +242,131 @@
     </div>
   </div>
   </div>
+  <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
+    <div class="row templatemorow">
+      <div class="hex col-sm-6">
+    <div>
+      <div class="hexagon hexagon2 gallery-item">
+        <div class="hexagon-in1">
+          <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/20-Major-Judgement-min.png);">
+            <div class="overlay">
+        <a href="<?php bloginfo('template_url'); ?>/images/gallery/20-Major-Judgement.png" data-rel="lightbox" class="fa fa-expand"></a>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hex col-sm-6">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/19-Major-Sun-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/19-Major-Sun.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top2">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/18-Major-Moon-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/18-Major-Moon.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/17-Major-Star-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/17-Major-Star.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/16-Major-Tower-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/16-Major-Tower.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+       <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/14-Major-Temperance-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/14-Major-Temperance.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+   <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/13-Major-Death-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/13-Major-Death.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+      <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/12-Major-Hanged-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/12-Major-Hanged.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+      <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/11-Major-Strenght-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/11-Major-Strenght.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
     <div class="container">
       <div class="row">
           <div class="templatemo_loadmore">
@@ -258,42 +383,42 @@
         <div class="container templatemo_hexteam">
               <div class="row">
                   <div class="col-md-3 col-sm-4">
-                           <div class="hexagon hexagonteam gallery-item">
-                               <div class="hexagon-in1">
-                                <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/team/1.jpg);">
-                                <div class="overlay templatemo_overlay1">
-                                  <a href="#">
-                                     <div class="smallhexagon">
-                                       <span class="fa fa-facebook"></span>
-                                    </div>
-                                    </a>
-                                </div>
-                                <div class="overlay templatemo_overlay2">
-                                  <a href="#">
-                                     <div class="smallhexagon">
-                                       <span class="fa fa-twitter"></span>
-                                    </div>
-                                    </a>
-                                </div>
-                                <div class="overlay templatemo_overlay3">
-                                  <a href="#">
-                                     <div class="smallhexagon">
-                                       <span class="fa fa-linkedin"></span>
-                                    </div>
-                                    </a>
-                                </div>
-                                <div class="overlay templatemo_overlay4">
-                                  <a href="#">
-                                     <div class="smallhexagon">
-                                       <span class="fa fa-rss"></span>
-                                    </div>
-                                    </a>
-                                </div>
-                                <div class="clear"></div>
-                                <div class="overlay templatemo_overlaytxt">Phasellus interdum</div>
-                                </div>
+                   <div class="hexagon hexagonteam gallery-item">
+                       <div class="hexagon-in1">
+                        <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/team/1.jpg);">
+                        <div class="overlay templatemo_overlay1">
+                          <a href="#">
+                             <div class="smallhexagon">
+                               <span class="fa fa-facebook"></span>
                             </div>
-                          </div>
+                            </a>
+                        </div>
+                        <div class="overlay templatemo_overlay2">
+                          <a href="#">
+                             <div class="smallhexagon">
+                               <span class="fa fa-twitter"></span>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="overlay templatemo_overlay3">
+                          <a href="#">
+                             <div class="smallhexagon">
+                               <span class="fa fa-linkedin"></span>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="overlay templatemo_overlay4">
+                          <a href="#">
+                             <div class="smallhexagon">
+                               <span class="fa fa-rss"></span>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="overlay templatemo_overlaytxt">Phasellus interdum</div>
+                        </div>
+                    </div>
+                  </div>
                </div>
                     <div class="col-md-3 col-sm-8 templatemo_servicetxt" >
                       <h2>Free Template</h2>
