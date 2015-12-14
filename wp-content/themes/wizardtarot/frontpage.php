@@ -121,7 +121,7 @@
       </div>
     </div>
   </div>
-  <div  id="newpost" class="container answer_list templatemo_gallerytop">
+  <div  id="newpost" style="display:none;" class="container answer_list templatemo_gallerytop">
     <div class="row templatemorow">
       <div class="hex col-sm-6">
     <div>
@@ -242,6 +242,13 @@
     </div>
   </div>
   </div>
+    <div class="container">
+      <div class="row">
+          <div class="templatemo_loadmore">
+       <button class="gallery_more" id="button" onClick="showhide()">Показать больше</button>
+            </div>
+        </div>
+    </div>
     </div>
       <!-- gallery end -->
     <!-- contact end -->
