@@ -1,6 +1,7 @@
 jQuery(function() {
     var tarot_cards = {
             0: '/images/gallery/15-Major-Devil-min.png',
+            1: '/images/gallery/00-Major-Fool-min.png',
             2: '/images/gallery/76-Minor-Wands-Queen.png',
             3: '/images/gallery/62-Minor-Cups-Queen-min.png',
             4: '/images/gallery/48-Minor-Swords-Queen-min.png',
@@ -37,18 +38,22 @@ jQuery(function() {
             35: '/images/gallery/03-Major-Empress-min.png',
             36: '/images/gallery/02-Major-Priestess-min.png',
             37: '/images/gallery/01-Major-Magician-min.png',
-            38: '/images/gallery/00-Major-Fool-min.png',
         },
         tarot_cur_card,
         tarot_randomizer = function(){
-            do {
-                tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
-            } while (tarot_cards[tarot_cur_card]);
-            console.log(tarot_cur_card);
+            tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
+            if(tarot_cards[tarot_cur_card]){
+                console.log('right—'+tarot_cur_card);
+            } else {
+                do {
+                    tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
+                    console.log('wrong—'+tarot_cur_card);
+                } while (tarot_cards.hasOwnProperty(tarot_cur_card));
+            }
             delete tarot_cards[tarot_cur_card];
         }
     phaseOne = setInterval(function(){
         tarot_randomizer();
         console.log(tarot_cards);
-    }, 100);   
+    }, 500);   
 });
