@@ -40,6 +40,7 @@ jQuery(function() {
             37: '/images/gallery/01-Major-Magician-min.png',
         },
         tarot_cur_card,
+        tarot_themplate_url = 'http://wizardtarot.ru/wp-content/themes/wizardtarot/';
         tarot_randomizer = function(){
             tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
             if(tarot_cards[tarot_cur_card]){
