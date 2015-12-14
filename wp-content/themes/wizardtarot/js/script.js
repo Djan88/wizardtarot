@@ -52,9 +52,9 @@ jQuery(function() {
                 } while (tarot_cards.hasOwnProperty(tarot_cur_card));
                 delete tarot_cards[tarot_cur_card];
             }
+            console.log(tarot_cards);
         }
     phaseOne = setInterval(function(){
         tarot_randomizer();
-        console.log(tarot_cards);
     }, 500);   
 });
