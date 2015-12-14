@@ -363,6 +363,157 @@
     </div>
   </div>
   </div>
+  <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
+    <div class="row templatemorow">
+      <div class="hex col-sm-6">
+    <div>
+      <div class="hexagon hexagon2 gallery-item">
+        <div class="hexagon-in1">
+          <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/10-Major-Fortune-min.png);">
+            <div class="overlay">
+        <a href="<?php bloginfo('template_url'); ?>/images/gallery/10-Major-Fortune.png" data-rel="lightbox" class="fa fa-expand"></a>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hex col-sm-6">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/09-Major-Hermit-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/09-Major-Hermit.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top2">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/08-Major-Justice-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/08-Major-Justice.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/07-Major-Chariot-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/07-Major-Chariot.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="hex col-sm-6  templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/06-Major-Lovers-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/06-Major-Lovers.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+       <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/05-Major-Hierophant-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/05-Major-Hierophant.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+   <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/04-Major-Emperor-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/04-Major-Emperor.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+      <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/03-Major-Empress-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/03-Major-Empress.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+      <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/02-Major-Priestess-min.png);">
+                <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/02-Major-Priestess.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
+    <div class="row templatemorow">
+      <div class="hex col-sm-6">
+    <div>
+      <div class="hexagon hexagon2 gallery-item">
+        <div class="hexagon-in1">
+          <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/01-Major-Magician-min.png);">
+            <div class="overlay">
+        <a href="<?php bloginfo('template_url'); ?>/images/gallery/01-Major-Magician.png" data-rel="lightbox" class="fa fa-expand"></a>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hex col-sm-6">
+    <div>
+        <div class="hexagon hexagon2 gallery-item">
+          <div class="hexagon-in1">
+            <div class="hexagon-in2" style="background-image: url(<?php bloginfo('template_url'); ?>/images/gallery/00-Major-Fool-min.png);">
+              <div class="overlay">
+          <a href="<?php bloginfo('template_url'); ?>/images/gallery/00-Major-Fool.png" data-rel="lightbox" class="fa fa-expand"></a>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </div>
 
 
 
