@@ -41,7 +41,7 @@ jQuery(function() {
         },
         tarot_cur_card,
         tarot_randomizer = function(){
-            console.log(Math.round(Math.random() * (38 - 0));
+            console.log(Math.round(Math.random() * (38 - 0)));
 
         }
 });
