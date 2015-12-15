@@ -39,7 +39,7 @@ jQuery(function() {
             36: '/images/gallery/02-Major-Priestess-min.png)',
             37: '/images/gallery/01-Major-Magician-min.png)',
         },
-        tarot_cards_count = 0,
+        tarot_cards_count = 1,
         tarot_cur_card = 0,
         tarot_devil_status = 0,
         tarot_cur_cell,
