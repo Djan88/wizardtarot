@@ -10,12 +10,14 @@
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/templatemo_misc.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/sweet-alert.css">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
     <?php wp_head(); ?>  
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/sweet-alert.min.js"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
     <script>
     function showhide()
