@@ -86,7 +86,7 @@ jQuery(function() {
                 };
             // Если выложены не все карты выкладываем следующую карту
             } else if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length > 0){
-                sweetAlert("Не все ячейки заполнены", "Перед открытием карт необходимо выложить все карты!", "error");
+                sweetAlert("Не все ячейки заполнены", "Перед открытием карт необходимо выложить все карты!", "info");
             // Выкладка карты в ячейку
             } else {
                 tarot_cur_cell = jQuery(this);
