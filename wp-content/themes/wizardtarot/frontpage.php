@@ -2,7 +2,7 @@
     <div class="content homepage" id="menu-1">
     <div class="container">
       <div class="row templatemorow">
-        <div class="hex col-sm-6">
+        <div class="hex tarot_cell_item col-sm-6">
       <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -15,7 +15,7 @@
           </div>
         </div>
     </div>
-    <div class="hex col-sm-6">
+    <div class="hex tarot_cell_item col-sm-6">
       <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -28,7 +28,7 @@
           </div>
         </div>
     </div>
-    <div class="hex col-sm-6  templatemo-hex-top2">
+    <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top2">
       <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -41,7 +41,7 @@
           </div>
         </div>
     </div>
-    <div class="hex col-sm-6  templatemo-hex-top3">
+    <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top3">
       <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -54,7 +54,7 @@
           </div>
         </div>
     </div>
-    <div class="hex col-sm-6  templatemo-hex-top3">
+    <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top3">
       <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -67,7 +67,7 @@
           </div>
         </div>
     </div>
-         <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+         <div class="hex tarot_cell_item col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
       <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -80,7 +80,7 @@
           </div>
         </div>
     </div>
-     <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+     <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
       <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -93,7 +93,7 @@
           </div>
         </div>
     </div>
-      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+      <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
         <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -106,7 +106,7 @@
           </div>
         </div>
       </div>
-      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+      <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
         <div>
           <div class="hexagon hexagon2 gallery-item">
             <div class="hexagon-in1">
@@ -123,7 +123,7 @@
   </div>
   <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
     <div class="row templatemorow">
-      <div class="hex col-sm-6">
+      <div class="hex tarot_cell_item col-sm-6">
     <div>
       <div class="hexagon hexagon2 gallery-item">
         <div class="hexagon-in1">
@@ -136,7 +136,7 @@
       </div>
     </div>
   </div>
-  <div class="hex col-sm-6">
+  <div class="hex tarot_cell_item col-sm-6">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -149,7 +149,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top2">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top2">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -162,7 +162,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top3">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -175,7 +175,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top3">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -188,7 +188,7 @@
         </div>
       </div>
   </div>
-       <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+       <div class="hex tarot_cell_item col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -201,7 +201,7 @@
         </div>
       </div>
   </div>
-   <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+   <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -214,7 +214,7 @@
         </div>
       </div>
   </div>
-    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+    <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
       <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -227,7 +227,7 @@
         </div>
       </div>
     </div>
-    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+    <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
       <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -244,7 +244,7 @@
   </div>
   <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
     <div class="row templatemorow">
-      <div class="hex col-sm-6">
+      <div class="hex tarot_cell_item col-sm-6">
     <div>
       <div class="hexagon hexagon2 gallery-item">
         <div class="hexagon-in1">
@@ -257,7 +257,7 @@
       </div>
     </div>
   </div>
-  <div class="hex col-sm-6">
+  <div class="hex tarot_cell_item col-sm-6">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -270,7 +270,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top2">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top2">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -283,7 +283,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top3">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -296,7 +296,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top3">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -309,7 +309,7 @@
         </div>
       </div>
   </div>
-       <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+       <div class="hex tarot_cell_item col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -322,7 +322,7 @@
         </div>
       </div>
   </div>
-   <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+   <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -335,7 +335,7 @@
         </div>
       </div>
   </div>
-    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+    <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
       <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -348,7 +348,7 @@
         </div>
       </div>
     </div>
-    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+    <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
       <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -365,7 +365,7 @@
   </div>
   <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
     <div class="row templatemorow">
-      <div class="hex col-sm-6">
+      <div class="hex tarot_cell_item col-sm-6">
     <div>
       <div class="hexagon hexagon2 gallery-item">
         <div class="hexagon-in1">
@@ -378,7 +378,7 @@
       </div>
     </div>
   </div>
-  <div class="hex col-sm-6">
+  <div class="hex tarot_cell_item col-sm-6">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -391,7 +391,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top2">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top2">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -404,7 +404,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top3">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -417,7 +417,7 @@
         </div>
       </div>
   </div>
-  <div class="hex col-sm-6  templatemo-hex-top3">
+  <div class="hex tarot_cell_item col-sm-6  templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -430,7 +430,7 @@
         </div>
       </div>
   </div>
-       <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+       <div class="hex tarot_cell_item col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -443,7 +443,7 @@
         </div>
       </div>
   </div>
-   <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+   <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -456,7 +456,7 @@
         </div>
       </div>
   </div>
-    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+    <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
       <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -469,7 +469,7 @@
         </div>
       </div>
     </div>
-    <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+    <div class="hex tarot_cell_item col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
       <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
@@ -486,7 +486,7 @@
   </div>
   <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
     <div class="row templatemorow">
-      <div class="hex col-sm-6">
+      <div class="hex tarot_cell_item col-sm-6">
     <div>
       <div class="hexagon hexagon2 gallery-item">
         <div class="hexagon-in1">
@@ -499,7 +499,7 @@
       </div>
     </div>
   </div>
-  <div class="hex col-sm-6">
+  <div class="hex tarot_cell_item col-sm-6">
     <div>
         <div class="hexagon hexagon2 gallery-item">
           <div class="hexagon-in1">
