@@ -41,6 +41,7 @@ jQuery(function() {
         },
         tarot_cur_card = 0,
         tarot_devil_status = 0,
+        tarot_cur_cell,
         tarot_themplate_url = 'url(http://wizardtarot.ru/wp-content/themes/wizardtarot/';
         tarot_randomizer = function(tarot_cell){
             if(Object.keys(tarot_cards).length === 0){
@@ -59,13 +60,13 @@ jQuery(function() {
                         console.log(tarot_cards);
                     } else {
                         console.log('wrong—'+tarot_cur_card);
-                        tarot_randomizer(jQuery(this));
+                        tarot_randomizer(tarot_cur_cell);
                     }
                 }
             }
         };
         jQuery('.hex.tarot_cell_item').on('click', function(event) {
-            
-            tarot_randomizer(jQuery(this));
+            tarot_cur_cell = jQuery(this)
+            tarot_randomizer(tarot_cur_cell);
         });
 });
