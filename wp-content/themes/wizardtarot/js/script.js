@@ -45,7 +45,7 @@ jQuery(function() {
         tarot_cur_cell,
         tarot_themplate_url = 'url(http://wizardtarot.ru/wp-content/themes/wizardtarot/';
         tarot_randomizer = function(tarot_cell){
-            if(Object.keys(tarot_cards).length === 0){
+            if(Object.keys(tarot_cards).length === 0 || jQuery(this).hasClass('tarot_has_card')){
                 console.log('empty');
             } else {
                 if(tarot_devil_status == 0){
