@@ -80,7 +80,7 @@ jQuery(function() {
         // Если выложены все карты
         if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length === 0){
             // Если открыто менее 3 карт открываем следующую карту
-            if (tarot_cards_count <= 3) {
+            if (tarot_cards_count <= 3 && jQuery(this).hasClass('tarot_card_reject')) {
                 tarot_cards_count ++;
                 jQuery(this).removeClass('tarot_card_reject');
                 jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
