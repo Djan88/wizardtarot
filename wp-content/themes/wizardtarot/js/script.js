@@ -54,7 +54,7 @@ jQuery(function() {
                 // Вывод первой карты
                 if(tarot_devil_status == 0){
                     tarot_devil_cell = tarot_cell;
-                    tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').addClass('tarot_full_cell').css('backgroundImage', 'url('+tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
+                    tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').addClass('tarot_devil_cell').css('backgroundImage', 'url('+tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
                     tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png');
                     delete tarot_cards[tarot_cur_card];
                     tarot_devil_status = 1;
@@ -97,7 +97,7 @@ jQuery(function() {
         // Выкладка карты в ячейку
         } else {
             if(Object.keys(tarot_cards).length === 0){
-                tarot_devil_cell.removeClass('tarot_full_cell');
+                tarot_devil_cell.removeClass('tarot_devil_cell');
             }
             tarot_cur_cell = jQuery(this);
             jQuery(this).addClass('tarot_has_card');
