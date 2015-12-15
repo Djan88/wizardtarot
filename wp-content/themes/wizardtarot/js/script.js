@@ -71,30 +71,30 @@ jQuery(function() {
                 }
             }
         };
-        // Клик по ячейке
-        jQuery('.hex.tarot_cell_item').on('click', function(event) {
-            // Если выложены все карты
-            if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length === 0){
-                // Если открыто менее 3 карт открываем следующую карту
-                if (tarot_cards_count <= 3) {
-                    tarot_cards_count ++;
-                    jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
-                // Если открыто 3 карты запрещаем дальнейшее открытие карт
-                // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
-                } else {
-
-                };
-            // Если выложены не все карты выкладываем следующую карту
-            } else if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length > 0){
-                sweetAlert("Не все ячейки заполнены", "Перед открытием карт необходимо заполнить все ячейки!", "info");
-            // Выкладка карты в ячейку
+    // Клик по ячейке
+    jQuery('.hex.tarot_cell_item').on('click', function(event) {
+        // Если выложены все карты
+        if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length === 0){
+            // Если открыто менее 3 карт открываем следующую карту
+            if (tarot_cards_count <= 3) {
+                tarot_cards_count ++;
+                jQuery(this).removeClass('tarot_card_reject')
+                jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
+            // Если открыто 3 карты запрещаем дальнейшее открытие карт
+            // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
             } else {
-                tarot_cur_cell = jQuery(this);
-                jQuery(this).addClass('tarot_has_card');
-                tarot_randomizer(tarot_cur_cell);
-            }
-        });
-        jQuery('.tarot_has_card').on('click', function(event) {
-            
-        });
+                if(jQuery(this).hasClass('tarot_card_reject')){
+                    sweetAlert("Открыто 2 карты", "Разрешается открыть только 2 карты на поле!", "info");
+                }
+            };
+        // Если выложены не все карты выкладываем следующую карту
+        } else if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length > 0){
+            sweetAlert("Не все ячейки заполнены", "Перед открытием карт необходимо заполнить все ячейки!", "info");
+        // Выкладка карты в ячейку
+        } else {
+            tarot_cur_cell = jQuery(this);
+            jQuery(this).addClass('tarot_has_card');
+            tarot_randomizer(tarot_cur_cell);
+        }
+    });
 });
