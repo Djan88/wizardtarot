@@ -752,7 +752,7 @@ and (max-width : 559px) {
 {
   background-image: url(images/gallery/taro_back.png)!important;
 }
-.tarot_empty_cell .overlay
+.tarot_empty_cell .overlay, .tarot_full_cell .overlay
 {
   visibility: hidden!important;
   display: none!important;
