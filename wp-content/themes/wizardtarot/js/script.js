@@ -54,7 +54,6 @@ jQuery(function() {
                 if(tarot_devil_status == 0){
                     tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').css('backgroundImage', 'url('+tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
                     tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png');
-                    tarot_cell.removeClass('tarot_card_reject');
                     delete tarot_cards[tarot_cur_card];
                     tarot_devil_status = 1;
                     tarot_cards_count ++;
