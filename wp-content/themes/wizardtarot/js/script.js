@@ -48,17 +48,16 @@ jQuery(function() {
             } else {
                 if(tarot_devil_status == 0){
                     tarot_devil_status = 1;
+                    delete tarot_cards[tarot_cur_card];
                 } else {
                     tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
                     if(tarot_cards[tarot_cur_card]){
-                        // console.log('right—'+tarot_cur_card);
-                        // console.log(tarot_cards);
+                        delete tarot_cards[tarot_cur_card];
                     } else {
-                        // console.log('wrong—'+tarot_cur_card);
+                        delete tarot_cards[tarot_cur_card];
                         tarot_randomizer();
                     }
                 }
-                delete tarot_cards[tarot_cur_card];
             }
         };
         jQuery('.hexagon2.gallery-item').on('click', function(event) {
