@@ -43,7 +43,7 @@ jQuery(function() {
         tarot_cur_card = 0,
         tarot_devil_status = 0,
         tarot_cur_cell,
-        tarot_themplate_url = 'url(http://wizardtarot.ru/wp-content/themes/wizardtarot/';
+        tarot_themplate_url = 'url(http://wizardtarot.ru/wp-content/themes/wizardtarot';
         // Функция вывода карт в ячейки
         tarot_randomizer = function(tarot_cell){
             // Если карт в колоде больше нет
@@ -54,6 +54,7 @@ jQuery(function() {
                 if(tarot_devil_status == 0){
                     tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').css('backgroundImage', tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
                     tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png)');
+                    tarot_cell.removeClass('tarot_card_reject');
                     delete tarot_cards[tarot_cur_card];
                     tarot_devil_status = 1;
                     tarot_cards_count ++;
@@ -80,7 +81,7 @@ jQuery(function() {
             // Если открыто менее 3 карт открываем следующую карту
             if (tarot_cards_count <= 3) {
                 tarot_cards_count ++;
-                jQuery(this).removeClass('tarot_card_reject')
+                jQuery(this).removeClass('tarot_card_reject');
                 jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
             // Если открыто 3 карты запрещаем дальнейшее открытие карт
             // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
