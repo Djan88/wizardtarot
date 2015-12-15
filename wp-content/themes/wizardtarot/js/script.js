@@ -58,7 +58,6 @@ jQuery(function() {
                         tarot_randomizer();
                     }
                 }
-                console.log(tarot_cell);
                 delete tarot_cards[tarot_cur_card];
             }
         };
