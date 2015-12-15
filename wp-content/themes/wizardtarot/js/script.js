@@ -84,7 +84,6 @@ jQuery(function() {
                 tarot_cards_count ++;
                 jQuery(this).removeClass('tarot_card_reject');
                 jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
-                tarot_devil_cell.find('.hexagon-in2').removeClass('tarot_devil_cell');
             // Если открыто 3 карты запрещаем дальнейшее открытие карт
             // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
             } else {
@@ -97,6 +96,9 @@ jQuery(function() {
             sweetAlert("Не все ячейки заполнены", "Перед открытием карт необходимо заполнить все ячейки!", "info");
         // Выкладка карты в ячейку
         } else {
+            if(Object.keys(tarot_cards).length === 0){
+                tarot_devil_cell.find('.hexagon-in2').removeClass('tarot_devil_cell');
+            }
             tarot_cur_cell = jQuery(this);
             jQuery(this).addClass('tarot_has_card');
             tarot_randomizer(tarot_cur_cell);
