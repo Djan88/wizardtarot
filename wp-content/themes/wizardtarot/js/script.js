@@ -47,21 +47,25 @@ jQuery(function() {
                 console.log('empty')
             } else {
                 if(tarot_devil_status == 0){
-                    tarot_devil_status = 1;
+
                     delete tarot_cards[tarot_cur_card];
+                    tarot_devil_status = 1;
                 } else {
                     tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
                     if(tarot_cards[tarot_cur_card]){
                         delete tarot_cards[tarot_cur_card];
+                        console.log('right—'+tarot_cur_card);
+                        console.log(tarot_cards);
                     } else {
-                        delete tarot_cards[tarot_cur_card];
+                        console.log('wrong—'+tarot_cur_card);
                         tarot_randomizer();
+                        delete tarot_cards[tarot_cur_card];
                     }
                 }
             }
         };
         jQuery('.hexagon2.gallery-item').on('click', function(event) {
-            jQuery(this).find('.hexagon-in2').removeClass('tarot_empty_cell').css('backgroundImage', tarot_themplate_url+tarot_cards[tarot_cur_card]);
+            jQuery(this).find('.hexagon-in2').removeClass('tarot_empty_cell').css('background', tarot_themplate_url+tarot_cards[tarot_cur_card]);
             tarot_randomizer();
         });
 });
