@@ -58,7 +58,7 @@ jQuery(function() {
                         tarot_randomizer();
                     }
                 }
-                tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').css('background', tarot_themplate_url+tarot_cards[tarot_cur_card]);
+                tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').css('backgroundImage', tarot_themplate_url+tarot_cards[tarot_cur_card]);
                 delete tarot_cards[tarot_cur_card];
             }
         };
