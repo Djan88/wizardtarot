@@ -44,15 +44,19 @@ jQuery(function() {
         tarot_devil_status = 0,
         tarot_cur_cell,
         tarot_themplate_url = 'url(http://wizardtarot.ru/wp-content/themes/wizardtarot/';
+        // Функция вывода карт в ячейки
         tarot_randomizer = function(tarot_cell){
+            // Если карт в колоде больше нет
             if(Object.keys(tarot_cards).length === 0){
                 console.log('empty');
             } else {
+                // Вывод первой карты
                 if(tarot_devil_status == 0){
                     tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').css('backgroundImage', tarot_themplate_url+tarot_cards[tarot_cur_card]);
                     delete tarot_cards[tarot_cur_card];
                     tarot_devil_status = 1;
                     tarot_cards_count ++;
+                // Вывод остальных карт
                 } else {
                     tarot_cur_card = (Math.round(Math.random() * (37 - 0)));
                     if(tarot_cards[tarot_cur_card]){
@@ -67,9 +71,23 @@ jQuery(function() {
                 }
             }
         };
+        // Клик по ячейке
         jQuery('.hex.tarot_cell_item').on('click', function(event) {
-            if(jQuery(this).hasClass('tarot_has_card')){
+            // Если выложены все карты
+            if(jQuery(this).hasClass('tarot_has_card') || Object.keys(tarot_cards).length === 0){
+                // Если открыто менее 3 карт открываем следующую карту
+                if (tarot_cards_count <= 3) {
+                    tarot_cards_count ++;
+                    jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
+                // Если открыто 3 карты запрещаем дальнейшее открытие карт
+                // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
+                } else {
+                    
+                };
+            // Если выложены не все карты выкладываем следующую карту
+            } else if(jQuery(this).hasClass('tarot_has_card') || Object.keys(tarot_cards).length !== 0){
                 console.log('this cell has card');
+            // Выкладка карты в ячейку
             } else {
                 tarot_cur_cell = jQuery(this);
                 jQuery(this).addClass('tarot_has_card');
@@ -77,9 +95,6 @@ jQuery(function() {
             }
         });
         jQuery('.tarot_has_card').on('click', function(event) {
-            if (tarot_cards_count <= 3) {
-                tarot_cards_count ++;
-                jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
-            };
+            
         });
 });
