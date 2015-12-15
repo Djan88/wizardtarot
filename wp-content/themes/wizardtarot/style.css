@@ -744,3 +744,12 @@ and (max-width : 559px) {
 .content { display: none; height: auto; }
 .homepage   { display: block; }
 .leftalign  { float: left; }
+.tarot_empty_cell
+{
+  box-shadow: inset 0 0 0 200px #999!important;
+}
+.tarot_empty_cell .overlay
+{
+  visibility: hidden!important;
+  display: none!important;
+}

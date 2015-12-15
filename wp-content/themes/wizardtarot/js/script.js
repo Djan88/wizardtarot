@@ -39,21 +39,31 @@ jQuery(function() {
             36: '/images/gallery/02-Major-Priestess-min.png',
             37: '/images/gallery/01-Major-Magician-min.png',
         },
-        tarot_cur_card,
+        tarot_cur_card = 0,
+        tarot_devil_status = 0,
         tarot_themplate_url = 'http://wizardtarot.ru/wp-content/themes/wizardtarot/';
         tarot_randomizer = function(){
-            tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
-            if(tarot_cards[tarot_cur_card]){
+            if(tarot_devil_status == 0){
+
                 delete tarot_cards[tarot_cur_card];
-                console.log('right—'+tarot_cur_card);
-                console.log(tarot_cards);
+                tarot_devil_status = 1;
             } else {
-                console.log('wrong—'+tarot_cur_card);
-                tarot_randomizer();
-                delete tarot_cards[tarot_cur_card];
+                tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
+                if(tarot_cards[tarot_cur_card]){
+                    delete tarot_cards[tarot_cur_card];
+                    console.log('right—'+tarot_cur_card);
+                    console.log(tarot_cards);
+                } else {
+                    console.log('wrong—'+tarot_cur_card);
+                    tarot_randomizer();
+                    delete tarot_cards[tarot_cur_card];
+                }
             }
-        }
+        };
         jQuery('body').on('click', function(event) {
             tarot_randomizer();
+        });
+        jQuery('.hexagon2.gallery-item').on('click', function(event) {
+            jQuery(this).find('.hexagon-in2').removeClass('tarot_empty_cell');
         });
 });
