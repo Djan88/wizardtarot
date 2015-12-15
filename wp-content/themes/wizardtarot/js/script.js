@@ -2,7 +2,7 @@ jQuery(function() {
     var tarot_cards = {
             0: '/images/gallery/15-Major-Devil-min.png)',
             1: '/images/gallery/00-Major-Fool-min.png)',
-            2: '/images/gallery/76-Minor-Wands-Queen.png)',
+            2: '/images/gallery/76-Minor-Wands-Queen-min.png)',
             3: '/images/gallery/62-Minor-Cups-Queen-min.png)',
             4: '/images/gallery/48-Minor-Swords-Queen-min.png)',
             5: '/images/gallery/34-Minor-Discs-Queen-min.png)',
