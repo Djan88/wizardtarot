@@ -74,7 +74,7 @@ jQuery(function() {
         // Клик по ячейке
         jQuery('.hex.tarot_cell_item').on('click', function(event) {
             // Если выложены все карты
-            if(jQuery(this).hasClass('tarot_has_card') || Object.keys(tarot_cards).length === 0){
+            if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length === 0){
                 // Если открыто менее 3 карт открываем следующую карту
                 if (tarot_cards_count <= 3) {
                     tarot_cards_count ++;
@@ -85,7 +85,7 @@ jQuery(function() {
 
                 };
             // Если выложены не все карты выкладываем следующую карту
-            } else if(jQuery(this).hasClass('tarot_has_card') || Object.keys(tarot_cards).length > 0){
+            } else if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length > 0){
                 console.log('this cell has card');
             // Выкладка карты в ячейку
             } else {
