@@ -54,8 +54,7 @@ jQuery(function() {
                 // Вывод первой карты
                 if(tarot_devil_status == 0){
                     tarot_devil_cell = tarot_cell;
-                    jQuery(this).removeClass('tarot_card_reject');
-                    tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').addClass('tarot_devil_cell').css('backgroundImage', 'url('+tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
+                    tarot_cell.removeClass('tarot_card_reject').find('.hexagon-in2').removeClass('tarot_empty_cell').addClass('tarot_devil_cell').css('backgroundImage', 'url('+tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
                     tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png');
                     delete tarot_cards[tarot_cur_card];
                     tarot_devil_status = 1;
