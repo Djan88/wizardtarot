@@ -59,7 +59,7 @@ jQuery(function() {
                         console.log(tarot_cards);
                     } else {
                         console.log('wrong—'+tarot_cur_card);
-                        tarot_randomizer();
+                        tarot_randomizer(jQuery(this));
                     }
                 }
             }
