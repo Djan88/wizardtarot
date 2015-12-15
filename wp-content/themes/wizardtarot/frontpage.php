@@ -8,7 +8,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/15-Major-Devil.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -21,7 +21,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/76-Minor-Wands-Queen.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -34,7 +34,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/62-Minor-Cups-Queen.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -47,7 +47,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/48-Minor-Swords-Queen.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -60,7 +60,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                   <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/34-Minor-Discs-Queen.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -73,7 +73,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                   <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/77-Minor-Wands-King.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -86,7 +86,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                   <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/63-Minor-Cups-King.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -99,7 +99,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                   <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/49-Minor-Swords-King.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -112,7 +112,7 @@
             <div class="hexagon-in1">
               <div class="hexagon-in2 tarot_empty_cell">
                   <div class="overlay">
-            <a href="<?php bloginfo('template_url'); ?>/images/gallery/35-Minor-Discs-King.png" data-rel="lightbox" class="fa fa-expand"></a>
+            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
           </div>
               </div>
             </div>
@@ -129,7 +129,7 @@
         <div class="hexagon-in1">
           <div class="hexagon-in2 tarot_empty_cell">
             <div class="overlay">
-        <a href="<?php bloginfo('template_url'); ?>/images/gallery/75-Minor-Wands-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
+        <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
       </div>
           </div>
         </div>
@@ -142,7 +142,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/61-Minor-Cups-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -155,7 +155,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/47-Minor-Swords-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -168,7 +168,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/33-Minor-Discs-Knight.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -181,7 +181,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/74-Minor-Wands-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -194,7 +194,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/60-Minor-Cups-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -207,7 +207,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/46-Minor-Swords-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -220,7 +220,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/32-Minor-Discs-Page.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -233,7 +233,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/21-Major-World.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -250,7 +250,7 @@
         <div class="hexagon-in1">
           <div class="hexagon-in2 tarot_empty_cell">
             <div class="overlay">
-        <a href="<?php bloginfo('template_url'); ?>/images/gallery/20-Major-Judgement.png" data-rel="lightbox" class="fa fa-expand"></a>
+        <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
       </div>
           </div>
         </div>
@@ -263,7 +263,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/19-Major-Sun.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -276,7 +276,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/18-Major-Moon.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -289,7 +289,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/17-Major-Star.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -302,7 +302,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/16-Major-Tower.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -315,7 +315,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/14-Major-Temperance.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -328,7 +328,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/13-Major-Death.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -341,7 +341,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/12-Major-Hanged.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -354,7 +354,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/11-Major-Strenght.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -371,7 +371,7 @@
         <div class="hexagon-in1">
           <div class="hexagon-in2 tarot_empty_cell">
             <div class="overlay">
-        <a href="<?php bloginfo('template_url'); ?>/images/gallery/10-Major-Fortune.png" data-rel="lightbox" class="fa fa-expand"></a>
+        <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
       </div>
           </div>
         </div>
@@ -384,7 +384,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/09-Major-Hermit.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -397,7 +397,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/08-Major-Justice.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -410,7 +410,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/07-Major-Chariot.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -423,7 +423,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/06-Major-Lovers.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -436,7 +436,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/05-Major-Hierophant.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -449,7 +449,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/04-Major-Emperor.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -462,7 +462,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/03-Major-Empress.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -475,7 +475,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
                 <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/02-Major-Priestess.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
@@ -492,7 +492,7 @@
         <div class="hexagon-in1">
           <div class="hexagon-in2 tarot_empty_cell">
             <div class="overlay">
-        <a href="<?php bloginfo('template_url'); ?>/images/gallery/01-Major-Magician.png" data-rel="lightbox" class="fa fa-expand"></a>
+        <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
       </div>
           </div>
         </div>
@@ -505,7 +505,7 @@
           <div class="hexagon-in1">
             <div class="hexagon-in2 tarot_empty_cell">
               <div class="overlay">
-          <a href="<?php bloginfo('template_url'); ?>/images/gallery/00-Major-Fool.png" data-rel="lightbox" class="fa fa-expand"></a>
+          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
         </div>
             </div>
           </div>
