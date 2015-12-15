@@ -51,13 +51,14 @@ jQuery(function() {
                 } else {
                     tarot_cur_card = (Math.round(Math.random() * (38 - 0)));
                     if(tarot_cards[tarot_cur_card]){
-                        console.log('right—'+tarot_cur_card);
-                        console.log(tarot_cards);
+                        // console.log('right—'+tarot_cur_card);
+                        // console.log(tarot_cards);
                     } else {
-                        console.log('wrong—'+tarot_cur_card);
+                        // console.log('wrong—'+tarot_cur_card);
                         tarot_randomizer();
                     }
                 }
+                console.log(tarot_cell);
                 tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').css('backgroundImage', tarot_themplate_url+tarot_cards[tarot_cur_card]);
                 delete tarot_cards[tarot_cur_card];
             }
