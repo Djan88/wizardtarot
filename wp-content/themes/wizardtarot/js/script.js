@@ -84,9 +84,7 @@ jQuery(function() {
                 tarot_cards_count ++;
                 jQuery(this).removeClass('tarot_card_reject');
                 jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
-                if(tarot_cards_count == 3){
-                    tarot_devil_cell.removeClass('tarot_devil_cell');
-                }
+                tarot_devil_cell.find('.hexagon-in2').removeClass('tarot_devil_cell');
             // Если открыто 3 карты запрещаем дальнейшее открытие карт
             // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
             } else {
