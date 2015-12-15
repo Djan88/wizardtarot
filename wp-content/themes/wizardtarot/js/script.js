@@ -43,7 +43,7 @@ jQuery(function() {
         tarot_cur_card = 0,
         tarot_devil_status = 0,
         tarot_cur_cell,
-        tarot_themplate_url = 'url(http://wizardtarot.ru/wp-content/themes/wizardtarot';
+        tarot_themplate_url = 'http://wizardtarot.ru/wp-content/themes/wizardtarot';
         // Функция вывода карт в ячейки
         tarot_randomizer = function(tarot_cell){
             // Если карт в колоде больше нет
@@ -52,8 +52,8 @@ jQuery(function() {
             } else {
                 // Вывод первой карты
                 if(tarot_devil_status == 0){
-                    tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').css('backgroundImage', tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
-                    tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png)');
+                    tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').css('backgroundImage', 'url('+tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
+                    tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png');
                     tarot_cell.removeClass('tarot_card_reject');
                     delete tarot_cards[tarot_cur_card];
                     tarot_devil_status = 1;
@@ -62,8 +62,8 @@ jQuery(function() {
                 } else {
                     tarot_cur_card = (Math.round(Math.random() * (37 - 0)));
                     if(tarot_cards[tarot_cur_card]){
-                        tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').addClass('tarot_full_cell').css('backgroundImage', tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
-                        tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png)');
+                        tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').addClass('tarot_full_cell').css('backgroundImage', 'url('+tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
+                        tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png');
                         delete tarot_cards[tarot_cur_card];
                         console.log('right—'+tarot_cur_card);
                         console.log(tarot_cards);
