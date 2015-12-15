@@ -68,10 +68,11 @@ jQuery(function() {
             }
         };
         jQuery('.hex.tarot_cell_item').on('click', function(event) {
-            tarot_cur_cell = jQuery(this)
+            tarot_cur_cell = jQuery(this);
+            jQuery(this).addClass('tarot_has_card');
             tarot_randomizer(tarot_cur_cell);
         });
-        jQuery('.hex.tarot_cell_item').on('click', function(event) {
+        jQuery('.tarot_has_card').on('click', function(event) {
             if (tarot_cards_count <= 3) {
                 tarot_cards_count ++;
                 jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
