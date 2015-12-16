@@ -762,3 +762,21 @@ and (max-width : 559px) {
 {
     display: none;
 }
+.tarot_to_photo
+{
+  width: 200px;
+  margin: 0 auto 10px;
+  position: fixed;
+  right: 20px;
+  top: 140px;
+}
+@media(max-width: 1390px){
+  .first_slide.clearfix 
+  {
+      padding-top: 50px;
+  }
+  .tarot_to_photo
+  {
+    top: 180px;
+  }
+}

@@ -515,7 +515,7 @@
           </div>
         </div>
       </div>
-      <div class="well tarot_to_photo hidden" style="width: 200px; margin: 0 auto 10px; position: fixed;right: 20px;top: 140px;">
+      <div class="well tarot_to_photo hidden">
         <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
       </div>
     </div>
