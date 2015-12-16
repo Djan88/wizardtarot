@@ -515,6 +515,9 @@
           </div>
         </div>
       </div>
+      <div class="well" style="max-width: 400px; margin: 0 auto 10px;">
+        <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
+      </div>
     </div>
 
 
