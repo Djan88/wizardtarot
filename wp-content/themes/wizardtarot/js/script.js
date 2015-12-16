@@ -85,6 +85,7 @@ jQuery(function() {
                 jQuery(this).removeClass('tarot_card_reject');
                 jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
                 tarot_devil_cell.find('.hexagon-in2').removeClass('tarot_devil_cell');
+                console.log(tarot_cards_count);
                 if (tarot_cards_count == 3) {
                     jQuery('.tarot_to_photo').removeClass('hidden');
                 };
