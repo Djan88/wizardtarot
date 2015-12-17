@@ -20,6 +20,7 @@
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/sweet-alert.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/exif.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.Jcrop.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
     <script>
