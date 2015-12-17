@@ -890,6 +890,7 @@ input[type=submit]{
 {
   margin: auto;
   margin-bottom: 10px;
+  display: block;
 }
 .step2, .info
 {
