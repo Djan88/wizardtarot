@@ -82,8 +82,6 @@
   <div id="menu-container">
   <?php if(is_front_page()) { ?>
     <?php include(TEMPLATEPATH . '/frontpage.php'); ?>
-  <?php } else if(is_page('6')) { ?>
-    <?php include(TEMPLATEPATH . '/wizard.php'); ?>
   <?php } ?>
     </div>
   <!-- footer start -->
