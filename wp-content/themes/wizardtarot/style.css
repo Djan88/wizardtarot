@@ -780,6 +780,25 @@ and (max-width : 559px) {
     top: 180px;
   }
 }
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .field {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+    margin-bottom: 14px;
+    font-size: 1em;
+    color: #5c6b80;
+    border-radius: 3px;
+    vertical-align: middle;
+    box-shadow: none;
+    border: 0;
+    width: 100%;
+    max-width: 400px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eaedf2;
+    -webkit-transition: background-color 0.24s ease-in-out;
+    transition: background-color 0.24s ease-in-out;
+}
 .login__form input 
 {
   margin: auto;
