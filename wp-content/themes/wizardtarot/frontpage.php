@@ -568,7 +568,7 @@
                         <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
                       </div>
                     </div>
-                    <div class="second_slide">
+                    <div class="second_slide hidden">
                       <div class="steps clearfix">
                           <h3 class="heading heading_dashboard">Загрузите и при необходимости отредактируйте фото</h3>
                           <h5 class="prot_in_action hidden"></h5>
