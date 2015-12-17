@@ -904,3 +904,10 @@ input[type=submit]{
 {
   border: 1px solid #555!important;
 }
+.step2 img 
+{
+  max-width: 800px;
+  display: block;
+  margin: auto;
+  height: auto!important;
+}
