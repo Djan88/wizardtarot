@@ -50,7 +50,11 @@
                 </div>
             <?php } else if(current_user_can('contributor') || current_user_can('administrator')) { ?>
                 <div class="third_slide hidden">
-                  
+                  <div class="tarot_prot_cell tarot_prot_cell_1"></div>
+                  <div class="tarot_prot_cell tarot_prot_cell_2"></div>
+                  <div class="tarot_prot_cell tarot_prot_cell_3"><img class="tarot_prot_returned" src="" alt=""></div>
+                  <div class="tarot_prot_cell tarot_prot_cell_4"></div>
+                  <div class="tarot_prot_cell tarot_prot_cell_5"></div>
                 </div>
             <?php } else { ?>
                 <div style="text-align: center">Вы видите, потому, что заши на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться к Роману <a href="mailto:info@bablosstudio.ru">info@bablosstudio.ru</a></div>
