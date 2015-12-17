@@ -113,7 +113,7 @@ jQuery(function() {
         jQuery('.second_slide').removeClass('hidden');
     });
     // Если фото уже загружено
-    if(jQuery('.tarot_returned_img').hasAttribute('src')){
+    if(jQuery('.tarot_returned_img')){
         jQuery('.third_slide').removeClass('hidden');
         jQuery('.tarot_prot_returned').attr('src', jQuery('.tarot_returned_img').hasAttribute('src'));
     }
