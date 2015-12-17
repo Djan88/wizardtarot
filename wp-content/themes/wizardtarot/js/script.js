@@ -116,6 +116,7 @@ jQuery(function() {
     if(jQuery('.tarot_returned_img')){
         jQuery('.third_slide').removeClass('hidden');
         jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
+        jQuery('.templatemo_gallerygap').css('marginBottom', '10px');
     }
 
 
