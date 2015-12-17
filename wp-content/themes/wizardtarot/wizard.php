@@ -52,7 +52,7 @@
                 <div class="third_slide hidden">
                     <div class="container">
                         <div class="row">
-                            <div class=".col-md-4 .col-md-offset-4 tarot_prot_cell tarot_prot_cell_1"></div>
+                            <div class="col-md-4 col-md-offset-4 tarot_prot_cell tarot_prot_cell_1"></div>
                         </div>
                         <div class="row">
                             <div class="col-xs-6 col-sm-4 tarot_prot_cell tarot_prot_cell_2"></div>
@@ -60,7 +60,7 @@
                             <div class="col-xs-6 col-sm-4 tarot_prot_cell tarot_prot_cell_4"></div>
                         </div>
                         <div class="row">
-                            <div class=".col-md-4 .col-md-offset-4 tarot_prot_cell tarot_prot_cell_5"></div>
+                            <div class="col-md-4 col-md-offset-4 tarot_prot_cell tarot_prot_cell_5"></div>
                         </div>
                     </div>
                 </div>
