@@ -911,3 +911,10 @@ input[type=submit]{
   margin: auto;
   height: auto!important;
 }
+.tarot_prot_cell 
+{
+  min-height: 400px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px;
+}

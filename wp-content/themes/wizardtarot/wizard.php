@@ -56,7 +56,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-6 col-sm-4 tarot_prot_cell tarot_prot_cell_2"></div>
-                            <div class="col-xs-6 col-sm-4 tarot_prot_cell tarot_prot_cell_3"><img class="tarot_prot_returned" src="" alt=""></div>
+                            <div class="col-xs-6 col-sm-4 tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
                             <div class="col-xs-6 col-sm-4 tarot_prot_cell tarot_prot_cell_4"></div>
                         </div>
                         <div class="row">

@@ -115,7 +115,7 @@ jQuery(function() {
     // Если фото уже загружено
     if(jQuery('.tarot_returned_img')){
         jQuery('.third_slide').removeClass('hidden');
-        jQuery('.tarot_prot_returned').attr('src', jQuery('.tarot_returned_img').attr('src'));
+        jQuery('.tarot_prot_returned').css('background', 'url('+jQuery('.tarot_returned_img').attr('src')+')'));
     }
 
 
@@ -249,6 +249,7 @@ jQuery(function() {
                             minSize: [32, 32],// keep aspect ratio 1:1
                             bgFade: true, // use fade effect
                             bgOpacity: .3, // fade opacity
+                            aspectRatio: 1/1.5,
                             onChange: updateInfo,
                             onSelect: updateInfo,
                             onRelease: clearInfo
