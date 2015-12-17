@@ -115,7 +115,7 @@ jQuery(function() {
     // Если фото уже загружено
     if(jQuery('.tarot_returned_img')){
         jQuery('.third_slide').removeClass('hidden');
-        jQuery('.tarot_prot_returned').css('background', 'url('+jQuery('.tarot_returned_img').attr('src')+')'));
+        jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+')'));
     }
 
 
