@@ -780,3 +780,53 @@ and (max-width : 559px) {
     top: 180px;
   }
 }
+.login__form input 
+{
+  margin: auto;
+}
+.login__form 
+{
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-width: 560px;
+  margin: auto;
+  text-align: center;
+}
+.home .login__form
+{
+  border-color: #fff;
+  margin-top: 20px;
+}
+.login__form p 
+{
+  margin: 5px;
+}
+.login__form .input, input:-webkit-autofill
+{
+  margin: auto;
+  background: #eaedf2!important;
+  border: 1px solid #ccc;
+}
+.home .login__form input,.home input:-webkit-autofill, .home a
+{
+  margin: auto;
+  border: 1px solid #fff;
+  background: transparent!important;
+}
+.login__form input#wp-submit, .home a
+{
+  border: 1px solid #ccc;
+  color: #000;
+  background: transparent;
+}
+.login__form input#wp-submit:hover
+{
+  background: #eb592a;
+  color: #fff;
+  border-color: transparent;
+}
+.home .login__form input#wp-submit:hover
+{
+  background: rgba(255,255,255, 0.2)!important;
+  border: 1px solid #fff;
+}
