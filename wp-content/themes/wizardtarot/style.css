@@ -953,14 +953,14 @@ input[type=submit]{
 }
 .box_rounded
 {
-  width: 450px;
-  height: 450px;
+  width: 225px;
+  height: 225px;
   border: 2px dashed crimson;
   border-radius: 50%;
   position: absolute;
   margin: 128px auto;
-  left: 31.5%;
-  top: 0;
+  left: 41%;
+  top: 110px;
   -webkit-transition: all 1s linear;
   -moz-transition: all 1s linear;
   transition: all 1s linear;

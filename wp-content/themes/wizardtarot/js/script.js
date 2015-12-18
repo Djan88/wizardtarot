@@ -177,6 +177,7 @@ jQuery(function() {
                     jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
                     jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
                 }
+                console.log(count_animation);
             } else {
                 clearInterval(phaseOne);
                 count_animation = 1;
