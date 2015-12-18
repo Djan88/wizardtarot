@@ -973,15 +973,13 @@ input[type=submit]{
   cursor: pointer;
   background: rgba(255,255,255, 0.5);
   z-index: 999;
-  /*border: 2px solid crimson;*/
-  transform: scale(0.5);
-  -webkit-transform: scale(0.5);
   width: 56px;
   height: 56px;
   position: absolute;
   -webkit-transition: all 1s linear;
   -moz-transition: all 1s linear;
   transition: all 1s linear;
+  display: block;
   /*-webkit-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
      -moz-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
           transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);*/
