@@ -149,12 +149,11 @@ jQuery(function() {
                     });
                 count_animation += 1;
                 console.log(count_animation);
-                // console.log(count_animation);
-                if(count_animation <= 120){
+                if(count_animation <= 117){
                     cur_animation_val += 1.5;
                     d12Val+= 9;
                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
-                } else if (count_animation >= 120 && count_animation <= 228){
+                } else if (count_animation >= 117 && count_animation <= 228){
                     cur_animation_val -= 1.5;
                     d12Val+= 9;
                     jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
@@ -185,6 +184,9 @@ jQuery(function() {
             }
         }, 250);
     };
+    jQuery('.tarot_start').on('click', function(event) {
+         tarot();
+    });
 
 
 

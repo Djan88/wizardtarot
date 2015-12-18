@@ -58,6 +58,9 @@
                     <div class="box_rounded">
                         <li id="draggableD12" class="itemlist_item item_list__mid draggable" style="left: 45%; top: 5px;"></li>
                     </div>
+                    <div class="well tarot_to_photo">
+                      <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Загрузка фото</button>
+                    </div>
                 </div>
             <?php } else { ?>
                 <div style="text-align: center">Вы видите, потому, что заши на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться к Роману <a href="mailto:info@bablosstudio.ru">info@bablosstudio.ru</a></div>
