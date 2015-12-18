@@ -95,7 +95,6 @@ jQuery(function() {
                     jQuery('.tarot_to_photo').removeClass('hidden');
                     prot_card = jQuery(this).find('.hexagon-in2').find('a').attr('href');
                     localStorage.setItem('prot_card', prot_card);
-                    console.log(prot_card);
                 };
             // Если открыто 3 карты запрещаем дальнейшее открытие карт
             // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
@@ -127,6 +126,7 @@ jQuery(function() {
         if(supportsStorage && localStorage.getItem('curChoice')){
             prot_card = localStorage.getItem('prot_card');
         }
+        console.log(prot_card);
         jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
     }
     tarot = function(){
