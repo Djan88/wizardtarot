@@ -953,13 +953,14 @@ input[type=submit]{
 }
 .box_rounded
 {
-  width: 600px;
-  height: 600px;
+  width: 450px;
+  height: 450px;
   border: 2px dashed crimson;
   border-radius: 50%;
   position: absolute;
-  margin: 150px auto;
-  right: 10px;
+  margin: 128px auto;
+  left: 39%;
+  top: 0;
 }
 .itemlist_item
 {
