@@ -80,10 +80,6 @@ jQuery(function() {
                 }
             }
         };
-    //Получение данных из локального хранилища
-    if(supportsStorage && localStorage.getItem('curChoice')){
-        prot_card = localStorage.getItem('prot_card');
-    }
     // Клик по ячейке
     jQuery('.hex.tarot_cell_item').on('click', function(event) {
         // Если выложены все карты
@@ -127,6 +123,10 @@ jQuery(function() {
     if(jQuery('.tarot_returned_img')){
         jQuery('.third_slide').removeClass('hidden');
         jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
+        //Получение данных из локального хранилища
+        if(supportsStorage && localStorage.getItem('curChoice')){
+            prot_card = localStorage.getItem('prot_card');
+        }
         jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
     }
     tarot = function(){
