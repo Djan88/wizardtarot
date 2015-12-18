@@ -45,12 +45,19 @@ jQuery(function() {
         tarot_devil_status = 0,
         tarot_cur_cell,
         tarot,
+        prot_card,
+        supportsStorage = function(){
+            try {
+                return 'localStorage' in window && window['localStorage'] !== null;
+            } catch (e) {
+                return false;
+            }
+        },
         tarot_themplate_url = 'http://wizardtarot.ru/wp-content/themes/wizardtarot';
         // Функция вывода карт в ячейки
         tarot_randomizer = function(tarot_cell){
             // Если карт в колоде больше нет
             if(Object.keys(tarot_cards).length === 0){
-                console.log('empty');
             } else {
                 // Вывод первой карты
                 if(tarot_devil_status == 0){
@@ -67,15 +74,16 @@ jQuery(function() {
                         tarot_cell.find('.hexagon-in2').removeClass('tarot_empty_cell').addClass('tarot_full_cell').css('backgroundImage', 'url('+tarot_themplate_url+tarot_cards[tarot_cur_card]+'-min.png)');
                         tarot_cell.find('.overlay').find('a').attr('href', tarot_themplate_url+tarot_cards[tarot_cur_card]+'.png');
                         delete tarot_cards[tarot_cur_card];
-                        console.log('right—'+tarot_cur_card);
-                        console.log(tarot_cards);
                     } else {
-                        console.log('wrong—'+tarot_cur_card);
                         tarot_randomizer(tarot_cur_cell);
                     }
                 }
             }
         };
+    //Получение данных из локального хранилища
+    if(supportsStorage && localStorage.getItem('curChoice')){
+        prot_card = localStorage.getItem('prot_card');
+    }
     // Клик по ячейке
     jQuery('.hex.tarot_cell_item').on('click', function(event) {
         // Если выложены все карты
@@ -86,10 +94,10 @@ jQuery(function() {
                 jQuery(this).removeClass('tarot_card_reject');
                 jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
                 tarot_devil_cell.find('.hexagon-in2').removeClass('tarot_devil_cell');
-                console.log(tarot_cards_count);
                 // Показ кнопки перехода к загрузке фото
                 if (tarot_cards_count == 4) {
                     jQuery('.tarot_to_photo').removeClass('hidden');
+                    localStorage.setItem('prot_card', jQuery(this).find('.hexagon-in2').css('backgroundImage'));
                 };
             // Если открыто 3 карты запрещаем дальнейшее открытие карт
             // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
@@ -106,6 +114,7 @@ jQuery(function() {
             tarot_cur_cell = jQuery(this);
             jQuery(this).addClass('tarot_has_card');
             tarot_randomizer(tarot_cur_cell);
+            console.log(jQuery(this).find('.hexagon-in2').css('backgroundImage'));
         }
     });
     // Переход к загрузке фото
