@@ -979,9 +979,9 @@ input[type=submit]{
   width: 56px;
   height: 56px;
   position: absolute;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  transition: all 1s linear;
   /*-webkit-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
      -moz-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
           transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);*/
