@@ -123,7 +123,7 @@ jQuery(function() {
         jQuery('.third_slide').removeClass('hidden');
         jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
         //Получение данных из локального хранилища
-        if(supportsStorage && localStorage.getItem('curChoice')){
+        if(supportsStorage && localStorage.getItem('prot_card')){
             prot_card = localStorage.getItem('prot_card');
         }
         console.log(prot_card);
