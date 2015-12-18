@@ -961,9 +961,9 @@ input[type=submit]{
   margin: 128px auto;
   left: 32%;
   top: 0;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  transition: all 1s linear;
 }
 .itemlist_item
 {
