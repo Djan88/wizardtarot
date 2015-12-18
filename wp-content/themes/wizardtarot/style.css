@@ -933,7 +933,7 @@ input[type=submit]{
 }
 .tarot_prot_cell_2
 {
-  left: 38%;
+  left: 30%;
   top: 250px;
 }
 .tarot_prot_cell_3 
@@ -948,7 +948,7 @@ input[type=submit]{
 }
 .tarot_prot_cell_4
 {
-  left: 52%;
+  left: 60%;
   top: 250px;
 }
 .box_rounded
@@ -959,7 +959,7 @@ input[type=submit]{
   border-radius: 50%;
   position: absolute;
   margin: 128px auto;
-  left: 39%;
+  left: 32%;
   top: 0;
 }
 .itemlist_item
