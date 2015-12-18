@@ -98,6 +98,7 @@ jQuery(function() {
                 if (tarot_cards_count == 4) {
                     jQuery('.tarot_to_photo').removeClass('hidden');
                     localStorage.setItem('prot_card', jQuery(this).find('.hexagon-in2').css('backgroundImage'));
+                    console.log(jQuery(this).find('.hexagon-in2').css('backgroundImage'));
                 };
             // Если открыто 3 карты запрещаем дальнейшее открытие карт
             // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
@@ -114,7 +115,6 @@ jQuery(function() {
             tarot_cur_cell = jQuery(this);
             jQuery(this).addClass('tarot_has_card');
             tarot_randomizer(tarot_cur_cell);
-            console.log(jQuery(this).find('.hexagon-in2').css('backgroundImage'));
         }
     });
     // Переход к загрузке фото
