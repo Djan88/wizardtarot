@@ -59,7 +59,7 @@
                         <li id="draggableD12" class="itemlist_item item_list__mid draggable" style="left: 45%; top: 5px;"></li>
                     </div>
                     <div class="well tarot_to_photo">
-                      <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Загрузка фото</button>
+                      <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Старт</button>
                     </div>
                 </div>
             <?php } else { ?>
