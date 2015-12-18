@@ -961,6 +961,9 @@ input[type=submit]{
   margin: 128px auto;
   left: 32%;
   top: 0;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .itemlist_item
 {
@@ -976,9 +979,9 @@ input[type=submit]{
   width: 56px;
   height: 56px;
   position: absolute;
-  -webkit-transition: opacity 0.2s ease-in;
-  -moz-transition: opacity 0.2s ease-in;
-  transition: transform 1s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
   /*-webkit-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
      -moz-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
           transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);*/
