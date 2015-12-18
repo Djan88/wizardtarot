@@ -127,6 +127,7 @@ jQuery(function() {
     if(jQuery('.tarot_returned_img')){
         jQuery('.third_slide').removeClass('hidden');
         jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
+        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
     }
     tarot = function(){
     //фаза 1
