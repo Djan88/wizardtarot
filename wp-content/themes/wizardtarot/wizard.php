@@ -55,6 +55,9 @@
                     <div class="tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_4"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_5"></div>
+                    <div class="box_rounded">
+                        <li id="draggableD12" class="itemlist_item item_list__mid draggable hidden" style="left: 45%; top: 5px;"></li>
+                    </div>
                 </div>
             <?php } else { ?>
                 <div style="text-align: center">Вы видите, потому, что заши на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться к Роману <a href="mailto:info@bablosstudio.ru">info@bablosstudio.ru</a></div>

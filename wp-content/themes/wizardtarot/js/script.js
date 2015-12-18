@@ -44,6 +44,7 @@ jQuery(function() {
         tarot_cur_card = 0,
         tarot_devil_status = 0,
         tarot_cur_cell,
+        tarot,
         tarot_themplate_url = 'http://wizardtarot.ru/wp-content/themes/wizardtarot';
         // Функция вывода карт в ячейки
         tarot_randomizer = function(tarot_cell){
@@ -116,8 +117,62 @@ jQuery(function() {
     if(jQuery('.tarot_returned_img')){
         jQuery('.third_slide').removeClass('hidden');
         jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
-        jQuery('.templatemo_gallerygap').css('marginBottom', '10px');
     }
+    tarot = function(){
+    //фаза 1
+        reloadTime = 0;
+        reloadTime1 = 0;
+        d12Val = 0;
+        cur_animation_val = 0;
+        count_animation = 1;
+        phaseOne = setInterval(function(){
+            if (count_animation <= 344){                                                                         //90
+                jQuery('#draggableD12')
+                    .removeClass('hidden')
+                    .css({
+                        opacity: 0.8,
+                        transform: 'scale(1)',
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat',
+                        transform: 'rotate(-'+d12Val+'deg)',
+                        borderColor: 'transparent'
+                    });
+                count_animation += 1;
+                // console.log(count_animation);
+                if(count_animation <= 120){
+                    cur_animation_val += 1.5;
+                    d12Val+= 9;
+                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                } else if (count_animation >= 120 && count_animation <= 228){
+                    cur_animation_val -= 1.5;
+                    d12Val+= 9;
+                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                } else if (count_animation >= 228 && count_animation <= 292){
+                    cur_animation_val -= 1.5;
+                    d12Val+= 9;
+                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/eddiemachado-bones-611c04e/library/images/daemon.png) 0 0/100% no-repeat');
+                } else if (count_animation >= 292 && count_animation <= 344){
+                    cur_animation_val += 1.5;
+                    d12Val+= 9;
+                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/eddiemachado-bones-611c04e/library/images/daemon.png) 0 0/100% no-repeat');
+                } else {
+                    d12Val+= 9;
+                    cur_animation_val += 1.5;
+                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/eddiemachado-bones-611c04e/library/images/daemon.png) 0 0/100% no-repeat');
+                }
+            } else {
+                clearInterval(phaseOne);
+                count_animation = 1;
+                // jQuery('#draggableD12').addClass('hidden');
+            }
+        }, 250);
+    };
 
 
 

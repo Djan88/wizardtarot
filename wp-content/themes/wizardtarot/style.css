@@ -914,6 +914,7 @@ input[type=submit]{
 .third_slide
 {
   position: relative;
+  min-height: 450px;
 }
 .tarot_prot_cell 
 {
@@ -922,4 +923,62 @@ input[type=submit]{
   border-radius: 6px;
   padding: 5px;
   width: 135px;
+  position: absolute;
+
+}
+.tarot_prot_cell_1 
+{
+  left: 45%;
+  top: 10px;
+}
+.tarot_prot_cell_2
+{
+  left: 38%;
+  top: 250px;
+}
+.tarot_prot_cell_3 
+{
+  left: 45%;
+  top: 250px;
+}
+.tarot_prot_cell_5 
+{
+  left: 45%;
+  top: 490px;
+}
+.tarot_prot_cell_4
+{
+  left: 52%;
+  top: 250px;
+}
+.box_rounded
+{
+  width: 600px;
+  height: 600px;
+  border: 2px dashed crimson;
+  border-radius: 50%;
+  position: absolute;
+  margin: 150px auto;
+  right: 10px;
+}
+.itemlist_item
+{
+  font-weight: 400;
+  font-size: 30px;
+  color: crimson;
+  cursor: pointer;
+  background: rgba(255,255,255, 0.5);
+  z-index: 999;
+  border: 2px solid crimson;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  transition: transform 1s linear;
+  /*-webkit-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
+     -moz-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
+          transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);*/
 }
