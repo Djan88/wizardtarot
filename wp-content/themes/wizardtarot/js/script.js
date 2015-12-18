@@ -97,8 +97,9 @@ jQuery(function() {
                 // Показ кнопки перехода к загрузке фото
                 if (tarot_cards_count == 4) {
                     jQuery('.tarot_to_photo').removeClass('hidden');
-                    localStorage.setItem('prot_card', jQuery(this).find('.hexagon-in2').css('backgroundImage'));
-                    console.log(jQuery(this).find('.hexagon-in2').css('backgroundImage'));
+                    prot_card = jQuery(this).find('.hexagon-in2').find('.overlay').attr('href');
+                    localStorage.setItem('prot_card', prot_card);
+                    console.log(prot_card);
                 };
             // Если открыто 3 карты запрещаем дальнейшее открытие карт
             // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
