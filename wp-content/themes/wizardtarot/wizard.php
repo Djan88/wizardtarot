@@ -56,7 +56,7 @@
                     <div class="tarot_prot_cell tarot_prot_cell_4"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_5"></div>
                     <div class="box_rounded">
-                        <li id="draggableD12" class="itemlist_item item_list__mid draggable hidden" style="left: 45%; top: 5px;"></li>
+                        <li id="draggableD12" class="itemlist_item item_list__mid draggable" style="left: 45%; top: 5px;"></li>
                     </div>
                 </div>
             <?php } else { ?>
