@@ -97,7 +97,7 @@ jQuery(function() {
                 // Показ кнопки перехода к загрузке фото
                 if (tarot_cards_count == 4) {
                     jQuery('.tarot_to_photo').removeClass('hidden');
-                    prot_card = jQuery(this).find('.hexagon-in2').find('.overlay').attr('href');
+                    prot_card = jQuery(this).find('.hexagon-in2').find('a').attr('href');
                     localStorage.setItem('prot_card', prot_card);
                     console.log(prot_card);
                 };
