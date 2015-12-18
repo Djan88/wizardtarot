@@ -49,7 +49,7 @@
                     </div>
                 </div>
             <?php } else if(current_user_can('contributor') || current_user_can('administrator')) { ?>
-                <div class="third_slide hidden">
+                <div class="third_slide container hidden">
                     <div class="tarot_prot_cell tarot_prot_cell_1"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_2"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
