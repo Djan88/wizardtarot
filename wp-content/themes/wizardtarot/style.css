@@ -986,3 +986,9 @@ input[type=submit]{
      -moz-transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);
           transition: box-shadow 0.3s cubic-bezier(.67,2,.54,.04);*/
 }
+.item_list__mid
+{
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-left: 3px;
+}
