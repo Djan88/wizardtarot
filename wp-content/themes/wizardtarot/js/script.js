@@ -52,6 +52,8 @@ jQuery(function() {
                 if(parseFloat(jQuery(this).css('top')) < 200){
                     pointsStatus = false;
                     console.log(jQuery(this)+ ' status '+pointsStatus);
+                } else {
+                    pointsStatus = true;
                 }
             });
         },
