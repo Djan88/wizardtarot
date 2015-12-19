@@ -46,6 +46,15 @@ jQuery(function() {
         tarot_cur_cell,
         tarot,
         prot_card,
+        pointsStatus = true,
+        checkPoints = function(){
+            jQuery('.itemZone').each(function() {
+                if(parseFloat(jQuery(this).css('top')) < 200){
+                    pointsStatus = false;
+                    console.log(jQuery(this)+ ' status '+pointsStatus);
+                }
+            });
+        },
         supportsStorage = function(){
             try {
                 return 'localStorage' in window && window['localStorage'] !== null;
@@ -189,7 +198,12 @@ jQuery(function() {
         }, 250);
     };
     jQuery('.tarot_start').on('click', function(event) {
-         tarot();
+        checkPoints()
+        if(pointsStatus == false){
+            swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info")
+        } else {
+            tarot();
+        }
     });
 
 
