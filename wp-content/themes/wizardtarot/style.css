@@ -970,6 +970,7 @@ input[type=submit]{
   font-weight: 400;
   font-size: 30px;
   color: crimson;
+  border: 1px solid crimson;
   cursor: pointer;
   background: rgba(255,255,255, 0.5);
   z-index: 999;
