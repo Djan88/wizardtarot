@@ -971,6 +971,7 @@ input[type=submit]{
   font-size: 30px;
   color: crimson;
   border: 1px solid crimson;
+  text-align: center;
   cursor: pointer;
   background: rgba(255,255,255, 0.5);
   z-index: 999;
