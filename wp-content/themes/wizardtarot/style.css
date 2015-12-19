@@ -994,5 +994,11 @@ input[type=submit]{
 }
 .tarot_zones
 {
-  position: relative;
+  width: 200px;
+  margin: 0 auto 10px;
+  position: fixed;
+  right: 20px;
+  top: 240px;
+  height: 80px;
+  z-index: 2;
 }

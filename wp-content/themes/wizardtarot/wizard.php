@@ -51,9 +51,9 @@
             <?php } else if(current_user_can('contributor') || current_user_can('administrator')) { ?>
                 <div class="third_slide container hidden">
                     <div class="tarot_zones well">
-                        <li id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 0; top: 10px;">V0</li>
-                        <li id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 40px; top: 10px;">V1</li>
-                        <li id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 80px; top: 10px;">V2</li>
+                        <li id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 10px; top: 10px;">V0</li>
+                        <li id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 80px; top: 10px;">V1</li>
+                        <li id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 150px; top: 10px;">V2</li>
                     </div>
                     <div class="tarot_prot_cell tarot_prot_cell_1"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_2"></div>
