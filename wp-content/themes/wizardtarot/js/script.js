@@ -80,6 +80,10 @@ jQuery(function() {
                 }
             }
         };
+    //Перетягивание элементов
+    jQuery( ".draggable" ).draggable({ 
+        snap: false
+    });
     // Клик по ячейке
     jQuery('.hex.tarot_cell_item').on('click', function(event) {
         // Если выложены все карты
