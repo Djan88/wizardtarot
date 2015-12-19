@@ -50,13 +50,18 @@
                 </div>
             <?php } else if(current_user_can('contributor') || current_user_can('administrator')) { ?>
                 <div class="third_slide container hidden">
+                    <div class="tarot_zones">
+                        <li id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 0; top: 10px;">V0</li>
+                        <li id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 40px; top: 10px;">V1</li>
+                        <li id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 80px; top: 10px;">V2</li>
+                    </div>
                     <div class="tarot_prot_cell tarot_prot_cell_1"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_2"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_4"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_5"></div>
                     <div class="box_rounded">
-                        <li id="draggableD12" class="itemlist_item item_list__mid draggable" style="left: 45%; top: 5px;"></li>
+                        <li id="draggableD12" class="itemlist_item item_list__mid draggable hidden" style="left: 45%; top: 5px;"></li>
                     </div>
                     <div class="well tarot_to_photo">
                       <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Старт</button>
