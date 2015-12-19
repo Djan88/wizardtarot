@@ -1006,3 +1006,7 @@ input[type=submit]{
   padding-top: 5px;
   padding-left: 3px;
 }
+#draggableD12
+{
+  background: #fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat;
+}

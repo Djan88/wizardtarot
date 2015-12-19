@@ -162,6 +162,12 @@ jQuery(function() {
                         transform: 'rotate(-'+d12Val+'deg)',
                         borderColor: 'transparent'
                     });
+                jQuery('.itemZone')
+                    .addClass('hidden')
+                    .css({
+                        color: 'transparent',
+                        borderColor: 'transparent'
+                    });
                 count_animation += 1;
                 console.log(count_animation);
                 if(count_animation <= 117){
