@@ -770,12 +770,22 @@ and (max-width : 559px) {
   right: 20px;
   top: 140px;
 }
+.tarot_zones
+{
+  width: 200px;
+  margin: 0 auto 10px;
+  position: relative;
+  right: -15px;
+  top: -140px;
+  height: 80px;
+  z-index: 2;
+}
 @media(max-width: 1390px){
   .first_slide.clearfix 
   {
       padding-top: 50px;
   }
-  .tarot_to_photo
+  .tarot_to_photo, .tarot_zones
   {
     top: 180px;
   }
@@ -991,14 +1001,4 @@ input[type=submit]{
   border-radius: 50%;
   padding-top: 5px;
   padding-left: 3px;
-}
-.tarot_zones
-{
-  width: 200px;
-  margin: 0 auto 10px;
-  position: fixed;
-  right: 20px;
-  top: 240px;
-  height: 80px;
-  z-index: 2;
 }
