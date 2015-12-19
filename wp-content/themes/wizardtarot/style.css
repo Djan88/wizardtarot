@@ -785,9 +785,13 @@ and (max-width : 559px) {
   {
       padding-top: 50px;
   }
-  .tarot_to_photo, .tarot_zones
+  .tarot_to_photo
   {
     top: 180px;
+  }
+  .tarot_zones
+  {
+    top: -95px;
   }
 }
 input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], select, textarea, .field {
