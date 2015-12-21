@@ -182,7 +182,7 @@ jQuery(function() {
                     .css({
                         opacity: 0.8,
                         transform: 'scale(1)',
-                        background: 'url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat',
                         transform: 'rotate(-'+d12Val+'deg)',
                         borderColor: 'red'
                     });
@@ -190,21 +190,21 @@ jQuery(function() {
                     .removeClass('hidden')
                     .css({
                         opacity: 0.8,
-                        background: 'url(/wp-content/themes/wizardtarot/images/triangle.png) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/triangle.png) center top / 90% no-repeat',
                         borderColor: 'transparent'
                     });
                 jQuery('#draggable0')
                     .removeClass('hidden')
                     .css({
                         opacity: 0.8,
-                        background: 'url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat',
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) center top / 90% no-repeat',
                         borderColor: 'transparent'
                     });
                 jQuery('#draggable2')
                     .removeClass('hidden')
                     .css({
                         opacity: 0.8,
-                        background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) 0 0/100% no-repeat',
+                        background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat',
                         borderColor: 'transparent'
                     });
                 jQuery('.itemZone')
