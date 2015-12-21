@@ -3,16 +3,16 @@
 jQuery(document).ready(function($){
 
 	/************** Menu Content Opening *********************/
-	$(".main_menu a, .responsive_menu a").click(function(){
-		var id =  $(this).attr('class');
-		id = id.split('-');
-		$("#menu-container .content").hide();
-		$("#menu-container #menu-"+id[1]).addClass("animated fadeInDown").show();
-		$("#menu-container .homepage").hide();
-		$(".support").hide();
-		$(".testimonials").hide();
-		return false;
-	});
+	// $(".main_menu a, .responsive_menu a").click(function(){
+	// 	var id =  $(this).attr('class');
+	// 	id = id.split('-');
+	// 	$("#menu-container .content").hide();
+	// 	$("#menu-container #menu-"+id[1]).addClass("animated fadeInDown").show();
+	// 	$("#menu-container .homepage").hide();
+	// 	$(".support").hide();
+	// 	$(".testimonials").hide();
+	// 	return false;
+	// });
 
 	$( window ).load(function() {
 	  $("#menu-container .products").hide();
