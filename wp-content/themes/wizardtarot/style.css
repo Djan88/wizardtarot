@@ -1014,7 +1014,7 @@ input[type=submit]{
 {
   z-index: 3;
 }
-.templatemo_rfooter
+.templatemo_rfooter, #wpadminbar
 {
   display: none;
 }
