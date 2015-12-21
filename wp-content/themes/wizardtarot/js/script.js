@@ -47,6 +47,30 @@ jQuery(function() {
         tarot,
         prot_card,
         pointsStatus = true,
+        onEnd = function(){
+            swal({
+                title: "Процедура окончена",   
+                text: "Что вы хотите делать дальше?",   
+                type: "success",   
+                showCancelButton: true,   
+                confirmButtonColor: "#DD6B55",   
+                confirmButtonText: "Повторить сессию",   
+                cancelButtonText: "Выйти"
+            },
+            function(isConfirm){   
+                if (isConfirm) {
+                    jQuery('.tarot_start').removeClass('hidden');
+                } else {
+                    var protocol = undefined;    
+                    jQuery(location).attr('href','/wizard');
+                    if(supportsStorage && localStorage.getItem('protocolName')){
+                        localStorage.removeItem('protocolName')
+                        jQuery('.data-protocol-name').addClass('hidden');
+                        jQuery('.data-protocol-name').text('');
+                    }
+                } 
+            });
+        },
         checkPoints = function(){
             jQuery('.itemZone').each(function() {
                 if(parseFloat(jQuery(this).css('top')) < 200){
@@ -160,6 +184,27 @@ jQuery(function() {
                         transform: 'scale(1)',
                         background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat',
                         transform: 'rotate(-'+d12Val+'deg)',
+                        borderColor: '#eee'
+                    });
+                jQuery('#draggable1')
+                    .removeClass('hidden')
+                    .css({
+                        opacity: 0.8,
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/treangle.png) 0 0/100% no-repeat',
+                        borderColor: 'transparent'
+                    });
+                jQuery('#draggable0')
+                    .removeClass('hidden')
+                    .css({
+                        opacity: 0.8,
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat',
+                        borderColor: 'transparent'
+                    });
+                jQuery('#draggable2')
+                    .removeClass('hidden')
+                    .css({
+                        opacity: 0.8,
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/nerazd.png) 0 0/100% no-repeat',
                         borderColor: 'transparent'
                     });
                 jQuery('.itemZone')
@@ -208,21 +253,6 @@ jQuery(function() {
                 count_animation = 1;
                 phaseOne = setInterval(function(){
                     if (count_animation <= 344){                                                                         //90
-                        jQuery('#draggableD12')
-                            .removeClass('hidden')
-                            .css({
-                                opacity: 0.8,
-                                transform: 'scale(1)',
-                                background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat',
-                                transform: 'rotate(-'+d12Val+'deg)',
-                                borderColor: 'transparent'
-                            });
-                        jQuery('.itemZone')
-                            .addClass('hidden')
-                            .css({
-                                color: 'transparent',
-                                borderColor: 'transparent'
-                            });
                         count_animation += 1;
                         console.log(count_animation);
                         if(count_animation <= 117){
@@ -255,13 +285,312 @@ jQuery(function() {
                         }
                     } else {
                         clearInterval(phaseOne);
+    //фаза 3                
+                        reloadTime = 0;
+                        reloadTime1 = 0;
+                        d12Val = 0;
+                        cur_animation_val = 0;
                         count_animation = 1;
+                        phaseOne = setInterval(function(){
+                            if (count_animation <= 344){                                                                         //90
+                                jQuery('#draggable2').removeClass('hidden');
+                                count_animation += 1;
+                                console.log(count_animation);
+                                if(count_animation <= 117){
+                                    cur_animation_val += 1.5;
+                                    d12Val+= 9;
+                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                } else if (count_animation >= 117 && count_animation <= 228){
+                                    cur_animation_val -= 1.5;
+                                    d12Val+= 9;
+                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                } else if (count_animation >= 228 && count_animation <= 292){
+                                    cur_animation_val -= 1.5;
+                                    d12Val+= 9;
+                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                } else if (count_animation >= 292 && count_animation <= 344){
+                                    cur_animation_val += 1.5;
+                                    d12Val+= 9;
+                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                } else {
+                                    d12Val+= 9;
+                                    cur_animation_val += 1.5;
+                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                }
+                            } else {
+                                clearInterval(phaseOne);
+    //фаза 4                
+                                reloadTime = 0;
+                                reloadTime1 = 0;
+                                d12Val = 0;
+                                cur_animation_val = 0;
+                                count_animation = 1;
+                                phaseOne = setInterval(function(){
+                                    if (count_animation <= 344){                                                                         //90
+                                        jQuery('#draggable1').removeClass('hidden');
+                                        count_animation += 1;
+                                        console.log(count_animation);
+                                        if(count_animation <= 117){
+                                            cur_animation_val += 1.5;
+                                            d12Val+= 9;
+                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                        } else if (count_animation >= 117 && count_animation <= 228){
+                                            cur_animation_val -= 1.5;
+                                            d12Val+= 9;
+                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                        } else if (count_animation >= 228 && count_animation <= 292){
+                                            cur_animation_val -= 1.5;
+                                            d12Val+= 9;
+                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                        } else if (count_animation >= 292 && count_animation <= 344){
+                                            cur_animation_val += 1.5;
+                                            d12Val+= 9;
+                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                        } else {
+                                            d12Val+= 9;
+                                            cur_animation_val += 1.5;
+                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                        }
+                                    } else {
+                                        clearInterval(phaseOne);
+                    //фаза 5                
+                                        reloadTime = 0;
+                                        reloadTime1 = 0;
+                                        d12Val = 0;
+                                        cur_animation_val = 0;
+                                        count_animation = 1;
+                                        phaseOne = setInterval(function(){
+                                            if (count_animation <= 344){                                                                         //90
+                                                jQuery('#draggable0').removeClass('hidden');
+                                                count_animation += 1;
+                                                console.log(count_animation);
+                                                if(count_animation <= 117){
+                                                    cur_animation_val += 1.5;
+                                                    d12Val+= 9;
+                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                } else if (count_animation >= 117 && count_animation <= 228){
+                                                    cur_animation_val -= 1.5;
+                                                    d12Val+= 9;
+                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                } else if (count_animation >= 228 && count_animation <= 292){
+                                                    cur_animation_val -= 1.5;
+                                                    d12Val+= 9;
+                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                } else if (count_animation >= 292 && count_animation <= 344){
+                                                    cur_animation_val += 1.5;
+                                                    d12Val+= 9;
+                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                } else {
+                                                    d12Val+= 9;
+                                                    cur_animation_val += 1.5;
+                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                }
+                                            } else {
+                                                clearInterval(phaseOne);
+                        //фаза 6                
+                                                reloadTime = 0;
+                                                reloadTime1 = 0;
+                                                d12Val = 0;
+                                                cur_animation_val = 0;
+                                                count_animation = 1;
+                                                phaseOne = setInterval(function(){
+                                                    if (count_animation <= 344){                                                                         //90
+                                                        count_animation += 1;
+                                                        console.log(count_animation);
+                                                        if(count_animation <= 117){
+                                                            cur_animation_val += 1.5;
+                                                            d12Val+= 9;
+                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                        } else if (count_animation >= 117 && count_animation <= 228){
+                                                            cur_animation_val -= 1.5;
+                                                            d12Val+= 9;
+                                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                        } else if (count_animation >= 228 && count_animation <= 292){
+                                                            cur_animation_val -= 1.5;
+                                                            d12Val+= 9;
+                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                        } else if (count_animation >= 292 && count_animation <= 344){
+                                                            cur_animation_val += 1.5;
+                                                            d12Val+= 9;
+                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                        } else {
+                                                            d12Val+= 9;
+                                                            cur_animation_val += 1.5;
+                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                        }
+                                                    } else {
+                                                        clearInterval(phaseOne);
+                                //фаза 7                
+                                                        reloadTime = 0;
+                                                        reloadTime1 = 0;
+                                                        d12Val = 0;
+                                                        cur_animation_val = 0;
+                                                        count_animation = 1;
+                                                        phaseOne = setInterval(function(){
+                                                            if (count_animation <= 344){                                                                         //90
+                                                                count_animation += 1;
+                                                                console.log(count_animation);
+                                                                if(count_animation <= 117){
+                                                                    cur_animation_val += 1.5;
+                                                                    d12Val+= 9;
+                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                } else if (count_animation >= 117 && count_animation <= 228){
+                                                                    cur_animation_val -= 1.5;
+                                                                    d12Val+= 9;
+                                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                } else if (count_animation >= 228 && count_animation <= 292){
+                                                                    cur_animation_val -= 1.5;
+                                                                    d12Val+= 9;
+                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                } else if (count_animation >= 292 && count_animation <= 344){
+                                                                    cur_animation_val += 1.5;
+                                                                    d12Val+= 9;
+                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                } else {
+                                                                    d12Val+= 9;
+                                                                    cur_animation_val += 1.5;
+                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                }
+                                                            } else {
+                                                                clearInterval(phaseOne);
+                                        //фаза 8                
+                                                                reloadTime = 0;
+                                                                reloadTime1 = 0;
+                                                                d12Val = 0;
+                                                                cur_animation_val = 0;
+                                                                count_animation = 1;
+                                                                phaseOne = setInterval(function(){
+                                                                    if (count_animation <= 344){                                                                         //90
+                                                                        count_animation += 1;
+                                                                        console.log(count_animation);
+                                                                        if(count_animation <= 117){
+                                                                            cur_animation_val += 1.5;
+                                                                            d12Val+= 9;
+                                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                        } else if (count_animation >= 117 && count_animation <= 228){
+                                                                            cur_animation_val -= 1.5;
+                                                                            d12Val+= 9;
+                                                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                        } else if (count_animation >= 228 && count_animation <= 292){
+                                                                            cur_animation_val -= 1.5;
+                                                                            d12Val+= 9;
+                                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                        } else if (count_animation >= 292 && count_animation <= 344){
+                                                                            cur_animation_val += 1.5;
+                                                                            d12Val+= 9;
+                                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                        } else {
+                                                                            d12Val+= 9;
+                                                                            cur_animation_val += 1.5;
+                                                                            jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                            jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                        }
+                                                                    } else {
+                                                                        clearInterval(phaseOne);
+                                                //фаза 9                
+                                                                        reloadTime = 0;
+                                                                        reloadTime1 = 0;
+                                                                        d12Val = 0;
+                                                                        cur_animation_val = 0;
+                                                                        count_animation = 1;
+                                                                        phaseOne = setInterval(function(){
+                                                                            if (count_animation <= 344){                                                                         //90
+                                                                                count_animation += 1;
+                                                                                console.log(count_animation);
+                                                                                if(count_animation <= 117){
+                                                                                    cur_animation_val += 1.5;
+                                                                                    d12Val+= 9;
+                                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                                } else if (count_animation >= 117 && count_animation <= 228){
+                                                                                    cur_animation_val -= 1.5;
+                                                                                    d12Val+= 9;
+                                                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                                } else if (count_animation >= 228 && count_animation <= 292){
+                                                                                    cur_animation_val -= 1.5;
+                                                                                    d12Val+= 9;
+                                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                                } else if (count_animation >= 292 && count_animation <= 344){
+                                                                                    cur_animation_val += 1.5;
+                                                                                    d12Val+= 9;
+                                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                                } else {
+                                                                                    d12Val+= 9;
+                                                                                    cur_animation_val += 1.5;
+                                                                                    jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
+                                                                                    jQuery('#draggableD12').css('transform', 'rotate('+d12Val+'deg)');
+                                                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat');
+                                                                                }
+                                                                            } else {
+                                                                                clearInterval(phaseOne);
+                                                                                jQuery('#draggableD12, .itemZone').addClass('hidden');
+                                                                                onEnd();
+                                                                            }
+                                                                        }, 250);
+                                                                    }
+                                                                }, 250);
+                                                            }
+                                                        }, 250);
+                                                    }
+                                                }, 250);
+                                            }
+                                        }, 250);
+                                    }
+                                }, 250);
+                            }
+                        }, 250);
                     }
                 }, 250);
             }
         }, 250);
     };
     jQuery('.tarot_start').on('click', function(event) {
+        jQuery('.tarot_start').addClass('hidden');
         checkPoints()
         if(pointsStatus == false){
             swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info")
