@@ -1020,5 +1020,5 @@ input[type=submit]{
 }
 .main_menu .templatemo_home, .main_menu a:hover
 {
-  color: #DB4D40;
+  color: #DB4D40!important;
 }
