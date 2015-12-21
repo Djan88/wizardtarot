@@ -171,7 +171,7 @@ jQuery(function() {
                 console.log(count_animation);
                 if(count_animation <= 117){
                     if(count_animation > 15){
-                        jQuery('#draggable12').removeClass('hidden');
+                        jQuery('#draggableD12').removeClass('hidden');
                     }
                     cur_animation_val += 1.5;
                     d12Val+= 9;
@@ -183,7 +183,7 @@ jQuery(function() {
                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
                 } else if (count_animation >= 228 && count_animation <= 292){
                     if(count_animation > 225){
-                        jQuery('#draggable12').addClass('hidden')
+                        jQuery('#draggableD12').addClass('hidden')
                     }
                     cur_animation_val -= 1.5;
                     d12Val+= 9;
