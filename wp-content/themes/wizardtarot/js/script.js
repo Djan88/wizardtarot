@@ -184,7 +184,7 @@ jQuery(function() {
                         transform: 'scale(1)',
                         background: 'url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat',
                         transform: 'rotate(-'+d12Val+'deg)',
-                        borderColor: '#eee'
+                        borderColor: 'red'
                     });
                 jQuery('#draggable1')
                     .removeClass('hidden')
