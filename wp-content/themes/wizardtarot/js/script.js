@@ -599,12 +599,12 @@ jQuery(function() {
         }, 250);
     };
     jQuery('.tarot_start').on('click', function(event) {
-        jQuery('.tarot_start').addClass('hidden');
         checkPoints()
         if(pointsStatus == false){
-            swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info")
+            swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
         } else {
             tarot();
+            jQuery('.tarot_to_photo').addClass('hidden');
         }
     });
 
