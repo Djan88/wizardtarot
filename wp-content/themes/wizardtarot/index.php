@@ -45,10 +45,10 @@
     <div class="main-navigation">
       <div class="responsive_menu">
         <ul>
-          <li><a class="show-1 templatemo_home" href="/">Wizard Tarot</a></li>
-          <li><a class="show-2 templatemo_page2" href="/">Wizard Machine</a></li>
-          <li><a class="show-3 templatemo_page3" href="/">Wizard Duos</a></li>
-          <li><a class="show-5 templatemo_page5" href="/">Braincleaner</a></li>
+          <li><a class="show-1 templatemo_home" target="_blank" href="/">Wizard Tarot</a></li>
+          <li><a class="show-2 templatemo_page2" target="_blank" href="http://wizardmachine.ru/">Wizard Machine</a></li>
+          <li><a class="show-3 templatemo_page3" target="_blank" href="http://wizardduos.ru/">Wizard Duos</a></li>
+          <li><a class="show-5 templatemo_page5" target="_blank" href="http://braincleaner.ru/">Braincleaner</a></li>
         </ul>
       </div>
       <div class="container">
