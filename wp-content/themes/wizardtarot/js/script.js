@@ -154,7 +154,6 @@ jQuery(function() {
         phaseOne = setInterval(function(){
             if (count_animation <= 344){                                                                         //90
                 jQuery('#draggableD12')
-                    .removeClass('hidden')
                     .css({
                         opacity: 0.8,
                         transform: 'scale(1)',
@@ -170,7 +169,9 @@ jQuery(function() {
                     });
                 count_animation += 1;
                 console.log(count_animation);
-                if(count_animation <= 117){
+                if(count_animation > 15){
+                    jQuery('#draggable12').show('slow');
+                } else if(count_animation <= 117){
                     cur_animation_val += 1.5;
                     d12Val+= 9;
                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
@@ -180,6 +181,9 @@ jQuery(function() {
                     jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
                 } else if (count_animation >= 228 && count_animation <= 292){
+                    if(count_animation > 225){
+                        jQuery('#draggable12').addClass('hidden')
+                    }
                     cur_animation_val -= 1.5;
                     d12Val+= 9;
                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
