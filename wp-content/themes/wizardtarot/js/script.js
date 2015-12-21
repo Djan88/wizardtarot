@@ -190,7 +190,7 @@ jQuery(function() {
                     .removeClass('hidden')
                     .css({
                         opacity: 0.8,
-                        background: '#fff url(/wp-content/themes/wizardtarot/images/triangle.jpg) center top / 90% no-repeat',
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/triangle-2.png) center top / 90% no-repeat',
                         borderColor: 'transparent'
                     });
                 jQuery('#draggable0')
