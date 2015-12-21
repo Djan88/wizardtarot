@@ -197,7 +197,7 @@ jQuery(function() {
                     .removeClass('hidden')
                     .css({
                         opacity: 0.8,
-                        background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) center top / 90% no-repeat',
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0 / 100% no-repeat',
                         borderColor: 'transparent'
                     });
                 jQuery('#draggable2')
