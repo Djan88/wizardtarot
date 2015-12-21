@@ -64,7 +64,7 @@
           <div class="col-md-9 main_menu">
             <ul>
               <li><a  target="_blank" class="show-1 templatemo_home" href="/">
-                              <span class="fa fa-circle-o-notch"></span>
+                              <span class="fa fa-circle-o"></span>
                                 Wizard Tarot</a></li>
               <li><a  target="_blank" class="show-2 templatemo_page2" href="http://wizardmachine.ru/">
                               <span class="fa fa-male"></span>
