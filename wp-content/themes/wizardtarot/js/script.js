@@ -62,7 +62,7 @@ jQuery(function() {
                     jQuery('.tarot_to_photo').removeClass('hidden');
                 } else {
                     var protocol = undefined;    
-                    jQuery(location).attr('href','/wizard');
+                    jQuery(location).attr('href','/');
                     if(supportsStorage && localStorage.getItem('protocolName')){
                         localStorage.removeItem('protocolName')
                         jQuery('.data-protocol-name').addClass('hidden');
