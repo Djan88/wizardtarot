@@ -1018,3 +1018,7 @@ input[type=submit]{
 {
   display: none;
 }
+.main_menu .templatemo_home, .main_menu a:hover
+{
+  color: #DB4D40;
+}

@@ -64,16 +64,16 @@
           <div class="col-md-9 main_menu">
             <ul>
               <li><a  target="_blank" class="show-1 templatemo_home" href="/">
-                              <span class="fa fa-camera"></span>
+                              <span class="fa fa-connectdevelop"></span>
                                 Wizard Tarot</a></li>
               <li><a  target="_blank" class="show-2 templatemo_page2" href="http://wizardmachine.ru/">
-                              <span class="fa fa-users"></span>
+                              <span class="fa fa-user"></span>
                                 Wizard Machine</a></li>
               <li><a  target="_blank" class="show-3 templatemo_page3" href="http://wizardduos.ru/">
-                              <span class="fa fa-cogs"></span>
+                              <span class="fa fa-users"></span>
                                 Wizard Duos</a></li>
               <li><a  target="_blank" class="show-5 templatemo_page5" href="http://braincleaner.ru/">
-                              <span class="fa fa-envelope"></span>
+                              <span class="fa fa-sun-o"></span>
                                 Braincleaner</a></li>
             </ul>
           </div> <!-- /.col-md-12 -->
