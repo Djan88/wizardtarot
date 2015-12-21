@@ -89,7 +89,7 @@ span.fa { width: 100%; text-align: center; }
   margin-right: 0px !important;
 }
 .site-header .main-navigation ul li a {
-  padding: 20px 20px;
+  padding: 5px 20px;
   display: inline-block;
   color: #bbb;
   font-size: 16px;
@@ -787,7 +787,8 @@ and (max-width : 559px) {
   }
   .tarot_to_photo
   {
-    top: 143px;
+    top: 105px;
+    padding: 10px;
   }
   .tarot_zones
   {
