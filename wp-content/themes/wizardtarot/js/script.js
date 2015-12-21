@@ -59,7 +59,7 @@ jQuery(function() {
             },
             function(isConfirm){   
                 if (isConfirm) {
-                    jQuery('.tarot_to_photo').addClass('hidden');
+                    jQuery('.tarot_to_photo').removeClass('hidden');
                 } else {
                     var protocol = undefined;    
                     jQuery(location).attr('href','/wizard');
