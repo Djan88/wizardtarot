@@ -946,7 +946,7 @@ input[type=submit]{
   left: 45%;
   top: -6px;
 }
-.tarot_prot_cell_2
+.tarot_prot_cell_2 
 {
   left: 25.5%;
   top: 250px;
@@ -1023,7 +1023,7 @@ input[type=submit]{
 {
   color: #DB4D40!important;
 }
-@media (max-width: 992px){
+@media (min-width: 992px){
   .tarot_prot_cell_2
   {
     left: 19%;
@@ -1039,5 +1039,23 @@ input[type=submit]{
   .tarot_prot_cell_4
   {
     left: 66.5%;
+  }
+}
+@media (min-width: 1200px){
+  .tarot_prot_cell_2
+  {
+    left: 25.5%;
+  }
+  .box_rounded
+  {
+    left: 37%;
+  }
+  .tarot_prot_cell_1, .tarot_prot_cell_3, .tarot_prot_cell_5
+  {
+    left: 45%
+  }
+  .tarot_prot_cell_4
+  {
+    left: 65%;
   }
 }
