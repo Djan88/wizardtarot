@@ -1023,6 +1023,28 @@ input[type=submit]{
 {
   color: #DB4D40!important;
 }
+@media (min-width: 768px){
+  .tarot_prot_cell_2
+  {
+    left: 7%;
+  }
+  .box_rounded
+  {
+    left: 25%;
+  }
+  .tarot_prot_cell_1, .tarot_prot_cell_3, .tarot_prot_cell_5
+  {
+    left: 38%
+  }
+  .tarot_prot_cell_4
+  {
+    left: 68%;
+  }
+  .templatemo_gallerygap img
+  {
+    width: 350px;
+  }
+}
 @media (min-width: 992px){
   .tarot_prot_cell_2
   {
@@ -1039,6 +1061,10 @@ input[type=submit]{
   .tarot_prot_cell_4
   {
     left: 66.5%;
+  }
+  .templatemo_gallerygap img
+  {
+    width: 100%;
   }
 }
 @media (min-width: 1200px){
@@ -1057,5 +1083,9 @@ input[type=submit]{
   .tarot_prot_cell_4
   {
     left: 65%;
+  }
+  .templatemo_gallerygap img
+  {
+    width: 350px;
   }
 }
