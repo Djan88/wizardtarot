@@ -1023,6 +1023,10 @@ input[type=submit]{
 {
   color: #DB4D40!important;
 }
+.templatemo_footer
+{
+  margin-top: 115px;
+}
 @media (min-width: 768px){
   .tarot_prot_cell_2
   {
@@ -1065,6 +1069,10 @@ input[type=submit]{
   .templatemo_gallerygap img
   {
     width: 100%;
+  }
+  .site-header .main-navigation ul li a
+  {
+    padding: 5px 10px;
   }
 }
 @media (min-width: 1200px){
