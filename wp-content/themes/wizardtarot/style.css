@@ -1023,3 +1023,21 @@ input[type=submit]{
 {
   color: #DB4D40!important;
 }
+@media (max-width: 992px){
+  .tarot_prot_cell_2
+  {
+    left: 19%;
+  }
+  .box_rounded
+  {
+    left: 33%;
+  }
+  .tarot_prot_cell_1, .tarot_prot_cell_3, .tarot_prot_cell_5
+  {
+    left: 43%
+  }
+  .tarot_prot_cell_4
+  {
+    left: 66.5%;
+  }
+}
