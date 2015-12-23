@@ -246,6 +246,7 @@ jQuery(function() {
                             d12Val+= 9;
                             jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
                             jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat');
                         } else if (count_animation >= 117 && count_animation <= 228){
                             cur_animation_val -= 1.5;
                             d12Val+= 9;
@@ -288,6 +289,7 @@ jQuery(function() {
                                     d12Val+= 9;
                                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
                                     jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat');
                                 } else if (count_animation >= 117 && count_animation <= 228){
                                     cur_animation_val -= 1.5;
                                     d12Val+= 9;
@@ -329,7 +331,8 @@ jQuery(function() {
                                             cur_animation_val += 1.5;
                                             d12Val+= 9;
                                             jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
-                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');                                            
+                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat');
                                         } else if (count_animation >= 117 && count_animation <= 228){
                                             cur_animation_val -= 1.5;
                                             d12Val+= 9;
@@ -371,7 +374,8 @@ jQuery(function() {
                                                     cur_animation_val += 1.5;
                                                     d12Val+= 9;
                                                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
-                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');                                                    
+                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat');
                                                 } else if (count_animation >= 117 && count_animation <= 228){
                                                     cur_animation_val -= 1.5;
                                                     d12Val+= 9;
@@ -412,7 +416,8 @@ jQuery(function() {
                                                             cur_animation_val += 1.5;
                                                             d12Val+= 9;
                                                             jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
-                                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');                                                            
+                                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat');
                                                         } else if (count_animation >= 117 && count_animation <= 228){
                                                             cur_animation_val -= 1.5;
                                                             d12Val+= 9;
@@ -453,7 +458,8 @@ jQuery(function() {
                                                                     cur_animation_val += 1.5;
                                                                     d12Val+= 9;
                                                                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
-                                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');                                                                    
+                                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat');
                                                                 } else if (count_animation >= 117 && count_animation <= 228){
                                                                     cur_animation_val -= 1.5;
                                                                     d12Val+= 9;
@@ -494,7 +500,8 @@ jQuery(function() {
                                                                             cur_animation_val += 1.5;
                                                                             d12Val+= 9;
                                                                             jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
-                                                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');                                                                            
+                                                                            jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                                            jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat');
                                                                         } else if (count_animation >= 117 && count_animation <= 228){
                                                                             cur_animation_val -= 1.5;
                                                                             d12Val+= 9;
@@ -535,7 +542,8 @@ jQuery(function() {
                                                                                     cur_animation_val += 1.5;
                                                                                     d12Val+= 9;
                                                                                     jQuery('.box_rounded').css('transform', 'rotate('+cur_animation_val+'deg) scale(1)');
-                                                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');                                                                                    
+                                                                                    jQuery('#draggableD12').css('transform', 'rotate(-'+d12Val+'deg)');
+                                                                                    jQuery('#draggableD12').css('background', '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat');
                                                                                 } else if (count_animation >= 117 && count_animation <= 228){
                                                                                     cur_animation_val -= 1.5;
                                                                                     d12Val+= 9;
