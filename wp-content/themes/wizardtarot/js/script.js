@@ -110,7 +110,7 @@ jQuery(function() {
     
     jQuery( ".btn-elements" ).click(function() {
       toElemChoice('.prot-choice', function() {
-          jQuery( '.elem-choice' ).addClass('animated fadeInUp');
+          jQuery( '.elem-choice' ).addClass('animated fadeInDown');
       });
     });
 
