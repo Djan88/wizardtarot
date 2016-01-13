@@ -104,12 +104,12 @@ jQuery(function() {
 
     // Переход к выбору первоэлемента
     function toElemChoice(param1, callback) {
-        jQuery( '".'+param1+'"' ).addClass('animated fadeOutDown');
+        jQuery( param1 ).addClass('animated fadeOutDown');
         callback();
     }
     
     jQuery( ".btn-elements" ).click(function() {
-      toElemChoice('prot-choice', function() {
+      toElemChoice('.prot-choice', function() {
           jQuery( '.elem-choice' ).addClass('animated fadeInUp');
       });
     });
