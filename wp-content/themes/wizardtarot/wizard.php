@@ -52,7 +52,7 @@
                 <div class="third_slide container hidden">
                     <div class="tarot_zones well">
                         <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 10px; top: 10px;">V0</div>
-                        <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 70px; top: 10px;">V1</div>
+                        <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 70px; top: 10px;">S1</div>
                         <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 130px; top: 10px;">V2</div>
                     </div>
                     <div class="tarot_prot_cell tarot_prot_cell_1"></div>
