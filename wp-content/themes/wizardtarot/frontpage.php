@@ -78,10 +78,10 @@
                         </div>
                         <div class="elem-choice container hidden">
                           <div class="btn-group btn-group-lg">
-                            <button type="button" class="btn btn-default elem-choice" data-elem="air"></button>
-                            <button type="button" class="btn btn-default elem-choice" data-elem="ground"></button>
-                            <button type="button" class="btn btn-default elem-choice" data-elem="fire"></button>
-                            <button type="button" class="btn btn-default elem-choice" data-elem="water"></button>
+                            <button type="button" class="btn btn-default elem-choice-item" data-elem="air"></button>
+                            <button type="button" class="btn btn-default elem-choice-item" data-elem="ground"></button>
+                            <button type="button" class="btn btn-default elem-choice-item" data-elem="fire"></button>
+                            <button type="button" class="btn btn-default elem-choice-item" data-elem="water"></button>
                           </div>
                         </div>
                         <div class="tarot-choice hidden">
