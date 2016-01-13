@@ -103,15 +103,14 @@ jQuery(function() {
     // Обработчики переходов между экранами
 
     // Переход к выбору первоэлемента
-    function toElemChoice(param1, callback) {
+    function toElemChoice(param1, param2) {
         jQuery( param1 ).addClass('animated fadeOutDown');
-        callback();
+        jQuery( param2 ).addClass('animated fadeInDown');
+        
     }
     
     jQuery( ".btn-elements" ).click(function() {
-      toElemChoice('.prot-choice', function() {
-          jQuery( '.elem-choice' ).addClass('animated fadeInDown');
-      });
+      toElemChoice('.prot-choice', '.elem-choice');
     });
 
     //Перетягивание элементов
