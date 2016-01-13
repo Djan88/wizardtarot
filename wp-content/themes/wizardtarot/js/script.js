@@ -99,6 +99,14 @@ jQuery(function() {
                 }
             }
         };
+    // Обработчики переходов между экранами
+
+    // Переход к выбору первоэлемента
+    jQuery( ".btn-elements" ).click(function() {
+      jQuery( ".prot-choice" ).hide( "fast", function() {
+        jQuery('.elem-choice').show('fast');
+      });
+    });
     //Перетягивание элементов
     jQuery( ".draggable" ).draggable({ 
         snap: false
