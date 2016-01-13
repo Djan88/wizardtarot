@@ -31,6 +31,7 @@ jQuery(function() {
         tarot,
         prot_card,
         pointsStatus = true,
+        toElemChoice,
         onEnd = function(){
             swal({
                 title: "Процедура окончена",   
@@ -102,11 +103,17 @@ jQuery(function() {
     // Обработчики переходов между экранами
 
     // Переход к выбору первоэлемента
+    function toElemChoice(param1, callback) {
+        jQuery( '".'+param1+'"' ).addClass('animated fadeOutDown');
+        callback();
+    }
+    
     jQuery( ".btn-elements" ).click(function() {
-      jQuery( ".prot-choice" ).hide( "fast", function() {
-        jQuery('.elem-choice').show('fast');
+      toElemChoice('prot-choice', function() {
+          jQuery( '.elem-choice' ).addClass('animated fadeInUp');
       });
     });
+
     //Перетягивание элементов
     jQuery( ".draggable" ).draggable({ 
         snap: false
