@@ -55,7 +55,7 @@
                             <div class="thumbnail">
                               <img data-src="holder.js/300x200" alt="300x200" src="<?php bloginfo('template_url'); ?>/images/elements-wallpaper.png" style="width: 100%; height: auto;">
                               <div class="caption">
-                                <h2>Ярлык эскиза</h2>
+                                <h3>Ярлык эскиза</h3>
                                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                                 <p>
                                   <div class="btn btn-default btn-elements" role="button">Elements</div>
@@ -67,7 +67,7 @@
                             <div class="thumbnail">
                               <img data-src="holder.js/300x200" alt="300x200" src="<?php bloginfo('template_url'); ?>/images/tarot.png" style="width: 100%; height: auto;">
                               <div class="caption">
-                                <h2>Ярлык эскиза</h2>
+                                <h3>Ярлык эскиза</h3>
                                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                                 <p>
                                   <div class="btn btn-primary btn-tarot" role="button">Tarot</div>
