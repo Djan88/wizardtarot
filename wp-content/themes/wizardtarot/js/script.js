@@ -105,6 +105,7 @@ jQuery(function() {
     // Переход к выбору первоэлемента
     function toElemChoice(param1, callback) {
         jQuery( param1 ).addClass('animated fadeOutDown');
+        jQuery( param1 ).addClass('hidden');
         callback();
     }
     
