@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Bootstrap -->
+    <link href="<?php bloginfo('template_url'); ?>/css/animate.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/css/jquery.Jcrop.min.css" rel="stylesheet">
