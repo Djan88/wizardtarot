@@ -76,7 +76,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="elem-choice container" style="display: none;">
+                        <div class="elem-choice container hidden">
                           <div class="btn-group btn-group-lg">
                             <button type="button" class="btn btn-default elem-choice" data-elem="air"></button>
                             <button type="button" class="btn btn-default elem-choice" data-elem="ground"></button>
@@ -84,7 +84,7 @@
                             <button type="button" class="btn btn-default elem-choice" data-elem="water"></button>
                           </div>
                         </div>
-                        <div class="tarot-choice" style="display: none;">
+                        <div class="tarot-choice hidden">
                             <div class="container">
                               <div class="row templatemorow">
                                 <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
