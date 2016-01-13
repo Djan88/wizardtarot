@@ -105,14 +105,13 @@ jQuery(function() {
     // Переход к выбору первоэлемента
     function toElemChoice(param1, callback) {
         jQuery( param1 ).addClass('animated fadeOutDown');
-        callback();
-        jQuery( param1 ).addClass('hidden');
-    }
+        callback();    }
     
     jQuery( ".btn-elements" ).click(function() {
-      toElemChoice('.prot-choice', function() {
-          jQuery( '.elem-choice' ).removeClass('hidden').addClass('animated fadeInDown');
-      });
+        toElemChoice('.prot-choice', function() {
+            jQuery( '.elem-choice' ).removeClass('hidden').addClass('animated fadeInDown');
+            jQuery( param1 ).addClass('hidden');
+        });
     });
 
     //Перетягивание элементов
