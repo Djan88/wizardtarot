@@ -89,7 +89,7 @@
                                 <tr>
                                   <td class="elemnts_td_img"><img src="<?php bloginfo('template_url'); ?>/images/air_tarot.png" alt=""></td>
                                   <td class="elemnts_td_note">Описание блока Воздух</td>
-                                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item btn-success" data-elem="air">Воздух</button></td>
+                                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="air">Воздух</button></td>
                                 </tr>
                                 <tr>
                                   <td class="elemnts_td_img"><img src="<?php bloginfo('template_url'); ?>/images/earth_tarot.png" alt=""></td>
@@ -99,12 +99,12 @@
                                 <tr>
                                   <td class="elemnts_td_img"><img src="<?php bloginfo('template_url'); ?>/images/fire_tarot.png" alt=""></td>
                                   <td class="elemnts_td_note">Описание блока Огонь</td>
-                                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item btn-success" data-elem="fire">Огонь</button></td>
+                                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item btn-danger" data-elem="fire">Огонь</button></td>
                                 </tr>
                                 <tr>
                                   <td class="elemnts_td_img"><img src="<?php bloginfo('template_url'); ?>/images/water_tarot.png" alt=""></td>
                                   <td class="elemnts_td_note">Описание блока Вода</td>
-                                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item btn-success" data-elem="water">Вода</button></td>
+                                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item btn-info" data-elem="water">Вода</button></td>
                                 </tr>
                               </tbody>
                             </table>
