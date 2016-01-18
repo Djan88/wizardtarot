@@ -84,7 +84,7 @@
                             <button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="water">Вода</button>
                           </div>
                           <div class="bs-example">
-                            <table class="table">
+                            <table class="table table-bordered">
                               <tbody>
                                 <tr>
                                   <td><img src="<?php bloginfo('template_url'); ?>/images/air_tarot.png" alt=""></td>
