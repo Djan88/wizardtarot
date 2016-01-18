@@ -113,6 +113,12 @@ jQuery(function() {
             jQuery( '.elem-choice' ).removeClass('hidden').addClass('animated fadeInDown');
         });
     });
+    
+    jQuery( ".btn-tarot" ).click(function() {
+        toElemChoice('.prot-choice', function() {
+            jQuery( '.tarot-choice' ).removeClass('hidden').addClass('animated fadeInDown');
+        });
+    });
 
     //Перетягивание элементов
     jQuery( ".draggable" ).draggable({ 
