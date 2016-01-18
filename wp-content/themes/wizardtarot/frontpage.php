@@ -83,6 +83,32 @@
                             <button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="fire">Огонь</button>
                             <button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="water">Вода</button>
                           </div>
+                          <div class="bs-example">
+                            <table class="table">
+                              <tbody>
+                                <tr>
+                                  <td><img src="<?php bloginfo('template_url'); ?>/images/air_tarot.png" alt=""></td>
+                                  <td>Описание блока Воздух</td>
+                                  <td><button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="air">Воздух</button></td>
+                                </tr>
+                                <tr>
+                                  <td><img src="<?php bloginfo('template_url'); ?>/images/earth_tarot.png" alt=""></td>
+                                  <td>Описание блока Земля</td>
+                                  <td><button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="ground">Земля</button></td>
+                                </tr>
+                                <tr>
+                                  <td><img src="<?php bloginfo('template_url'); ?>/images/fire_tarot.png" alt=""></td>
+                                  <td>Описание блока Огонь</td>
+                                  <td><button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="fire">Огонь</button></td>
+                                </tr>
+                                <tr>
+                                  <td><img src="<?php bloginfo('template_url'); ?>/images/water_tarot.png" alt=""></td>
+                                  <td>Описание блока Вода</td>
+                                  <td><button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="water">Вода</button></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
                         <div class="tarot-choice hidden">
                             <div class="container">
