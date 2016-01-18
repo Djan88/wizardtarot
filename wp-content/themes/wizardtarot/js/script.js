@@ -158,9 +158,10 @@ jQuery(function() {
         }
     });
     // Переход к загрузке фото
-    jQuery('.tarot_sucess').on('click', function(event) {
-        jQuery('.first_slide, .tarot_to_photo').addClass('hidden');
-        jQuery('.second_slide').removeClass('hidden');
+    jQuery( ".tarot_sucess, .elem-choice-item" ).click(function() {
+        toElemChoice('.first_slide, .tarot_to_photo, .elem-choice', function() {
+            jQuery( '.second_slide' ).removeClass('hidden').addClass('animated fadeInDown');
+        });
     });
     // Если фото уже загружено
     if(jQuery('.tarot_returned_img')){

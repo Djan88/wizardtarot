@@ -77,12 +77,6 @@
                           </div>
                         </div>
                         <div class="elem-choice container hidden">
-                          <div class="btn-group btn-group-lg">
-                            <button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="air">Воздух</button>
-                            <button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="ground">Земля</button>
-                            <button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="fire">Огонь</button>
-                            <button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="water">Вода</button>
-                          </div>
                           <div class="bs-example">
                             <table class="table table-bordered table-hover">
                               <tbody>
