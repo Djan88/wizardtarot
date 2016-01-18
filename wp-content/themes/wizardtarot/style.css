@@ -1058,11 +1058,16 @@ input[type=submit]{
 .elemnts_td_btn
 {
   width: 20%;
+  vertical-align: middle!important;
 }
 .elemnts_td_note
 {
   color: #555;
   font-size: 17px;
+}
+.elemnts_td_btn .btn
+{
+  width: 90px;
 }
 @media (min-width: 768px){
   .bs-example 
