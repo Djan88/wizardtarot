@@ -132,3 +132,9 @@ var EasyPieChart = function(el, opts) {
 
 	init();
 };
+// Создание счетчика
+
+jQuery('.chart').easyPieChart({
+    lineWidth: 6,
+    size: 95
+});
