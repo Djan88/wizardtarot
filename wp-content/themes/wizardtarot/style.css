@@ -1168,7 +1168,8 @@ input[type=submit]{
   padding-top: 18px;
   text-align: center;
   right: 0;
-  top: 5px;
+  top: -140px;
+  color: #000;
 }
 
 .chart span
