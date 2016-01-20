@@ -55,6 +55,7 @@
                         <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 70px; top: 10px;">S1</div>
                         <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 130px; top: 10px;">V2</div>
                     </div>
+                    <div class="chart" data-percent="0"><span>0</span>%</div>
                     <div class="tarot_prot_cell tarot_prot_cell_1"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_2"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
@@ -68,7 +69,7 @@
                     </div>
                 </div>
             <?php } else { ?>
-                <div style="text-align: center">Вы видите, потому, что заши на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться к Роману <a href="mailto:info@bablosstudio.ru">info@bablosstudio.ru</a></div>
+                <div style="text-align: center">Вы видите, потому, что зашли на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться к Роману <a href="mailto:info@bablosstudio.ru">info@bablosstudio.ru</a></div>
             <?php } ?>
         <?php } else { ?>
             <div class="login__form">

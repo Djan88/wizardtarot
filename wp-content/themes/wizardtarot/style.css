@@ -775,7 +775,7 @@ and (max-width : 559px) {
   width: 200px;
   margin: 0 auto 10px;
   position: relative;
-  right: -15px;
+  /*right: -15px;*/
   top: -140px;
   height: 80px;
   z-index: 2;
@@ -1156,4 +1156,32 @@ input[type=submit]{
 .logout
 {
   color: #fff;
+}
+.chart
+{
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  margin: 0 10px;
+  vertical-align: top;
+  position: absolute;
+  padding-top: 18px;
+  text-align: center;
+  right: 0;
+  top: 5px;
+}
+
+.chart span
+{
+  display: block;
+  font-size: 2em;
+  font-weight: normal;
+  height: 35px;
+}
+
+.chart canvas
+{
+  position: absolute;
+  left: 0;
+  top: 0;
 }
