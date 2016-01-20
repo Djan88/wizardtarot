@@ -101,12 +101,6 @@ jQuery(function() {
             }
         };
 
-    // Создание счетчика
-
-    jQuery('.chart').easyPieChart({
-        lineWidth: 6,
-        size: 95
-    });
 
     // Обработчики переходов между экранами
 
@@ -791,4 +785,10 @@ jQuery(function() {
         oReader.readAsDataURL(oFile);
     }
     jQuery('#image_file').on('change', fileSelectHandler);
+});
+jQuery(function() {
+    jQuery('.chart').easyPieChart({
+       lineWidth: 6,
+       size: 95
+    });
 });
