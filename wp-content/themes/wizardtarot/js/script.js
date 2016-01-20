@@ -45,6 +45,8 @@ jQuery(function() {
             function(isConfirm){   
                 if (isConfirm) {
                     jQuery('.tarot_to_photo').removeClass('hidden');
+                    jQuery('.chart').data('easyPieChart').update(0);
+                    jQuery('.chart').find('span').text('0');
                 } else {
                     var protocol = undefined;    
                     jQuery(location).attr('href','/');
