@@ -129,6 +129,7 @@
   <script src="<?php bloginfo('template_url'); ?>/js/jquery-ui.min.js"></script> 
   <script src="<?php bloginfo('template_url'); ?>/js/jquery.ui.touch-punch.min.js"></script> 
   <script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/canvas.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/easypie.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/pieChartPlugin.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
