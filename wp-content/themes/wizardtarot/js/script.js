@@ -241,6 +241,7 @@ jQuery(function() {
                     opacity: 1,
                     zIndex: '1'
                 });
+                jQuery('#draggable1').text('S+');
                 jQuery('.chart').data('easyPieChart').update(50);
                 jQuery('.chart').find('span').text('50');
             //фаза 2
