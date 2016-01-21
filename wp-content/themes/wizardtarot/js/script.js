@@ -892,7 +892,7 @@ jQuery(function() {
 });
 jQuery(function() {
     jQuery('.chart').easyPieChart({
-       lineWidth: 6,
-       size: 95
+       lineWidth: 3,
+       size: 110
     });
 });
