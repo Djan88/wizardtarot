@@ -29,6 +29,8 @@ jQuery(function() {
         tarot_devil_status = 0,
         tarot_cur_cell,
         tarot,
+        prot_type,
+        elem_type,
         prot_card,
         pointsStatus = true,
         toElemChoice,
@@ -115,12 +117,14 @@ jQuery(function() {
     jQuery( ".btn-elements" ).click(function() {
         toElemChoice('.prot-choice', function() {
             jQuery( '.elem-choice' ).removeClass('hidden').addClass('animated fadeInDown');
+            localStorage.setItem('prot_type', 'elements');
         });
     });
     
     jQuery( ".btn-tarot" ).click(function() {
         toElemChoice('.prot-choice', function() {
             jQuery( '.tarot-choice' ).removeClass('hidden').addClass('animated fadeInDown');
+            localStorage.setItem('prot_type', 'tarot');
         });
     });
 
@@ -707,13 +711,21 @@ jQuery(function() {
             }
         }, 250);
     };
+    if(supportsStorage && localStorage.getItem('prot_type')){
+        prot_type = localStorage.getItem('prot_type');
+        elem_type = localStorage.getItem('elem_type');
+    }
     jQuery('.tarot_start').on('click', function(event) {
         checkPoints()
         if(pointsStatus == false){
             swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
         } else {
-            tarot();
-            jQuery('.tarot_to_photo').addClass('hidden');
+            if(prot_type == 'tarot'){
+                tarot();
+                jQuery('.tarot_to_photo').addClass('hidden');
+            } else {
+                console.log('elements');
+            }
         }
     });
 
