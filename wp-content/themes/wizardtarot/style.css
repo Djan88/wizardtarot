@@ -777,7 +777,7 @@ and (max-width : 559px) {
   position: relative;
   /*right: -15px;*/
   top: -140px;
-  height: 80px;
+  height: 65px;
   z-index: 2;
 }
 @media(max-width: 1390px){
@@ -991,8 +991,8 @@ input[type=submit]{
   cursor: pointer;
   background: rgba(255,255,255, 0.5);
   z-index: 999;
-  width: 56px;
-  height: 56px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   -webkit-transition: transform 1s linear;
   -moz-transition: transform 1s linear;
@@ -1005,8 +1005,8 @@ input[type=submit]{
 .item_list__mid
 {
   border-radius: 50%;
-  padding-top: 5px;
-  padding-left: 3px;
+  padding-top: 4px;
+  padding-left: 1px;
 }
 #draggableD12
 {

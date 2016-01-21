@@ -51,9 +51,15 @@
             <?php } else if(current_user_can('contributor') || current_user_can('administrator')) { ?>
                 <div class="third_slide container animated fadeInDown hidden">
                     <div class="tarot_zones well">
-                        <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 10px; top: 10px;">V0</div>
-                        <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 70px; top: 10px;">S1</div>
-                        <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 130px; top: 10px;">V2</div>
+                        <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 10px; top: 10px;">D++</div>
+                        <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 60px; top: 10px;">D+</div>
+                        <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 110px; top: 10px;">S++</div>
+                        <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable" style="left: 160px; top: 10px;">S+</div>
+                        <div id="draggable4" class="itemlist_item itemZone item_list__mid draggable" style="left: 210px; top: 10px;">V0</div>
+                        <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable" style="left: 260px; top: 10px;">V1</div>
+                        <div id="draggable6" class="itemlist_item itemZone item_list__mid draggable" style="left: 310px; top: 10px;">V2</div>
+                        <div id="draggable7" class="itemlist_item itemZone item_list__mid draggable" style="left: 360px; top: 10px;">V3</div>
+                        <div id="draggable8" class="itemlist_item itemZone item_list__mid draggable" style="left: 410px; top: 10px;">V4</div>
                     </div>
                     <div class="chart" data-percent="0"><span>0</span>%</div>
                     <div class="tarot_prot_cell tarot_prot_cell_1"></div>
@@ -61,9 +67,9 @@
                     <div class="tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_4"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_5"></div>
-                    <div class="box_rounded">
+                    <!-- <div class="box_rounded">
                         <li id="draggableD12" class="itemlist_item item_list__mid draggable hidden" style="left: 45%; top: 5px;"></li>
-                    </div>
+                    </div> -->
                     <div class="well tarot_to_photo">
                       <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Старт</button>
                     </div>
