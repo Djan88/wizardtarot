@@ -772,7 +772,7 @@ and (max-width : 559px) {
 }
 .tarot_zones
 {
-  width: 200px;
+  width: 460px;
   margin: 0 auto 10px;
   position: relative;
   /*right: -15px;*/
@@ -984,7 +984,7 @@ input[type=submit]{
 .itemlist_item
 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 15px;
   color: crimson;
   border: 1px solid crimson;
   text-align: center;
@@ -1005,7 +1005,7 @@ input[type=submit]{
 .item_list__mid
 {
   border-radius: 50%;
-  padding-top: 4px;
+  padding-top: 8px;
   padding-left: 1px;
 }
 #draggableD12
