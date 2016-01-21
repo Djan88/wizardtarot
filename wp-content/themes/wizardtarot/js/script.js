@@ -210,16 +210,14 @@ jQuery(function() {
 
                 if (count_animation <= 480){
                     jQuery('#draggable2').css({
-                        transform: 'scale(2)',
                         background: 'url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
                     });
                     jQuery('#draggable3').css({
-                        transform: 'scale(2)',
                         background: 'url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
                     });
                 } else {
                     jQuery('#draggable2, #draggable3').css({
-                        transform: 'rotate(-'+cur_animation_val+'deg) scale(2)',
+                        transform: 'rotate(-'+cur_animation_val+'deg)',
                         background: 'url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
                     });
                 }
@@ -227,12 +225,11 @@ jQuery(function() {
                 jQuery('#draggable1').text(letters[cur_let]);
 
                 jQuery('#draggable1').css({
-                    transform: 'scale(2)',
                     background: '#fff url(/wp-content/themes/wizardtarot/images/oct.png) 0 0/100% no-repeat',
                     color: '#000'
                 });
                 jQuery('#draggable0').css({
-                    transform: 'rotate('+cur_animation_val+'deg) scale(2)',
+                    transform: 'rotate('+cur_animation_val+'deg)',
                     background: '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat'
                 });
             } else {
@@ -242,7 +239,6 @@ jQuery(function() {
                     color: 'crimson',
                     borderColor: 'crimson',
                     opacity: 1,
-                    transform: 'scale(1)',
                     zIndex: '1'
                 });
                 jQuery('.chart').data('easyPieChart').update(50);
@@ -263,15 +259,13 @@ jQuery(function() {
                         });
 
                         jQuery('#draggable6').css({
-                            transform: 'scale(2)',
                             background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
                         });
                         jQuery('#draggable5').css({
-                            transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                            transform: 'rotate('+cur_animation_val+'deg)',
                             background: 'url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
                         });
                         jQuery('#draggable4').css({
-                            transform: 'scale(1)',
                             background: 'url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
                         });
                     } else {
@@ -281,7 +275,6 @@ jQuery(function() {
                             color: 'crimson',
                             borderColor: 'crimson',
                             opacity: 1,
-                            transform: 'scale(1)',
                             zIndex: '1'
                         });
                         jQuery('.chart').data('easyPieChart').update(100);
