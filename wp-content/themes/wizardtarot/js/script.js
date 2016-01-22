@@ -282,7 +282,7 @@ jQuery(function() {
                         cur_animation_val = 55;
                         count_animation = 1;
                         phaseSeven_one = setInterval(function(){
-                            if (count_animation <= 22){                                                                         //22
+                            if (count_animation <= 88){                                                                         //22
                                 cur_animation_val += 0.353;
                                 jQuery('#draggable5').css({
                                     transform: 'rotate(-'+cur_animation_val+'deg)',
@@ -294,7 +294,7 @@ jQuery(function() {
                                     zIndex: '1000'
                                 });
                                 count_animation += 1;
-                            } else if(count_animation <= 39) {                                                         //39
+                            } else if(count_animation <= 156) {                                                         //39
                                 count_animation += 1;
                             } else {
                                 clearInterval(phaseSeven_one);
@@ -308,7 +308,6 @@ jQuery(function() {
                                     paddingTop: '2px',
                                     zIndex: '1'
                                 });
-                                sound.play();
                                 jQuery('.chart').data('easyPieChart').update(75);
                                 jQuery('.chart').find('span').text('75');
                         //Этап 3-1-2
@@ -341,7 +340,6 @@ jQuery(function() {
                                             paddingTop: '2px',
                                             zIndex: '1'
                                         });
-                                        sound.play();
                                         jQuery('.chart').data('easyPieChart').update(76);
                                         jQuery('.chart').find('span').text('76');
                                 //Этап 3-1-3
@@ -374,7 +372,6 @@ jQuery(function() {
                                                     paddingTop: '2px',
                                                     zIndex: '1'
                                                 });
-                                                sound.play();
                                                 jQuery('.chart').data('easyPieChart').update(77);
                                                 jQuery('.chart').find('span').text('77');
                                     //Этап 3-1-4
@@ -407,7 +404,6 @@ jQuery(function() {
                                                             paddingTop: '2px',
                                                             zIndex: '1'
                                                         });
-                                                        sound.play();
                                                         jQuery('.chart').data('easyPieChart').update(78);
                                                         jQuery('.chart').find('span').text('78');
                                                 //Этап 3-2-1
@@ -440,7 +436,6 @@ jQuery(function() {
                                                                     paddingTop: '2px',
                                                                     zIndex: '1'
                                                                 });
-                                                                sound.play();
                                                                 jQuery('.chart').data('easyPieChart').update(79);
                                                                 jQuery('.chart').find('span').text('79');
                                                 //Этап 3-2-2
@@ -473,7 +468,6 @@ jQuery(function() {
                                                                             paddingTop: '2px',
                                                                             zIndex: '1'
                                                                         });
-                                                                        sound.play();
                                                                         jQuery('.chart').data('easyPieChart').update(80);
                                                                         jQuery('.chart').find('span').text('80');
                                                 //Этап 3-2-3
@@ -506,7 +500,6 @@ jQuery(function() {
                                                                                     paddingTop: '2px',
                                                                                     zIndex: '1'
                                                                                 });
-                                                                                sound.play();
                                                                                 jQuery('.chart').data('easyPieChart').update(81);
                                                                                 jQuery('.chart').find('span').text('81');
                                                 //Этап 3-2-4
@@ -539,7 +532,6 @@ jQuery(function() {
                                                                                             paddingTop: '2px',
                                                                                             zIndex: '1'
                                                                                         });
-                                                                                        sound.play();
                                                                                         jQuery('.chart').data('easyPieChart').update(82);
                                                                                         jQuery('.chart').find('span').text('82');
                                                                         
