@@ -285,7 +285,7 @@ jQuery(function() {
                             if (count_animation <= 22){                                                                         //22
                                 cur_animation_val += 0.353;
                                 jQuery('#draggable5').css({
-                                    transform: 'rotate(-'+cur_animation_val+'deg) scale(1)',
+                                    transform: 'rotate(-'+cur_animation_val+'deg)',
                                     background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
                                     color: 'transparent',
                                     borderColor: 'transparent',
@@ -318,7 +318,7 @@ jQuery(function() {
                                     if (count_animation <= 53){                                                                         //53
                                         cur_animation_val += 0.353;
                                         jQuery('#draggable5').css({
-                                            transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                                            transform: 'rotate('+cur_animation_val+'deg)',
                                             background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
                                             color: 'transparent',
                                             borderColor: 'transparent',
@@ -351,7 +351,7 @@ jQuery(function() {
                                             if (count_animation <= 60){                                                                         //60
                                                 cur_animation_val += 0.353;
                                                 jQuery('#draggable5').css({
-                                                    transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                                                    transform: 'rotate('+cur_animation_val+'deg)',
                                                     background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
                                                     color: 'transparent',
                                                     borderColor: 'transparent',
@@ -384,7 +384,7 @@ jQuery(function() {
                                                     if (count_animation <= 40){                                                                         //40
                                                         cur_animation_val += 0.353;
                                                         jQuery('#draggable5').css({
-                                                            transform: 'rotate(-'+cur_animation_val+'deg) scale(1)',
+                                                            transform: 'rotate(-'+cur_animation_val+'deg)',
                                                             background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
                                                             color: 'transparent',
                                                             borderColor: 'transparent',
@@ -417,7 +417,7 @@ jQuery(function() {
                                                             if (count_animation <= 11){                                                                         //11
                                                                 cur_animation_val += 3;
                                                                 jQuery('#draggable5').css({
-                                                                    transform: 'rotate(-'+cur_animation_val+'deg) scale(1)',
+                                                                    transform: 'rotate(-'+cur_animation_val+'deg)',
                                                                     background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
                                                                     color: 'transparent',
                                                                     borderColor: 'transparent',
@@ -450,7 +450,7 @@ jQuery(function() {
                                                                     if (count_animation <= 27){                                                                         //27
                                                                         cur_animation_val += 3;
                                                                         jQuery('#draggable5').css({
-                                                                            transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                                                                            transform: 'rotate('+cur_animation_val+'deg)',
                                                                             background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
                                                                             color: 'transparent',
                                                                             borderColor: 'transparent',
@@ -483,7 +483,7 @@ jQuery(function() {
                                                                             if (count_animation <= 30){                                                                         //30
                                                                                 cur_animation_val += 3;
                                                                                 jQuery('#draggable5').css({
-                                                                                    transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                                                                                    transform: 'rotate('+cur_animation_val+'deg)',
                                                                                     background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
                                                                                     color: 'transparent',
                                                                                     borderColor: 'transparent',
@@ -516,7 +516,7 @@ jQuery(function() {
                                                                                     if (count_animation <= 20){                                                                         //20
                                                                                         cur_animation_val += 3;
                                                                                         jQuery('#draggable5').css({
-                                                                                            transform: 'rotate(-'+cur_animation_val+'deg) scale(1)',
+                                                                                            transform: 'rotate(-'+cur_animation_val+'deg)',
                                                                                             background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
                                                                                             color: 'transparent',
                                                                                             borderColor: 'transparent',
