@@ -226,7 +226,8 @@ jQuery(function() {
 
                 jQuery('#draggable1').css({
                     background: '#fff url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
-                    color: '#000'
+                    color: '#000',
+                    paddingTop: '10px'
                 });
                 jQuery('#draggable0').css({
                     transform: 'rotate('+cur_animation_val+'deg)',
@@ -239,7 +240,8 @@ jQuery(function() {
                     color: 'crimson',
                     borderColor: 'crimson',
                     opacity: 1,
-                    zIndex: '1'
+                    zIndex: '1',
+                    paddingTop: '8px'
                 });
                 jQuery('#draggable1').text('S+');
                 jQuery('.chart').data('easyPieChart').update(50);
