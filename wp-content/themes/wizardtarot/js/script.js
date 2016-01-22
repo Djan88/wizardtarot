@@ -225,7 +225,7 @@ jQuery(function() {
                 jQuery('#draggable1').text(letters[cur_let]);
 
                 jQuery('#draggable1').css({
-                    background: '#fff url(/wp-content/themes/wizardtarot/images/oct.png) 0 0/100% no-repeat',
+                    background: '#fff url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
                     color: '#000'
                 });
                 jQuery('#draggable0').css({
