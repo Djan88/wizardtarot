@@ -288,7 +288,6 @@ jQuery(function() {
                                         color: 'transparent',
                                         borderColor: 'transparent',
                                         opacity: 0.8,
-                                        transform: 'scale(1)',
                                         borderWidth: '1px',
                                         paddingTop: '4px',
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
@@ -304,7 +303,6 @@ jQuery(function() {
                                         color: 'transparent',
                                         borderColor: 'transparent',
                                         opacity: 0.8,
-                                        transform: 'scale(1)',
                                         borderWidth: '1px',
                                         paddingTop: '4px',
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
@@ -323,7 +321,6 @@ jQuery(function() {
                                         color: 'transparent',
                                         borderColor: 'transparent',
                                         opacity: 0.8,
-                                        transform: 'scale(1)',
                                         borderWidth: '1px',
                                         paddingTop: '4px',
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
@@ -397,7 +394,6 @@ jQuery(function() {
                                         color: 'red',
                                         borderColor: 'red',
                                         opacity: 1,
-                                        transform: 'scale(0.5)',
                                         borderWidth: '2px',
                                         paddingTop: '2px',
                                         zIndex: '1'
@@ -416,7 +412,6 @@ jQuery(function() {
                                         color: 'red',
                                         borderColor: 'red',
                                         opacity: 1,
-                                        transform: 'scale(0.5)',
                                         borderWidth: '2px',
                                         paddingTop: '2px',
                                         zIndex: '1'
@@ -433,7 +428,6 @@ jQuery(function() {
                                 count_animation = 1;
                                 jQuery('#draggable4, #draggable3, #draggable2').css({
                                     background: 'rgba(255,255,255, 0.5)',
-                                    transform: 'scale(0.5)',
                                     color: 'red',
                                     borderColor: 'red',
                                     opacity: 1,
