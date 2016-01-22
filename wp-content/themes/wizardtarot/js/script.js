@@ -282,6 +282,303 @@ jQuery(function() {
                         });
                         jQuery('.chart').data('easyPieChart').update(100);
                         jQuery('.chart').find('span').text('100');
+                        //Этап 3-1-1
+                        cur_animation_val = 55;
+                        count_animation = 1;
+                        phaseSeven_one = setInterval(function(){
+                            if (count_animation <= 22){                                                                         //22
+                                cur_animation_val += 0.353;
+                                jQuery('#draggableS_1').css({
+                                    transform: 'rotate(-'+cur_animation_val+'deg) scale(1)',
+                                    background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
+                                    color: 'transparent',
+                                    borderColor: 'transparent',
+                                    opacity: 0.8,
+                                    borderWidth: '1px',
+                                    paddingTop: '4px',
+                                    zIndex: '1000'
+                                });
+                                count_animation += 1;
+                            } else if(count_animation <= 39) {                                                         //39
+                                count_animation += 1;
+                            } else {
+                                clearInterval(phaseSeven_one);
+                                count_animation = 1;
+                                jQuery('#draggableS_1').css({
+                                    transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                    background: 'rgba(255,255,255, 0.5)',
+                                    color: 'red',
+                                    borderColor: 'red',
+                                    opacity: 1,
+                                    borderWidth: '2px',
+                                    paddingTop: '2px',
+                                    zIndex: '1'
+                                });
+                                sound.play();
+                                jQuery('.chart').data('easyPieChart').update(75);
+                                jQuery('.chart').find('span').text('75');
+                        //Этап 3-1-2
+                                cur_animation_val = 10;
+                                count_animation = 1;
+                                phaseSeven_one = setInterval(function(){
+                                    if (count_animation <= 53){                                                                         //53
+                                        cur_animation_val += 0.353;
+                                        jQuery('#draggableS_1').css({
+                                            transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                                            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
+                                            color: 'transparent',
+                                            borderColor: 'transparent',
+                                            opacity: 0.8,
+                                            borderWidth: '1px',
+                                            paddingTop: '4px',
+                                            zIndex: '1000'
+                                        });
+                                        count_animation += 1;
+                                    } else if(count_animation <= 70) {                                                         //70
+                                        count_animation += 1;
+                                    } else {
+                                        clearInterval(phaseSeven_one);
+                                        count_animation = 1;
+                                        jQuery('#draggableS_1').css({
+                                            transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                            background: 'rgba(255,255,255, 0.5)',
+                                            color: 'red',
+                                            borderColor: 'red',
+                                            opacity: 1,
+                                            borderWidth: '2px',
+                                            paddingTop: '2px',
+                                            zIndex: '1'
+                                        });
+                                        sound.play();
+                                        jQuery('.chart').data('easyPieChart').update(76);
+                                        jQuery('.chart').find('span').text('76');
+                                //Этап 3-1-3
+                                        cur_animation_val = 270;
+                                        count_animation = 1;
+                                        phaseSeven_one = setInterval(function(){
+                                            if (count_animation <= 60){                                                                         //60
+                                                cur_animation_val += 0.353;
+                                                jQuery('#draggableS_1').css({
+                                                    transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
+                                                    color: 'transparent',
+                                                    borderColor: 'transparent',
+                                                    opacity: 0.8,
+                                                    borderWidth: '1px',
+                                                    paddingTop: '4px',
+                                                    zIndex: '1000'
+                                                });
+                                                count_animation += 1;
+                                            } else if(count_animation <= 77) {                                                         //77
+                                                count_animation += 1;
+                                            } else {
+                                                clearInterval(phaseSeven_one);
+                                                count_animation = 1;
+                                                jQuery('#draggableS_1').css({
+                                                    transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                    background: 'rgba(255,255,255, 0.5)',
+                                                    color: 'red',
+                                                    borderColor: 'red',
+                                                    opacity: 1,
+                                                    borderWidth: '2px',
+                                                    paddingTop: '2px',
+                                                    zIndex: '1'
+                                                });
+                                                sound.play();
+                                                jQuery('.chart').data('easyPieChart').update(77);
+                                                jQuery('.chart').find('span').text('77');
+                                    //Этап 3-1-4
+                                                cur_animation_val = 300;
+                                                count_animation = 1;
+                                                phaseSeven_one = setInterval(function(){
+                                                    if (count_animation <= 40){                                                                         //40
+                                                        cur_animation_val += 0.353;
+                                                        jQuery('#draggableS_1').css({
+                                                            transform: 'rotate(-'+cur_animation_val+'deg) scale(1)',
+                                                            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
+                                                            color: 'transparent',
+                                                            borderColor: 'transparent',
+                                                            opacity: 0.8,
+                                                            borderWidth: '1px',
+                                                            paddingTop: '4px',
+                                                            zIndex: '1000'
+                                                        });
+                                                        count_animation += 1;
+                                                    } else if(count_animation <= 57) {                                                         //57
+                                                        count_animation += 1;
+                                                    } else {
+                                                        clearInterval(phaseSeven_one);
+                                                        count_animation = 1;
+                                                        jQuery('#draggableS_1').css({
+                                                            transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                            background: 'rgba(255,255,255, 0.5)',
+                                                            color: 'red',
+                                                            borderColor: 'red',
+                                                            opacity: 1,
+                                                            borderWidth: '2px',
+                                                            paddingTop: '2px',
+                                                            zIndex: '1'
+                                                        });
+                                                        sound.play();
+                                                        jQuery('.chart').data('easyPieChart').update(78);
+                                                        jQuery('.chart').find('span').text('78');
+                                                //Этап 3-2-1
+                                                        cur_animation_val = 55;
+                                                        count_animation = 1;
+                                                        phaseSeven_one = setInterval(function(){
+                                                            if (count_animation <= 11){                                                                         //11
+                                                                cur_animation_val += 3;
+                                                                jQuery('#draggableD_1').css({
+                                                                    transform: 'rotate(-'+cur_animation_val+'deg) scale(1)',
+                                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
+                                                                    color: 'transparent',
+                                                                    borderColor: 'transparent',
+                                                                    opacity: 0.8,
+                                                                    borderWidth: '1px',
+                                                                    paddingTop: '4px',
+                                                                    zIndex: '1000'
+                                                                });
+                                                                count_animation += 1;
+                                                            } else if(count_animation <= 28) {                                                         //28
+                                                                count_animation += 1;
+                                                            } else {
+                                                                clearInterval(phaseSeven_one);
+                                                                count_animation = 1;
+                                                                jQuery('#draggableD_1').css({
+                                                                    transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                    background: 'rgba(255,255,255, 0.5)',
+                                                                    color: 'red',
+                                                                    borderColor: 'red',
+                                                                    opacity: 1,
+                                                                    borderWidth: '2px',
+                                                                    paddingTop: '2px',
+                                                                    zIndex: '1'
+                                                                });
+                                                                sound.play();
+                                                                jQuery('.chart').data('easyPieChart').update(79);
+                                                                jQuery('.chart').find('span').text('79');
+                                                //Этап 3-2-2
+                                                                cur_animation_val = 10;
+                                                                count_animation = 1;
+                                                                phaseSeven_one = setInterval(function(){
+                                                                    if (count_animation <= 27){                                                                         //27
+                                                                        cur_animation_val += 3;
+                                                                        jQuery('#draggableD_1').css({
+                                                                            transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                                                                            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
+                                                                            color: 'transparent',
+                                                                            borderColor: 'transparent',
+                                                                            opacity: 0.8,
+                                                                            borderWidth: '1px',
+                                                                            paddingTop: '4px',
+                                                                            zIndex: '1000'
+                                                                        });
+                                                                        count_animation += 1;
+                                                                    } else if(count_animation <= 44) {                                                         //44
+                                                                        count_animation += 1;
+                                                                    } else {
+                                                                        clearInterval(phaseSeven_one);
+                                                                        count_animation = 1;
+                                                                        jQuery('#draggableD_1').css({
+                                                                            transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                            background: 'rgba(255,255,255, 0.5)',
+                                                                            color: 'red',
+                                                                            borderColor: 'red',
+                                                                            opacity: 1,
+                                                                            borderWidth: '2px',
+                                                                            paddingTop: '2px',
+                                                                            zIndex: '1'
+                                                                        });
+                                                                        sound.play();
+                                                                        jQuery('.chart').data('easyPieChart').update(80);
+                                                                        jQuery('.chart').find('span').text('80');
+                                                //Этап 3-2-3
+                                                                        cur_animation_val = 270;
+                                                                        count_animation = 1;
+                                                                        phaseSeven_one = setInterval(function(){
+                                                                            if (count_animation <= 30){                                                                         //30
+                                                                                cur_animation_val += 3;
+                                                                                jQuery('#draggableD_1').css({
+                                                                                    transform: 'rotate('+cur_animation_val+'deg) scale(1)',
+                                                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
+                                                                                    color: 'transparent',
+                                                                                    borderColor: 'transparent',
+                                                                                    opacity: 0.8,
+                                                                                    borderWidth: '1px',
+                                                                                    paddingTop: '4px',
+                                                                                    zIndex: '1000'
+                                                                                });
+                                                                                count_animation += 1;
+                                                                            } else if(count_animation <= 47) {                                                         //47
+                                                                                count_animation += 1;
+                                                                            } else {
+                                                                                clearInterval(phaseSeven_one);
+                                                                                count_animation = 1;
+                                                                                jQuery('#draggableD_1').css({
+                                                                                    transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                                    background: 'rgba(255,255,255, 0.5)',
+                                                                                    color: 'red',
+                                                                                    borderColor: 'red',
+                                                                                    opacity: 1,
+                                                                                    borderWidth: '2px',
+                                                                                    paddingTop: '2px',
+                                                                                    zIndex: '1'
+                                                                                });
+                                                                                sound.play();
+                                                                                jQuery('.chart').data('easyPieChart').update(81);
+                                                                                jQuery('.chart').find('span').text('81');
+                                                //Этап 3-2-4
+                                                                                cur_animation_val = 300;
+                                                                                count_animation = 1;
+                                                                                phaseSeven_one = setInterval(function(){
+                                                                                    if (count_animation <= 20){                                                                         //20
+                                                                                        cur_animation_val += 3;
+                                                                                        jQuery('#draggableD_1').css({
+                                                                                            transform: 'rotate(-'+cur_animation_val+'deg) scale(1)',
+                                                                                            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
+                                                                                            color: 'transparent',
+                                                                                            borderColor: 'transparent',
+                                                                                            opacity: 0.8,
+                                                                                            borderWidth: '1px',
+                                                                                            paddingTop: '4px',
+                                                                                            zIndex: '1000'
+                                                                                        });
+                                                                                        count_animation += 1;
+                                                                                    } else if(count_animation <= 37) {                                                         //37
+                                                                                        count_animation += 1;
+                                                                                    } else {
+                                                                                        clearInterval(phaseSeven_one);
+                                                                                        count_animation = 1;
+                                                                                        jQuery('#draggableD_1').css({
+                                                                                            transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                                            background: 'rgba(255,255,255, 0.5)',
+                                                                                            color: 'red',
+                                                                                            borderColor: 'red',
+                                                                                            opacity: 1,
+                                                                                            borderWidth: '2px',
+                                                                                            paddingTop: '2px',
+                                                                                            zIndex: '1'
+                                                                                        });
+                                                                                        sound.play();
+                                                                                        jQuery('.chart').data('easyPieChart').update(82);
+                                                                                        jQuery('.chart').find('span').text('82');
+                                                                        
+                                                                                    }
+                                                                                }, 250);
+                                                                            }
+                                                                        }, 250);
+                                                                    }
+                                                                }, 250);
+                                                            }
+                                                        }, 250);
+                                                    }
+                                                }, 250);
+                                            }
+                                        }, 250);
+                                    }
+                                }, 250);
+                            }
+                        }, 250);
                     }
                 }, 250);
             }
