@@ -203,7 +203,6 @@ jQuery(function() {
                 cur_animation_val += 6;
                 jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
                     borderColor: 'transparent',
-                    opacity: 0.8,
                     zIndex: '1000',
                     color: 'transparent'
                 });
@@ -239,7 +238,6 @@ jQuery(function() {
                     background: 'rgba(255,255,255, 0.5)',
                     color: 'crimson',
                     borderColor: 'crimson',
-                    opacity: 1,
                     zIndex: '1',
                     paddingTop: '8px'
                 });
@@ -256,7 +254,6 @@ jQuery(function() {
                         cur_animation_val += 6;
                         jQuery('#draggable6, #draggable5, #draggable4').css({
                             borderColor: 'transparent',
-                            opacity: 0.8,
                             zIndex: '1000',
                             color: 'transparent'
                         });
@@ -277,7 +274,6 @@ jQuery(function() {
                             background: 'rgba(255,255,255, 0.5)',
                             color: 'crimson',
                             borderColor: 'crimson',
-                            opacity: 1,
                             zIndex: '1'
                         });
                         jQuery('.chart').data('easyPieChart').update(100);
@@ -293,7 +289,6 @@ jQuery(function() {
                                     background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
                                     color: 'transparent',
                                     borderColor: 'transparent',
-                                    opacity: 0.8,
                                     borderWidth: '1px',
                                     paddingTop: '4px',
                                     zIndex: '1000'
@@ -309,7 +304,6 @@ jQuery(function() {
                                     background: 'rgba(255,255,255, 0.5)',
                                     color: 'red',
                                     borderColor: 'red',
-                                    opacity: 1,
                                     borderWidth: '2px',
                                     paddingTop: '2px',
                                     zIndex: '1'
@@ -328,7 +322,6 @@ jQuery(function() {
                                             background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
                                             color: 'transparent',
                                             borderColor: 'transparent',
-                                            opacity: 0.8,
                                             borderWidth: '1px',
                                             paddingTop: '4px',
                                             zIndex: '1000'
@@ -344,7 +337,6 @@ jQuery(function() {
                                             background: 'rgba(255,255,255, 0.5)',
                                             color: 'red',
                                             borderColor: 'red',
-                                            opacity: 1,
                                             borderWidth: '2px',
                                             paddingTop: '2px',
                                             zIndex: '1'
@@ -363,7 +355,6 @@ jQuery(function() {
                                                     background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
                                                     color: 'transparent',
                                                     borderColor: 'transparent',
-                                                    opacity: 0.8,
                                                     borderWidth: '1px',
                                                     paddingTop: '4px',
                                                     zIndex: '1000'
@@ -379,7 +370,6 @@ jQuery(function() {
                                                     background: 'rgba(255,255,255, 0.5)',
                                                     color: 'red',
                                                     borderColor: 'red',
-                                                    opacity: 1,
                                                     borderWidth: '2px',
                                                     paddingTop: '2px',
                                                     zIndex: '1'
@@ -398,7 +388,6 @@ jQuery(function() {
                                                             background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
                                                             color: 'transparent',
                                                             borderColor: 'transparent',
-                                                            opacity: 0.8,
                                                             borderWidth: '1px',
                                                             paddingTop: '4px',
                                                             zIndex: '1000'
@@ -414,7 +403,6 @@ jQuery(function() {
                                                             background: 'rgba(255,255,255, 0.5)',
                                                             color: 'red',
                                                             borderColor: 'red',
-                                                            opacity: 1,
                                                             borderWidth: '2px',
                                                             paddingTop: '2px',
                                                             zIndex: '1'
@@ -433,7 +421,6 @@ jQuery(function() {
                                                                     background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
                                                                     color: 'transparent',
                                                                     borderColor: 'transparent',
-                                                                    opacity: 0.8,
                                                                     borderWidth: '1px',
                                                                     paddingTop: '4px',
                                                                     zIndex: '1000'
@@ -449,7 +436,6 @@ jQuery(function() {
                                                                     background: 'rgba(255,255,255, 0.5)',
                                                                     color: 'red',
                                                                     borderColor: 'red',
-                                                                    opacity: 1,
                                                                     borderWidth: '2px',
                                                                     paddingTop: '2px',
                                                                     zIndex: '1'
@@ -468,7 +454,6 @@ jQuery(function() {
                                                                             background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
                                                                             color: 'transparent',
                                                                             borderColor: 'transparent',
-                                                                            opacity: 0.8,
                                                                             borderWidth: '1px',
                                                                             paddingTop: '4px',
                                                                             zIndex: '1000'
@@ -484,7 +469,6 @@ jQuery(function() {
                                                                             background: 'rgba(255,255,255, 0.5)',
                                                                             color: 'red',
                                                                             borderColor: 'red',
-                                                                            opacity: 1,
                                                                             borderWidth: '2px',
                                                                             paddingTop: '2px',
                                                                             zIndex: '1'
@@ -503,7 +487,6 @@ jQuery(function() {
                                                                                     background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
                                                                                     color: 'transparent',
                                                                                     borderColor: 'transparent',
-                                                                                    opacity: 0.8,
                                                                                     borderWidth: '1px',
                                                                                     paddingTop: '4px',
                                                                                     zIndex: '1000'
@@ -519,7 +502,6 @@ jQuery(function() {
                                                                                     background: 'rgba(255,255,255, 0.5)',
                                                                                     color: 'red',
                                                                                     borderColor: 'red',
-                                                                                    opacity: 1,
                                                                                     borderWidth: '2px',
                                                                                     paddingTop: '2px',
                                                                                     zIndex: '1'
@@ -538,7 +520,6 @@ jQuery(function() {
                                                                                             background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
                                                                                             color: 'transparent',
                                                                                             borderColor: 'transparent',
-                                                                                            opacity: 0.8,
                                                                                             borderWidth: '1px',
                                                                                             paddingTop: '4px',
                                                                                             zIndex: '1000'
@@ -554,7 +535,6 @@ jQuery(function() {
                                                                                             background: 'rgba(255,255,255, 0.5)',
                                                                                             color: 'red',
                                                                                             borderColor: 'red',
-                                                                                            opacity: 1,
                                                                                             borderWidth: '2px',
                                                                                             paddingTop: '2px',
                                                                                             zIndex: '1'
@@ -732,8 +712,6 @@ jQuery(function() {
                         jQuery('#preview').Jcrop({
                             minSize: [32, 32],// keep aspect ratio 1:1
                             bgFade: true, // use fade effect
-                            bgOpacity: .3, // fade opacity
-                            aspectRatio: 1/1.5,
                             onChange: updateInfo,
                             onSelect: updateInfo,
                             onRelease: clearInfo
