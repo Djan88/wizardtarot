@@ -56,9 +56,13 @@
                               <img data-src="holder.js/300x200" alt="300x200" src="<?php bloginfo('template_url'); ?>/images/elements-wallpaper.png" style="width: 100%; height: auto;">
                               <div class="caption">
                                 <h3>Первоэлементы</h3>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p>Флюид образует материю, собирая первоэлементы в разных пропорциях. 
+Наше тонкое тело ума, собранное из первоэлементов, негативно влияет на процесс дальнейшего собирания первоэлементов из-за наличия в нем биполярных моделей (двойственность ума - суть грехопадения).
+Придворные карты младших арканов  Tarot являются символами-ключами четырех первоэлементов флюида.
+Протоколы данного раздела Tarotmachine позволяют провести коррекцию конституционального первоэлементного дисбаланса тонкого тела ума, физического тела и линии Рода. 
+Рекомендовано предварительное обучение пользователя по диагностике первоэлементной конституции!</p>
                                 <p>
-                                  <div class="btn btn-default btn-elements" role="button">Elements</div>
+                                  <div class="btn btn-default btn-elements" role="button">Начать</div>
                                 </p>
                               </div>
                             </div>
@@ -68,9 +72,11 @@
                               <img data-src="holder.js/300x200" alt="300x200" src="<?php bloginfo('template_url'); ?>/images/tarot.png" style="width: 100%; height: auto;">
                               <div class="caption">
                                 <h3>Wizard Tarot</h3>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <p>Tarot старших арканов является символической базой ключей доступа к архетипам - составным частям глобального Ноосферного эгрегора.
+Влияния этих архетипов на наши тела обусловлено системными ограничениями, приводящими к разделению восходящего потока и появлению биполярных моделей ума.
+Рекомендовано предварительное обучение пользователя формированию заявки на возврат системного ограничения через ключи архетипов!</p>
                                 <p>
-                                  <div class="btn btn-primary btn-tarot" role="button">Tarot</div>
+                                  <div class="btn btn-primary btn-tarot" role="button">Начать</div>
                                 </p>
                               </div>
                             </div>
