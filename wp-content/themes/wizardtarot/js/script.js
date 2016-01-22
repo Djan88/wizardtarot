@@ -298,7 +298,7 @@ jQuery(function() {
                                 clearInterval(phaseSeven_one);
                                 count_animation = 1;
                                 jQuery('#draggable6').css({
-                                    transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                    transform: 'rotate(-'+0+'deg)',
                                     background: 'rgba(255,255,255, 0.5)',
                                     color: 'crimson',
                                     borderColor: 'crimson',
@@ -324,7 +324,7 @@ jQuery(function() {
                                         clearInterval(phaseSeven_one);
                                         count_animation = 1;
                                         jQuery('#draggable6').css({
-                                            transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                            transform: 'rotate(-'+0+'deg)',
                                             background: 'rgba(255,255,255, 0.5)',
                                             color: 'crimson',
                                             borderColor: 'crimson',
@@ -350,7 +350,7 @@ jQuery(function() {
                                                 clearInterval(phaseSeven_one);
                                                 count_animation = 1;
                                                 jQuery('#draggable6').css({
-                                                    transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                    transform: 'rotate(-'+0+'deg)',
                                                     background: 'rgba(255,255,255, 0.5)',
                                                     color: 'crimson',
                                                     borderColor: 'crimson',
@@ -376,7 +376,7 @@ jQuery(function() {
                                                         clearInterval(phaseSeven_one);
                                                         count_animation = 1;
                                                         jQuery('#draggable6').css({
-                                                            transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                            transform: 'rotate(-'+0+'deg)',
                                                             background: 'rgba(255,255,255, 0.5)',
                                                             color: 'crimson',
                                                             borderColor: 'crimson',
@@ -402,7 +402,7 @@ jQuery(function() {
                                                                 clearInterval(phaseSeven_one);
                                                                 count_animation = 1;
                                                                 jQuery('#draggable5').css({
-                                                                    transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                    transform: 'rotate(-'+0+'deg)',
                                                                     background: 'rgba(255,255,255, 0.5)',
                                                                     color: 'crimson',
                                                                     borderColor: 'crimson',
@@ -428,7 +428,7 @@ jQuery(function() {
                                                                         clearInterval(phaseSeven_one);
                                                                         count_animation = 1;
                                                                         jQuery('#draggable5').css({
-                                                                            transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                            transform: 'rotate(-'+0+'deg)',
                                                                             background: 'rgba(255,255,255, 0.5)',
                                                                             color: 'crimson',
                                                                             borderColor: 'crimson',
@@ -454,7 +454,7 @@ jQuery(function() {
                                                                                 clearInterval(phaseSeven_one);
                                                                                 count_animation = 1;
                                                                                 jQuery('#draggable5').css({
-                                                                                    transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                                    transform: 'rotate(-'+0+'deg)',
                                                                                     background: 'rgba(255,255,255, 0.5)',
                                                                                     color: 'crimson',
                                                                                     borderColor: 'crimson',
@@ -480,7 +480,7 @@ jQuery(function() {
                                                                                         clearInterval(phaseSeven_one);
                                                                                         count_animation = 1;
                                                                                         jQuery('#draggable5').css({
-                                                                                            transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                                            transform: 'rotate(-'+0+'deg)',
                                                                                             background: 'rgba(255,255,255, 0.5)',
                                                                                             color: 'crimson',
                                                                                             borderColor: 'crimson',
