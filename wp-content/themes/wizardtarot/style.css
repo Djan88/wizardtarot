@@ -984,15 +984,16 @@ input[type=submit]{
 .itemlist_item
 {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 30px;
   color: crimson;
   border: 1px solid crimson;
   text-align: center;
   cursor: pointer;
   background: rgba(255,255,255, 0.5);
   z-index: 999;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
+  transform: scale(0.5);
   position: absolute;
   -webkit-transition: transform 1s linear;
   -moz-transition: transform 1s linear;
