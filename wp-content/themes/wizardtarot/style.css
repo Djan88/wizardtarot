@@ -42,7 +42,7 @@ a:active, a:focus {
 button:focus { border: none; outline:none; }
 
 p {
-    color: #aeb5ba;
+    color: #555;
 }
 
 h1, h2, h3, h4, h5, h6 {
