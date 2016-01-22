@@ -279,230 +279,175 @@ jQuery(function() {
                         jQuery('.chart').data('easyPieChart').update(100);
                         jQuery('.chart').find('span').text('100');
                         //фаза 3
-                        cur_animation_val = 55;
                         count_animation = 1;
-                        phaseSeven_one = setInterval(function(){
-                            if (count_animation <= 88){                                                                         //22
-                                cur_animation_val += 0.375;
-                                jQuery('#draggable6').css({
-                                    transform: 'rotate(-'+cur_animation_val+'deg)',
-                                    background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
-                                    color: 'transparent',
-                                    borderColor: 'transparent',
-                                    zIndex: '1000'
-                                });
-                                count_animation += 1;
-                            } else if(count_animation <= 156) {                                                         //39
+                        phaseOne = setInterval(function(){
+                            if (count_animation <= 174){                                                                         //120
+                                cur_animation_val += 6;
+                                if (count_animation > 0 && count_animation <= 17){
+                                    jQuery('#draggable4').css({
+                                        color: 'transparent',
+                                        borderColor: 'transparent',
+                                        opacity: 0.8,
+                                        transform: 'scale(1)',
+                                        borderWidth: '1px',
+                                        paddingTop: '4px',
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                        zIndex: '1000'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(15);
+                                    jQuery('.chart').find('span').text('15');
+                                } else if (count_animation > 17 && count_animation <= 34){
+                                    jQuery('#draggable4').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable3').css({
+                                        color: 'transparent',
+                                        borderColor: 'transparent',
+                                        opacity: 0.8,
+                                        transform: 'scale(1)',
+                                        borderWidth: '1px',
+                                        paddingTop: '4px',
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                        zIndex: '1000'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(20);
+                                    jQuery('.chart').find('span').text('20');
+                                } else if (count_animation > 34 && count_animation <= 53){
+                                    jQuery('#draggable4').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable3').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable2').css({
+                                        color: 'transparent',
+                                        borderColor: 'transparent',
+                                        opacity: 0.8,
+                                        transform: 'scale(1)',
+                                        borderWidth: '1px',
+                                        paddingTop: '4px',
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                        zIndex: '1000'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(25);
+                                    jQuery('.chart').find('span').text('25');
+                                } else if (count_animation > 53 && count_animation <= 70){
+                                    jQuery('#draggable4').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable3').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable2').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(30);
+                                    jQuery('.chart').find('span').text('30');
+                                } else if (count_animation > 70 && count_animation <= 87){
+                                    jQuery('#draggable4').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable3').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable2').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(35);
+                                    jQuery('.chart').find('span').text('35');
+                                } else if (count_animation > 87 && count_animation <= 104){
+                                    jQuery('#draggable4').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable3').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable2').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(40);
+                                    jQuery('.chart').find('span').text('40');
+                                } else if (count_animation > 104 && count_animation <= 123){
+                                    jQuery('#draggable4').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable3').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable2').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(45);
+                                    jQuery('.chart').find('span').text('45');
+                                } else if (count_animation > 123 && count_animation <= 140){
+                                    jQuery('#draggable4').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable3').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable2').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(50);
+                                    jQuery('.chart').find('span').text('50');
+                                } else if (count_animation > 140 && count_animation <= 157){
+                                    jQuery('#draggable4').css({
+                                        background: 'rgba(255,255,255, 0.5)',
+                                        color: 'red',
+                                        borderColor: 'red',
+                                        opacity: 1,
+                                        transform: 'scale(0.5)',
+                                        borderWidth: '2px',
+                                        paddingTop: '2px',
+                                        zIndex: '1'
+                                    });
+                                    jQuery('#draggable3').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('#draggable2').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(55);
+                                    jQuery('.chart').find('span').text('55');
+                                } else if (count_animation > 157 && count_animation <= 174){
+                                    jQuery('#draggable3').css({
+                                        background: 'rgba(255,255,255, 0.5)',
+                                        color: 'red',
+                                        borderColor: 'red',
+                                        opacity: 1,
+                                        transform: 'scale(0.5)',
+                                        borderWidth: '2px',
+                                        paddingTop: '2px',
+                                        zIndex: '1'
+                                    });
+                                    jQuery('#draggable2').css({
+                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                    });
+                                    jQuery('.chart').data('easyPieChart').update(60);
+                                    jQuery('.chart').find('span').text('60');
+                                }
                                 count_animation += 1;
                             } else {
-                                clearInterval(phaseSeven_one);
+                                clearInterval(phaseOne);
                                 count_animation = 1;
-                                jQuery('#draggable6').css({
-                                    transform: 'rotate(-'+0+'deg)',
+                                jQuery('#draggable4, #draggable3, #draggable2').css({
                                     background: 'rgba(255,255,255, 0.5)',
-                                    color: 'crimson',
-                                    borderColor: 'crimson',
+                                    transform: 'scale(0.5)',
+                                    color: 'red',
+                                    borderColor: 'red',
+                                    opacity: 1,
+                                    borderWidth: '2px',
+                                    paddingTop: '2px',
                                     zIndex: '1'
                                 });
-            //Этап 7-1-2
-                                cur_animation_val = 10;
                                 count_animation = 1;
-                                phaseSeven_one = setInterval(function(){
-                                    if (count_animation <= 212){                                                                         //53
-                                        cur_animation_val += 0.375;
-                                        jQuery('#draggable6').css({
-                                            transform: 'rotate('+cur_animation_val+'deg)',
-                                            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
-                                            color: 'transparent',
-                                            borderColor: 'transparent',
-                                            zIndex: '1000'
-                                        });
-                                        count_animation += 1;
-                                    } else if(count_animation <= 280) {                                                         //70
-                                        count_animation += 1;
-                                    } else {
-                                        clearInterval(phaseSeven_one);
-                                        count_animation = 1;
-                                        jQuery('#draggable6').css({
-                                            transform: 'rotate(-'+0+'deg)',
-                                            background: 'rgba(255,255,255, 0.5)',
-                                            color: 'crimson',
-                                            borderColor: 'crimson',
-                                            zIndex: '1'
-                                        });
-            //Этап 7-1-3
-                                        cur_animation_val = 270;
-                                        count_animation = 1;
-                                        phaseSeven_one = setInterval(function(){
-                                            if (count_animation <= 240){                                                                         //60
-                                                cur_animation_val += 0.375;
-                                                jQuery('#draggable6').css({
-                                                    transform: 'rotate('+cur_animation_val+'deg)',
-                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
-                                                    color: 'transparent',
-                                                    borderColor: 'transparent',
-                                                    zIndex: '1000'
-                                                });
-                                                count_animation += 1;
-                                            } else if(count_animation <= 308) {                                                         //77
-                                                count_animation += 1;
-                                            } else {
-                                                clearInterval(phaseSeven_one);
-                                                count_animation = 1;
-                                                jQuery('#draggable6').css({
-                                                    transform: 'rotate(-'+0+'deg)',
-                                                    background: 'rgba(255,255,255, 0.5)',
-                                                    color: 'crimson',
-                                                    borderColor: 'crimson',
-                                                    zIndex: '1'
-                                                });
-            //Этап 7-1-4
-                                                cur_animation_val = 300;
-                                                count_animation = 1;
-                                                phaseSeven_one = setInterval(function(){
-                                                    if (count_animation <= 120){                                                                         //40
-                                                        cur_animation_val += 0.375;
-                                                        jQuery('#draggable6').css({
-                                                            transform: 'rotate(-'+cur_animation_val+'deg)',
-                                                            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
-                                                            color: 'transparent',
-                                                            borderColor: 'transparent',
-                                                            zIndex: '1000'
-                                                        });
-                                                        count_animation += 1;
-                                                    } else if(count_animation <= 228) {                                                         //57
-                                                        count_animation += 1;
-                                                    } else {
-                                                        clearInterval(phaseSeven_one);
-                                                        count_animation = 1;
-                                                        jQuery('#draggable6').css({
-                                                            transform: 'rotate(-'+0+'deg)',
-                                                            background: 'rgba(255,255,255, 0.5)',
-                                                            color: 'crimson',
-                                                            borderColor: 'crimson',
-                                                            zIndex: '1'
-                                                        });
-                                                        //фаза 4
-                                                        cur_animation_val = 55;
-                                                        count_animation = 1;
-                                                        phaseSeven_one = setInterval(function(){
-                                                            if (count_animation <= 88){                                                                         //22
-                                                                cur_animation_val += 0.375;
-                                                                jQuery('#draggable5').css({
-                                                                    transform: 'rotate(-'+cur_animation_val+'deg)',
-                                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
-                                                                    color: 'transparent',
-                                                                    borderColor: 'transparent',
-                                                                    zIndex: '1000'
-                                                                });
-                                                                count_animation += 1;
-                                                            } else if(count_animation <= 156) {                                                         //39
-                                                                count_animation += 1;
-                                                            } else {
-                                                                clearInterval(phaseSeven_one);
-                                                                count_animation = 1;
-                                                                jQuery('#draggable5').css({
-                                                                    transform: 'rotate(-'+0+'deg)',
-                                                                    background: 'rgba(255,255,255, 0.5)',
-                                                                    color: 'crimson',
-                                                                    borderColor: 'crimson',
-                                                                    zIndex: '1'
-                                                                });
-                                            //Этап 7-1-2
-                                                                cur_animation_val = 10;
-                                                                count_animation = 1;
-                                                                phaseSeven_one = setInterval(function(){
-                                                                    if (count_animation <= 212){                                                                         //53
-                                                                        cur_animation_val += 0.375;
-                                                                        jQuery('#draggable5').css({
-                                                                            transform: 'rotate('+cur_animation_val+'deg)',
-                                                                            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
-                                                                            color: 'transparent',
-                                                                            borderColor: 'transparent',
-                                                                            zIndex: '1000'
-                                                                        });
-                                                                        count_animation += 1;
-                                                                    } else if(count_animation <= 280) {                                                         //70
-                                                                        count_animation += 1;
-                                                                    } else {
-                                                                        clearInterval(phaseSeven_one);
-                                                                        count_animation = 1;
-                                                                        jQuery('#draggable5').css({
-                                                                            transform: 'rotate(-'+0+'deg)',
-                                                                            background: 'rgba(255,255,255, 0.5)',
-                                                                            color: 'crimson',
-                                                                            borderColor: 'crimson',
-                                                                            zIndex: '1'
-                                                                        });
-                                            //Этап 7-1-3
-                                                                        cur_animation_val = 270;
-                                                                        count_animation = 1;
-                                                                        phaseSeven_one = setInterval(function(){
-                                                                            if (count_animation <= 240){                                                                         //60
-                                                                                cur_animation_val += 0.375;
-                                                                                jQuery('#draggable5').css({
-                                                                                    transform: 'rotate('+cur_animation_val+'deg)',
-                                                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/mo_left.png) 0 0/100% no-repeat',
-                                                                                    color: 'transparent',
-                                                                                    borderColor: 'transparent',
-                                                                                    zIndex: '1000'
-                                                                                });
-                                                                                count_animation += 1;
-                                                                            } else if(count_animation <= 308) {                                                         //77
-                                                                                count_animation += 1;
-                                                                            } else {
-                                                                                clearInterval(phaseSeven_one);
-                                                                                count_animation = 1;
-                                                                                jQuery('#draggable5').css({
-                                                                                    transform: 'rotate(-'+0+'deg)',
-                                                                                    background: 'rgba(255,255,255, 0.5)',
-                                                                                    color: 'crimson',
-                                                                                    borderColor: 'crimson',
-                                                                                    zIndex: '1'
-                                                                                });
-                                            //Этап 7-1-4
-                                                                                cur_animation_val = 300;
-                                                                                count_animation = 1;
-                                                                                phaseSeven_one = setInterval(function(){
-                                                                                    if (count_animation <= 120){                                                                         //40
-                                                                                        cur_animation_val += 0.375;
-                                                                                        jQuery('#draggable5').css({
-                                                                                            transform: 'rotate(-'+cur_animation_val+'deg)',
-                                                                                            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
-                                                                                            color: 'transparent',
-                                                                                            borderColor: 'transparent',
-                                                                                            zIndex: '1000'
-                                                                                        });
-                                                                                        count_animation += 1;
-                                                                                    } else if(count_animation <= 228) {                                                         //57
-                                                                                        count_animation += 1;
-                                                                                    } else {
-                                                                                        clearInterval(phaseSeven_one);
-                                                                                        count_animation = 1;
-                                                                                        jQuery('#draggable5').css({
-                                                                                            transform: 'rotate(-'+0+'deg)',
-                                                                                            background: 'rgba(255,255,255, 0.5)',
-                                                                                            color: 'crimson',
-                                                                                            borderColor: 'crimson',
-                                                                                            zIndex: '1'
-                                                                                        });
-                                                                                        onEnd();
-                                                                                    }
-                                                                                }, 250);
-                                                                            }
-                                                                        }, 250);
-                                                                    }
-                                                                }, 250);
-                                                            }
-                                                        }, 250);
-                                                    }
-                                                }, 250);
-                                            }
-                                        }, 250);
-                                    }
-                                }, 250);
+                                sound.play();
+                                jQuery('.chart').data('easyPieChart').update(65);
+                                jQuery('.chart').find('span').text('65');
+                            
                             }
-                        }, 250);
+                        }, 1000);
                     }
                 }, 250);
             }
