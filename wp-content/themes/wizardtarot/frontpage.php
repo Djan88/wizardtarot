@@ -68,7 +68,7 @@
                             </div>
                           </div>
                           <div class="col-md-6">
-                            <div class="thumbnail">
+                            <div class="thumbnail" style="padding-bottom: 38px;">
                               <img data-src="holder.js/300x200" alt="300x200" src="<?php bloginfo('template_url'); ?>/images/tarot.png" style="width: 100%; height: auto;">
                               <div class="caption">
                                 <h3>Wizard Tarot</h3>
