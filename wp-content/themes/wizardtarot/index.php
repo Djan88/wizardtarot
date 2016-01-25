@@ -17,6 +17,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
+    <?php wp_head(); ?>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-ui.min.js"></script> 
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.ui.touch-punch.min.js"></script> 
@@ -29,7 +30,6 @@
     <script src="<?php bloginfo('template_url'); ?>/js/exif.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.Jcrop.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
-    <?php wp_head(); ?>
     <script>
     function showhide()
     {
