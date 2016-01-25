@@ -1187,3 +1187,7 @@ input[type=submit]{
   left: 0;
   top: 0;
 }
+.jcrop-keymgr
+{
+  display: none;
+}

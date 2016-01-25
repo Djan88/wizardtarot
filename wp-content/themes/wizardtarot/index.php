@@ -17,6 +17,18 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery-ui.min.js"></script> 
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.ui.touch-punch.min.js"></script> 
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/canvas.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/easypie.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/pieChartPlugin.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/sweet-alert.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/exif.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.Jcrop.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
     <?php wp_head(); ?>
     <script>
     function showhide()
@@ -125,17 +137,5 @@
     </script>
 <!-- templatemo 400 polygon -->
   <?php wp_footer(); ?>
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery-ui.min.js"></script> 
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery.ui.touch-punch.min.js"></script> 
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/canvas.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/easypie.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/pieChartPlugin.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/sweet-alert.min.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/exif.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery.Jcrop.min.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   </body>
 </html>

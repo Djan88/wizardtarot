@@ -209,22 +209,22 @@ jQuery(function() {
 
                 if (count_animation <= 480){
                     jQuery('#draggable2').css({
-                        background: 'url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
                     });
                     jQuery('#draggable3').css({
-                        background: 'url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
                     });
                 } else {
                     jQuery('#draggable2, #draggable3').css({
                         transform: 'rotate(-'+cur_animation_val+'deg)',
-                        background: 'url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
+                        background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
                     });
                 }
                 cur_let = Math.round(Math.random() * (7 - 0))
                 jQuery('#draggable1').text(letters[cur_let]);
 
                 jQuery('#draggable1').css({
-                    background: '#fff url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
+                    background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
                     color: '#000',
                     paddingTop: '10px'
                 });
@@ -263,10 +263,10 @@ jQuery(function() {
                         });
                         jQuery('#draggable5').css({
                             transform: 'rotate('+cur_animation_val+'deg)',
-                            background: 'url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
                         });
                         jQuery('#draggable4').css({
-                            background: 'url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
+                            background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
                         });
                     } else {
                         clearInterval(phaseOne);
@@ -287,9 +287,6 @@ jQuery(function() {
                                     jQuery('#draggable4').css({
                                         color: 'transparent',
                                         borderColor: 'transparent',
-                                        opacity: 0.8,
-                                        borderWidth: '1px',
-                                        paddingTop: '4px',
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
                                         zIndex: '1000'
                                     });
@@ -302,9 +299,6 @@ jQuery(function() {
                                     jQuery('#draggable3').css({
                                         color: 'transparent',
                                         borderColor: 'transparent',
-                                        opacity: 0.8,
-                                        borderWidth: '1px',
-                                        paddingTop: '4px',
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
                                         zIndex: '1000'
                                     });
@@ -320,9 +314,6 @@ jQuery(function() {
                                     jQuery('#draggable2').css({
                                         color: 'transparent',
                                         borderColor: 'transparent',
-                                        opacity: 0.8,
-                                        borderWidth: '1px',
-                                        paddingTop: '4px',
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
                                         zIndex: '1000'
                                     });
@@ -391,11 +382,8 @@ jQuery(function() {
                                 } else if (count_animation > 140 && count_animation <= 157){
                                     jQuery('#draggable4').css({
                                         background: 'rgba(255,255,255, 0.5)',
-                                        color: 'red',
-                                        borderColor: 'red',
-                                        opacity: 1,
-                                        borderWidth: '2px',
-                                        paddingTop: '2px',
+                                        color: 'crimson',
+                                        borderColor: 'crimson',
                                         zIndex: '1'
                                     });
                                     jQuery('#draggable3').css({
@@ -409,11 +397,8 @@ jQuery(function() {
                                 } else if (count_animation > 157 && count_animation <= 174){
                                     jQuery('#draggable3').css({
                                         background: 'rgba(255,255,255, 0.5)',
-                                        color: 'red',
-                                        borderColor: 'red',
-                                        opacity: 1,
-                                        borderWidth: '2px',
-                                        paddingTop: '2px',
+                                        color: 'crimson',
+                                        borderColor: 'crimson',
                                         zIndex: '1'
                                     });
                                     jQuery('#draggable2').css({
@@ -428,11 +413,8 @@ jQuery(function() {
                                 count_animation = 1;
                                 jQuery('#draggable4, #draggable3, #draggable2').css({
                                     background: 'rgba(255,255,255, 0.5)',
-                                    color: 'red',
-                                    borderColor: 'red',
-                                    opacity: 1,
-                                    borderWidth: '2px',
-                                    paddingTop: '2px',
+                                    color: 'crimson',
+                                    borderColor: 'crimson',
                                     zIndex: '1'
                                 });
                                 count_animation = 1;
