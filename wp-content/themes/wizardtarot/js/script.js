@@ -577,6 +577,8 @@ jQuery(function() {
                         jQuery('#preview').Jcrop({
                             minSize: [32, 32],// keep aspect ratio 1:1
                             bgFade: true, // use fade effect
+                            bgOpacity: .3, // fade opacity
+                            aspectRatio: 1/1.5,
                             onChange: updateInfo,
                             onSelect: updateInfo,
                             onRelease: clearInfo
