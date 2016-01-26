@@ -142,6 +142,7 @@ jQuery(function() {
     jQuery( ".elem-choice-item" ).click(function() {
         toElemChoice('.prot-choice', function() {
             elem_type = jQuery(this).data('elem');
+            console.log('Элемент '+ jQuery(this).data('elem'));
             localStorage.setItem('elem_type', elem_type);
         });
     });
