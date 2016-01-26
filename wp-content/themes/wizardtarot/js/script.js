@@ -228,7 +228,7 @@ jQuery(function() {
                 jQuery('#draggable1').css({
                     background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
                     color: '#000',
-                    transform: 'scale(2)',
+                    transform: 'scale(1.3)',
                     paddingTop: '10px'
                 });
                 jQuery('#draggable0').css({
