@@ -422,7 +422,6 @@ jQuery(function() {
                                 jQuery('.chart').data('easyPieChart').update(100);
                                 jQuery('.chart').find('span').text('100');
                                 count_animation = 1;
-                                sound.play();
                                 onEnd();
                             }
                         }, 1000);
