@@ -406,8 +406,8 @@ jQuery(function() {
                                     jQuery('#draggable2').css({
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
                                     });
-                                    jQuery('.chart').data('easyPieChart').update(100);
-                                    jQuery('.chart').find('span').text('100');
+                                    jQuery('.chart').data('easyPieChart').update(196);
+                                    jQuery('.chart').find('span').text('196');
                                 }
                                 count_animation += 1;
                             } else {
@@ -419,6 +419,8 @@ jQuery(function() {
                                     borderColor: 'crimson',
                                     zIndex: '1'
                                 });
+                                jQuery('.chart').data('easyPieChart').update(100);
+                                jQuery('.chart').find('span').text('100');
                                 count_animation = 1;
                                 sound.play();
                                 onEnd();
