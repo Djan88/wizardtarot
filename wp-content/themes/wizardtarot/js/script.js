@@ -139,12 +139,10 @@ jQuery(function() {
             localStorage.setItem('prot_type', 'tarot');
         });
     });
-    jQuery( ".elem-choice-item" ).click(function() {
-        toElemChoice('.prot-choice', function() {
-            elem_type = jQuery(this).data('elem');
-            console.log('Элемент '+ jQuery(this).data('elem'));
-            localStorage.setItem('elem_type', elem_type);
-        });
+    jQuery( ".elem-choice-item" )on('click', function(event) {
+        elem_type = jQuery(this).data('elem');
+        console.log('Элемент '+ jQuery(this).data('elem'));
+        localStorage.setItem('elem_type', elem_type);
     });
 
     //Перетягивание элементов
