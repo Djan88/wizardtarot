@@ -459,10 +459,6 @@ jQuery(function() {
         if(elem_type == 'F'){
             e_one = '/wp-content/themes/wizardtarot/images/4_ogon_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/1_ogon_prav.png';
-            e_dama = 
-            e_king = 
-            e_paje = 
-            e_knight = 
         } else if (elem_type == 'W'){
             e_one = '/wp-content/themes/wizardtarot/images/3_voda_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/2_voda_prav.png';
