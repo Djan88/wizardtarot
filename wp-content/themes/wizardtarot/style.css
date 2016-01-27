@@ -1051,6 +1051,11 @@ input[type=submit]{
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.elems_description_block
+{
+  font-size: 15px;
+  text-align: left;
+}
 .elems_description_block.bs-example:after
 {
   content: "Описание первоэлементов";
