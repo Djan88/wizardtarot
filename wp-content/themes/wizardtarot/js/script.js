@@ -457,20 +457,36 @@ jQuery(function() {
         }, 250);
     };
     elems = function(){
-    //фаза 1
         if(elem_type == 'F'){
             e_one = '/wp-content/themes/wizardtarot/images/4_ogon_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/1_ogon_prav.png';
+            e_dama = '/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png'
+            e_king = '/wp-content/themes/wizardtarot/images/gallery/63-Minor-Cups-King-min.png'
+            e_paje = '/wp-content/themes/wizardtarot/images/gallery/60-Minor-Cups-Page-min.png'
+            e_knight = '/wp-content/themes/wizardtarot/images/gallery/61-Minor-Cups-Knight-min.png'
         } else if (elem_type == 'W'){
             e_one = '/wp-content/themes/wizardtarot/images/3_voda_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/2_voda_prav.png';
+            e_dama = '/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png'
+            e_king = '/wp-content/themes/wizardtarot/images/gallery/77-Minor-Wands-King-min.png'
+            e_paje = '/wp-content/themes/wizardtarot/images/gallery/74-Minor-Wands-Page-min.png'
+            e_knight = '/wp-content/themes/wizardtarot/images/gallery/75-Minor-Wands-Knight-min.png'
         } else if (elem_type == 'A'){
             e_one = '/wp-content/themes/wizardtarot/images/2_vozduh_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/3_vozduh_prav.png';
+            e_dama = '/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png'
+            e_king = '/wp-content/themes/wizardtarot/images/gallery/35-Minor-Discs-King-min.png'
+            e_paje = '/wp-content/themes/wizardtarot/images/gallery/32-Minor-Discs-Page-min.png'
+            e_knight = '/wp-content/themes/wizardtarot/images/gallery/33-Minor-Discs-Knight-min.png'
         } else if (elem_type == 'E'){
             e_one = '/wp-content/themes/wizardtarot/images/1_zemlya_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png';
+            e_dama = '/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png'
+            e_king = '/wp-content/themes/wizardtarot/images/gallery/49-Minor-Swords-King-min.png'
+            e_paje = '/wp-content/themes/wizardtarot/images/gallery/46-Minor-Swords-Page-min.png'
+            e_knight = '/wp-content/themes/wizardtarot/images/gallery/47-Minor-Swords-Knight-min.png'
         };
+    //фаза 1
         reloadTime1 = 0;
         cur_animation_val = 0;
         count_animation = 1;
@@ -483,7 +499,6 @@ jQuery(function() {
                     zIndex: '1000',
                     color: 'transparent'
                 });
-
                 if (count_animation <= 240){
                     jQuery('#draggable8').css({
                         background: 'url('+e_one+') 0 0/100% no-repeat',
@@ -529,7 +544,6 @@ jQuery(function() {
                             zIndex: '1000',
                             color: 'transparent'
                         });
-
                         if (count_animation <= 480){
                             jQuery('#draggable2').css({
                                 background: '#fff url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
@@ -547,7 +561,6 @@ jQuery(function() {
                         }
                         cur_let = Math.round(Math.random() * (7 - 0))
                         jQuery('#draggable1').text(letters[cur_let]);
-
                         jQuery('#draggable1').css({
                             background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
                             color: '#000',
@@ -703,7 +716,6 @@ jQuery(function() {
                                 count_animation += 1;
                             } else {
                                 clearInterval(phaseOne);
-                                count_animation = 1;
                                 jQuery('#draggable4, #draggable3, #draggable2').css({
                                     background: 'rgba(255,255,255, 0.5)',
                                     color: 'crimson',
@@ -712,8 +724,747 @@ jQuery(function() {
                                 });
                                 jQuery('.chart').data('easyPieChart').update(100);
                                 jQuery('.chart').find('span').text('100');
+                                jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_king +') no-repeat top left/100%');
+                            //фаза 1
+                                reloadTime1 = 0;
+                                cur_animation_val = 0;
                                 count_animation = 1;
-                                onEnd();
+                                phaseOne = setInterval(function(){
+                                    if (count_animation <= 480){                                                                         //90
+                                        count_animation += 1;
+                                        cur_animation_val += 6;
+                                        jQuery('#draggable8, #draggable7, #draggable6').css({
+                                            borderColor: 'transparent',
+                                            zIndex: '1000',
+                                            color: 'transparent'
+                                        });
+                                        if (count_animation <= 240){
+                                            jQuery('#draggable8').css({
+                                                background: 'url('+e_one+') 0 0/100% no-repeat',
+                                                transform: 'scale(1.3)'
+                                            });
+                                        } else {
+                                            jQuery('#draggable8').css({
+                                                background: 'url('+e_two+') 0 0/100% no-repeat',
+                                                transform: 'scale(1.3)'
+                                            });
+                                            jQuery('.chart').data('easyPieChart').update(20);
+                                            jQuery('.chart').find('span').text('20');
+                                        }
+                                        jQuery('#draggable7').css({
+                                            transform: 'rotate('+cur_animation_val+'deg)',
+                                            background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+                                        });
+                                        jQuery('#draggable6').css({
+                                            background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
+                                        });
+                                    } else {
+                                        clearInterval(phaseOne);
+                                        jQuery('#draggable8, #draggable7, #draggable6').css({
+                                            background: 'rgba(255,255,255, 0.5)',
+                                            color: 'crimson',
+                                            borderColor: 'crimson',
+                                            zIndex: '1',
+                                            transform: 'scale(1)',
+                                            paddingTop: '8px'
+                                        });
+                                        jQuery('.chart').data('easyPieChart').update(50);
+                                        jQuery('.chart').find('span').text('50');
+                                    //фаза 2
+                                        reloadTime1 = 0;
+                                        cur_animation_val = 0;
+                                        count_animation = 1;
+                                        phaseOne = setInterval(function(){
+                                            if (count_animation <= 960){                                                                         //90
+                                                count_animation += 1;
+                                                cur_animation_val += 6;
+                                                jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
+                                                    borderColor: 'transparent',
+                                                    zIndex: '1000',
+                                                    color: 'transparent'
+                                                });
+                                                if (count_animation <= 480){
+                                                    jQuery('#draggable2').css({
+                                                        background: '#fff url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
+                                                    });
+                                                    jQuery('#draggable3').css({
+                                                        background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
+                                                    });
+                                                } else {
+                                                    jQuery('#draggable2, #draggable3').css({
+                                                        transform: 'rotate(-'+cur_animation_val+'deg)',
+                                                        background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
+                                                    });
+                                                    jQuery('.chart').data('easyPieChart').update(20);
+                                                    jQuery('.chart').find('span').text('20');
+                                                }
+                                                cur_let = Math.round(Math.random() * (7 - 0))
+                                                jQuery('#draggable1').text(letters[cur_let]);
+                                                jQuery('#draggable1').css({
+                                                    background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
+                                                    color: '#000',
+                                                    transform: 'scale(1.3)',
+                                                    paddingTop: '10px'
+                                                });
+                                                jQuery('#draggable0').css({
+                                                    transform: 'rotate('+cur_animation_val+'deg)',
+                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat'
+                                                });
+                                            } else {
+                                                clearInterval(phaseOne);
+                                                jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
+                                                    background: 'rgba(255,255,255, 0.5)',
+                                                    color: 'crimson',
+                                                    borderColor: 'crimson',
+                                                    zIndex: '1',
+                                                    transform: 'scale(1)',
+                                                    paddingTop: '8px'
+                                                });
+                                                jQuery('#draggable1').text('D+');
+                                                jQuery('.chart').data('easyPieChart').update(40);
+                                                jQuery('.chart').find('span').text('40');
+                                                //фаза 3
+                                                count_animation = 1;
+                                                phaseOne = setInterval(function(){
+                                                    if (count_animation <= 175){                                                                         //120
+                                                        cur_animation_val += 6;
+                                                        if (count_animation > 0 && count_animation <= 17){
+                                                            jQuery('#draggable4').css({
+                                                                color: 'transparent',
+                                                                borderColor: 'transparent',
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                zIndex: '1000'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(46);
+                                                            jQuery('.chart').find('span').text('46');
+                                                        } else if (count_animation > 17 && count_animation <= 34){
+                                                            jQuery('#draggable4').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable3').css({
+                                                                color: 'transparent',
+                                                                borderColor: 'transparent',
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                zIndex: '1000'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(52);
+                                                            jQuery('.chart').find('span').text('52');
+                                                        } else if (count_animation > 34 && count_animation <= 53){
+                                                            jQuery('#draggable4').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable3').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable2').css({
+                                                                color: 'transparent',
+                                                                borderColor: 'transparent',
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                zIndex: '1000'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(58);
+                                                            jQuery('.chart').find('span').text('58');
+                                                        } else if (count_animation > 53 && count_animation <= 70){
+                                                            jQuery('#draggable4').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable3').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable2').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(64);
+                                                            jQuery('.chart').find('span').text('64');
+                                                        } else if (count_animation > 70 && count_animation <= 87){
+                                                            jQuery('#draggable4').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable3').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable2').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(70);
+                                                            jQuery('.chart').find('span').text('70');
+                                                        } else if (count_animation > 87 && count_animation <= 104){
+                                                            jQuery('#draggable4').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable3').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable2').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(76);
+                                                            jQuery('.chart').find('span').text('76');
+                                                        } else if (count_animation > 104 && count_animation <= 123){
+                                                            jQuery('#draggable4').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable3').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable2').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(82);
+                                                            jQuery('.chart').find('span').text('82');
+                                                        } else if (count_animation > 123 && count_animation <= 140){
+                                                            jQuery('#draggable4').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable3').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable2').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(88);
+                                                            jQuery('.chart').find('span').text('88');
+                                                        } else if (count_animation > 140 && count_animation <= 157){
+                                                            jQuery('#draggable4').css({
+                                                                background: 'rgba(255,255,255, 0.5)',
+                                                                color: 'crimson',
+                                                                borderColor: 'crimson',
+                                                                zIndex: '1'
+                                                            });
+                                                            jQuery('#draggable3').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('#draggable2').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(94);
+                                                            jQuery('.chart').find('span').text('94');
+                                                        } else if (count_animation > 157 && count_animation <= 174){
+                                                            jQuery('#draggable3').css({
+                                                                background: 'rgba(255,255,255, 0.5)',
+                                                                color: 'crimson',
+                                                                borderColor: 'crimson',
+                                                                zIndex: '1'
+                                                            });
+                                                            jQuery('#draggable2').css({
+                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                            });
+                                                            jQuery('.chart').data('easyPieChart').update(96);
+                                                            jQuery('.chart').find('span').text('96');
+                                                        }
+                                                        count_animation += 1;
+                                                    } else {
+                                                        clearInterval(phaseOne);
+                                                        count_animation = 1;
+                                                        jQuery('#draggable4, #draggable3, #draggable2').css({
+                                                            background: 'rgba(255,255,255, 0.5)',
+                                                            color: 'crimson',
+                                                            borderColor: 'crimson',
+                                                            zIndex: '1'
+                                                        });
+                                                        jQuery('.chart').data('easyPieChart').update(100);
+                                                        jQuery('.chart').find('span').text('100');
+                                                        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_paje +') no-repeat top left/100%');
+                                                    //фаза 1
+                                                        reloadTime1 = 0;
+                                                        cur_animation_val = 0;
+                                                        count_animation = 1;
+                                                        phaseOne = setInterval(function(){
+                                                            if (count_animation <= 480){                                                                         //90
+                                                                count_animation += 1;
+                                                                cur_animation_val += 6;
+                                                                jQuery('#draggable8, #draggable7, #draggable6').css({
+                                                                    borderColor: 'transparent',
+                                                                    zIndex: '1000',
+                                                                    color: 'transparent'
+                                                                });
+                                                                if (count_animation <= 240){
+                                                                    jQuery('#draggable8').css({
+                                                                        background: 'url('+e_one+') 0 0/100% no-repeat',
+                                                                        transform: 'scale(1.3)'
+                                                                    });
+                                                                } else {
+                                                                    jQuery('#draggable8').css({
+                                                                        background: 'url('+e_two+') 0 0/100% no-repeat',
+                                                                        transform: 'scale(1.3)'
+                                                                    });
+                                                                    jQuery('.chart').data('easyPieChart').update(20);
+                                                                    jQuery('.chart').find('span').text('20');
+                                                                }
+                                                                jQuery('#draggable7').css({
+                                                                    transform: 'rotate('+cur_animation_val+'deg)',
+                                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+                                                                });
+                                                                jQuery('#draggable6').css({
+                                                                    background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
+                                                                });
+                                                            } else {
+                                                                clearInterval(phaseOne);
+                                                                jQuery('#draggable8, #draggable7, #draggable6').css({
+                                                                    background: 'rgba(255,255,255, 0.5)',
+                                                                    color: 'crimson',
+                                                                    borderColor: 'crimson',
+                                                                    zIndex: '1',
+                                                                    transform: 'scale(1)',
+                                                                    paddingTop: '8px'
+                                                                });
+                                                                jQuery('.chart').data('easyPieChart').update(50);
+                                                                jQuery('.chart').find('span').text('50');
+                                                            //фаза 2
+                                                                reloadTime1 = 0;
+                                                                cur_animation_val = 0;
+                                                                count_animation = 1;
+                                                                phaseOne = setInterval(function(){
+                                                                    if (count_animation <= 960){                                                                         //90
+                                                                        count_animation += 1;
+                                                                        cur_animation_val += 6;
+                                                                        jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
+                                                                            borderColor: 'transparent',
+                                                                            zIndex: '1000',
+                                                                            color: 'transparent'
+                                                                        });
+                                                                        if (count_animation <= 480){
+                                                                            jQuery('#draggable2').css({
+                                                                                background: '#fff url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
+                                                                            });
+                                                                            jQuery('#draggable3').css({
+                                                                                background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
+                                                                            });
+                                                                        } else {
+                                                                            jQuery('#draggable2, #draggable3').css({
+                                                                                transform: 'rotate(-'+cur_animation_val+'deg)',
+                                                                                background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
+                                                                            });
+                                                                            jQuery('.chart').data('easyPieChart').update(20);
+                                                                            jQuery('.chart').find('span').text('20');
+                                                                        }
+                                                                        cur_let = Math.round(Math.random() * (7 - 0))
+                                                                        jQuery('#draggable1').text(letters[cur_let]);
+                                                                        jQuery('#draggable1').css({
+                                                                            background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
+                                                                            color: '#000',
+                                                                            transform: 'scale(1.3)',
+                                                                            paddingTop: '10px'
+                                                                        });
+                                                                        jQuery('#draggable0').css({
+                                                                            transform: 'rotate('+cur_animation_val+'deg)',
+                                                                            background: '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat'
+                                                                        });
+                                                                    } else {
+                                                                        clearInterval(phaseOne);
+                                                                        jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
+                                                                            background: 'rgba(255,255,255, 0.5)',
+                                                                            color: 'crimson',
+                                                                            borderColor: 'crimson',
+                                                                            zIndex: '1',
+                                                                            transform: 'scale(1)',
+                                                                            paddingTop: '8px'
+                                                                        });
+                                                                        jQuery('#draggable1').text('D+');
+                                                                        jQuery('.chart').data('easyPieChart').update(40);
+                                                                        jQuery('.chart').find('span').text('40');
+                                                                        //фаза 3
+                                                                        count_animation = 1;
+                                                                        phaseOne = setInterval(function(){
+                                                                            if (count_animation <= 175){                                                                         //120
+                                                                                cur_animation_val += 6;
+                                                                                if (count_animation > 0 && count_animation <= 17){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        color: 'transparent',
+                                                                                        borderColor: 'transparent',
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                                        zIndex: '1000'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(46);
+                                                                                    jQuery('.chart').find('span').text('46');
+                                                                                } else if (count_animation > 17 && count_animation <= 34){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable3').css({
+                                                                                        color: 'transparent',
+                                                                                        borderColor: 'transparent',
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                                        zIndex: '1000'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(52);
+                                                                                    jQuery('.chart').find('span').text('52');
+                                                                                } else if (count_animation > 34 && count_animation <= 53){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable3').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable2').css({
+                                                                                        color: 'transparent',
+                                                                                        borderColor: 'transparent',
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                                        zIndex: '1000'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(58);
+                                                                                    jQuery('.chart').find('span').text('58');
+                                                                                } else if (count_animation > 53 && count_animation <= 70){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable3').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable2').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(64);
+                                                                                    jQuery('.chart').find('span').text('64');
+                                                                                } else if (count_animation > 70 && count_animation <= 87){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable3').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable2').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(70);
+                                                                                    jQuery('.chart').find('span').text('70');
+                                                                                } else if (count_animation > 87 && count_animation <= 104){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable3').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable2').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(76);
+                                                                                    jQuery('.chart').find('span').text('76');
+                                                                                } else if (count_animation > 104 && count_animation <= 123){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable3').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable2').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(82);
+                                                                                    jQuery('.chart').find('span').text('82');
+                                                                                } else if (count_animation > 123 && count_animation <= 140){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable3').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable2').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(88);
+                                                                                    jQuery('.chart').find('span').text('88');
+                                                                                } else if (count_animation > 140 && count_animation <= 157){
+                                                                                    jQuery('#draggable4').css({
+                                                                                        background: 'rgba(255,255,255, 0.5)',
+                                                                                        color: 'crimson',
+                                                                                        borderColor: 'crimson',
+                                                                                        zIndex: '1'
+                                                                                    });
+                                                                                    jQuery('#draggable3').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('#draggable2').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(94);
+                                                                                    jQuery('.chart').find('span').text('94');
+                                                                                } else if (count_animation > 157 && count_animation <= 174){
+                                                                                    jQuery('#draggable3').css({
+                                                                                        background: 'rgba(255,255,255, 0.5)',
+                                                                                        color: 'crimson',
+                                                                                        borderColor: 'crimson',
+                                                                                        zIndex: '1'
+                                                                                    });
+                                                                                    jQuery('#draggable2').css({
+                                                                                        background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                                                    });
+                                                                                    jQuery('.chart').data('easyPieChart').update(96);
+                                                                                    jQuery('.chart').find('span').text('96');
+                                                                                }
+                                                                                count_animation += 1;
+                                                                            } else {
+                                                                                clearInterval(phaseOne);
+                                                                                count_animation = 1;
+                                                                                jQuery('#draggable4, #draggable3, #draggable2').css({
+                                                                                    background: 'rgba(255,255,255, 0.5)',
+                                                                                    color: 'crimson',
+                                                                                    borderColor: 'crimson',
+                                                                                    zIndex: '1'
+                                                                                });
+                                                                                jQuery('.chart').data('easyPieChart').update(100);
+                                                                                jQuery('.chart').find('span').text('100');
+                                                                                jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_knight +') no-repeat top left/100%');
+                                                                            //фаза 1
+                                                                                reloadTime1 = 0;
+                                                                                cur_animation_val = 0;
+                                                                                count_animation = 1;
+                                                                                phaseOne = setInterval(function(){
+                                                                                    if (count_animation <= 480){                                                                         //90
+                                                                                        count_animation += 1;
+                                                                                        cur_animation_val += 6;
+                                                                                        jQuery('#draggable8, #draggable7, #draggable6').css({
+                                                                                            borderColor: 'transparent',
+                                                                                            zIndex: '1000',
+                                                                                            color: 'transparent'
+                                                                                        });
+                                                                                        if (count_animation <= 240){
+                                                                                            jQuery('#draggable8').css({
+                                                                                                background: 'url('+e_one+') 0 0/100% no-repeat',
+                                                                                                transform: 'scale(1.3)'
+                                                                                            });
+                                                                                        } else {
+                                                                                            jQuery('#draggable8').css({
+                                                                                                background: 'url('+e_two+') 0 0/100% no-repeat',
+                                                                                                transform: 'scale(1.3)'
+                                                                                            });
+                                                                                            jQuery('.chart').data('easyPieChart').update(20);
+                                                                                            jQuery('.chart').find('span').text('20');
+                                                                                        }
+                                                                                        jQuery('#draggable7').css({
+                                                                                            transform: 'rotate('+cur_animation_val+'deg)',
+                                                                                            background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+                                                                                        });
+                                                                                        jQuery('#draggable6').css({
+                                                                                            background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
+                                                                                        });
+                                                                                    } else {
+                                                                                        clearInterval(phaseOne);
+                                                                                        jQuery('#draggable8, #draggable7, #draggable6').css({
+                                                                                            background: 'rgba(255,255,255, 0.5)',
+                                                                                            color: 'crimson',
+                                                                                            borderColor: 'crimson',
+                                                                                            zIndex: '1',
+                                                                                            transform: 'scale(1)',
+                                                                                            paddingTop: '8px'
+                                                                                        });
+                                                                                        jQuery('.chart').data('easyPieChart').update(50);
+                                                                                        jQuery('.chart').find('span').text('50');
+                                                                                    //фаза 2
+                                                                                        reloadTime1 = 0;
+                                                                                        cur_animation_val = 0;
+                                                                                        count_animation = 1;
+                                                                                        phaseOne = setInterval(function(){
+                                                                                            if (count_animation <= 960){                                                                         //90
+                                                                                                count_animation += 1;
+                                                                                                cur_animation_val += 6;
+                                                                                                jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
+                                                                                                    borderColor: 'transparent',
+                                                                                                    zIndex: '1000',
+                                                                                                    color: 'transparent'
+                                                                                                });
+                                                                                                if (count_animation <= 480){
+                                                                                                    jQuery('#draggable2').css({
+                                                                                                        background: '#fff url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
+                                                                                                    });
+                                                                                                    jQuery('#draggable3').css({
+                                                                                                        background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
+                                                                                                    });
+                                                                                                } else {
+                                                                                                    jQuery('#draggable2, #draggable3').css({
+                                                                                                        transform: 'rotate(-'+cur_animation_val+'deg)',
+                                                                                                        background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
+                                                                                                    });
+                                                                                                    jQuery('.chart').data('easyPieChart').update(20);
+                                                                                                    jQuery('.chart').find('span').text('20');
+                                                                                                }
+                                                                                                cur_let = Math.round(Math.random() * (7 - 0))
+                                                                                                jQuery('#draggable1').text(letters[cur_let]);
+                                                                                                jQuery('#draggable1').css({
+                                                                                                    background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
+                                                                                                    color: '#000',
+                                                                                                    transform: 'scale(1.3)',
+                                                                                                    paddingTop: '10px'
+                                                                                                });
+                                                                                                jQuery('#draggable0').css({
+                                                                                                    transform: 'rotate('+cur_animation_val+'deg)',
+                                                                                                    background: '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat'
+                                                                                                });
+                                                                                            } else {
+                                                                                                clearInterval(phaseOne);
+                                                                                                jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
+                                                                                                    background: 'rgba(255,255,255, 0.5)',
+                                                                                                    color: 'crimson',
+                                                                                                    borderColor: 'crimson',
+                                                                                                    zIndex: '1',
+                                                                                                    transform: 'scale(1)',
+                                                                                                    paddingTop: '8px'
+                                                                                                });
+                                                                                                jQuery('#draggable1').text('D+');
+                                                                                                jQuery('.chart').data('easyPieChart').update(40);
+                                                                                                jQuery('.chart').find('span').text('40');
+                                                                                                //фаза 3
+                                                                                                count_animation = 1;
+                                                                                                phaseOne = setInterval(function(){
+                                                                                                    if (count_animation <= 175){                                                                         //120
+                                                                                                        cur_animation_val += 6;
+                                                                                                        if (count_animation > 0 && count_animation <= 17){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                color: 'transparent',
+                                                                                                                borderColor: 'transparent',
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                                                                zIndex: '1000'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(46);
+                                                                                                            jQuery('.chart').find('span').text('46');
+                                                                                                        } else if (count_animation > 17 && count_animation <= 34){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                color: 'transparent',
+                                                                                                                borderColor: 'transparent',
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                                                                zIndex: '1000'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(52);
+                                                                                                            jQuery('.chart').find('span').text('52');
+                                                                                                        } else if (count_animation > 34 && count_animation <= 53){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable2').css({
+                                                                                                                color: 'transparent',
+                                                                                                                borderColor: 'transparent',
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
+                                                                                                                zIndex: '1000'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(58);
+                                                                                                            jQuery('.chart').find('span').text('58');
+                                                                                                        } else if (count_animation > 53 && count_animation <= 70){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable2').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(64);
+                                                                                                            jQuery('.chart').find('span').text('64');
+                                                                                                        } else if (count_animation > 70 && count_animation <= 87){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable2').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_voda_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(70);
+                                                                                                            jQuery('.chart').find('span').text('70');
+                                                                                                        } else if (count_animation > 87 && count_animation <= 104){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable2').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_ogon_lev.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(76);
+                                                                                                            jQuery('.chart').find('span').text('76');
+                                                                                                        } else if (count_animation > 104 && count_animation <= 123){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable2').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/1_ogon_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(82);
+                                                                                                            jQuery('.chart').find('span').text('82');
+                                                                                                        } else if (count_animation > 123 && count_animation <= 140){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable2').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/2_voda_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(88);
+                                                                                                            jQuery('.chart').find('span').text('88');
+                                                                                                        } else if (count_animation > 140 && count_animation <= 157){
+                                                                                                            jQuery('#draggable4').css({
+                                                                                                                background: 'rgba(255,255,255, 0.5)',
+                                                                                                                color: 'crimson',
+                                                                                                                borderColor: 'crimson',
+                                                                                                                zIndex: '1'
+                                                                                                            });
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('#draggable2').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/3_vozduh_prav.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(94);
+                                                                                                            jQuery('.chart').find('span').text('94');
+                                                                                                        } else if (count_animation > 157 && count_animation <= 174){
+                                                                                                            jQuery('#draggable3').css({
+                                                                                                                background: 'rgba(255,255,255, 0.5)',
+                                                                                                                color: 'crimson',
+                                                                                                                borderColor: 'crimson',
+                                                                                                                zIndex: '1'
+                                                                                                            });
+                                                                                                            jQuery('#draggable2').css({
+                                                                                                                background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
+                                                                                                            });
+                                                                                                            jQuery('.chart').data('easyPieChart').update(96);
+                                                                                                            jQuery('.chart').find('span').text('96');
+                                                                                                        }
+                                                                                                        count_animation += 1;
+                                                                                                    } else {
+                                                                                                        clearInterval(phaseOne);
+                                                                                                        count_animation = 1;
+                                                                                                        jQuery('#draggable4, #draggable3, #draggable2').css({
+                                                                                                            background: 'rgba(255,255,255, 0.5)',
+                                                                                                            color: 'crimson',
+                                                                                                            borderColor: 'crimson',
+                                                                                                            zIndex: '1'
+                                                                                                        });
+                                                                                                        jQuery('.chart').data('easyPieChart').update(100);
+                                                                                                        jQuery('.chart').find('span').text('100');
+                                                                                                        count_animation = 1;
+                                                                                                        onEnd();
+                                                                                                        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_dama +') no-repeat top left/100%');
+                                                                                                    }
+                                                                                                }, 1000);
+                                                                                            }
+                                                                                        }, 250);
+                                                                                    }
+                                                                                }, 250);
+                                                                            }
+                                                                        }, 1000);
+                                                                    }
+                                                                }, 250);
+                                                            }
+                                                        }, 250);
+                                                    }
+                                                }, 1000);
+                                            }
+                                        }, 250);
+                                    }
+                                }, 250);
                             }
                         }, 1000);
                     }
