@@ -703,16 +703,16 @@ jQuery(function() {
             }
         }, 250);
     };
-    if(supportsStorage && localStorage.getItem('prot_type')){
-        prot_type = localStorage.getItem('prot_type');
-        elem_type = localStorage.getItem('elem_type');
-        console.log(prot_type+' '+elem_type);
-    }
     jQuery('.tarot_start').on('click', function(event) {
         checkPoints()
         if(pointsStatus == false){
             swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
         } else {
+            if(supportsStorage && localStorage.getItem('prot_type')){
+                prot_type = localStorage.getItem('prot_type');
+                elem_type = localStorage.getItem('elem_type');
+                console.log(prot_type+' '+elem_type);
+            }
             if(prot_type == 'tarot'){
                 tarot();
                 jQuery('.tarot_to_photo').addClass('hidden');
