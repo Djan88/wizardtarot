@@ -231,7 +231,6 @@ jQuery(function() {
                 }
                 cur_let = Math.round(Math.random() * (7 - 0))
                 jQuery('#draggable1').text(letters[cur_let]);
-
                 jQuery('#draggable1').css({
                     background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
                     color: '#000',
@@ -458,46 +457,36 @@ jQuery(function() {
         cur_animation_val = 0;
         count_animation = 1;
         phaseOne = setInterval(function(){
-            if (count_animation <= 960){                                                                         //90
+            if (count_animation <= 480){                                                                         //90
                 count_animation += 1;
                 cur_animation_val += 6;
-                jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
+                jQuery('#draggable8, #draggable7, #draggable6').css({
                     borderColor: 'transparent',
                     zIndex: '1000',
                     color: 'transparent'
                 });
 
-                if (count_animation <= 480){
-                    jQuery('#draggable2').css({
-                        background: '#fff url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
-                    });
-                    jQuery('#draggable3').css({
-                        background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
+                if (count_animation <= 240){
+                    jQuery('#draggable8').css({
+                        background: '#fff url('+e_one+') 0 0/100% no-repeat'
                     });
                 } else {
-                    jQuery('#draggable2, #draggable3').css({
-                        transform: 'rotate(-'+cur_animation_val+'deg)',
-                        background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
+                    jQuery('#draggable8').css({
+                        background: '#fff url('+e_two+') 0 0/100% no-repeat'
                     });
                     jQuery('.chart').data('easyPieChart').update(20);
                     jQuery('.chart').find('span').text('20');
                 }
-                cur_let = Math.round(Math.random() * (7 - 0))
-                jQuery('#draggable1').text(letters[cur_let]);
-
-                jQuery('#draggable1').css({
-                    background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
-                    color: '#000',
-                    transform: 'scale(1.3)',
-                    paddingTop: '10px'
-                });
-                jQuery('#draggable0').css({
+                jQuery('#draggable7').css({
                     transform: 'rotate('+cur_animation_val+'deg)',
-                    background: '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+                });
+                jQuery('#draggable6').css({
+                    background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
                 });
             } else {
                 clearInterval(phaseOne);
-                jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({
+                jQuery('#draggable8, #draggable7, #draggable6').css({
                     background: 'rgba(255,255,255, 0.5)',
                     color: 'crimson',
                     borderColor: 'crimson',
@@ -505,7 +494,6 @@ jQuery(function() {
                     transform: 'scale(1)',
                     paddingTop: '8px'
                 });
-                jQuery('#draggable1').text('D+');
                 jQuery('.chart').data('easyPieChart').update(50);
                 jQuery('.chart').find('span').text('50');
             //фаза 2
@@ -561,8 +549,8 @@ jQuery(function() {
                             paddingTop: '8px'
                         });
                         jQuery('#draggable1').text('D+');
-                        jQuery('.chart').data('easyPieChart').update(50);
-                        jQuery('.chart').find('span').text('50');
+                        jQuery('.chart').data('easyPieChart').update(40);
+                        jQuery('.chart').find('span').text('40');
                         //фаза 3
                         count_animation = 1;
                         phaseOne = setInterval(function(){
@@ -727,6 +715,8 @@ jQuery(function() {
                 tarot();
                 jQuery('.tarot_to_photo').addClass('hidden');
             } else {
+                elems();
+                jQuery('.tarot_to_photo').addClass('hidden');
                 console.log('elements');
             }
         }
