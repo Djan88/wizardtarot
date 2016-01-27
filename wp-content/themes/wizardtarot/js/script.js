@@ -487,6 +487,7 @@ jQuery(function() {
             e_knight = '/wp-content/themes/wizardtarot/images/gallery/47-Minor-Swords-Knight.png'
         };
     //фаза 1
+        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_dama +') no-repeat top left/100%');
         reloadTime1 = 0;
         cur_animation_val = 0;
         count_animation = 1;
