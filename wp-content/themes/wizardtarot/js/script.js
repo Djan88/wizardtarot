@@ -717,16 +717,16 @@ jQuery(function() {
                 tarot();
                 jQuery('.tarot_to_photo').addClass('hidden');
             } else {
-                if(elem_type = 'F'){
+                if(elem_type == 'F'){
                     e_one = '/wp-content/themes/wizardtarot/images/4_ogon_lev.png';
                     e_two = '/wp-content/themes/wizardtarot/images/1_ogon_prav.png';
-                } else if (elem_type = 'W'){
+                } else if (elem_type == 'W'){
                     e_one = '/wp-content/themes/wizardtarot/images/3_voda_lev.png';
                     e_two = '/wp-content/themes/wizardtarot/images/2_voda_prav.png';
-                } else if (elem_type = 'A'){
+                } else if (elem_type == 'A'){
                     e_one = '/wp-content/themes/wizardtarot/images/2_vozduh_lev.png';
                     e_two = '/wp-content/themes/wizardtarot/images/3_vozduh_prav.png';
-                } else if (elem_type = 'E'){
+                } else if (elem_type == 'E'){
                     e_one = '/wp-content/themes/wizardtarot/images/1_zemlya_lev.png';
                     e_two = '/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png';
                 };
