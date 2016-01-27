@@ -200,6 +200,7 @@ jQuery(function() {
         if(supportsStorage && localStorage.getItem('prot_card')){
             prot_card = localStorage.getItem('prot_card');
             prot_type = localStorage.getItem('prot_type');
+            elem_type = localStorage.getItem('elem_type');
         }
         console.log(prot_card);
         if(prot_type == 'tarot'){
