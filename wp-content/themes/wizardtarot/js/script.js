@@ -440,16 +440,16 @@ jQuery(function() {
     };
     elems = function(){
     //фаза 1
-        if(elem_type = 'F'){
+        if(elem_type == 'F'){
             e_one = '/wp-content/themes/wizardtarot/images/4_ogon_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/1_ogon_prav.png';
-        } else if (elem_type = 'W'){
+        } else if (elem_type == 'W'){
             e_one = '/wp-content/themes/wizardtarot/images/3_voda_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/2_voda_prav.png';
-        } else if (elem_type = 'A'){
+        } else if (elem_type == 'A'){
             e_one = '/wp-content/themes/wizardtarot/images/2_vozduh_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/3_vozduh_prav.png';
-        } else if (elem_type = 'E'){
+        } else if (elem_type == 'E'){
             e_one = '/wp-content/themes/wizardtarot/images/1_zemlya_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png';
         };
@@ -703,33 +703,20 @@ jQuery(function() {
             }
         }, 250);
     };
+    if(supportsStorage && localStorage.getItem('prot_type')){
+        prot_type = localStorage.getItem('prot_type');
+        elem_type = localStorage.getItem('elem_type');
+        console.log(prot_type+' '+elem_type);
+    }
     jQuery('.tarot_start').on('click', function(event) {
         checkPoints()
         if(pointsStatus == false){
             swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
         } else {
-            if(supportsStorage && localStorage.getItem('prot_type')){
-                prot_type = localStorage.getItem('prot_type');
-                elem_type = localStorage.getItem('elem_type');
-                console.log(prot_type+' '+elem_type);
-            }
             if(prot_type == 'tarot'){
                 tarot();
                 jQuery('.tarot_to_photo').addClass('hidden');
             } else {
-                if(elem_type == 'F'){
-                    e_one = '/wp-content/themes/wizardtarot/images/4_ogon_lev.png';
-                    e_two = '/wp-content/themes/wizardtarot/images/1_ogon_prav.png';
-                } else if (elem_type == 'W'){
-                    e_one = '/wp-content/themes/wizardtarot/images/3_voda_lev.png';
-                    e_two = '/wp-content/themes/wizardtarot/images/2_voda_prav.png';
-                } else if (elem_type == 'A'){
-                    e_one = '/wp-content/themes/wizardtarot/images/2_vozduh_lev.png';
-                    e_two = '/wp-content/themes/wizardtarot/images/3_vozduh_prav.png';
-                } else if (elem_type == 'E'){
-                    e_one = '/wp-content/themes/wizardtarot/images/1_zemlya_lev.png';
-                    e_two = '/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png';
-                };
                 elems();
                 jQuery('.tarot_to_photo').addClass('hidden');
                 console.log('elements');
