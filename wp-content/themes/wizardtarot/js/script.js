@@ -468,11 +468,11 @@ jQuery(function() {
 
                 if (count_animation <= 240){
                     jQuery('#draggable8').css({
-                        background: '#fff url('+e_one+') 0 0/100% no-repeat'
+                        background: 'url('+e_one+') 0 0/100% no-repeat'
                     });
                 } else {
                     jQuery('#draggable8').css({
-                        background: '#fff url('+e_two+') 0 0/100% no-repeat'
+                        background: 'url('+e_two+') 0 0/100% no-repeat'
                     });
                     jQuery('.chart').data('easyPieChart').update(20);
                     jQuery('.chart').find('span').text('20');
