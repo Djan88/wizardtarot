@@ -31,6 +31,10 @@ jQuery(function() {
         tarot,
         e_one,
         e_two,
+        e_dama,
+        e_king,
+        e_paje,
+        e_knight,
         prot_type,
         elem_type,
         prot_card,
@@ -197,7 +201,19 @@ jQuery(function() {
             prot_card = localStorage.getItem('prot_card');
         }
         console.log(prot_card);
-        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
+        if(prot_type == 'tarot'){
+            jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
+        } else {
+            if(elem_type == 'F'){
+                jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/62-Minor-Cups-Queen.png) no-repeat top left/100%');
+            } else if (elem_type == 'W'){
+                jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/76-Minor-Wands-Queen.png) no-repeat top left/100%');
+            } else if (elem_type == 'A'){
+                jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/34-Minor-Discs-Queen.png) no-repeat top left/100%');
+            } else if (elem_type == 'E'){
+                jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/48-Minor-Swords-Queen.png) no-repeat top left/100%');
+            };
+        }
     }
     tarot = function(){
     //фаза 1
@@ -414,8 +430,8 @@ jQuery(function() {
                                     jQuery('#draggable2').css({
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
                                     });
-                                    jQuery('.chart').data('easyPieChart').update(196);
-                                    jQuery('.chart').find('span').text('196');
+                                    jQuery('.chart').data('easyPieChart').update(96);
+                                    jQuery('.chart').find('span').text('96');
                                 }
                                 count_animation += 1;
                             } else {
@@ -443,6 +459,10 @@ jQuery(function() {
         if(elem_type == 'F'){
             e_one = '/wp-content/themes/wizardtarot/images/4_ogon_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/1_ogon_prav.png';
+            e_dama = 
+            e_king = 
+            e_paje = 
+            e_knight = 
         } else if (elem_type == 'W'){
             e_one = '/wp-content/themes/wizardtarot/images/3_voda_lev.png';
             e_two = '/wp-content/themes/wizardtarot/images/2_voda_prav.png';
@@ -679,8 +699,8 @@ jQuery(function() {
                                     jQuery('#draggable2').css({
                                         background: 'transparent url(/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png) 0 0/100% no-repeat'
                                     });
-                                    jQuery('.chart').data('easyPieChart').update(196);
-                                    jQuery('.chart').find('span').text('196');
+                                    jQuery('.chart').data('easyPieChart').update(96);
+                                    jQuery('.chart').find('span').text('96');
                                 }
                                 count_animation += 1;
                             } else {
