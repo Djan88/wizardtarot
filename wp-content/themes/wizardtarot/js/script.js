@@ -473,7 +473,7 @@ jQuery(function() {
                     });
                 } else {
                     jQuery('#draggable8').css({
-                        background: 'url('+e_two+') 0 0/100% no-repeat'
+                        background: 'url('+e_two+') 0 0/100% no-repeat',
                         transform: 'scale(1.3)'
                     });
                     jQuery('.chart').data('easyPieChart').update(20);
