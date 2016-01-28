@@ -1304,7 +1304,7 @@ jQuery(function() {
                                                                                                     if (count_animation <= 175){                                                                         //120
                                                                                                         cur_animation_val += 6;
                                                                                                         if (count_animation > 0 && count_animation <= 17){
-                                                                                                            jQuery('#draggable5').css({
+                                                                                                            jQuery('#draggable7').css({
                                                                                                                 color: 'transparent',
                                                                                                                 borderColor: 'transparent',
                                                                                                                 background: 'transparent url(/wp-content/themes/wizardtarot/images/1_zemlya_lev.png) 0 0/100% no-repeat',
@@ -1313,7 +1313,7 @@ jQuery(function() {
                                                                                                             jQuery('.chart').data('easyPieChart').update(93);
                                                                                                             jQuery('.chart').find('span').text('93');
                                                                                                         } else if (count_animation > 17 && count_animation <= 34){
-                                                                                                            jQuery('#draggable5').css({
+                                                                                                            jQuery('#draggable7').css({
                                                                                                                 background: 'transparent url(/wp-content/themes/wizardtarot/images/2_vozduh_lev.png) 0 0/100% no-repeat'
                                                                                                             });
                                                                                                             jQuery('#draggable6').css({
