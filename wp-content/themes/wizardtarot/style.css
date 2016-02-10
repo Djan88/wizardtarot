@@ -1176,6 +1176,10 @@ input[type=submit]{
   border: 2px solid darkred;
   box-sizing: border-box;
 }
+.elems_table_block
+{
+  display: none;
+}
 .elem_oval_one
 {
   top: 0;
