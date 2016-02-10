@@ -1041,7 +1041,7 @@ input[type=submit]{
 }
 .bs-example:after
 {
-  content: "Таблица первоэлементов";
+  content: "Выбор первоэлемента";
   position: absolute;
   top: 15px;
   left: 15px;
@@ -1059,6 +1059,14 @@ input[type=submit]{
 .elems_description_block.bs-example:after
 {
   content: "Описание первоэлементов";
+}
+.elems_algoritm_block.bs-example:after
+{
+  content: "Правила выбора первоэлемента";
+}
+.elems_table_block.bs-example:after
+{
+  content: "Таблица первоэлементов";
 }
 .elemnts_td_img
 {
