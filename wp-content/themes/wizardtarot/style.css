@@ -1182,8 +1182,14 @@ input[type=submit]{
 }
 .elem_oval_one
 {
-  top: 0;
+  top: 2%;
   left: 43%;
+}
+.elem_oval_two 
+{
+  top: 39%;
+  left: 63%;
+  transform: rotate(120deg);
 }
 .elemnts_td_img
 {
