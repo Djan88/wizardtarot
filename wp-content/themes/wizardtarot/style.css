@@ -1091,6 +1091,96 @@ input[type=submit]{
   background: #eee;
   position: relative;
 }
+.number 
+{
+  position: absolute;
+  color: crimson;
+  font-size: 15px;
+}
+.number_one 
+{
+  top: 6%;
+  left: 73%;
+}
+.number_two 
+{
+  top: 23%;
+  left: 89%;
+}
+.number_three 
+{
+  left: 95%;
+  top: 47%;
+}
+.number_four 
+{
+  bottom: 21%;
+  left: 88%;
+}
+.number_five 
+{
+  bottom: 6%;
+  left: 73%;
+}
+.number_six 
+{
+  bottom: 0;
+  left: 48%;
+}
+.number_seven 
+{
+  bottom: 6%;
+  left: 24%;
+}
+.number_eight 
+{
+  bottom: 21%;
+  left: 8%;
+}
+.number_nine 
+{
+  top: 47%;
+  left: 2%;
+}
+.number_ten 
+{
+  top: 23%;
+  left: 8%;
+}
+.number_eleven 
+{
+  top: 6%;
+  left: 23%;
+}
+.number_twelve 
+{
+  top: 0;
+  left: 47%;
+}
+.oval_wrap 
+{
+  background: #ddd;
+  width: 75%;
+  padding-top: 75%;
+  position: absolute;
+  border-radius: 50%;
+  top: 12%;
+  left: 13%;
+}
+.elem_oval 
+{
+  position: absolute;
+  width: 15%;
+  padding-top: 45%;
+  border-radius: 50%;
+  border: 2px solid darkred;
+  box-sizing: border-box;
+}
+.elem_oval_one
+{
+  top: 0;
+  left: 43%;
+}
 .elemnts_td_img
 {
   width: 10%;
