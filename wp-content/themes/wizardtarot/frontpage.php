@@ -133,6 +133,7 @@
                           <div class="bs-example elems_table_block">
                             <div class="row elems">
                               <div class="col-md-3 elem_wrap">
+                                <h4 class="elem_title">ОГОНЬ</h4>
                                 <div class="elem_circle">
                                   <div class="number number_one">1</div>
                                   <div class="number number_two">2</div>
@@ -146,7 +147,7 @@
                                   <div class="number number_ten">10</div>
                                   <div class="number number_eleven">11</div>
                                   <div class="number number_twelve">12</div>
-                                  <div class="oval_wrap">
+                                  <div class="oval_wrap" style="transform: rotate(15deg);">
                                     <div class="elem_oval elem_oval_one"></div>
                                     <div class="elem_oval elem_oval_two"></div>
                                     <div class="elem_oval elem_oval_three"></div>
@@ -154,6 +155,7 @@
                                 </div>
                               </div>
                               <div class="col-md-3 elem_wrap">
+                                <h4 class="elem_title">ВОДА</h4>
                                 <div class="elem_circle">
                                   <div class="number number_one">1</div>
                                   <div class="number number_two">2</div>
@@ -167,7 +169,7 @@
                                   <div class="number number_ten">10</div>
                                   <div class="number number_eleven">11</div>
                                   <div class="number number_twelve">12</div>
-                                  <div class="oval_wrap">
+                                  <div class="oval_wrap" style="transform: rotate(76deg);">
                                     <div class="elem_oval elem_oval_one"></div>
                                     <div class="elem_oval elem_oval_two"></div>
                                     <div class="elem_oval elem_oval_three"></div>
@@ -175,6 +177,7 @@
                                 </div>
                               </div>
                               <div class="col-md-3 elem_wrap">
+                                <h4 class="elem_title">ВОЗДУХ</h4>
                                 <div class="elem_circle">
                                   <div class="number number_one">1</div>
                                   <div class="number number_two">2</div>
@@ -188,7 +191,7 @@
                                   <div class="number number_ten">10</div>
                                   <div class="number number_eleven">11</div>
                                   <div class="number number_twelve">12</div>
-                                  <div class="oval_wrap">
+                                  <div class="oval_wrap" style="transform: rotate(107deg);">
                                     <div class="elem_oval elem_oval_one"></div>
                                     <div class="elem_oval elem_oval_two"></div>
                                     <div class="elem_oval elem_oval_three"></div>
@@ -196,6 +199,7 @@
                                 </div>
                               </div>
                               <div class="col-md-3 elem_wrap">
+                                <h4 class="elem_title">ЗЕМЛЯ</h4>
                                 <div class="elem_circle">
                                   <div class="number number_one">1</div>
                                   <div class="number number_two">2</div>
@@ -209,7 +213,7 @@
                                   <div class="number number_ten">10</div>
                                   <div class="number number_eleven">11</div>
                                   <div class="number number_twelve">12</div>
-                                  <div class="oval_wrap">
+                                  <div class="oval_wrap" style="transform: rotate(15deg);">
                                     <div class="elem_oval elem_oval_one"></div>
                                     <div class="elem_oval elem_oval_two"></div>
                                     <div class="elem_oval elem_oval_three"></div>

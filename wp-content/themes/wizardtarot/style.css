@@ -1176,10 +1176,6 @@ input[type=submit]{
   border: 2px solid darkred;
   box-sizing: border-box;
 }
-.elems_table_block
-{
-  display: none;
-}
 .elem_oval_one
 {
   top: 2%;
@@ -1190,6 +1186,12 @@ input[type=submit]{
   top: 39%;
   left: 63%;
   transform: rotate(120deg);
+}
+.elem_oval_three
+{
+  top: 39%;
+  left: 22%;
+  transform: rotate(-120deg);
 }
 .elemnts_td_img
 {
