@@ -1089,6 +1089,7 @@ input[type=submit]{
   border-radius: 50%;
   padding-top: 100%;
   background: #eee;
+  position: relative;
 }
 .elemnts_td_img
 {
