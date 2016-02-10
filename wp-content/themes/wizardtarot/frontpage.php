@@ -131,39 +131,41 @@
                            </p>
                           </div>
                           <div class="bs-example elems_table_block">
-                            <div class="col-md-3 elem_wrap">
-                              <div class="elem_circle">
-                                <div class="oval_wrap">
-                                  <div class="elem_oval elem_oval_one"></div>
-                                  <div class="elem_oval elem_oval_two"></div>
-                                  <div class="elem_oval elem_oval_three"></div>
+                            <div class="row">
+                              <div class="col-md-3 elem_wrap">
+                                <div class="elem_circle">
+                                  <div class="oval_wrap">
+                                    <div class="elem_oval elem_oval_one"></div>
+                                    <div class="elem_oval elem_oval_two"></div>
+                                    <div class="elem_oval elem_oval_three"></div>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                            <div class="col-md-3 elem_wrap">
-                              <div class="elem_circle">
-                                <div class="oval_wrap">
-                                  <div class="elem_oval elem_oval_one"></div>
-                                  <div class="elem_oval elem_oval_two"></div>
-                                  <div class="elem_oval elem_oval_three"></div>
+                              <div class="col-md-3 elem_wrap">
+                                <div class="elem_circle">
+                                  <div class="oval_wrap">
+                                    <div class="elem_oval elem_oval_one"></div>
+                                    <div class="elem_oval elem_oval_two"></div>
+                                    <div class="elem_oval elem_oval_three"></div>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                            <div class="col-md-3 elem_wrap">
-                              <div class="elem_circle">
-                                <div class="oval_wrap">
-                                  <div class="elem_oval elem_oval_one"></div>
-                                  <div class="elem_oval elem_oval_two"></div>
-                                  <div class="elem_oval elem_oval_three"></div>
+                              <div class="col-md-3 elem_wrap">
+                                <div class="elem_circle">
+                                  <div class="oval_wrap">
+                                    <div class="elem_oval elem_oval_one"></div>
+                                    <div class="elem_oval elem_oval_two"></div>
+                                    <div class="elem_oval elem_oval_three"></div>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                            <div class="col-md-3 elem_wrap">
-                              <div class="elem_circle">
-                                <div class="oval_wrap">
-                                  <div class="elem_oval elem_oval_one"></div>
-                                  <div class="elem_oval elem_oval_two"></div>
-                                  <div class="elem_oval elem_oval_three"></div>
+                              <div class="col-md-3 elem_wrap">
+                                <div class="elem_circle">
+                                  <div class="oval_wrap">
+                                    <div class="elem_oval elem_oval_one"></div>
+                                    <div class="elem_oval elem_oval_two"></div>
+                                    <div class="elem_oval elem_oval_three"></div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
