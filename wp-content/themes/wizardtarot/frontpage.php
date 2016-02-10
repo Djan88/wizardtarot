@@ -131,7 +131,7 @@
                            </p>
                           </div>
                           <div class="bs-example elems_table_block">
-                            <div class="row">
+                            <div>
                               <div class="col-md-3 elem_wrap">
                                 <div class="elem_circle">
                                   <div class="oval_wrap">
