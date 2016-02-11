@@ -169,7 +169,7 @@
                                   <div class="number number_ten">10</div>
                                   <div class="number number_eleven">11</div>
                                   <div class="number number_twelve">12</div>
-                                  <div class="oval_wrap" style="transform: rotate(76deg);">
+                                  <div class="oval_wrap" style="transform: rotate(47deg);">
                                     <div class="elem_oval elem_oval_one"></div>
                                     <div class="elem_oval elem_oval_two"></div>
                                     <div class="elem_oval elem_oval_three"></div>
@@ -191,7 +191,7 @@
                                   <div class="number number_ten">10</div>
                                   <div class="number number_eleven">11</div>
                                   <div class="number number_twelve">12</div>
-                                  <div class="oval_wrap" style="transform: rotate(107deg);">
+                                  <div class="oval_wrap" style="transform: rotate(77deg);">
                                     <div class="elem_oval elem_oval_one"></div>
                                     <div class="elem_oval elem_oval_two"></div>
                                     <div class="elem_oval elem_oval_three"></div>
@@ -213,7 +213,7 @@
                                   <div class="number number_ten">10</div>
                                   <div class="number number_eleven">11</div>
                                   <div class="number number_twelve">12</div>
-                                  <div class="oval_wrap" style="transform: rotate(15deg);">
+                                  <div class="oval_wrap" style="transform: rotate(-15deg);">
                                     <div class="elem_oval elem_oval_one"></div>
                                     <div class="elem_oval elem_oval_two"></div>
                                     <div class="elem_oval elem_oval_three"></div>
