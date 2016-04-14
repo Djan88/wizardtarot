@@ -125,7 +125,7 @@ jQuery(function() {
 if(supportsStorage && localStorage.getItem('backStatus')){
     var backStatus = localStorage.getItem('backStatus');
 }
-if (backStatus == true) {
+if (backStatus == 'true') {
     jQuery('.first_slide').addClass('hidden');
     jQuery('.second_slide').removeClass('hidden').addClass('animated fadeInDown');
 }
