@@ -143,7 +143,9 @@ if (backStatus == 'true') {
       localStorage.setItem('prot_type', 'elements');
     });
   });
-    
+  jQuery('.home').on('click', function(event) {
+    localStorage.setItem('backStatus', 'false');
+  });
   jQuery( ".btn-tarot" ).click(function() {
     localStorage.setItem('backStatus', 'false');
     toElemChoice('.prot-choice', function() {
