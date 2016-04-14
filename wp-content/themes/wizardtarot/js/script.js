@@ -120,6 +120,15 @@ jQuery(function() {
       }
     }
   };
+
+
+if(supportsStorage && localStorage.getItem('backStatus')){
+    var backStatus = localStorage.getItem('backStatus');
+}
+if (backStatus == true) {
+    jQuery('.first_slide').addClass('hidden');
+    jQuery('.second_slide').removeClass('hidden').addClass('animated fadeInDown');
+}
 // Обработчики переходов между экранами
   // Переход к выбору первоэлемента
   function toElemChoice(param1, callback) {
@@ -128,6 +137,7 @@ jQuery(function() {
   }
   
   jQuery( ".btn-elements" ).click(function() {
+    localStorage.setItem('backStatus', 'false');
     toElemChoice('.prot-choice', function() {
       jQuery( '.elem-choice' ).removeClass('hidden').addClass('animated fadeInDown');
       localStorage.setItem('prot_type', 'elements');
@@ -135,6 +145,7 @@ jQuery(function() {
   });
     
   jQuery( ".btn-tarot" ).click(function() {
+    localStorage.setItem('backStatus', 'false');
     toElemChoice('.prot-choice', function() {
       jQuery( '.tarot-choice' ).removeClass('hidden').addClass('animated fadeInDown');
       localStorage.setItem('prot_type', 'tarot');
