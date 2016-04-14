@@ -1344,6 +1344,6 @@ input[type=submit]{
   width: 200px;
   margin: 0 auto 10px;
   position: fixed;
-  right: 20px;
-  top: 160px;
+  left: 20px;
+  top: -130px;
 }

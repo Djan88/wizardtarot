@@ -214,6 +214,11 @@ jQuery(function() {
         };
       }
   }
+  //На шаг назад
+  jQuery('.tarot_back').on('click', function(event) {
+      localStorage.setItem('backStatus', 'true');
+      window.location.href = '/';
+  });
   tarot = function(){
   //фаза 1
     reloadTime1 = 0;

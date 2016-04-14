@@ -51,7 +51,7 @@
             <?php } else if(current_user_can('contributor') || current_user_can('administrator')) { ?>
                 <div class="third_slide container animated fadeInDown hidden">
                     <div class="well tarot_to_prev">
-                      <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Назад</button>
+                      <button type="button" class="btn btn-primary btn-lg btn-block tarot_back">Назад</button>
                     </div>
                     <div class="tarot_zones well">
                         <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 10px; top: 10px;">D++</div>
