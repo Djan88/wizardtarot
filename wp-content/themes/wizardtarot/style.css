@@ -1339,3 +1339,11 @@ input[type=submit]{
 {
   display: none!important;
 }
+.tarot_to_prev
+{
+  width: 200px;
+  margin: 0 auto 10px;
+  position: fixed;
+  right: 20px;
+  top: 160px;
+}
