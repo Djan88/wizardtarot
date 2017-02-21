@@ -574,9 +574,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/00-Major-Fool');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/00-Major-Fool.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/00-Major-Fool" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/00-Major-Fool.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -587,9 +587,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/21-Major-World');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/21-Major-World.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/21-Major-World" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/21-Major-World.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -600,9 +600,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/20-Major-Judgement');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/20-Major-Judgement.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/20-Major-Judgement" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/20-Major-Judgement.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -613,9 +613,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/19-Major-Sun');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/19-Major-Sun.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/19-Major-Sun" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/19-Major-Sun.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -626,9 +626,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/18-Major-Moon');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/18-Major-Moon.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/18-Major-Moon" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/18-Major-Moon.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -639,9 +639,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/17-Major-Star');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/17-Major-Star.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/17-Major-Star" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/17-Major-Star.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -652,9 +652,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/16-Major-Tower');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/16-Major-Tower.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/16-Major-Tower" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/16-Major-Tower.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -665,9 +665,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/14-Major-Temperance');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/14-Major-Temperance.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/14-Major-Temperance" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/14-Major-Temperance.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -682,9 +682,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/13-Major-Death');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/13-Major-Death.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/13-Major-Death" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/13-Major-Death.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -695,9 +695,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/12-Major-Hanged');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/12-Major-Hanged.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/12-Major-Hanged" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/12-Major-Hanged.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -708,9 +708,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/11-Major-Strenght');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/11-Major-Strenght.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/11-Major-Strenght" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/11-Major-Strenght.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -721,9 +721,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/10-Major-Fortune');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/10-Major-Fortune.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/10-Major-Fortune" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/10-Major-Fortune.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -734,9 +734,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/09-Major-Hermit');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/09-Major-Hermit.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/09-Major-Hermit" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/09-Major-Hermit.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -747,9 +747,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/08-Major-Justice');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/08-Major-Justice.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/08-Major-Justice" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/08-Major-Justice.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -760,9 +760,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/07-Major-Chariot');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/07-Major-Chariot.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/07-Major-Chariot" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/07-Major-Chariot.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -773,9 +773,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/06-Major-Lovers');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/06-Major-Lovers.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/06-Major-Lovers" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/06-Major-Lovers.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -786,9 +786,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/05-Major-Hierophant');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/05-Major-Hierophant.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/05-Major-Hierophant" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/05-Major-Hierophant.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -803,9 +803,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/04-Major-Emperor');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/04-Major-Emperor.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/04-Major-Emperor" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/04-Major-Emperor.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -816,9 +816,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/03-Major-Empress');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/03-Major-Empress.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/03-Major-Empress" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/03-Major-Empress.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -829,9 +829,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/02-Major-Priestess');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/02-Major-Priestess.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/02-Major-Priestess" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/02-Major-Priestess.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
@@ -842,9 +842,9 @@
                               <div>
                                 <div class="hexagon hexagon2 gallery-item">
                                   <div class="hexagon-in1">
-                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/01-Major-Magician');">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/01-Major-Magician.png');">
                                       <div class="overlay">
-                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/01-Major-Magician" data-rel="lightbox" class="fa fa-expand"></a>
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/01-Major-Magician.png" data-rel="lightbox" class="fa fa-expand"></a>
                                       </div>
                                     </div>
                                   </div>
