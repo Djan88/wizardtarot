@@ -153,6 +153,13 @@ if (backStatus == 'true') {
       localStorage.setItem('prot_type', 'tarot');
     });
   });
+  jQuery( ".btn-tarot_open" ).click(function() {
+    localStorage.setItem('backStatus', 'false');
+    toElemChoice('.prot-choice', function() {
+      jQuery( '.tarot-choice_open' ).removeClass('hidden').addClass('animated fadeInDown');
+      localStorage.setItem('prot_type', 'tarot');
+    });
+  });
   jQuery( ".elem-choice-item" ).on('click', function(event) {
     elem_type = jQuery(this).data('elem');
     console.log('Элемент '+ jQuery(this).data('elem'));

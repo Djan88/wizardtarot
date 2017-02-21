@@ -77,6 +77,7 @@
 Рекомендовано предварительное обучение пользователя формированию заявки на возврат системного ограничения через ключи архетипов!</p>
                                 <p>
                                   <div class="btn btn-primary btn-tarot" role="button">Начать</div>
+                                  <div class="btn btn-success btn-tarot_open" role="button" style="display: none;">Начать</div>
                                 </p>
                               </div>
                             </div>
@@ -250,120 +251,119 @@
                           </div>
                         </div>
                         <div class="tarot-choice hidden">
-                            <div class="container">
-                              <div class="row templatemorow">
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                          <div class="container">
+                            <div class="row templatemorow">
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
@@ -371,120 +371,120 @@
                                 </div>
                               </div>
                             </div>
-                            <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
-                              <div class="row templatemorow">
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                          </div>
+                          <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
+                            <div class="row templatemorow">
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
@@ -492,55 +492,55 @@
                                 </div>
                               </div>
                             </div>
-                            <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
-                              <div class="row templatemorow">
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                          </div>
+                          <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
+                            <div class="row templatemorow">
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
-                                  <div>
-                                    <div class="hexagon hexagon2 gallery-item">
-                                      <div class="hexagon-in1">
-                                        <div class="hexagon-in2 tarot_empty_cell">
-                                          <div class="overlay">
-                                            <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
-                                          </div>
+                              </div>
+                              <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                                <div>
+                                  <div class="hexagon hexagon2 gallery-item">
+                                    <div class="hexagon-in1">
+                                      <div class="hexagon-in2 tarot_empty_cell">
+                                        <div class="overlay">
+                                          <a href="#" data-rel="lightbox" class="fa fa-expand"></a>
                                         </div>
                                       </div>
                                     </div>
@@ -548,10 +548,315 @@
                                 </div>
                               </div>
                             </div>
-                          <div class="well tarot_to_photo hidden">
-                            <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
+                          </div>
+                        <div class="well tarot_to_photo hidden">
+                          <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
+                        </div>
+                      </div>
+                      <!-- tarot_open -->
+                      <div class="tarot-choice_open hidden">
+                        <div class="container">
+                          <div class="row templatemorow">
+                            <div class="hex col-sm-6">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/15-Major-Devil-min.png');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/15-Major-Devil-min.png" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex col-sm-6">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/00-Major-Fool');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/00-Major-Fool" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/21-Major-World');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/21-Major-World" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/20-Major-Judgement');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/20-Major-Judgement" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/19-Major-Sun');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/19-Major-Sun" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/18-Major-Moon');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/18-Major-Moon" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/17-Major-Star');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/17-Major-Star" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/16-Major-Tower');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/16-Major-Tower" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/14-Major-Temperance');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/14-Major-Temperance" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
+                        <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
+                          <div class="row templatemorow">
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/13-Major-Death');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/13-Major-Death" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/12-Major-Hanged');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/12-Major-Hanged" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/11-Major-Strenght');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/11-Major-Strenght" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/10-Major-Fortune');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/10-Major-Fortune" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/09-Major-Hermit');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/09-Major-Hermit" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/08-Major-Justice');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/08-Major-Justice" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/07-Major-Chariot');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/07-Major-Chariot" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/06-Major-Lovers');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/06-Major-Lovers" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/05-Major-Hierophant');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/05-Major-Hierophant" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div  id="newpost" style="display:block;" class="container answer_list templatemo_gallerytop">
+                          <div class="row templatemorow">
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/04-Major-Emperor');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/04-Major-Emperor" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/03-Major-Empress');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/03-Major-Empress" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top2">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/02-Major-Priestess');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/02-Major-Priestess" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="hex tarot_cell_item tarot_card_reject col-sm-6  templatemo-hex-top3">
+                              <div>
+                                <div class="hexagon hexagon2 gallery-item">
+                                  <div class="hexagon-in1">
+                                    <div class="hexagon-in2" style="background-image: url('http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/01-Major-Magician');">
+                                      <div class="overlay">
+                                        <a href="http://wizardtarot.ru/wp-content/themes/wizardtarot/images/gallery/01-Major-Magician" data-rel="lightbox" class="fa fa-expand"></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="well tarot_to_photo hidden">
+                          <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
+                        </div>
+                      </div>
                     </div>
                     <div class="second_slide hidden">
                       <div class="steps clearfix">
