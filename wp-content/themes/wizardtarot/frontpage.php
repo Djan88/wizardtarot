@@ -76,8 +76,8 @@
 Влияния этих архетипов на наши тела обусловлено системными ограничениями, приводящими к разделению восходящего потока и появлению биполярных моделей ума.
 Рекомендовано предварительное обучение пользователя формированию заявки на возврат системного ограничения через ключи архетипов!</p>
                                 <p>
-                                  <div class="btn btn-primary btn-tarot" role="button">Начать</div>
-                                  <div class="btn btn-success btn-tarot_open" role="button" style="display: none;">Начать</div>
+                                  <div class="btn btn-primary btn-tarot" role="button">Начать в стандартном режиме</div>
+                                  <div class="btn btn-success btn-tarot_open" role="button">Начать в режиме открытых карт</div>
                                 </p>
                               </div>
                             </div>
