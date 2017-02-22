@@ -205,11 +205,9 @@ if (backStatus == 'true') {
   });
   // Клик по ячейке в режиме открытых карт
   jQuery('.hex.tarot_cell_item').on('click', function(event) {
-    if (!event.target.is('a')) {
       prot_card = jQuery(this).find('.hexagon-in2').find('a').attr('href');
       console.log(prot_card);
       localStorage.setItem('prot_card', prot_card);
-    }
   }); 
   // Переход к загрузке фото
   jQuery( ".tarot_sucess, .elem-choice-item, .tarot_open_item" ).click(function() {
