@@ -204,7 +204,7 @@ if (backStatus == 'true') {
     }
   });
   // Клик по ячейке в режиме открытых карт
-  jQuery('.hex.tarot_cell_item').on('click', function(event) {
+  jQuery('.hex.tarot_open_item').on('click', function(event) {
       prot_card = jQuery(this).find('.hexagon-in2').find('a').attr('href');
       console.log(prot_card);
       localStorage.setItem('prot_card', prot_card);
