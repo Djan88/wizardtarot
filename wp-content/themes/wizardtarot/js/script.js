@@ -170,7 +170,7 @@ if (backStatus == 'true') {
   jQuery( ".draggable" ).draggable({ 
     snap: false
   });
-  // Клик по ячейке
+  // Клик по ячейке в стандартном режиме
   jQuery('.hex.tarot_cell_item').on('click', function(event) {
     // Если выложены все карты
     if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length === 0){
@@ -203,12 +203,18 @@ if (backStatus == 'true') {
       tarot_randomizer(tarot_cur_cell);
     }
   });
-    // Переход к загрузке фото
-    jQuery( ".tarot_sucess, .elem-choice-item" ).click(function() {
-      toElemChoice('.first_slide, .tarot_to_photo, .elem-choice', function() {
-        jQuery( '.second_slide' ).removeClass('hidden').addClass('animated fadeInDown');
-      });
+  // Клик по ячейке в режиме открытых карт
+  jQuery('.hex.tarot_cell_item').on('click', function(event) {
+    prot_card = jQuery(this).find('.hexagon-in2').find('a').attr('href');
+    localStorage.setItem('prot_card', prot_card);
+
+  }); 
+  // Переход к загрузке фото
+  jQuery( ".tarot_sucess, .elem-choice-item, .tarot_open_item" ).click(function() {
+    toElemChoice('.first_slide, .tarot_to_photo, .elem-choice', function() {
+      jQuery( '.second_slide' ).removeClass('hidden').addClass('animated fadeInDown');
     });
+  });
   // Если фото уже загружено
   if(jQuery('.tarot_returned_img')){
     jQuery('.third_slide').removeClass('hidden');
