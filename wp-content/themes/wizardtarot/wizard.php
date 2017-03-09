@@ -54,15 +54,15 @@
                       <button type="button" class="btn btn-primary btn-lg btn-block tarot_back">Назад</button>
                     </div>
                     <div class="tarot_zones well">
-                        <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 10px; top: 10px;">D++</div>
-                        <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 60px; top: 10px;">D+</div>
-                        <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 110px; top: 10px;">S++</div>
-                        <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable" style="left: 160px; top: 10px;">S+</div>
+                        <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 6px; top: 6px;">D++</div>
+                        <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 71px; top: 6px;">D+</div>
+                        <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 136px; top: 6px;">S++</div>
+                        <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable" style="left: 202px; top: 6px;">S+</div>
                         <!-- <div id="draggable4" class="itemlist_item itemZone item_list__mid draggable" style="left: 210px; top: 10px;">V0</div> -->
-                        <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable" style="left: 260px; top: 10px;">V1</div>
-                        <div id="draggable6" class="itemlist_item itemZone item_list__mid draggable" style="left: 310px; top: 10px;">V2</div>
-                        <div id="draggable7" class="itemlist_item itemZone item_list__mid draggable" style="left: 360px; top: 10px;">V3</div>
-                        <div id="draggable8" class="itemlist_item itemZone item_list__mid draggable" style="left: 410px; top: 10px;">V4</div>
+                        <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable" style="left: 268px; top: 6px;">V1</div>
+                        <div id="draggable6" class="itemlist_item itemZone item_list__mid draggable" style="left: 334px; top: 6px;">V2</div>
+                        <div id="draggable7" class="itemlist_item itemZone item_list__mid draggable" style="left: 400px; top: 6px;">V3</div>
+                        <div id="draggable8" class="itemlist_item itemZone item_list__mid draggable" style="left: 410px; top: 6px;">V4</div>
                     </div>
                     <div class="chart" data-percent="0"><span>0</span>%</div>
                     <div class="tarot_prot_cell tarot_prot_cell_1"></div>
