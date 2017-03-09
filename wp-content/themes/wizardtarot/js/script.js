@@ -307,7 +307,7 @@ if (backStatus == 'true') {
           if (count_animation <= 960){                                                                         //90
             count_animation += 1;
             cur_animation_val += 6;
-            jQuery('#draggable6, #draggable5, #draggable4').css({
+            jQuery('#draggable6, #draggable5').css({
               borderColor: 'transparent',
               zIndex: '1000',
               color: 'transparent'
@@ -319,14 +319,11 @@ if (backStatus == 'true') {
               transform: 'rotate('+cur_animation_val+'deg)',
               background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
             });
-            jQuery('#draggable4').css({
-              background: '#fff url(/wp-content/themes/wizardtarot/images/plod.png) 0 0/100% no-repeat'
-            });
             jQuery('.chart').data('easyPieChart').update(40);
             jQuery('.chart').find('span').text('40');
         } else {
             clearInterval(phaseOne);
-            jQuery('#draggable6, #draggable5, #draggable4').css({
+            jQuery('#draggable6, #draggable5').css({
               background: 'rgba(255,255,255, 0.5)',
               color: 'crimson',
               borderColor: 'crimson',
@@ -465,7 +462,7 @@ if (backStatus == 'true') {
               } else {
                 clearInterval(phaseOne);
                 count_animation = 1;
-                jQuery('#draggable4, #draggable3, #draggable2').css({
+                jQuery('#draggable3, #draggable2').css({
                   background: 'rgba(255,255,255, 0.5)',
                   color: 'crimson',
                   borderColor: 'crimson',
@@ -483,21 +480,21 @@ if (backStatus == 'true') {
     }, 250);
   };
   elems = function(){
-    if(elem_type == 'F'){
+    if(elem_type == 'W'){
       e_one = '/wp-content/themes/wizardtarot/images/4_ogon_lev.png';
       e_two = '/wp-content/themes/wizardtarot/images/1_ogon_prav.png';
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/63-Minor-Cups-King.png'
       e_paje = '/wp-content/themes/wizardtarot/images/gallery/60-Minor-Cups-Page.png'
       e_knight = '/wp-content/themes/wizardtarot/images/gallery/61-Minor-Cups-Knight.png'
-    } else if (elem_type == 'W'){
+    } else if (elem_type == 'A'){
       e_one = '/wp-content/themes/wizardtarot/images/3_voda_lev.png';
       e_two = '/wp-content/themes/wizardtarot/images/2_voda_prav.png';
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/77-Minor-Wands-King.png'
       e_paje = '/wp-content/themes/wizardtarot/images/gallery/74-Minor-Wands-Page.png'
       e_knight = '/wp-content/themes/wizardtarot/images/gallery/75-Minor-Wands-Knight.png'
-    } else if (elem_type == 'A'){
+    } else if (elem_type == 'F'){
       e_one = '/wp-content/themes/wizardtarot/images/2_vozduh_lev.png';
       e_two = '/wp-content/themes/wizardtarot/images/3_vozduh_prav.png';
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png'

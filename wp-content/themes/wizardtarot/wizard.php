@@ -58,7 +58,7 @@
                         <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 60px; top: 10px;">D+</div>
                         <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 110px; top: 10px;">S++</div>
                         <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable" style="left: 160px; top: 10px;">S+</div>
-                        <div id="draggable4" class="itemlist_item itemZone item_list__mid draggable" style="left: 210px; top: 10px;">V0</div>
+                        <!-- <div id="draggable4" class="itemlist_item itemZone item_list__mid draggable" style="left: 210px; top: 10px;">V0</div> -->
                         <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable" style="left: 260px; top: 10px;">V1</div>
                         <div id="draggable6" class="itemlist_item itemZone item_list__mid draggable" style="left: 310px; top: 10px;">V2</div>
                         <div id="draggable7" class="itemlist_item itemZone item_list__mid draggable" style="left: 360px; top: 10px;">V3</div>
