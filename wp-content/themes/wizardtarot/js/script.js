@@ -279,8 +279,8 @@ if (backStatus == 'true') {
         jQuery('#draggable1').css({
           background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
           color: '#000',
-          transform: 'scale(1.3)',
-          paddingTop: '10px'
+          transform: 'scale(1.3) rotateY(180deg)',
+          paddingTop: '15px'
         });
         jQuery('#draggable0').css({
           transform: 'rotate('+cur_animation_val+'deg)',
@@ -588,8 +588,8 @@ if (backStatus == 'true') {
             jQuery('#draggable1').css({
               background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
               color: '#000',
-              transform: 'scale(1.3)',
-              paddingTop: '10px'
+              transform: 'scale(1.3) rotateY(180deg)',
+              paddingTop: '15px'
             });
             jQuery('#draggable0').css({
               transform: 'rotate('+cur_animation_val+'deg)',
@@ -825,8 +825,8 @@ if (backStatus == 'true') {
                       jQuery('#draggable1').css({
                         background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
                         color: '#000',
-                        transform: 'scale(1.3)',
-                        paddingTop: '10px'
+                        transform: 'scale(1.3) rotateY(180deg)',
+                        paddingTop: '15px'
                       });
                       jQuery('#draggable0').css({
                         transform: 'rotate('+cur_animation_val+'deg)',
@@ -1063,8 +1063,8 @@ if (backStatus == 'true') {
                                   jQuery('#draggable1').css({
                                     background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
                                     color: '#000',
-                                    transform: 'scale(1.3)',
-                                    paddingTop: '10px'
+                                    transform: 'scale(1.3) rotateY(180deg)',
+                                    paddingTop: '15px'
                                   });
                                   jQuery('#draggable0').css({
                                     transform: 'rotate('+cur_animation_val+'deg)',
@@ -1301,8 +1301,8 @@ if (backStatus == 'true') {
                                                 jQuery('#draggable1').css({
                                                   background: 'url(/wp-content/themes/wizardtarot/images/oct_2.png) 0 0/100% no-repeat',
                                                   color: '#000',
-                                                  transform: 'scale(1.3)',
-                                                  paddingTop: '10px'
+                                                  transform: 'scale(1.3) rotateY(180deg)',
+                                                  paddingTop: '15px'
                                                 });
                                                 jQuery('#draggable0').css({
                                                   transform: 'rotate('+cur_animation_val+'deg)',
