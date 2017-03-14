@@ -353,7 +353,7 @@ if (backStatus == 'true') {
                         color: 'red',
                         borderColor: 'red',
                         opacity: 1,
-                        borderWidth: '2px',
+                        borderWidth: '1px',
                         paddingTop: '14px',
                         zIndex: '1'
                     });
@@ -387,7 +387,7 @@ if (backStatus == 'true') {
                                 color: 'red',
                                 borderColor: 'red',
                                 opacity: 1,
-                                borderWidth: '2px',
+                                borderWidth: '1px',
                                 paddingTop: '14px',
                                 zIndex: '1'
                             });
@@ -421,7 +421,7 @@ if (backStatus == 'true') {
                                         color: 'red',
                                         borderColor: 'red',
                                         opacity: 1,
-                                        borderWidth: '2px',
+                                        borderWidth: '1px',
                                         paddingTop: '14px',
                                         zIndex: '1'
                                     });
@@ -455,7 +455,7 @@ if (backStatus == 'true') {
                                                 color: 'red',
                                                 borderColor: 'red',
                                                 opacity: 1,
-                                                borderWidth: '2px',
+                                                borderWidth: '1px',
                                                 paddingTop: '14px',
                                                 zIndex: '1'
                                             });
@@ -489,7 +489,7 @@ if (backStatus == 'true') {
                                                         color: 'red',
                                                         borderColor: 'red',
                                                         opacity: 1,
-                                                        borderWidth: '2px',
+                                                        borderWidth: '1px',
                                                         paddingTop: '14px',
                                                         zIndex: '1'
                                                     });
@@ -523,7 +523,7 @@ if (backStatus == 'true') {
                                                                 color: 'red',
                                                                 borderColor: 'red',
                                                                 opacity: 1,
-                                                                borderWidth: '2px',
+                                                                borderWidth: '1px',
                                                                 paddingTop: '14px',
                                                                 zIndex: '1'
                                                             });
@@ -557,7 +557,7 @@ if (backStatus == 'true') {
                                                                         color: 'red',
                                                                         borderColor: 'red',
                                                                         opacity: 1,
-                                                                        borderWidth: '2px',
+                                                                        borderWidth: '1px',
                                                                         paddingTop: '14px',
                                                                         zIndex: '1'
                                                                     });
@@ -591,7 +591,7 @@ if (backStatus == 'true') {
                                                                                 color: 'red',
                                                                                 borderColor: 'red',
                                                                                 opacity: 1,
-                                                                                borderWidth: '2px',
+                                                                                borderWidth: '1px',
                                                                                 paddingTop: '14px',
                                                                                 zIndex: '1'
                                                                             });
