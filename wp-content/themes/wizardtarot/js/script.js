@@ -307,7 +307,7 @@ if (backStatus == 'true') {
               background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
             });
             jQuery('#draggable8').css({
-              background: 'url(/wp-content/themes/wizardtarot/images/nerazd_002.png) center top / 90% no-repeat'
+              background: 'url(/wp-content/themes/wizardtarot/images/nerazd_002.png) center top / 100% no-repeat'
             });
             jQuery('#draggable5').css({
               transform: 'rotate('+cur_animation_val+'deg)',
@@ -622,28 +622,28 @@ if (backStatus == 'true') {
   };
   elems = function(){
     if(elem_type == 'W'){
-      e_one = '/wp-content/themes/wizardtarot/images/4_ogon_lev.png';
+      e_one = '/wp-content/themes/wizardtarot/images/superdisfunction.png';
       e_two = '/wp-content/themes/wizardtarot/images/1_ogon_prav.png';
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/63-Minor-Cups-King.png'
       e_paje = '/wp-content/themes/wizardtarot/images/gallery/60-Minor-Cups-Page.png'
       e_knight = '/wp-content/themes/wizardtarot/images/gallery/61-Minor-Cups-Knight.png'
     } else if (elem_type == 'A'){
-      e_one = '/wp-content/themes/wizardtarot/images/3_voda_lev.png';
+      e_one = '/wp-content/themes/wizardtarot/images/superdisfunction.png';
       e_two = '/wp-content/themes/wizardtarot/images/2_voda_prav.png';
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/77-Minor-Wands-King.png'
       e_paje = '/wp-content/themes/wizardtarot/images/gallery/74-Minor-Wands-Page.png'
       e_knight = '/wp-content/themes/wizardtarot/images/gallery/75-Minor-Wands-Knight.png'
     } else if (elem_type == 'F'){
-      e_one = '/wp-content/themes/wizardtarot/images/2_vozduh_lev.png';
+      e_one = '/wp-content/themes/wizardtarot/images/superdisfunction.png';
       e_two = '/wp-content/themes/wizardtarot/images/3_vozduh_prav.png';
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/35-Minor-Discs-King.png'
       e_paje = '/wp-content/themes/wizardtarot/images/gallery/32-Minor-Discs-Page.png'
       e_knight = '/wp-content/themes/wizardtarot/images/gallery/33-Minor-Discs-Knight.png'
     } else if (elem_type == 'E'){
-      e_one = '/wp-content/themes/wizardtarot/images/1_zemlya_lev.png';
+      e_one = '/wp-content/themes/wizardtarot/images/superdisfunction.png';
       e_two = '/wp-content/themes/wizardtarot/images/4_zemlya_prav_lit.png';
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/49-Minor-Swords-King.png'
@@ -709,21 +709,12 @@ if (backStatus == 'true') {
               zIndex: '1000',
               color: 'transparent'
             });
-            if (count_animation <= 480){
-              jQuery('#draggable2').css({
-                  background: '#fff url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
-              });
-              jQuery('#draggable3').css({
-                  background: '#fff url(/wp-content/themes/wizardtarot/images/nag.png) 0 0/100% no-repeat'
-              });
-            } else {
-              jQuery('#draggable2, #draggable3').css({
-                  transform: 'rotate(-'+cur_animation_val+'deg)',
-                  background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
-              });
-              jQuery('.chart').data('easyPieChart').update(9);
-              jQuery('.chart').find('span').text('9');
-            }
+            jQuery('#draggable2, #draggable3').css({
+                transform: 'rotate('+cur_animation_val+'deg)',
+                background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+            });
+            jQuery('.chart').data('easyPieChart').update(9);
+            jQuery('.chart').find('span').text('9');
             cur_let = Math.round(Math.random() * (7 - 0))
             jQuery('#draggable1').text(letters[cur_let]);
             jQuery('#draggable1').css({
