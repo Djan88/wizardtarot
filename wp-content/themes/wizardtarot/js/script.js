@@ -286,6 +286,10 @@ if (backStatus == 'true') {
           transform: 'rotate('+cur_animation_val+'deg)',
           background: '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat'
         });
+        jQuery('#draggable2, #draggable3').css({
+          transform: 'rotate('+cur_animation_val+'deg)',
+          background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+        });
     } else {
         clearInterval(phaseOne);
         jQuery('#draggable1, #draggable0, #draggable2, #draggable3').css({

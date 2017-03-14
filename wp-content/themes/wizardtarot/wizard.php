@@ -62,7 +62,7 @@
                         <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable" style="left: 268px; top: 6px;">V1</div>
                         <div id="draggable6" class="itemlist_item itemZone item_list__mid draggable" style="left: 334px; top: 6px;">V2</div>
                         <div id="draggable7" class="itemlist_item itemZone item_list__mid draggable" style="left: 400px; top: 6px;">V3</div>
-                        <div id="draggable8" class="itemlist_item itemZone item_list__mid draggable" style="left: 410px; top: 6px;">V4</div>
+                        <div id="draggable8" class="itemlist_item itemZone item_list__mid draggable" style="left: 466px; top: 6px;">V4</div>
                     </div>
                     <div class="chart" data-percent="0"><span>0</span>%</div>
                     <div class="tarot_prot_cell tarot_prot_cell_1"></div>
