@@ -269,7 +269,7 @@ if (backStatus == 'true') {
         } else {
           jQuery('#draggable2, #draggable3').css({
             transform: 'rotate(-'+cur_animation_val+'deg)',
-            background: '#fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat'
+            background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
           });
           jQuery('.chart').data('easyPieChart').update(20);
           jQuery('.chart').find('span').text('20');
@@ -285,10 +285,6 @@ if (backStatus == 'true') {
         jQuery('#draggable0').css({
           transform: 'rotate('+cur_animation_val+'deg)',
           background: '#fff url(/wp-content/themes/wizardtarot/images/daemon.png) 0 0/100% no-repeat'
-        });
-        jQuery('#draggable2, #draggable3').css({
-          transform: 'rotate('+cur_animation_val+'deg)',
-          background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
         });
     } else {
         clearInterval(phaseOne);
