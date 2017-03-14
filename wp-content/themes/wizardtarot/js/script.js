@@ -259,21 +259,12 @@ if (backStatus == 'true') {
           zIndex: '1000',
           color: 'transparent'
         });
-        if (count_animation <= 480){
-          jQuery('#draggable2').css({
-            background: '#fff url(/wp-content/themes/wizardtarot/images/daemon_adventure.png) 0 0/100% no-repeat'
-          });
-          jQuery('#draggable3').css({
-            background: '#fff url(/wp-content/themes/wizardtarot/images/nag.png) 0 0/100% no-repeat'
-          });
-        } else {
-          jQuery('#draggable2, #draggable3').css({
-            transform: 'rotate(-'+cur_animation_val+'deg)',
-            background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
-          });
-          jQuery('.chart').data('easyPieChart').update(20);
-          jQuery('.chart').find('span').text('20');
-        }
+        jQuery('#draggable2, #draggable3').css({
+          transform: 'rotate(-'+cur_animation_val+'deg)',
+          background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+        });
+        jQuery('.chart').data('easyPieChart').update(20);
+        jQuery('.chart').find('span').text('20');
         cur_let = Math.round(Math.random() * (7 - 0))
         jQuery('#draggable1').text(letters[cur_let]);
         jQuery('#draggable1').css({
