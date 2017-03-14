@@ -285,7 +285,7 @@ if (backStatus == 'true') {
           borderColor: 'crimson',
           zIndex: '1',
           transform: 'scale(1)',
-          paddingTop: '8px'
+          paddingTop: '14px'
         });
         jQuery('#draggable1').text('D+');
         jQuery('.chart').data('easyPieChart').update(50);
@@ -338,7 +338,7 @@ if (backStatus == 'true') {
                         borderColor: 'transparent',
                         opacity: 0.8,
                         borderWidth: '1px',
-                        paddingTop: '4px',
+                        paddingTop: '14px',
                         zIndex: '1000'
                     });
                     count_animation += 1;
@@ -348,17 +348,17 @@ if (backStatus == 'true') {
                     clearInterval(phaseSeven_one);
                     count_animation = 1;
                     jQuery('#draggable8').css({
-                        transform: 'rotate(-'+0+'deg) scale(0.5)',
+                        transform: 'rotate(-'+0+'deg) scale(1)',
                         background: 'rgba(255,255,255, 0.5)',
                         color: 'red',
                         borderColor: 'red',
                         opacity: 1,
                         borderWidth: '2px',
-                        paddingTop: '2px',
+                        paddingTop: '14px',
                         zIndex: '1'
                     });
-                    jQuery('.chart').data('easyPieChart').update(51);
-                    jQuery('.chart').find('span').text('51');
+                    jQuery('.chart').data('easyPieChart').update(47);
+                    jQuery('.chart').find('span').text('47');
         //Этап 3-1-2
                     cur_animation_val = 10;
                     count_animation = 1;
@@ -372,7 +372,7 @@ if (backStatus == 'true') {
                                 borderColor: 'transparent',
                                 opacity: 0.8,
                                 borderWidth: '1px',
-                                paddingTop: '4px',
+                                paddingTop: '14px',
                                 zIndex: '1000'
                             });
                             count_animation += 1;
@@ -382,13 +382,13 @@ if (backStatus == 'true') {
                             clearInterval(phaseSeven_one);
                             count_animation = 1;
                             jQuery('#draggable8').css({
-                                transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                transform: 'rotate(-'+0+'deg) scale(1)',
                                 background: 'rgba(255,255,255, 0.5)',
                                 color: 'red',
                                 borderColor: 'red',
                                 opacity: 1,
                                 borderWidth: '2px',
-                                paddingTop: '2px',
+                                paddingTop: '14px',
                                 zIndex: '1'
                             });
                             jQuery('.chart').data('easyPieChart').update(54);
@@ -406,7 +406,7 @@ if (backStatus == 'true') {
                                         borderColor: 'transparent',
                                         opacity: 0.8,
                                         borderWidth: '1px',
-                                        paddingTop: '4px',
+                                        paddingTop: '14px',
                                         zIndex: '1000'
                                     });
                                     count_animation += 1;
@@ -416,17 +416,17 @@ if (backStatus == 'true') {
                                     clearInterval(phaseSeven_one);
                                     count_animation = 1;
                                     jQuery('#draggable8').css({
-                                        transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                        transform: 'rotate(-'+0+'deg) scale(1)',
                                         background: 'rgba(255,255,255, 0.5)',
                                         color: 'red',
                                         borderColor: 'red',
                                         opacity: 1,
                                         borderWidth: '2px',
-                                        paddingTop: '2px',
+                                        paddingTop: '14px',
                                         zIndex: '1'
                                     });
-                                    jQuery('.chart').data('easyPieChart').update(57);
-                                    jQuery('.chart').find('span').text('57');
+                                    jQuery('.chart').data('easyPieChart').update(61);
+                                    jQuery('.chart').find('span').text('61');
         //Этап 3-1-4
                                     cur_animation_val = 300;
                                     count_animation = 1;
@@ -440,7 +440,7 @@ if (backStatus == 'true') {
                                                 borderColor: 'transparent',
                                                 opacity: 0.8,
                                                 borderWidth: '1px',
-                                                paddingTop: '4px',
+                                                paddingTop: '14px',
                                                 zIndex: '1000'
                                             });
                                             count_animation += 1;
@@ -450,17 +450,17 @@ if (backStatus == 'true') {
                                             clearInterval(phaseSeven_one);
                                             count_animation = 1;
                                             jQuery('#draggable8').css({
-                                                transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                transform: 'rotate(-'+0+'deg) scale(1)',
                                                 background: 'rgba(255,255,255, 0.5)',
                                                 color: 'red',
                                                 borderColor: 'red',
                                                 opacity: 1,
                                                 borderWidth: '2px',
-                                                paddingTop: '2px',
+                                                paddingTop: '14px',
                                                 zIndex: '1'
                                             });
-                                            jQuery('.chart').data('easyPieChart').update(60);
-                                            jQuery('.chart').find('span').text('60');
+                                            jQuery('.chart').data('easyPieChart').update(68);
+                                            jQuery('.chart').find('span').text('68');
         //Этап 3-2-1
                                             cur_animation_val = 55;
                                             count_animation = 1;
@@ -474,7 +474,7 @@ if (backStatus == 'true') {
                                                         borderColor: 'transparent',
                                                         opacity: 0.8,
                                                         borderWidth: '1px',
-                                                        paddingTop: '4px',
+                                                        paddingTop: '14px',
                                                         zIndex: '1000'
                                                     });
                                                     count_animation += 1;
@@ -484,17 +484,17 @@ if (backStatus == 'true') {
                                                     clearInterval(phaseSeven_one);
                                                     count_animation = 1;
                                                     jQuery('#draggable6').css({
-                                                        transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                        transform: 'rotate(-'+0+'deg) scale(1)',
                                                         background: 'rgba(255,255,255, 0.5)',
                                                         color: 'red',
                                                         borderColor: 'red',
                                                         opacity: 1,
                                                         borderWidth: '2px',
-                                                        paddingTop: '2px',
+                                                        paddingTop: '14px',
                                                         zIndex: '1'
                                                     });
-                                                    jQuery('.chart').data('easyPieChart').update(63);
-                                                    jQuery('.chart').find('span').text('63');
+                                                    jQuery('.chart').data('easyPieChart').update(75);
+                                                    jQuery('.chart').find('span').text('75');
                                 //Этап 3-2-2
                                                     cur_animation_val = 10;
                                                     count_animation = 1;
@@ -508,7 +508,7 @@ if (backStatus == 'true') {
                                                                 borderColor: 'transparent',
                                                                 opacity: 0.8,
                                                                 borderWidth: '1px',
-                                                                paddingTop: '4px',
+                                                                paddingTop: '14px',
                                                                 zIndex: '1000'
                                                             });
                                                             count_animation += 1;
@@ -518,17 +518,17 @@ if (backStatus == 'true') {
                                                             clearInterval(phaseSeven_one);
                                                             count_animation = 1;
                                                             jQuery('#draggable6').css({
-                                                                transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                transform: 'rotate(-'+0+'deg) scale(1)',
                                                                 background: 'rgba(255,255,255, 0.5)',
                                                                 color: 'red',
                                                                 borderColor: 'red',
                                                                 opacity: 1,
                                                                 borderWidth: '2px',
-                                                                paddingTop: '2px',
+                                                                paddingTop: '14px',
                                                                 zIndex: '1'
                                                             });
-                                                            jQuery('.chart').data('easyPieChart').update(66);
-                                                            jQuery('.chart').find('span').text('66');
+                                                            jQuery('.chart').data('easyPieChart').update(82);
+                                                            jQuery('.chart').find('span').text('82');
                                 //Этап 3-2-3
                                                             cur_animation_val = 270;
                                                             count_animation = 1;
@@ -542,7 +542,7 @@ if (backStatus == 'true') {
                                                                         borderColor: 'transparent',
                                                                         opacity: 0.8,
                                                                         borderWidth: '1px',
-                                                                        paddingTop: '4px',
+                                                                        paddingTop: '14px',
                                                                         zIndex: '1000'
                                                                     });
                                                                     count_animation += 1;
@@ -552,17 +552,17 @@ if (backStatus == 'true') {
                                                                     clearInterval(phaseSeven_one);
                                                                     count_animation = 1;
                                                                     jQuery('#draggable6').css({
-                                                                        transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                        transform: 'rotate(-'+0+'deg) scale(1)',
                                                                         background: 'rgba(255,255,255, 0.5)',
                                                                         color: 'red',
                                                                         borderColor: 'red',
                                                                         opacity: 1,
                                                                         borderWidth: '2px',
-                                                                        paddingTop: '2px',
+                                                                        paddingTop: '14px',
                                                                         zIndex: '1'
                                                                     });
-                                                                    jQuery('.chart').data('easyPieChart').update(69);
-                                                                    jQuery('.chart').find('span').text('69');
+                                                                    jQuery('.chart').data('easyPieChart').update(89);
+                                                                    jQuery('.chart').find('span').text('89');
                                 //Этап 3-2-4
                                                                     cur_animation_val = 300;
                                                                     count_animation = 1;
@@ -576,7 +576,7 @@ if (backStatus == 'true') {
                                                                                 borderColor: 'transparent',
                                                                                 opacity: 0.8,
                                                                                 borderWidth: '1px',
-                                                                                paddingTop: '4px',
+                                                                                paddingTop: '14px',
                                                                                 zIndex: '1000'
                                                                             });
                                                                             count_animation += 1;
@@ -586,17 +586,19 @@ if (backStatus == 'true') {
                                                                             clearInterval(phaseSeven_one);
                                                                             count_animation = 1;
                                                                             jQuery('#draggable6').css({
-                                                                                transform: 'rotate(-'+0+'deg) scale(0.5)',
+                                                                                transform: 'rotate(-'+0+'deg) scale(1)',
                                                                                 background: 'rgba(255,255,255, 0.5)',
                                                                                 color: 'red',
                                                                                 borderColor: 'red',
                                                                                 opacity: 1,
                                                                                 borderWidth: '2px',
-                                                                                paddingTop: '2px',
+                                                                                paddingTop: '14px',
                                                                                 zIndex: '1'
                                                                             });
-                                                                            jQuery('.chart').data('easyPieChart').update(72);
-                                                                            jQuery('.chart').find('span').text('72');
+                                                                            jQuery('.chart').data('easyPieChart').update(100);
+                                                                            jQuery('.chart').find('span').text('100');
+                                                                            count_animation = 1;
+                                                                            onEnd();
                                                                         }
                                                                     }, 1000);
                                                                 }
