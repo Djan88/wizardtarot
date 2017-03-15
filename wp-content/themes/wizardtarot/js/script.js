@@ -1078,8 +1078,6 @@ if (backStatus == 'true') {
                                                                                             transform: 'rotate('+cur_animation_val+'deg)',
                                                                                             background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
                                                                                         });
-                                                                                        jQuery('.chart').data('easyPieChart').update(9);
-                                                                                        jQuery('.chart').find('span').text('9');
                                                                                         cur_let = Math.round(Math.random() * (7 - 0))
                                                                                         jQuery('#draggable1').text(letters[cur_let]);
                                                                                         jQuery('#draggable1').css({
@@ -1443,8 +1441,6 @@ if (backStatus == 'true') {
                                                                                                                                                                         transform: 'rotate('+cur_animation_val+'deg)',
                                                                                                                                                                         background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
                                                                                                                                                                     });
-                                                                                                                                                                    jQuery('.chart').data('easyPieChart').update(9);
-                                                                                                                                                                    jQuery('.chart').find('span').text('9');
                                                                                                                                                                     cur_let = Math.round(Math.random() * (7 - 0))
                                                                                                                                                                     jQuery('#draggable1').text(letters[cur_let]);
                                                                                                                                                                     jQuery('#draggable1').css({
@@ -1808,8 +1804,6 @@ if (backStatus == 'true') {
                                                                                                                                                                                                                                                     transform: 'rotate('+cur_animation_val+'deg)',
                                                                                                                                                                                                                                                     background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
                                                                                                                                                                                                                                                 });
-                                                                                                                                                                                                                                                jQuery('.chart').data('easyPieChart').update(9);
-                                                                                                                                                                                                                                                jQuery('.chart').find('span').text('9');
                                                                                                                                                                                                                                                 cur_let = Math.round(Math.random() * (7 - 0))
                                                                                                                                                                                                                                                 jQuery('#draggable1').text(letters[cur_let]);
                                                                                                                                                                                                                                                 jQuery('#draggable1').css({
