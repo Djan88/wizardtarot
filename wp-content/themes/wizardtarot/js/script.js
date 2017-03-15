@@ -679,7 +679,7 @@ if (backStatus == 'true') {
         }
         jQuery('#draggable7').css({
           transform: 'rotate('+cur_animation_val+'deg)',
-          background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+          background: '#fff url(/wp-content/themes/wizardtarot/images/nerazd_002.png) 0 0/100% no-repeat'
         });
         jQuery('#draggable6').css({
           background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
@@ -907,7 +907,7 @@ if (backStatus == 'true') {
                   }
                   jQuery('#draggable7').css({
                     transform: 'rotate('+cur_animation_val+'deg)',
-                    background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+                    background: '#fff url(/wp-content/themes/wizardtarot/images/nerazd_002.png) 0 0/100% no-repeat'
                   });
                   jQuery('#draggable6').css({
                     background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
@@ -1145,7 +1145,7 @@ if (backStatus == 'true') {
                               }
                               jQuery('#draggable7').css({
                                 transform: 'rotate('+cur_animation_val+'deg)',
-                                background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+                                background: '#fff url(/wp-content/themes/wizardtarot/images/nerazd_002.png) 0 0/100% no-repeat'
                               });
                               jQuery('#draggable6').css({
                                 background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
@@ -1383,7 +1383,7 @@ if (backStatus == 'true') {
                                             }
                                             jQuery('#draggable7').css({
                                               transform: 'rotate('+cur_animation_val+'deg)',
-                                              background: '#fff url(/wp-content/themes/wizardtarot/images/superdisfunction.png) 0 0/100% no-repeat'
+                                              background: '#fff url(/wp-content/themes/wizardtarot/images/nerazd_002.png) 0 0/100% no-repeat'
                                             });
                                             jQuery('#draggable6').css({
                                               background: 'url(/wp-content/themes/wizardtarot/images/nerazd.png) center top / 90% no-repeat'
