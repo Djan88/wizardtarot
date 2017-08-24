@@ -2,13 +2,13 @@
 Contributors: fruitfulcode
 Donate link: http://fruitfulcode.com/
 Tags: maintenance, maintenance mode, coming soon, splash page, under-construction, 503 error, administration, login, customize page, background, fullscreen, blur
-Requires at least: 3.4
-Tested up to: 4.4
-Stable tag: 2.6
+Requires at least: 3.5
+Tested up to: 4.8
+Stable tag: 3.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Maintenance - easy configure and customize coming soon, under construction page when site have updates or changes.
+Maintenance - easy configure and customize coming soon, under construction page when site have updates, changes or in development process.
 
 == Description ==
 
@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=Z5v9Ju52nmg
 <li>Html/CSS layout without images (retina ready) </li>
 <li>Fullscreen background (<a target="_blank" href="https://github.com/srobbin/jquery-backstretch">Backstretch</a>)</li>
 <li>Blur background effect</li>
-<li>Upload own logo</li>
+<li>Upload own logo and retina</li>
 <li>Configurable colors: fonts, icons, background</li>
 <li>Add your title, headline, text</li>
 <li>User login with validation</li>
@@ -70,6 +70,8 @@ https://www.youtube.com/watch?v=Z5v9Ju52nmg
 <li>Ukrainian (uk_UA)</li>
 <li>Finnish (fi_FI)</li>
 <li>Italian (it_IT)</li>
+<li>Arabic (Ar)</li>
+<li>Dutch (nl_NL)</li>
 </ul>
 
 <p>If you would like to create translation to your native language, you can send the <a target="_blank" href="http://codex.wordpress.org/Translating_WordPress">text of PO and MO files</a> to the <a href="http://fruitfulcode.com" target="_blank">Fruitful Code</a> and we'll add it to the next plugin update.</p><p> You can download the latest version of the program for work with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.</p>
@@ -119,6 +121,92 @@ You can check <a href="http://wordpress.org/support/plugin/maintenance">support 
 
 
 == Change log ==
+
+= 3.5.1 =
+- Bugfix: Js cache with server options
+- Bugfix: bg default color
+- Optimization: Fonts load
+- Optimization: PageSpeed 90/96
+
+= 3.5 =
+* Optimization: Plugin speed optimization
+* Bugfix: Clear js cache
+
+= 3.4.2 =
+* Optimization: Plugin speed optimization (Google PageSpeed 95)
+* Tested up to: Wordpress 4.8
+
+= 3.4.1 =
+* Bug fix: Return original template if mode is off
+
+= 3.4 =
+* Improvements: WP Hide & Security plugin compatible
+* Bug fix: Update localization files
+* Bug fix: Subset fonts
+* Bug fix: Permission access by user role
+* Bug fix: Remove deprecated function getimagesize
+
+= 3.3 =
+* New: Add og meta content
+* New: Default site title
+* Update: WordPress 4.7.1
+* Bug fix: Add function not filter to add paragraph
+
+= 3.2 =
+* New: Hungarian translation
+* New: Persian translation
+* New: Swedish translation
+* Updated: German translation
+* Updated: Russian translation
+* Updated: Google Analytics script
+* Improvements: Get icons from CDN's
+* Improvements: Description tinymce textarea
+* Bug fix: Exclude pages - display only !empty post types
+* Bug fix: function wpcf7_ajax_loader()
+
+= 3.1.1 =
+* Improvements: Google fonts - Add font: Martel Sans
+* Updated: Chinese(zh_CN) translation
+* Bug fix: Relative reference for google fonts
+* Bug fix: Meta title output
+* Bug fix: Meta description output
+
+= 3.1 =
+* New: Meta description
+* Improvements: Descriptions for fields
+* Improvements: Added check for ssl
+* Improvements: link from footer removed
+* Bug fix: Plugin Inspector call this UNSAFE
+* Bug fix: changed call to the function mt_clear_cache
+* Bug fix: Grammatical mistakes
+* Bug fix: Standart background image loading, after update to WordPress 4.6
+* Bug fix: Subsets problem with js
+* Bug fix: Bugfix googlefonts.json missed problem
+* Update: Translation files
+
+= 3.0 =
+* New: Additional Save changes button
+* Update: Translation files
+* Update: Core for maintenance PRO
+* Bug fix: Lost password link
+
+= 2.7.1 =
+* Update: Language files
+* Bug fix: Default values and checkbox changes in preferences
+* Bug fix: Lost password link if WooCommerce exist
+
+= 2.7 =
+* New: Google fonts subsets
+* New: WP Super Cache support
+* New: WP Total Cache support
+* New: Retina logo
+* New: Logo width and height fields
+* New: uninstal.php
+* Update: WordPress 4.4.2 support
+* Improvements: Responsive version
+* Improvements: Time format
+* Bug fix: Maintenance not working on French Language
+
 
 = 2.6 =
 * Update: WordPress 4.4 support

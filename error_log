@@ -1,2 +1,18 @@
-[16-Apr-2015 08:25:49 Europe/Simferopol] PHP Parse error:  syntax error, unexpected end of file in /home/polimerspecstroy/public_html/wp-config.php on line 81
-[16-Apr-2015 08:25:49 Europe/Simferopol] PHP Parse error:  syntax error, unexpected end of file in /home/polimerspecstroy/public_html/wp-config.php on line 81
+[06-Mar-2017 03:58:36 UTC] PHP Warning:  exif_read_data(94036a7dc3e787d1f796ebe33dd6a1f2): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[06-Mar-2017 06:32:09 UTC] PHP Warning:  exif_read_data(106a4c80661d942974eecd0d4e71a81c): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[12-Mar-2017 06:55:34 UTC] PHP Warning:  exif_read_data(485d21552544551cb3aa9a48ef794707): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[22-Mar-2017 21:27:37 UTC] PHP Warning:  exif_read_data(7595ae326f59e966c6dfbfbb7efb8571): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[24-Mar-2017 22:55:06 UTC] PHP Warning:  exif_read_data(8eb229747bdd3b95ec996164249a1c9c): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[02-Apr-2017 21:11:46 UTC] PHP Warning:  exif_read_data(160e77be7c23fe2df101c03006fd26b5): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[07-Apr-2017 08:15:54 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home/wizardtarot/public_html/wp-includes/class-wp-xmlrpc-server.php on line 596
+[09-Apr-2017 06:19:58 UTC] PHP Warning:  imagerotate() expects parameter 1 to be resource, boolean given in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 72
+[09-Apr-2017 06:19:58 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 107
+[09-Apr-2017 06:21:43 UTC] PHP Warning:  imagerotate() expects parameter 1 to be resource, boolean given in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 72
+[09-Apr-2017 06:21:43 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 107
+[09-Apr-2017 06:23:12 UTC] PHP Warning:  imagerotate() expects parameter 1 to be resource, boolean given in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 72
+[09-Apr-2017 06:23:12 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 107
+[19-Apr-2017 03:36:52 UTC] PHP Warning:  exif_read_data(a91a89883f9ffe259ffb4edec3ea82b6): IFD data bad offset: 0xFFFFFCD2 length 0x1D5E in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[25-Apr-2017 04:38:29 UTC] PHP Warning:  exif_read_data(824078dd530f15cd037ca65ea5aee141): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[27-Apr-2017 18:33:55 UTC] PHP Warning:  exif_read_data(8a8a0ec1700f9c5ed5cb938e834d433e): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[11-May-2017 13:12:33 UTC] PHP Warning:  exif_read_data(78ac1f834739c8e86e54efe88587b9d7): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
+[11-May-2017 13:14:00 UTC] PHP Warning:  exif_read_data(146612b59145ff8efdd407330e9035b4): Illegal IFD size in /home/wizardtarot/public_html/wp-content/themes/wizardtarot/functions.php on line 63
