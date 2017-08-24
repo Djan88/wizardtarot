@@ -772,12 +772,12 @@ and (max-width : 559px) {
 }
 .tarot_zones
 {
-  width: 534px;
+  width: 520px;
   margin: 0 auto 10px;
   position: relative;
   /*right: -15px;*/
   top: -140px;
-  height: 75px;
+  height: 60px;
   z-index: 2;
 }
 @media(max-width: 1390px){
@@ -984,15 +984,15 @@ input[type=submit]{
 .itemlist_item
 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   color: crimson;
   border: 1px solid crimson;
   text-align: center;
   cursor: pointer;
   background: rgba(255,255,255, 0.5);
   z-index: 999;
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   position: absolute;
   -webkit-transition: transform 1s linear;
   -moz-transition: transform 1s linear;
