@@ -105,12 +105,12 @@
           </div>
           <div class="bs-example">
             <div class="steps clearfix">
-                <h3 class="heading heading_dashboard">Загрузите и при необходимости отредактируйте фото (соотноешние сторон должно быть 3x4)1</h3>
+                <h3 class="heading heading_dashboard">Загрузите и при необходимости отредактируйте фото (соотноешние сторон должно быть 3x4)</h3>
                 <h5 class="prot_in_action hidden"></h5>
             </div>
             <div class="bbody">
     <!-- upload form -->
-              <form id="upload_form" action="/wizard/" enctype="multipart/form-data" method="post"><!-- hidden crop params -->
+              <form id="upload_form-1" action="/wizard/" enctype="multipart/form-data" method="post"><!-- hidden crop params -->
               <input id="x1" name="mci_x1" type="hidden" />
               <input id="y1" name="mci_y1" type="hidden" />
               <input id="x2" name="mci_x2" type="hidden" />
