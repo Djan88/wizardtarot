@@ -77,6 +77,9 @@
                       <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Старт</button>
                     </div>
                 </div>
+                <div class="four_slide container animated fadeInDown hidden">
+                  <div>Загружен протокол первоэлементов</div>
+                </div>
             <?php } else { ?>
                 <div style="text-align: center">Вы видите, потому, что зашли на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться к Роману <a href="mailto:info@bablosstudio.ru">info@bablosstudio.ru</a></div>
             <?php } ?>

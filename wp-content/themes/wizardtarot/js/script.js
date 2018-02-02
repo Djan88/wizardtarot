@@ -217,28 +217,29 @@ if (backStatus == 'true') {
   });
   // Если фото уже загружено
   if(jQuery('.tarot_returned_img')){
-    jQuery('.third_slide').removeClass('hidden');
-    jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
     //Получение данных из локального хранилища
     if(supportsStorage && localStorage.getItem('prot_card')){
       prot_card = localStorage.getItem('prot_card');
       prot_type = localStorage.getItem('prot_type');
       elem_type = localStorage.getItem('elem_type');
     }
-      console.log(prot_card);
-      if(prot_type == 'tarot'){
-        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
-      } else if(prot_type == 'elements') {
-        if(elem_type == 'F'){
-          jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png) no-repeat top left/100%');
-        } else if (elem_type == 'W'){
-          jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png) no-repeat top left/100%');
-        } else if (elem_type == 'A'){
-          jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) no-repeat top left/100%');
-        } else if (elem_type == 'E'){
-          jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) no-repeat top left/100%');
-        };
-      }
+    console.log(prot_card);
+    if(prot_type == 'tarot'){
+      jQuery('.third_slide').removeClass('hidden');
+      jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
+      jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
+    } else if(prot_type == 'elements') {
+      jQuery('.four_slide').removeClass('hidden');
+      if(elem_type == 'F'){
+        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png) no-repeat top left/100%');
+      } else if (elem_type == 'W'){
+        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png) no-repeat top left/100%');
+      } else if (elem_type == 'A'){
+        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) no-repeat top left/100%');
+      } else if (elem_type == 'E'){
+        jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) no-repeat top left/100%');
+      };
+    }
   }
   //На шаг назад
   jQuery('.tarot_back').on('click', function(event) {
