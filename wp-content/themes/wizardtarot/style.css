@@ -1066,7 +1066,7 @@ input[type=submit]{
 }
 .elems_table_block.bs-example:after
 {
-  content: "Таблица первоэлементов";
+  content: "Загрузка фото";
 }
 .row.elems 
 {
