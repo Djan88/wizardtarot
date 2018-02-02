@@ -210,7 +210,7 @@ if (backStatus == 'true') {
       localStorage.setItem('prot_card', prot_card);
   }); 
   // Переход к загрузке фото
-  jQuery( ".tarot_sucess, .elem-choice-item, .tarot_open_item" ).click(function() {
+  jQuery( ".tarot_sucess, .elem-to-load, .tarot_open_item" ).click(function() {
     toElemChoice('.first_slide, .tarot_to_photo, .elem-choice', function() {
       jQuery( '.second_slide' ).removeClass('hidden').addClass('animated fadeInDown');
     });

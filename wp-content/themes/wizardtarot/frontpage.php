@@ -102,35 +102,10 @@
             <p>Делать это необходимо после специальной калибровки через соль, которая сразу нагружает зону в первоэлемент «земля».</p>
             <p>После заземления через соль происходит восстановление конституции, и первый проявленный дисбаланс первоэлемента на V4 используется для выбора протокола Tarotmachine.</p>
             <p>В любом случае, рекомендуется очное обучение пользователя!</p>
+            <button type="button" class="btn btn-default btn-lg elem-to-load" data-elem="A">Загрузить фото</button></td>
           </div>
           <div class="bs-example">
-            <div class="steps clearfix">
-                <h3 class="heading heading_dashboard">Загрузите и при необходимости отредактируйте фото (соотноешние сторон должно быть 3x4)</h3>
-                <h5 class="prot_in_action hidden"></h5>
-            </div>
-            <div class="bbody">
-    <!-- upload form -->
-              <form id="upload_form-1" action="/wizard/" enctype="multipart/form-data" method="post"><!-- hidden crop params -->
-              <input id="x1" name="mci_x1" type="hidden" />
-              <input id="y1" name="mci_y1" type="hidden" />
-              <input id="x2" name="mci_x2" type="hidden" />
-              <input id="y2" name="mci_y2" type="hidden" />
-              <!-- <h2>Выберите изображение</h2> -->
-              <div><input id="image_file" name="mci_image_file" type="file" /></div>
-              <div class="error"></div>
-              <div class="step2">
-              <h3>Выделите область для обрезки</h3>
-              <img id="preview" alt="" />
-              <!--<canvas id="preview-canvas" style="border: 3px red solid;/*position: absolute; visibility: hidden; /*left: -20000px*/"></canvas>-->
-              <div class="info"><label>Размер файла</label> <input id="filesize" name="mci_filesize" type="text" />
-              <label>Тип</label> <input id="filetype" name="mci_filetype" type="text" />
-              <label>Разрешение изображения</label> <input id="filedim" name="mci_filedim" type="text" />
-              <label>Ширина</label> <input id="w" name="mci_w" type="text" />
-              <label>Высота</label> <input id="h" name="mci_h" type="text" /></div>
-              <input type="submit" class="crop_photo" value="Редактировать фото" name="mci_magic" />
-              </div>
-              </form>
-            </div>
+
             <!-- <table class="table table-bordered table-hover">
               <tbody>
                 <tr>
