@@ -2381,4 +2381,4 @@ jQuery(function() {
 jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
   jQuery('.elems_devil-client, .elems_devil-devil').css('height', (devil_w * 1.5)+'px');
-}
+})
