@@ -242,6 +242,7 @@ if (backStatus == 'true') {
       // };
     }
     var devil_w = jQuery('.elems_devil-client').css('width');
+    devil_w = devil_w * 2;
     console.log(devil_w);
     jQuery('.elems_devil-client').css('height', );
   }
