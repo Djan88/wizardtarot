@@ -242,7 +242,7 @@ if (backStatus == 'true') {
       // };
     }
     var devil_w = jQuery('.elems_devil-client').css('width');
-    console.log(devil_w * 2);
+    console.log(devil_w);
     jQuery('.elems_devil-client').css('height', );
   }
   //На шаг назад
