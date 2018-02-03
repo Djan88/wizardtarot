@@ -2378,7 +2378,7 @@ jQuery(function() {
        size: 110
     });
 });
-jQuery("#devil_move").draggable({ 
+jQuery(".elems_devil-devil").draggable({ 
   snap: false
 });
 
