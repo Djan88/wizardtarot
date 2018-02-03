@@ -79,8 +79,9 @@
                 </div>
                 <div class="four_slide container animated fadeInDown hidden">
                   <div class="container">
-                    <div class="col-md-6 elems_devil elems_devil-devil"></div>
-                    <div class="col-md-6 elems_devil elems_devil-client"></div>
+                    <div class="col-md-4 elems_devil elems_devil-devil"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 elems_devil elems_devil-client"></div>
                   </div>
                 </div>
             <?php } else { ?>
