@@ -79,11 +79,10 @@
                 </div>
                 <div class="four_slide container animated fadeInDown hidden">
                   <div class="container">
-                    <div class="col-xs-1"></div>
-                    <div class="col-xs-4 elems_devil elems_devil-devil"></div>
                     <div class="col-xs-2"></div>
+                    <div class="col-xs-4 elems_devil elems_devil-devil"></div>
                     <div class="col-xs-4 elems_devil elems_devil-client"></div>
-                    <div class="col-xs-1"></div>
+                    <div class="col-xs-2"></div>
                   </div>
                 </div>
             <?php } else { ?>
