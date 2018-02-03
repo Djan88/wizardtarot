@@ -80,7 +80,9 @@
                 <div class="four_slide container animated fadeInDown hidden">
                   <div class="container">
                     <div class="col-xs-2"></div>
-                    <div class="col-xs-4 elems_devil elems_devil-devil"></div>
+                    <div class="col-xs-4 elems_devil elems_devil-devil" id="elems_devil-devil">
+                      <div class="devil_move" id="devil_move"></div>
+                    </div>
                     <div class="col-xs-4 elems_devil elems_devil-client"></div>
                     <div class="col-xs-2"></div>
                   </div>
