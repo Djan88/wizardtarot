@@ -102,9 +102,9 @@
             <p>Делать это необходимо после специальной калибровки через соль, которая сразу нагружает зону в первоэлемент «земля».</p>
             <p>После заземления через соль происходит восстановление конституции, и первый проявленный дисбаланс первоэлемента на V4 используется для выбора протокола Tarotmachine.</p>
             <p>В любом случае, рекомендуется очное обучение пользователя!</p>
-            <button type="button" class="btn btn-default btn-lg elem-to-load" data-elem="A">Загрузить фото</button></td>
+            <button type="button" class="btn btn-primary btn-lg elem-to-load">Загрузить фото</button></td>
           </div>
-          <div class="bs-example">
+          <!-- <div class="bs-example"> -->
 
             <!-- <table class="table table-bordered table-hover">
               <tbody>
@@ -130,7 +130,7 @@
                 </tr>
               </tbody>
             </table> -->
-          </div>
+          <!-- </div> -->
         </div>
         <div class="tarot-choice hidden">
           <div class="container">
