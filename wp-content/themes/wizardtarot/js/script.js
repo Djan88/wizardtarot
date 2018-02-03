@@ -242,7 +242,7 @@ if (backStatus == 'true') {
       // };
     }
     var devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
-    jQuery('.elems_devil-client').css('height', (devil_w * 1.5)+'px');
+    jQuery('.elems_devil-client, .elems_devil-devil').css('height', (devil_w * 1.5)+'px');
   }
   //На шаг назад
   jQuery('.tarot_back').on('click', function(event) {
