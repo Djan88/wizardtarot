@@ -86,6 +86,16 @@
                     <div class="col-xs-4 elems_devil elems_devil-client"></div>
                     <div class="col-xs-2"></div>
                   </div>
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                          <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="A">2</button>
+                          <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="E">3</button>
+                          <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="F">4</button>
+                          <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="W">5</button>
+                        </div>
+                      </div>
+                  </div>
                 </div>
             <?php } else { ?>
                 <div style="text-align: center">Вы видите, потому, что зашли на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться к Роману <a href="mailto:info@bablosstudio.ru">info@bablosstudio.ru</a></div>
