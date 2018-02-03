@@ -241,6 +241,9 @@ if (backStatus == 'true') {
       //   jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) no-repeat top left/100%');
       // };
     }
+    var devil_w = jQuery('.elems_devil-client').css('width');
+    console.log(devil_w);
+    jQuery('.elems_devil-client').css('height', );
   }
   //На шаг назад
   jQuery('.tarot_back').on('click', function(event) {
