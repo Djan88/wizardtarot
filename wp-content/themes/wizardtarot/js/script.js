@@ -2378,7 +2378,9 @@ jQuery(function() {
        size: 110
     });
 });
-jQuery( "#devil_move" ).draggable();
+jQuery("#devil_move").draggable({ 
+  snap: false
+});
 
 jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
