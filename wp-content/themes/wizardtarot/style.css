@@ -1359,5 +1359,6 @@ input[type=submit]{
 }
 .devil_move
 {
-  background: #fff url(/wp-content/themes/wizardtarot/images/15-Major-Devil.png) 0 0/100% no-repeat;
+  background: #fff url(/wp-content/themes/wizardtarot/images/gallery/15-Major-Devil.png) 0 0/100% no-repeat;
+  height: 200px;
 }
