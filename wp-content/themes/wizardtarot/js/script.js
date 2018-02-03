@@ -2378,7 +2378,8 @@ jQuery(function() {
        size: 110
     });
 });
-jQuery( "#devil_move" ).draggable({ containment: "#elems_devil-devil", scroll: false });
+jQuery( "#devil_move" ).draggable();
+
 jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
   jQuery('.elems_devil-client, .elems_devil-devil').css('height', (devil_w * 1.5)+'px');
