@@ -1366,7 +1366,8 @@ input[type=submit]{
   border-radius: 4px;
   display: block;
   position: absolute;
-  top: 300px;
+  top: 220px;
+  right: 0;
   cursor: pointer;
 }
 .elems_graph

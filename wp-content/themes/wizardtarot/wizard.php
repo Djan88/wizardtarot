@@ -92,10 +92,13 @@
                         <div class="col-md-12">
                           <div class="row">
                             <div class="col-md-2 col-md-offset-5">
-                              <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="A">2</button>
-                              <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="E">3</button>
-                              <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="F">4</button>
-                              <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="W">5</button>
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="A">2</button>
+                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="E">3</button>
+                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="F">4</button>
+                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="W">5</button>
+                              </div>
+                              
                             </div>
                           </div>
                         </div>
