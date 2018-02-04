@@ -93,20 +93,22 @@
                           <div class="row">
                             <div class="col-md-2 col-md-offset-5 elem_prots">
                               <div class="btn-group">
-                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="A">2</button>
-                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="E">3</button>
-                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="F">4</button>
-                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="W">5</button>
+                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="jezl">2</button>
+                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="sword">3</button>
+                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="cup">4</button>
+                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="pentacle">5</button>
                               </div>
-                              
                             </div>
                           </div>
                         </div>
                       </div>
                   </div>
                 </div>
+                <div class="five_slide container animated fadeInDown hidden">
+                  
+                </div>
             <?php } else { ?>
-                <div style="text-align: center">Вы видите, потому, что зашли на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться к Роману <a href="mailto:info@bablosstudio.ru">info@bablosstudio.ru</a></div>
+                <div style="text-align: center">Вы видите, потому, что зашли на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться на <a href="mailto:info@chikurov.com">info@chikurov.com</a></div>
             <?php } ?>
         <?php } else { ?>
             <div class="login__form">

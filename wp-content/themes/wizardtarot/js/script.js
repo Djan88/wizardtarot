@@ -168,8 +168,10 @@ if (backStatus == 'true') {
   });
   jQuery( ".elem-choice-item" ).on('click', function(event) {
     elem_type = jQuery(this).data('elem');
-    console.log('Элемент '+ jQuery(this).data('elem'));
+    console.log('Протокол '+ jQuery(this).data('elem'));
     localStorage.setItem('elem_type', elem_type);
+    jQuery('.four_slide').addClass('hidden');
+    jQuery('.five_slide').removeClass('hidden');
   });
 
   //Перетягивание элементов
