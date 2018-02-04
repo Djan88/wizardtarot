@@ -107,6 +107,7 @@
                 <div class="five_slide container animated fadeInDown hidden">
                   <div class="container">
                     <div class="row">
+                      <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default">Назад</button>
                       <div class="col-xs-4 elems_prot_screen"></div>
                       <div class="col-xs-4 elems_prot_screen elems_devil-client"></div>
                       <div class="col-xs-4 elems_prot_screen"></div>

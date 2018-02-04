@@ -173,6 +173,10 @@ if (backStatus == 'true') {
     jQuery('.four_slide').addClass('hidden');
     jQuery('.five_slide').removeClass('hidden');
   });
+  jQuery( ".to_devil_screen" ).on('click', function(event) {
+    jQuery('.five_slide').addClass('hidden');
+    jQuery('.four_slide').removeClass('hidden');
+  });
 
   //Перетягивание элементов
   jQuery( ".draggable" ).draggable({ 
