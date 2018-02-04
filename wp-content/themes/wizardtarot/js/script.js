@@ -2387,7 +2387,7 @@ jQuery(function() {
       scroll: false,
       drag: function() {
         console.log('test');
-        if (!knifeDateOld) {
+        if (knifeDateOld == null) {
           knifeDateOld = new Date();
         }
         knife = jQuery('.devil_move').css('top');
