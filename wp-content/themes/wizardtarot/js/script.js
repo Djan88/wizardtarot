@@ -38,6 +38,7 @@ jQuery(function() {
   prot_type,
   elem_type,
   prot_card,
+  knife,
   knifeDate,
   knifeDateOld = null,
   knifeDateDiff,
@@ -2386,10 +2387,6 @@ jQuery(function() {
       containment: "#elems_devil-devil", 
       scroll: false,
       drag: function() {
-        console.log('test');
-        if (knifeDateOld == null) {
-          knifeDateOld = new Date();
-        }
         knife = jQuery('.devil_move').css('top');
         knife = knife.substr(0, knife.length - 2);
         knifeDate = new Date();
