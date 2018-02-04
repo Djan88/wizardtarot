@@ -117,7 +117,7 @@
                         </div>
                       </div>
                       <div class="col-xs-4 elems_prot_screen"></div>
-                      <div class="col-xs-3 elems_prot_screen elems_devil-client"></div>
+                      <div class="col-xs-3 elems_prot_screen elems_returned_img"></div>
                       <div class="col-xs-4 elems_prot_screen"></div>
                     </div>
                   </div>
