@@ -2383,6 +2383,7 @@ jQuery(function() {
        lineWidth: 3,
        size: 110
     });
+    knifeDateOld = new Date();
     jQuery( "#devil_move" ).draggable({ 
       containment: "#elems_devil-devil",
       drag: function() {
