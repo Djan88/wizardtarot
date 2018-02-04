@@ -38,6 +38,11 @@ jQuery(function() {
   prot_type,
   elem_type,
   prot_card,
+  knifeDate,
+  knifeDateOld = null,
+  knifeDateDiff,
+  knife_rate_class,
+  knife_rate_class_dotted,
   pointsStatus = true,
   toElemChoice,
   letters = {
@@ -2377,7 +2382,24 @@ jQuery(function() {
        lineWidth: 3,
        size: 110
     });
-    jQuery( "#devil_move" ).draggable({ containment: "#elems_devil-devil", scroll: false});
+    jQuery( "#devil_move" ).draggable({ 
+      containment: "#elems_devil-devil", 
+      scroll: false,
+      drag: function() {
+        knife = jQuery('.devil_move').css('top');
+        knife = knife.substr(0, knife.length - 2);
+        knifeDate = new Date();
+        knifeDateDiff = knifeDate - knifeDateOld;
+        knife_rate_class = 'knife_rate-'+knife;
+        knife_rate_class_dotted = '.knife_rate-'+knife;
+        jQuery('.elems_graph').append('<div class='+knife_rate_class+'></div>');
+        jQuery(knife_rate_class_dotted).addClass('knife_rate').css({
+            top: +knife+45+'px',
+            width: knifeDateDiff*2+'px'
+        });
+        knifeDateOld = knifeDate;
+      }
+    });
 });
 
 jQuery(window).resize(function(event) {
