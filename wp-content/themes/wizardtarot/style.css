@@ -1382,7 +1382,7 @@ input[type=submit]{
   max-width: 200px;
   background: #5e1043;
   position: absolute;
-  left: 410px;
+  left: 0px;
   -webkit-transition: width 0.5s linear;
   -moz-transition: width 0.5s linear;
   transition: width 0.5s linear;
