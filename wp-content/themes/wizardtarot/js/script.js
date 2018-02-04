@@ -2384,8 +2384,7 @@ jQuery(function() {
        size: 110
     });
     jQuery( "#devil_move" ).draggable({ 
-      containment: "#elems_devil-devil", 
-      scroll: false,
+      containment: "#elems_devil-devil",
       drag: function() {
         knife = jQuery('.devil_move').css('top');
         knife = knife.substr(0, knife.length - 2);

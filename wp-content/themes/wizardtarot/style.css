@@ -1364,6 +1364,10 @@ input[type=submit]{
   width: 80px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  display: block;
+  position: absolute;
+  top: 300px;
+  cursor: pointer;
 }
 .elems_graph
 {
