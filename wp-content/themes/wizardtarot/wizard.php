@@ -116,9 +116,9 @@
                           <button type="button" class="btn btn-default btn-lg elem_prot_start btn-default">Старт</button>
                         </div>
                       </div>
-                      <div class="col-xs-4 elems_prot_screen"></div>
-                      <div class="col-xs-3 elems_prot_screen elems_returned_img"></div>
-                      <div class="col-xs-4 elems_prot_screen"></div>
+                      <div class="col-xs-5 elems_prot_screen"></div>
+                      <div class="col-xs-2 elems_prot_screen elems_returned_img"></div>
+                      <div class="col-xs-5 elems_prot_screen"></div>
                     </div>
                   </div>
                 </div>
