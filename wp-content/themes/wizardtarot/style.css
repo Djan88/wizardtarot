@@ -1388,3 +1388,8 @@ input[type=submit]{
   -moz-transition: width 0.5s linear;
   transition: width 0.5s linear;
 }
+.elem_prots
+{
+  padding: 0;
+  text-align: center;
+}
