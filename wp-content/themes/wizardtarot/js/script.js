@@ -2383,12 +2383,10 @@ jQuery(function() {
        lineWidth: 3,
        size: 110
     });
+    knifeDateOld = new Date();
     jQuery( "#devil_move" ).draggable({ 
       containment: "#elems_devil-devil",
       drag: function() {
-        if (!knifeDateOld) {
-          knifeDateOld = new Date();
-        }
         knife = jQuery('.devil_move').css('top');
         knife = knife.substr(0, knife.length - 2);
         knifeDate = new Date();
