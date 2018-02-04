@@ -1393,3 +1393,8 @@ input[type=submit]{
   padding: 0;
   text-align: center;
 }
+.elems_prot_screen
+{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
