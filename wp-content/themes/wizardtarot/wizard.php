@@ -107,9 +107,17 @@
                 <div class="five_slide container animated fadeInDown hidden">
                   <div class="container">
                     <div class="row">
-                      <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default">Назад</button>
+                      <div class="col-md-12">
+                        <div class="col-md-1">
+                          <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default">Назад</button>
+                        </div>
+                        <div class="col-md-10"></div>
+                        <div class="col-md-1">
+                          <button type="button" class="btn btn-default btn-lg elem_prot_start btn-default">Старт</button>
+                        </div>
+                      </div>
                       <div class="col-xs-4 elems_prot_screen"></div>
-                      <div class="col-xs-4 elems_prot_screen elems_devil-client"></div>
+                      <div class="col-xs-3 elems_prot_screen elems_devil-client"></div>
                       <div class="col-xs-4 elems_prot_screen"></div>
                     </div>
                   </div>
