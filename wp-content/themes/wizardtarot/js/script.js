@@ -40,7 +40,7 @@ jQuery(function() {
   prot_card,
   knife,
   knifeDate,
-  knifeDateOld,
+  knifeDateOld = null,
   knifeDateDiff,
   knife_rate_class,
   knife_rate_class_dotted,
