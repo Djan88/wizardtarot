@@ -132,6 +132,20 @@
                           <div class="col-xs-2 elems_prot_screen center_imgs" style="margin-left: 10px"></div>
                         </div>
                       </div>
+                      <div class="col-xs-12 bottom_imgs">
+                        <div class="col-xs-1">
+                          <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default pull-left">Назад</button>
+                        </div>
+                        <div class="col-xs-10">
+                          <div class="row">
+                            <div class="col-xs-1 elems_prot_screen"></div>
+                          </div>
+                        </div>
+                        <div class="col-xs-1">
+                          <button type="button" class="btn btn-default btn-lg elem_prot_start btn-default pull-right">Старт</button>
+                          <div class="chart" data-percent="0"><span>0</span>%</div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
