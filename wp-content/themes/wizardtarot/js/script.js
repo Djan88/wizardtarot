@@ -2383,36 +2383,38 @@ if (backStatus == 'true') {
     jQuery('#image_file').on('change', fileSelectHandler);
 });
 jQuery(function() {
-    jQuery('.chart').easyPieChart({
-       lineWidth: 3,
-       size: 110
-    });
-    knifeDateOld = new Date();
-    jQuery( "#devil_move" ).draggable({ 
-      containment: "#elems_devil-devil",
-      drag: function() {
-        knife = jQuery('.devil_move').css('top');
-        knife = knife.substr(0, knife.length - 2);
-        knifeDate = new Date();
-        knifeDateDiff = knifeDate - knifeDateOld;
-        knife_rate_class = 'knife_rate-'+knife;
-        knife_rate_class_dotted = '.knife_rate-'+knife;
-        jQuery('.elems_graph').append('<div class='+knife_rate_class+'></div>');
-        jQuery(knife_rate_class_dotted).addClass('knife_rate').css({
-            top: +knife+45+'px',
-            width: knifeDateDiff*2+'px'
-        });
-        knifeDateOld = knifeDate;
-      }
-    });
+  jQuery('.chart').easyPieChart({
+     lineWidth: 3,
+     size: 110
+  });
+  knifeDateOld = new Date();
+  jQuery( "#devil_move" ).draggable({ 
+    containment: "#elems_devil-devil",
+    drag: function() {
+      knife = jQuery('.devil_move').css('top');
+      knife = knife.substr(0, knife.length - 2);
+      knifeDate = new Date();
+      knifeDateDiff = knifeDate - knifeDateOld;
+      knife_rate_class = 'knife_rate-'+knife;
+      knife_rate_class_dotted = '.knife_rate-'+knife;
+      jQuery('.elems_graph').append('<div class='+knife_rate_class+'></div>');
+      jQuery(knife_rate_class_dotted).addClass('knife_rate').css({
+          top: +knife+45+'px',
+          width: knifeDateDiff*2+'px'
+      });
+      knifeDateOld = knifeDate;
+    }
+  });
+  
+  var devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
+  jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
+  var card_img_w = parseInt(jQuery('.elems_prot_screen').css('width'));
+  jQuery('.elems_prot_screen').css('height', (card_img_w * 1.5)+'px');
+  var elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
+  jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
+   
 });
 
-var devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
-jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
-var card_img_w = parseInt(jQuery('.elems_prot_screen').css('width'));
-jQuery('.elems_prot_screen').css('height', (card_img_w * 1.5)+'px');
-var elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
-jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
 
 jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
