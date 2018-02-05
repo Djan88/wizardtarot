@@ -252,6 +252,15 @@ if (backStatus == 'true') {
       // } else if (elem_type == 'E'){
       //   jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) no-repeat top left/100%');
       // };
+      var devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
+      jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
+      console.log("devil_w "devil_w)
+      var card_img_w = parseInt(jQuery('.elems_prot_screen').css('width'));
+      jQuery('.elems_prot_screen').css('height', (card_img_w * 1.5)+'px');
+      console.log("card_img_w "card_img_w)
+      var elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
+      jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
+      console.log("elem_img_w "elem_img_w)
     }
   }
   //На шаг назад
@@ -2405,13 +2414,6 @@ jQuery(function() {
       knifeDateOld = knifeDate;
     }
   });
-  
-  var devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
-  jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
-  var card_img_w = parseInt(jQuery('.elems_prot_screen').css('width'));
-  jQuery('.elems_prot_screen').css('height', (card_img_w * 1.5)+'px');
-  var elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
-  jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
    
 });
 
