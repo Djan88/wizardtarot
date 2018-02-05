@@ -1408,5 +1408,10 @@ input[type=submit]{
 }
 .center_imgs 
 {
-  margin-top: 5%;
+  margin-top: 15%;
+}
+.col-xs-1.elems_prot_screen 
+{
+  margin: auto;
+  float: none;
 }
