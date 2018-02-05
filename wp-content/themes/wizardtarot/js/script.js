@@ -246,6 +246,7 @@ if (backStatus == 'true') {
       jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
     } else if(prot_type == 'elements') {
       jQuery('.four_slide').removeClass('hidden');
+      jQuery('.elems_devil-client, .elems_returned_img').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
       // if(elem_type == 'F'){
       //   jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url(/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png) no-repeat top left/100%');
       // } else if (elem_type == 'W'){
@@ -2416,7 +2417,7 @@ jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
   jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
   elem_img = parseInt(jQuery('.elems_returned_img').css('width'));
-  jQuery('.elems_returned_img').css('height', (elem_img * 1.6)+'px');
+  jQuery('.elems_returned_img').css('height', (elem_img * 1.5)+'px');
   card_img = parseInt(jQuery('.elems_prot_screen').css('width'));
   jQuery('.elems_prot_screen').css('height', (card_img * 1.5)+'px');
 })
