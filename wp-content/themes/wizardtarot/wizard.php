@@ -113,7 +113,7 @@
                         </div>
                         <div class="col-xs-10">
                           <div class="row">
-                            <div class="col-xs-4 col-xs-offset-4 elems_prot_screen"></div>
+                            <div class="col-xs-2 col-xs-offset-5 elems_prot_screen"></div>
                           </div>
                         </div>
                         <div class="col-xs-1">
