@@ -785,7 +785,7 @@ and (max-width : 559px) {
   {
       padding-top: 50px;
   }
-  .tarot_to_photo
+  .tarot_to_photo, .tarot_to_prev
   {
     top: 105px;
     padding: 10px;
@@ -1418,4 +1418,8 @@ input[type=submit]{
 {
   margin: auto;
   float: none;
+}
+.five_slide .chart
+{
+  top: 55px;
 }

@@ -110,6 +110,12 @@
                       <div class="col-xs-12 top_imgs">
                         <div class="col-xs-1">
                           <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default pull-left">Назад</button>
+                          <div class="tarot_zones well">
+                            <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle" style="left: 334px; top: 6px;">V2</div>
+                            <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle" style="left: 400px; top: 6px;">V3</div>
+                            <div id="draggable4" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle" style="left: 466px; top: 6px;">V4</div>
+                            <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle" style="left: 532px; top: 6px;">V5</div>
+                        </div>
                         </div>
                         <div class="col-xs-10">
                           <div class="row">
@@ -133,7 +139,7 @@
                         </div>
                       </div>
                       <div class="col-xs-12 bottom_imgs">
-                        <div class="col-xs-2 elems_prot_screen"></div>
+                        <div class="col-xs-1 elems_prot_screen"></div>
                       </div>
                     </div>
                   </div>
