@@ -122,20 +122,20 @@
                       </div>
                       <div class="col-xs-5">
                         <div class="row">
-                          <div class="col-xs-4 col-xs-offset-4 elems_prot_screen"></div>
+                          <div class="col-xs-4 col-xs-offset-4 elems_prot_screen center_imgs"></div>
                         </div>
                       </div>
                       <div class="col-xs-2 elems_prot_screen elems_returned_img"></div>
                       <div class="col-xs-5">
                         <div class="row">
-                          <div class="col-xs-4 col-xs-offset-4 elems_prot_screen"></div>
+                          <div class="col-xs-4 col-xs-offset-4 elems_prot_screen center_imgs"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
             <?php } else { ?>
-                <div style="text-align: center">Вы видите, потому, что зашли на сайт проекта <a href="http://wizardtarot.ru/">wizardtarot</a>. Администрация сайта  доводит до вашего сведения информацию о том, что получение доступа на сайт происходит после предварительного обучения пользователя. Обучение будет проходить в виде очного либо дистантного семинара. По всем вопросам обращаться на <a href="mailto:info@chikurov.com">info@chikurov.com</a></div>
+                <div style="text-align: center">Вы видите это сообщение, потому, что зашли на сайт проекта <a href="http://wizardtarot.ru/">WizardTarot</a>. По всем вопросам обращаться на <a href="mailto:info@chikurov.com">info@chikurov.com</a></div>
             <?php } ?>
         <?php } else { ?>
             <div class="login__form">
