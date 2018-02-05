@@ -2416,7 +2416,7 @@ jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
   jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
   elem_img = parseInt(jQuery('.elems_returned_img').css('width'));
-  jQuery('.elems_returned_img').css('height', (elem_img * 1.5)+'px');
+  jQuery('.elems_returned_img').css('height', (elem_img * 1.6)+'px');
   card_img = parseInt(jQuery('.elems_prot_screen').css('width'));
   jQuery('.elems_prot_screen').css('height', (card_img * 1.5)+'px');
 })
