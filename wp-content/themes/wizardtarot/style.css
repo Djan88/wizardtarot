@@ -1402,3 +1402,7 @@ input[type=submit]{
 {
   background: #fff url(/wp-content/themes/wizardtarot/images/gallery/15-Major-Devil.png) 0 0/100% no-repeat;
 }
+.top_imgs
+{
+  margin-bottom: 10px;
+}

@@ -107,7 +107,7 @@
                 <div class="five_slide container animated fadeInDown hidden">
                   <div class="container">
                     <div class="row">
-                      <div class="col-xs-12">
+                      <div class="col-xs-12 top_imgs">
                         <div class="col-xs-1">
                           <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default pull-left">Назад</button>
                         </div>
