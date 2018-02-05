@@ -174,6 +174,8 @@ if (backStatus == 'true') {
     jQuery('.five_slide').removeClass('hidden');
     elem_img = parseInt(jQuery('.elems_returned_img').css('width'));
     jQuery('.elems_returned_img').css('height', (elem_img * 1.5)+'px');
+    card_img = parseInt(jQuery('.elems_prot_screen').css('width'));
+    jQuery('.elems_prot_screen').css('height', (card_img * 1.5)+'px');
   });
   jQuery( ".to_devil_screen" ).on('click', function(event) {
     jQuery('.five_slide').addClass('hidden');
@@ -2416,4 +2418,6 @@ jQuery(window).resize(function(event) {
   jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
   elem_img = parseInt(jQuery('.elems_returned_img').css('width'));
   jQuery('.elems_returned_img').css('height', (elem_img * 1.5)+'px');
+  card_img = parseInt(jQuery('.elems_prot_screen').css('width'));
+  jQuery('.elems_prot_screen').css('height', (card_img * 1.5)+'px');
 })
