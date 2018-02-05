@@ -1398,3 +1398,7 @@ input[type=submit]{
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+.elems_prot_screen
+{
+  background: #fff url(/wp-content/themes/wizardtarot/images/gallery/15-Major-Devil.png) 0 0/100% no-repeat;
+}

@@ -109,16 +109,24 @@
                     <div class="row">
                       <div class="col-md-12">
                         <div class="col-md-1">
-                          <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default">Назад</button>
+                          <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default pull-left">Назад</button>
                         </div>
                         <div class="col-md-10"></div>
                         <div class="col-md-1">
-                          <button type="button" class="btn btn-default btn-lg elem_prot_start btn-default">Старт</button>
+                          <button type="button" class="btn btn-default btn-lg elem_prot_start btn-default pull-right">Старт</button>
                         </div>
                       </div>
-                      <div class="col-xs-5 elems_prot_screen"></div>
+                      <div class="col-xs-5">
+                        <div class="row">
+                          <div class="col-md-6 col-md-offset-3 elems_prot_screen"></div>
+                        </div>
+                      </div>
                       <div class="col-xs-2 elems_prot_screen elems_returned_img"></div>
-                      <div class="col-xs-5 elems_prot_screen"></div>
+                      <div class="col-xs-5">
+                        <div class="row">
+                          <div class="col-md-6 col-md-offset-3 elems_prot_screen"></div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
