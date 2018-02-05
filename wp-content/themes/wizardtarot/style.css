@@ -1345,7 +1345,7 @@ input[type=submit]{
   margin: 0 auto 10px;
   position: fixed;
   left: 20px;
-  top: 140px;
+  /*top: 140px;*/
 }
 .elems_devil
 {
