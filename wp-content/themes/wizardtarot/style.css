@@ -7,10 +7,10 @@ Author: Ivan Avraamov
 Tags: simple
 */
 
-html, body {
+html.mdl-js, body {
     font-family: Tahoma, Arial; 
     padding: 0px; 
-    margin: 0px; 
+    margin: 0px!important; 
     color: #e7e7e7;
     background: #393e42;
     background: #fff;
