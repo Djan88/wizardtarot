@@ -1423,3 +1423,10 @@ input[type=submit]{
 {
   top: 55px;
 }
+.five_slide .tarot_zones
+{
+  right: 0;
+  top: 60px;
+  width: 58px;
+  height: 215px;
+}
