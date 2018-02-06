@@ -139,7 +139,13 @@
                         </div>
                       </div>
                       <div class="col-xs-12 bottom_imgs">
-                        <div class="col-xs-1 elems_prot_screen"></div>
+                        <div class="col-xs-1"></div>
+                        <div class="col-xs-10">
+                          <div class="row">
+                            <div class="col-xs-1 elems_prot_screen"></div>
+                          </div>
+                        </div>
+                        <div class="col-xs-1"></div>
                       </div>
                     </div>
                   </div>
