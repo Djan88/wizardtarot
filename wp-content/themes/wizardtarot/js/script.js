@@ -92,6 +92,16 @@ jQuery(function() {
       }
     });
   },
+  checkPointsElems = function(){
+    jQuery('.elems_zone').each(function() {
+      if(parseFloat(jQuery(this).css('left')) < 200){
+        pointsStatus = false;
+        console.log(jQuery(this)+ ' status '+pointsStatus);
+      } else {
+        pointsStatus = true;
+      }
+    });
+  },
   supportsStorage = function(){
     try {
       return 'localStorage' in window && window['localStorage'] !== null;
@@ -168,17 +178,14 @@ if (backStatus == 'true') {
   });
   jQuery( ".elem-choice-item" ).on('click', function(event) {
     elem_type = jQuery(this).data('elem');
-    console.log('Протокол '+ jQuery(this).data('elem'));
     localStorage.setItem('elem_type', elem_type);
     jQuery('.four_slide').addClass('hidden');
     jQuery('.five_slide').removeClass('hidden');
 
     var card_img_w = parseInt(jQuery('.elems_prot_screen').css('width'));
     jQuery('.elems_prot_screen').css('height', (card_img_w * 1.5)+'px');
-    console.log("card_img_w "+card_img_w)
     var elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
     jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
-    console.log("elem_img_w "+elem_img_w)
   });
   jQuery( ".to_devil_screen" ).on('click', function(event) {
     jQuery('.five_slide').addClass('hidden');
@@ -225,7 +232,7 @@ if (backStatus == 'true') {
   // Клик по ячейке в режиме открытых карт
   jQuery('.hex.tarot_open_item').on('click', function(event) {
       prot_card = jQuery(this).find('.hexagon-in2').find('a').attr('href');
-      console.log(prot_card);
+      // console.log(prot_card);
       localStorage.setItem('prot_card', prot_card);
   }); 
   // Переход к загрузке фото
@@ -242,7 +249,7 @@ if (backStatus == 'true') {
       prot_type = localStorage.getItem('prot_type');
       elem_type = localStorage.getItem('elem_type');
     }
-    console.log(prot_card);
+    // console.log(prot_card);
     if(prot_type == 'tarot'){
       jQuery('.third_slide').removeClass('hidden');
       jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
@@ -261,7 +268,7 @@ if (backStatus == 'true') {
       // };
       var devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
       jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
-      console.log("devil_w "+devil_w)
+      // console.log("devil_w "+devil_w)
     }
   }
   //На шаг назад
@@ -726,7 +733,7 @@ if (backStatus == 'true') {
     if(supportsStorage && localStorage.getItem('prot_type')){
         prot_type = localStorage.getItem('prot_type');
         elem_type = localStorage.getItem('elem_type');
-        console.log(prot_type+' '+elem_type);
+        // console.log(prot_type+' '+elem_type);
     }
     jQuery('.tarot_start').on('click', function(event) {
         checkPoints()
@@ -736,10 +743,40 @@ if (backStatus == 'true') {
             if(prot_type == 'tarot'){
                 tarot();
                 jQuery('.tarot_to_photo').addClass('hidden');
-            } else {
-                elems();
+            } 
+            // else {
+            //     elems();
+            //     jQuery('.tarot_to_photo').addClass('hidden');
+            //     console.log('elements');
+            // }
+        }
+    });
+    jQuery('.tarot_start').on('click', function(event) {
+        checkPoints()
+        if(pointsStatus == false){
+            swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
+        } else {
+            if(prot_type == 'tarot'){
+                tarot();
                 jQuery('.tarot_to_photo').addClass('hidden');
-                console.log('elements');
+            } 
+            // else {
+            //     elems();
+            //     jQuery('.tarot_to_photo').addClass('hidden');
+            //     console.log('elements');
+            // }
+        }
+    });
+    jQuery('.elem_prot_start').on('click', function(event) {
+        pointsStatus = false;
+        console.log("test");
+        checkPointsElems()
+        if(pointsStatus == false){
+            swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
+        } else {
+            if(prot_type == 'elements'){
+                // elems();
+                // jQuery('.tarot_to_photo').addClass('hidden');
             }
         }
     });

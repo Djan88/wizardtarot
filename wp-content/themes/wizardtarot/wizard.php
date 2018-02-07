@@ -111,10 +111,10 @@
                         <div class="col-xs-1">
                           <button type="button" class="btn btn-default btn-lg to_devil_screen btn-default pull-left">Назад</button>
                           <div class="tarot_zones well">
-                            <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle" style="left: 6px; top: 6px;">V2</div>
-                            <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle" style="left: 6px; top: 57px;">V3</div>
-                            <div id="draggable4" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle" style="left: 6px; top: 109px;">V4</div>
-                            <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle" style="left: 6px; top: 161px;">V5</div>
+                            <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle elems_zone" style="left: 6px; top: 6px;">V2</div>
+                            <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle elems_zone" style="left: 6px; top: 57px;">V3</div>
+                            <div id="draggable4" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle elems_zone" style="left: 6px; top: 109px;">V4</div>
+                            <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable ui-draggable ui-draggable-handle elems_zone" style="left: 6px; top: 161px;">V5</div>
                         </div>
                         </div>
                         <div class="col-xs-10">
