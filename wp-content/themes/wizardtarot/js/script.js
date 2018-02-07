@@ -181,6 +181,15 @@ if (backStatus == 'true') {
     localStorage.setItem('elem_type', elem_type);
     jQuery('.four_slide').addClass('hidden');
     jQuery('.five_slide').removeClass('hidden');
+    if (elem_type = "sword") {
+      jQuery('.elems_prot_screen').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png)');
+    } else if (elem_type = "jezl") {
+      jQuery('.elems_prot_screen').css('background', '/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png)');
+    } else if (elem_type = "cup") {
+      jQuery('.elems_prot_screen').css('background', '/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png)');
+    } else if (elem_type = "pentacle") {
+      jQuery('.elems_prot_screen').css('background', '/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png)');
+    }
 
     var card_img_w = parseInt(jQuery('.elems_prot_screen').css('width'));
     jQuery('.elems_prot_screen').css('height', (card_img_w * 1.5)+'px');
@@ -652,28 +661,22 @@ if (backStatus == 'true') {
     }, 250);
   };
   elems = function(){
-    if(elem_type == 'W'){
-      // e_one = '/wp-content/themes/wizardtarot/images/nerazd_002.png';
-      // e_two = '/wp-content/themes/wizardtarot/images/nerazd_002.png';
+    if(elem_type == 'cup'){
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/63-Minor-Cups-King.png'
       e_paje = '/wp-content/themes/wizardtarot/images/gallery/60-Minor-Cups-Page.png'
       e_knight = '/wp-content/themes/wizardtarot/images/gallery/61-Minor-Cups-Knight.png'
-    } else if (elem_type == 'A'){
-      // e_one = '/wp-content/themes/wizardtarot/images/nerazd_002.png';
-      // e_two = '/wp-content/themes/wizardtarot/images/nerazd_002.png';
+    } else if (elem_type == 'jezl'){
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/77-Minor-Wands-King.png'
       e_paje = '/wp-content/themes/wizardtarot/images/gallery/74-Minor-Wands-Page.png'
       e_knight = '/wp-content/themes/wizardtarot/images/gallery/75-Minor-Wands-Knight.png'
-    } else if (elem_type == 'F'){
-      // e_one = '/wp-content/themes/wizardtarot/images/nerazd_002.png';
-      // e_two = '/wp-content/themes/wizardtarot/images/nerazd_002.png';
+    } else if (elem_type == 'pentacle'){
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png'
       e_king = '/wp-content/themes/wizardtarot/images/gallery/35-Minor-Discs-King.png'
       e_paje = '/wp-content/themes/wizardtarot/images/gallery/32-Minor-Discs-Page.png'
       e_knight = '/wp-content/themes/wizardtarot/images/gallery/33-Minor-Discs-Knight.png'
-    } else if (elem_type == 'E'){
+    } else if (elem_type == 'sword'){
       // e_one = '/wp-content/themes/wizardtarot/images/nerazd_002.png';
       // e_two = '/wp-content/themes/wizardtarot/images/nerazd_002.png';
       e_dama = '/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png'

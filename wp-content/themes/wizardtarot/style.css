@@ -1429,4 +1429,5 @@ input[type=submit]{
   top: 60px;
   width: 58px;
   height: 215px;
+  position: absolute;
 }
