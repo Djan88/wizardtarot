@@ -1431,3 +1431,8 @@ input[type=submit]{
   height: 215px;
   position: absolute;
 }
+.elem_prots h3
+{
+  color: #000;
+  margin-bottom: 10px;
+}
