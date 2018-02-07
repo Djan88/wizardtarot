@@ -92,6 +92,7 @@
                         <div class="col-md-12">
                           <div class="row">
                             <div class="col-md-2 col-md-offset-5 elem_prots">
+                              <h2>Выберите протокол</h2>
                               <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="jezl">2</button>
                                 <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="sword">3</button>
