@@ -1427,12 +1427,18 @@ input[type=submit]{
 {
   right: 0;
   top: 60px;
-  width: 58px;
-  height: 215px;
+  width: 48px;
+  height: 167px;
   position: absolute;
 }
 .elem_prots h2
 {
   color: #000;
   margin-bottom: 10px;
+}
+.elems_zone 
+{
+  width: 35px;
+  height: 35px;
+  padding-top: 7px;
 }
