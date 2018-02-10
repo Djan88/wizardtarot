@@ -128,26 +128,23 @@
                           <div class="chart" data-percent="0"><span>0</span>%</div>
                         </div>
                       </div>
-                      <!-- <div class="col-xs-5">
-                        <div class="row">
-                          <div class="col-xs-2 col-xs-offset-4 elems_prot_screen elem_card_place pull-right center_imgs" style="margin-right: 10px"></div>
-                        </div>
-                      </div> -->
-                      <div class="col-xs-2 col-xs-offset-4 elems_prot_screen elems_returned_img"></div>
+                      <div class="col-xs-3 col-xs-offset-2 elems_prot_screen elems_returned_img"></div>
                       <div class="col-xs-5">
                         <div class="row">
-                          <div class="col-xs-2 elems_prot_screen elem_card_place center_imgs" style="margin-left: 10px"></div>
-                        </div>
-                      </div>
-                      <!-- <div class="col-xs-12 bottom_imgs">
-                        <div class="col-xs-1"></div>
-                        <div class="col-xs-10">
-                          <div class="row">
-                            <div class="col-xs-1 elems_prot_screen elem_card_place"></div>
+                          <div class="first_cards cards_wrapper">
+                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_1" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_2" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_3" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_4" style="margin-left: 10px"></div>
+                          </div>
+                          <div class="second_cards cards_wrapper">
+                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_4" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_3" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_2" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_1" style="margin-left: 10px"></div>
                           </div>
                         </div>
-                        <div class="col-xs-1"></div>
-                      </div> -->
+                      </div>
                     </div>
                   </div>
                 </div>
