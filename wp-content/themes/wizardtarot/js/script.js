@@ -191,8 +191,8 @@ if (backStatus == 'true') {
       jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) 0 0/100% no-repeat');
     }
 
-    var card_img_w = parseInt(jQuery('.elems_prot_screen').css('width'));
-    jQuery('.elems_prot_screen').css('height', (card_img_w * 1.5)+'px');
+    var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
+    jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
     var elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
     jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
   });
@@ -971,8 +971,8 @@ jQuery(function() {
 jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
   jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
-  card_img_w = parseInt(jQuery('.elems_prot_screen').css('width'));
-  jQuery('.elems_prot_screen').css('height', (card_img_w * 1.5)+'px');
+  card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
+  jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
   elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
   jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
 })
