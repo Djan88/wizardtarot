@@ -120,7 +120,7 @@
                         </div>
                         <div class="col-xs-10">
                           <div class="row">
-                            <div class="col-xs-1 elems_prot_screen elem_card_place"></div>
+                            <!-- <div class="col-xs-1 elems_prot_screen elem_card_place"></div> -->
                           </div>
                         </div>
                         <div class="col-xs-1">
@@ -128,18 +128,18 @@
                           <div class="chart" data-percent="0"><span>0</span>%</div>
                         </div>
                       </div>
-                      <div class="col-xs-5">
+                      <!-- <div class="col-xs-5">
                         <div class="row">
                           <div class="col-xs-2 col-xs-offset-4 elems_prot_screen elem_card_place pull-right center_imgs" style="margin-right: 10px"></div>
                         </div>
-                      </div>
-                      <div class="col-xs-2 elems_prot_screen elems_returned_img"></div>
+                      </div> -->
+                      <div class="col-xs-2 col-xs-offset-4 elems_prot_screen elems_returned_img"></div>
                       <div class="col-xs-5">
                         <div class="row">
                           <div class="col-xs-2 elems_prot_screen elem_card_place center_imgs" style="margin-left: 10px"></div>
                         </div>
                       </div>
-                      <div class="col-xs-12 bottom_imgs">
+                      <!-- <div class="col-xs-12 bottom_imgs">
                         <div class="col-xs-1"></div>
                         <div class="col-xs-10">
                           <div class="row">
@@ -147,7 +147,7 @@
                           </div>
                         </div>
                         <div class="col-xs-1"></div>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
