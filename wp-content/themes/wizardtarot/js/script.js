@@ -688,10 +688,11 @@ if (backStatus == 'true') {
     reloadTime1 = 0;
     cur_animation_val = 0;
     count_animation = 1;
+    console.log('test');
     phaseOne = setInterval(function(){
       if (count_animation <= 96){                                                                         //90
         if (count_animation == 1){
-          e_one.css('borderColor', 'blue');
+          e_one.css('color', 'blue');
           jQuery('.first_cards')
             .removeClass('hidden')
             // .css('marginTop', parseInt(jQuery('#draggable3').css('top'))/2+'px');
