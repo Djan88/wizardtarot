@@ -688,7 +688,11 @@ if (backStatus == 'true') {
     jQuery('.first_cards').removeClass('hidden');
     card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
     jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
-    jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_dama +') no-repeat top left/100%');
+
+    jQuery('.elem_card_1').css('background', 'url('+ e_dama +') no-repeat top left/100%');
+    jQuery('.elem_card_2').css('background', 'url('+ e_king +') no-repeat top left/100%');
+    jQuery('.elem_card_3').css('background', 'url('+ e_paje +') no-repeat top left/100%');
+    jQuery('.elem_card_4').css('background', 'url('+ e_knight +') no-repeat top left/100%');
     reloadTime1 = 0;
     cur_animation_val = 0;
     count_animation = 1;
@@ -699,23 +703,10 @@ if (backStatus == 'true') {
           background: e_dama,
         });
         if (count_animation <= 480){
-          e_one.css({
-            background: '#fff url(/wp-content/themes/wizardtarot/images/mo_right.png) 0 0/100% no-repeat',
-            color: 'transparent',
-            borderColor: 'transparent',
-            opacity: 0.8
-          });
-          e_two.css({
-            background: 'rgba(255,255,255, 0.5)',
-            color: 'crimson',
-            borderColor: 'crimson',
-            opacity: 1
-          });
+          jQuery('.first_cards').removeClass('hidden');
         } else {
-          jQuery('#draggable8').css({
-            background: 'url('+e_two+') 0 0/95% no-repeat',
-            transform: 'scale(1.3)'
-          });
+          jQuery('.first_cards').addClass('hidden');
+          jQuery('.second_cards').removeClass('hidden');
         }
       } else {
         clearInterval(phaseOne);
@@ -732,39 +723,39 @@ if (backStatus == 'true') {
       }
     }, 250);
   };
-    if(supportsStorage && localStorage.getItem('prot_type')){
-        prot_type = localStorage.getItem('prot_type');
-        elem_type = localStorage.getItem('elem_type');
-        // console.log(prot_type+' '+elem_type);
-    }
-    jQuery('.tarot_start').on('click', function(event) {
-        checkPoints()
-        if(pointsStatus == false){
-            swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
-        } else {
-            if(prot_type == 'tarot'){
-                tarot();
-                jQuery('.tarot_to_photo').addClass('hidden');
-            } 
-            // else {
-            //     elems();
-            //     jQuery('.tarot_to_photo').addClass('hidden');
-            //     console.log('elements');
-            // }
-        }
-    });
-    jQuery('.elem_prot_start').on('click', function(event) {
-        pointsStatus = false;
-        checkPointsElems()
-        if(pointsStatus == false){
-            swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
-        } else {
-            if(prot_type == 'elements'){
-                elems();
-                // jQuery('.tarot_to_photo').addClass('hidden');
-            }
-        }
-    });
+  if(supportsStorage && localStorage.getItem('prot_type')){
+      prot_type = localStorage.getItem('prot_type');
+      elem_type = localStorage.getItem('elem_type');
+      // console.log(prot_type+' '+elem_type);
+  }
+  jQuery('.tarot_start').on('click', function(event) {
+      checkPoints()
+      if(pointsStatus == false){
+          swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
+      } else {
+          if(prot_type == 'tarot'){
+              tarot();
+              jQuery('.tarot_to_photo').addClass('hidden');
+          } 
+          // else {
+          //     elems();
+          //     jQuery('.tarot_to_photo').addClass('hidden');
+          //     console.log('elements');
+          // }
+      }
+  });
+  jQuery('.elem_prot_start').on('click', function(event) {
+      pointsStatus = true;
+      // checkPointsElems()
+      if(pointsStatus == false){
+          swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
+      } else {
+          if(prot_type == 'elements'){
+              elems();
+              // jQuery('.tarot_to_photo').addClass('hidden');
+          }
+      }
+  });
 
 
 
