@@ -662,23 +662,29 @@ if (backStatus == 'true') {
   };
   elems = function(){
     if(elem_type == 'cup'){
+      e_one = jQuery('#draggable31');
+      e_two = jQuery('#draggable41');
       e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png) 0 0/100% no-repeat'
       e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/63-Minor-Cups-King.png) 0 0/100% no-repeat'
       e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/60-Minor-Cups-Page.png) 0 0/100% no-repeat'
       e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/61-Minor-Cups-Knight.png) 0 0/100% no-repeat'
     } else if (elem_type == 'jezl'){
+      e_one = jQuery('#draggable21');
+      e_two = jQuery('#draggable51');
       e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png) 0 0/100% no-repeat'
       e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/77-Minor-Wands-King.png) 0 0/100% no-repeat'
       e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/74-Minor-Wands-Page.png) 0 0/100% no-repeat'
       e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/75-Minor-Wands-Knight.png) 0 0/100% no-repeat'
     } else if (elem_type == 'pentacle'){
+      e_one = jQuery('#draggable41');
+      e_two = jQuery('#draggable31');
       e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) 0 0/100% no-repeat'
       e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/35-Minor-Discs-King.png) 0 0/100% no-repeat'
       e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/32-Minor-Discs-Page.png) 0 0/100% no-repeat'
       e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/33-Minor-Discs-Knight.png) 0 0/100% no-repeat'
     } else if (elem_type == 'sword'){
-      e_one = jQuery('#draggable31');
-      e_two = jQuery('#draggable41');
+      e_one = jQuery('#draggable51');
+      e_two = jQuery('#draggable21');
       e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) 0 0/100% no-repeat'
       e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/49-Minor-Swords-King.png) 0 0/100% no-repeat'
       e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/46-Minor-Swords-Page.png) 0 0/100% no-repeat'
