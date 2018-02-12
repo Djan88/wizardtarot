@@ -692,7 +692,7 @@ if (backStatus == 'true') {
     phaseOne = setInterval(function(){
       if (count_animation <= 96){                                                                         //90
         if (count_animation == 1){
-          jQuery('#draggable31').css('marginTop', parseInt(jQuery('#draggable31').css('top'))/2+'px');
+          e_one.css('marginTop', parseInt(jQuery('#draggable31').css('top'))/2+'px');
           jQuery('.first_cards')
             .removeClass('hidden')
             // .css('marginTop', parseInt(jQuery('#draggable3').css('top'))/2+'px');
