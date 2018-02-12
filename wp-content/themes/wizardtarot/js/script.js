@@ -662,27 +662,27 @@ if (backStatus == 'true') {
   };
   elems = function(){
     if(elem_type == 'cup'){
-      e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png 0 0/100% no-repeat)'
-      e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/63-Minor-Cups-King.png 0 0/100% no-repeat)'
-      e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/60-Minor-Cups-Page.png 0 0/100% no-repeat)'
-      e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/61-Minor-Cups-Knight.png 0 0/100% no-repeat)'
+      e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png) 0 0/100% no-repeat'
+      e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/63-Minor-Cups-King.png) 0 0/100% no-repeat'
+      e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/60-Minor-Cups-Page.png) 0 0/100% no-repeat'
+      e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/61-Minor-Cups-Knight.png) 0 0/100% no-repeat'
     } else if (elem_type == 'jezl'){
-      e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png 0 0/100% no-repeat)'
-      e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/77-Minor-Wands-King.png 0 0/100% no-repeat)'
-      e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/74-Minor-Wands-Page.png 0 0/100% no-repeat)'
-      e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/75-Minor-Wands-Knight.png 0 0/100% no-repeat)'
+      e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png) 0 0/100% no-repeat'
+      e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/77-Minor-Wands-King.png) 0 0/100% no-repeat'
+      e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/74-Minor-Wands-Page.png) 0 0/100% no-repeat'
+      e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/75-Minor-Wands-Knight.png) 0 0/100% no-repeat'
     } else if (elem_type == 'pentacle'){
-      e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png 0 0/100% no-repeat)'
-      e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/35-Minor-Discs-King.png 0 0/100% no-repeat)'
-      e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/32-Minor-Discs-Page.png 0 0/100% no-repeat)'
-      e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/33-Minor-Discs-Knight.png 0 0/100% no-repeat)'
+      e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) 0 0/100% no-repeat'
+      e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/35-Minor-Discs-King.png) 0 0/100% no-repeat'
+      e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/32-Minor-Discs-Page.png) 0 0/100% no-repeat'
+      e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/33-Minor-Discs-Knight.png) 0 0/100% no-repeat'
     } else if (elem_type == 'sword'){
       e_one = jQuery('#draggable3');
       e_two = jQuery('#draggable4');
-      e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png 0 0/100% no-repeat)'
-      e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/49-Minor-Swords-King.png 0 0/100% no-repeat)'
-      e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/46-Minor-Swords-Page.png 0 0/100% no-repeat)'
-      e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/47-Minor-Swords-Knight.png 0 0/100% no-repeat)'
+      e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) 0 0/100% no-repeat'
+      e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/49-Minor-Swords-King.png) 0 0/100% no-repeat'
+      e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/46-Minor-Swords-Page.png) 0 0/100% no-repeat'
+      e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/47-Minor-Swords-Knight.png) 0 0/100% no-repeat'
     };
 //фаза 1
     reloadTime1 = 0;
@@ -694,10 +694,10 @@ if (backStatus == 'true') {
         console.log(count_animation);
         if (count_animation <= 480){
           jQuery('.first_cards').removeClass('hidden');
-          jQuery('.elem_card_1').css('background', 'red');
-          jQuery('.elem_card_2').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/49-Minor-Swords-King.png 0 0/100% no-repeat)');
-          jQuery('.elem_card_3').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/46-Minor-Swords-Page.png 0 0/100% no-repeat)');
-          jQuery('.elem_card_4').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/47-Minor-Swords-Knight.png 0 0/100% no-repeat)');
+          jQuery('.elem_card_1').css('background', e_dama);
+          jQuery('.elem_card_2').css('background', e_king);
+          jQuery('.elem_card_3').css('background', e_paje);
+          jQuery('.elem_card_4').css('background', e_knight);
         } else {
           jQuery('.first_cards').addClass('hidden');
           jQuery('.second_cards').removeClass('hidden');
