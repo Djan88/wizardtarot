@@ -692,18 +692,18 @@ if (backStatus == 'true') {
       if (count_animation <= 96){                                                                         //90
         count_animation += 1;
         console.log(count_animation);
-        if (count_animation <= 48){
+        if (count_animation == 1){
           jQuery('.first_cards').removeClass('hidden');
           jQuery('.elem_card_1').css('background', e_dama);
           jQuery('.elem_card_2').css('background', e_king);
           jQuery('.elem_card_3').css('background', e_paje);
           jQuery('.elem_card_4').css('background', e_knight);
-          card_img_w = parseInt(jQuery('.elem_card_1').css('width'));
+          var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
-        } else {
+        } else if (count_animation == 48){
           jQuery('.first_cards').addClass('hidden');
           jQuery('.second_cards').removeClass('hidden');
-          card_img_w = parseInt(jQuery('.elem_card_2').css('width'));
+          var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
         }
       } else {
