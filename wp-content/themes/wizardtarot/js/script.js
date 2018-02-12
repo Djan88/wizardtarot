@@ -85,7 +85,7 @@ jQuery(function() {
   elemsCardsSize = function(){
     var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
     jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
-  }
+  },
   checkPoints = function(){
     jQuery('.itemZone').each(function() {
       if(parseFloat(jQuery(this).css('top')) < 200){
