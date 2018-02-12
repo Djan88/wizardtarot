@@ -701,7 +701,7 @@ if (backStatus == 'true') {
           // e_one.css('marginTop', parseInt(jQuery('#draggable31').css('top'))/2+'px');
           jQuery('.first_cards')
             .removeClass('hidden')
-            .css('marginTop', parseInt(e_one.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');
+            .css('top', parseInt(e_one.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');
           jQuery('.elem_card_1').css('background', e_dama);
           jQuery('.elem_card_2').css('background', e_king);
           jQuery('.elem_card_3').css('background', e_paje);
@@ -712,7 +712,7 @@ if (backStatus == 'true') {
           jQuery('.first_cards').addClass('hidden');
           jQuery('.second_cards')
             .removeClass('hidden')
-            .css('marginTop', parseInt(e_two.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');;
+            .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5) +'px');;
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
         }
         count_animation += 1;

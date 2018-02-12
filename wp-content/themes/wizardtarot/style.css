@@ -1442,3 +1442,7 @@ input[type=submit]{
   height: 35px;
   padding-top: 7px;
 }
+.cards_wrapper
+{
+  position: absolute;
+}
