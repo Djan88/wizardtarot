@@ -82,6 +82,10 @@ jQuery(function() {
       } 
     });
   },
+  elemsCardsSize = function(){
+    var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
+    jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
+  }
   checkPoints = function(){
     jQuery('.itemZone').each(function() {
       if(parseFloat(jQuery(this).css('top')) < 200){
@@ -190,9 +194,7 @@ if (backStatus == 'true') {
     } else if (elem_type == "pentacle") {
       jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) 0 0/100% no-repeat');
     }
-
-    var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
-    jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
+    elemsCardsSize();
     var elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
     jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
   });
@@ -685,8 +687,8 @@ if (backStatus == 'true') {
       e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/47-Minor-Swords-Knight.png 0 0/100% no-repeat)'
     };
 //фаза 1
-    jQuery('.first_cards').removeClass('hidden')
-    jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_dama +') no-repeat top left/100%');
+    jQuery('.first_cards').removeClass('hidden');
+    jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_king +') no-repeat top left/100%');
     reloadTime1 = 0;
     cur_animation_val = 0;
     count_animation = 1;
@@ -751,31 +753,14 @@ if (backStatus == 'true') {
             // }
         }
     });
-    jQuery('.tarot_start').on('click', function(event) {
-        checkPoints()
-        if(pointsStatus == false){
-            swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
-        } else {
-            if(prot_type == 'tarot'){
-                tarot();
-                jQuery('.tarot_to_photo').addClass('hidden');
-            } 
-            // else {
-            //     elems();
-            //     jQuery('.tarot_to_photo').addClass('hidden');
-            //     console.log('elements');
-            // }
-        }
-    });
     jQuery('.elem_prot_start').on('click', function(event) {
         pointsStatus = false;
-        console.log("test");
         checkPointsElems()
         if(pointsStatus == false){
             swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
         } else {
             if(prot_type == 'elements'){
-                // elems();
+                elems();
                 // jQuery('.tarot_to_photo').addClass('hidden');
             }
         }
@@ -972,8 +957,7 @@ jQuery(function() {
 jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
   jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
-  card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
-  jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
+  elemsCardsSize();
   elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
   jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
 })
