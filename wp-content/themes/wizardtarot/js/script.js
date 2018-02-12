@@ -690,7 +690,6 @@ if (backStatus == 'true') {
     count_animation = 1;
     phaseOne = setInterval(function(){
       if (count_animation <= 96){                                                                         //90
-        count_animation += 1;
         console.log(count_animation);
         if (count_animation == 1){
           console.log('check 1');
@@ -708,6 +707,7 @@ if (backStatus == 'true') {
           var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
         }
+        count_animation += 1;
       } else {
         clearInterval(phaseOne);
         jQuery('.second_cards').addClass('hidden');
