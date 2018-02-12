@@ -181,15 +181,15 @@ if (backStatus == 'true') {
     localStorage.setItem('elem_type', elem_type);
     jQuery('.four_slide').addClass('hidden');
     jQuery('.five_slide').removeClass('hidden');
-    if (elem_type == "sword") {
-      jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) 0 0/100% no-repeat');
-    } else if (elem_type == "jezl") {
-      jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png) 0 0/100% no-repeat');
-    } else if (elem_type == "cup") {
-      jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png) 0 0/100% no-repeat');
-    } else if (elem_type == "pentacle") {
-      jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) 0 0/100% no-repeat');
-    }
+    // if (elem_type == "sword") {
+    //   jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) 0 0/100% no-repeat');
+    // } else if (elem_type == "jezl") {
+    //   jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/76-Minor-Wands-Queen.png) 0 0/100% no-repeat');
+    // } else if (elem_type == "cup") {
+    //   jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/62-Minor-Cups-Queen.png) 0 0/100% no-repeat');
+    // } else if (elem_type == "pentacle") {
+    //   jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) 0 0/100% no-repeat');
+    // }
 
     var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
     jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
