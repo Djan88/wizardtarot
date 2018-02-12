@@ -712,7 +712,7 @@ if (backStatus == 'true') {
           jQuery('.first_cards').addClass('hidden');
           jQuery('.second_cards')
             .removeClass('hidden')
-            .css('marginTop', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5) +'px');;
+            .css('marginTop', parseInt(e_two.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');;
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
         }
         count_animation += 1;
