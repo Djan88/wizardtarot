@@ -685,7 +685,6 @@ if (backStatus == 'true') {
       e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/47-Minor-Swords-Knight.png 0 0/100% no-repeat)'
     };
 //фаза 1
-    jQuery('.first_cards').removeClass('hidden');
     card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
     jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
 
@@ -711,14 +710,14 @@ if (backStatus == 'true') {
         }
       } else {
         clearInterval(phaseOne);
-        jQuery('#draggable8, #draggable7, #draggable6').css({
-          background: 'rgba(255,255,255, 0.5)',
-          color: 'crimson',
-          borderColor: 'crimson',
-          zIndex: '1',
-          transform: 'scale(1)',
-          paddingTop: '14px'
-        });
+        // jQuery('#draggable8, #draggable7, #draggable6').css({
+        //   background: 'rgba(255,255,255, 0.5)',
+        //   color: 'crimson',
+        //   borderColor: 'crimson',
+        //   zIndex: '1',
+        //   transform: 'scale(1)',
+        //   paddingTop: '14px'
+        // });
         jQuery('.chart').data('easyPieChart').update(6);
         jQuery('.chart').find('span').text('6');
       }
