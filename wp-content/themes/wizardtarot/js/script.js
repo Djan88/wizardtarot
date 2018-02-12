@@ -82,10 +82,6 @@ jQuery(function() {
       } 
     });
   },
-  elemsCardsSize = function(){
-    var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
-    jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
-  },
   checkPoints = function(){
     jQuery('.itemZone').each(function() {
       if(parseFloat(jQuery(this).css('top')) < 200){
@@ -194,7 +190,9 @@ if (backStatus == 'true') {
     } else if (elem_type == "pentacle") {
       jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/34-Minor-Discs-Queen.png) 0 0/100% no-repeat');
     }
-    elemsCardsSize();
+
+    var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
+    jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
     var elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
     jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
   });
@@ -688,7 +686,9 @@ if (backStatus == 'true') {
     };
 //фаза 1
     jQuery('.first_cards').removeClass('hidden');
-    jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_king +') no-repeat top left/100%');
+    card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
+    jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
+    jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+ e_dama +') no-repeat top left/100%');
     reloadTime1 = 0;
     cur_animation_val = 0;
     count_animation = 1;
@@ -957,7 +957,8 @@ jQuery(function() {
 jQuery(window).resize(function(event) {
   devil_w = parseInt(jQuery('.elems_devil-client').css('width'));
   jQuery('.elems_devil-client, .elems_devil-devil, .elems_graph').css('height', (devil_w * 1.5)+'px');
-  elemsCardsSize();
+  card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
+  jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
   elem_img_w = parseInt(jQuery('.elems_returned_img').css('width'));
   jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
 })
