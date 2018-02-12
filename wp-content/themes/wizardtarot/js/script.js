@@ -694,7 +694,7 @@ if (backStatus == 'true') {
         console.log(count_animation);
         if (count_animation <= 480){
           jQuery('.first_cards').removeClass('hidden');
-          jQuery('.elem_card_1').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png 0 0/100% no-repeat)');
+          jQuery('.elem_card_1').css('background', 'red');
           jQuery('.elem_card_2').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/49-Minor-Swords-King.png 0 0/100% no-repeat)');
           jQuery('.elem_card_3').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/46-Minor-Swords-Page.png 0 0/100% no-repeat)');
           jQuery('.elem_card_4').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/47-Minor-Swords-Knight.png 0 0/100% no-repeat)');
