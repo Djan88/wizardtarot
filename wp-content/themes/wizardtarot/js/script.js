@@ -702,6 +702,7 @@ if (backStatus == 'true') {
         jQuery('.elem_card_place').css({
           background: e_dama,
         });
+        console.log(count_animation);
         if (count_animation <= 480){
           jQuery('.first_cards').removeClass('hidden');
         } else {
