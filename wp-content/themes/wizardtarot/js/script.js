@@ -677,8 +677,8 @@ if (backStatus == 'true') {
       e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/32-Minor-Discs-Page.png) 0 0/100% no-repeat'
       e_knight = '#fff url(/wp-content/themes/wizardtarot/images/gallery/33-Minor-Discs-Knight.png) 0 0/100% no-repeat'
     } else if (elem_type == 'sword'){
-      e_one = jQuery('#draggable3');
-      e_two = jQuery('#draggable4');
+      e_one = jQuery('#draggable31');
+      e_two = jQuery('#draggable41');
       e_dama = '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) 0 0/100% no-repeat'
       e_king = '#fff url(/wp-content/themes/wizardtarot/images/gallery/49-Minor-Swords-King.png) 0 0/100% no-repeat'
       e_paje = '#fff url(/wp-content/themes/wizardtarot/images/gallery/46-Minor-Swords-Page.png) 0 0/100% no-repeat'
@@ -692,7 +692,7 @@ if (backStatus == 'true') {
     phaseOne = setInterval(function(){
       if (count_animation <= 96){                                                                         //90
         if (count_animation == 1){
-          jQuery('#draggable3').css('color', 'blue');
+          jQuery('#draggable31').css('top', '55px');
           jQuery('.first_cards')
             .removeClass('hidden')
             // .css('marginTop', parseInt(jQuery('#draggable3').css('top'))/2+'px');
