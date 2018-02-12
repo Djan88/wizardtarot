@@ -704,7 +704,6 @@ if (backStatus == 'true') {
           console.log('check 48');
           jQuery('.first_cards').addClass('hidden');
           jQuery('.second_cards').removeClass('hidden');
-          var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
         }
         count_animation += 1;
