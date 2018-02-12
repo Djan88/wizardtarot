@@ -689,10 +689,10 @@ if (backStatus == 'true') {
     cur_animation_val = 0;
     count_animation = 1;
     phaseOne = setInterval(function(){
-      if (count_animation <= 960){                                                                         //90
+      if (count_animation <= 96){                                                                         //90
         count_animation += 1;
         console.log(count_animation);
-        if (count_animation <= 480){
+        if (count_animation <= 48){
           jQuery('.first_cards').removeClass('hidden');
           jQuery('.elem_card_1').css('background', e_dama);
           jQuery('.elem_card_2').css('background', e_king);
@@ -706,14 +706,7 @@ if (backStatus == 'true') {
         jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
       } else {
         clearInterval(phaseOne);
-        // jQuery('#draggable8, #draggable7, #draggable6').css({
-        //   background: 'rgba(255,255,255, 0.5)',
-        //   color: 'crimson',
-        //   borderColor: 'crimson',
-        //   zIndex: '1',
-        //   transform: 'scale(1)',
-        //   paddingTop: '14px'
-        // });
+        jQuery('.second_cards').addClass('hidden');
         jQuery('.chart').data('easyPieChart').update(6);
         jQuery('.chart').find('span').text('6');
       }
