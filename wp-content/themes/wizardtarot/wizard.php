@@ -132,16 +132,16 @@
                       <div class="col-xs-5">
                         <div class="row">
                           <div class="first_cards cards_wrapper  animated fadeInRight hidden col-xs-12">
-                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_1" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_2" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_3" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_4" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_1" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_2" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_3" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_4" style="margin-left: 10px"></div>
                           </div>
                           <div class="second_cards cards_wrapper  animated fadeInRight hidden col-xs-12">
-                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_4" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_3" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_2" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elems_prot_screen elem_card_place elem_card_1" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_4" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_3" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_2" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_1" style="margin-left: 10px"></div>
                           </div>
                         </div>
                       </div>
