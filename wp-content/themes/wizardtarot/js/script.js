@@ -45,6 +45,7 @@ jQuery(function() {
   knife_rate_class,
   knife_rate_class_dotted,
   pointsStatus = true,
+  pointsStatusElems = true,
   toElemChoice,
   letters = {
       0: 'Б',
@@ -95,10 +96,10 @@ jQuery(function() {
   checkPointsElems = function(){
     jQuery('.elems_zone').each(function() {
       if(parseFloat(jQuery(this).css('left')) < 200){
-        pointsStatus = false;
-        console.log(jQuery(this)+ ' status '+pointsStatus);
+        pointsStatusElems = false;
+        console.log(jQuery(this)+ ' status '+ pointsStatusElems);
       } else {
-        pointsStatus = true;
+        pointsStatusElems = true;
       }
     });
   },
@@ -746,9 +747,9 @@ if (backStatus == 'true') {
   });
   jQuery('.elem_prot_start').on('click', function(event) {
     jQuery(this).addClass('hidden');
-      pointsStatus = true;
+      pointsStatusElems = true;
       // checkPointsElems()
-      if(pointsStatus == false){
+      if(pointsStatusElems == false){
         swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
       } else {
         if(prot_type == 'elements'){
@@ -758,7 +759,7 @@ if (backStatus == 'true') {
       }
   });
   jQuery('.elem_prot_stop').on('click', function(event) {
-      pointsStatus = false;
+      pointsStatusElems = false;
       clearInterval(phaseOne);
       jQuery(this).addClass('hidden');
       jQuery('.elem_prot_start').removeClass('hidden');

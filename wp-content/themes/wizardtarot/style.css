@@ -1012,7 +1012,7 @@ input[type=submit]{
 {
   background: #fff url(/wp-content/themes/wizardtarot/images/lovushka.jpg) 0 0/100% no-repeat;
 }
-.itemZone
+.itemZone, .elems_zone
 {
   z-index: 3;
 }
