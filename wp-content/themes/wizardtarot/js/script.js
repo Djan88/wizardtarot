@@ -72,6 +72,8 @@ jQuery(function() {
         jQuery('.tarot_to_photo').removeClass('hidden');
         jQuery('.chart').data('easyPieChart').update(0);
         jQuery('.chart').find('span').text('0');
+        jQuery('.chartTwo').data('easyPieChart').update(0);
+        jQuery('.chartTwo').find('span').text('0');
       } else {
         var protocol = undefined;    
         jQuery(location).attr('href','/');
@@ -716,14 +718,14 @@ if (backStatus == 'true') {
             .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5) +'px');;
         }
         count_animation += 1;
-        jQuery('.chart').data('easyPieChart').update(10);
-        jQuery('.chart').find('span').text('10');
+        jQuery('.chartTwo').data('easyPieChart').update(10);
+        jQuery('.chartTwo').find('span').text('10');
       } else {
         clearInterval(phaseOne);
         onEnd();
         jQuery('.second_cards').addClass('hidden');
-        jQuery('.chart').data('easyPieChart').update(100);
-        jQuery('.chart').find('span').text('100');
+        jQuery('.chartTwo').data('easyPieChart').update(100);
+        jQuery('.chartTwo').find('span').text('100');
         jQuery('.elem_prot_stop').addClass('hidden');
         jQuery('.elem_prot_start').removeClass('hidden');
       }
@@ -764,8 +766,8 @@ if (backStatus == 'true') {
       jQuery(this).addClass('hidden');
       jQuery('.elem_prot_start').removeClass('hidden');
       jQuery('.cards_wrapper').addClass('hidden');
-      jQuery('.chart').data('easyPieChart').update(0);
-      jQuery('.chart').find('span').text('0');
+      jQuery('.chartTwo').data('easyPieChart').update(0);
+      jQuery('.chartTwo').find('span').text('0');
   });
 
 
@@ -924,6 +926,10 @@ if (backStatus == 'true') {
 });
 jQuery(function() {
   jQuery('.chart').easyPieChart({
+     lineWidth: 3,
+     size: 110
+  });
+  jQuery('.chartTwo').easyPieChart({
      lineWidth: 3,
      size: 110
   });
