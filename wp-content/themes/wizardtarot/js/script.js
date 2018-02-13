@@ -717,6 +717,7 @@ if (backStatus == 'true') {
         count_animation += 1;
       } else {
         clearInterval(phaseOne);
+        onEnd();
         jQuery('.second_cards').addClass('hidden');
         jQuery('.chart').data('easyPieChart').update(6);
         jQuery('.chart').find('span').text('6');
@@ -733,17 +734,12 @@ if (backStatus == 'true') {
   jQuery('.tarot_start').on('click', function(event) {
       checkPoints()
       if(pointsStatus == false){
-          swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
+        swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
       } else {
-          if(prot_type == 'tarot'){
-              tarot();
-              jQuery('.tarot_to_photo').addClass('hidden');
-          } 
-          // else {
-          //     elems();
-          //     jQuery('.tarot_to_photo').addClass('hidden');
-          //     console.log('elements');
-          // }
+        if(prot_type == 'tarot'){
+          tarot();
+          jQuery('.tarot_to_photo').addClass('hidden');
+        }
       }
   });
   jQuery('.elem_prot_start').on('click', function(event) {
@@ -751,13 +747,12 @@ if (backStatus == 'true') {
       pointsStatus = true;
       // checkPointsElems()
       if(pointsStatus == false){
-          swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
+        swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
       } else {
-          if(prot_type == 'elements'){
-              elems();
-              jQuery('.elem_prot_stop').removeClass('hidden')
-              // jQuery('.tarot_to_photo').addClass('hidden');
-          }
+        if(prot_type == 'elements'){
+          elems();
+          jQuery('.elem_prot_stop').removeClass('hidden')
+        }
       }
   });
   jQuery('.elem_prot_stop').on('click', function(event) {
@@ -765,6 +760,7 @@ if (backStatus == 'true') {
       clearInterval(phaseOne);
       jQuery(this).addClass('hidden');
       jQuery('.elem_prot_start').removeClass('hidden');
+      jQuery('.cards_wrapper').addClass('hidden');
   });
 
 
@@ -913,16 +909,9 @@ if (backStatus == 'true') {
                             jcrop_api = this;
                         });
                     },3000);
-
                 };
-
-
-
-
             });
-
         };
-
         // read selected file as DataURL
         oReader.readAsDataURL(oFile);
     }
