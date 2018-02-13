@@ -696,7 +696,7 @@ if (backStatus == 'true') {
     count_animation = 1;
     console.log('test');
     phaseOne = setInterval(function(){
-      if (count_animation <= 96){                                                                         //90
+      if (count_animation <= 960){                                                                         //90
         if (count_animation == 1){
           // e_one.css('marginTop', parseInt(jQuery('#draggable31').css('top'))/2+'px');
           jQuery('.first_cards').removeClass('hidden');
@@ -707,7 +707,7 @@ if (backStatus == 'true') {
           var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.first_cards').css('top', parseInt(e_one.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');
-        } else if (count_animation == 48){
+        } else if (count_animation == 480){
           jQuery('.first_cards').addClass('hidden');
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.second_cards')
@@ -715,12 +715,14 @@ if (backStatus == 'true') {
             .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5) +'px');;
         }
         count_animation += 1;
+        jQuery('.chart').data('easyPieChart').update(count_animation / 9.6);
+        jQuery('.chart').find('span').text(count_animation / 9.6);
       } else {
         clearInterval(phaseOne);
         onEnd();
         jQuery('.second_cards').addClass('hidden');
-        jQuery('.chart').data('easyPieChart').update(6);
-        jQuery('.chart').find('span').text('6');
+        jQuery('.chart').data('easyPieChart').update(100);
+        jQuery('.chart').find('span').text('100');
         jQuery('.elem_prot_stop').addClass('hidden');
         jQuery('.elem_prot_start').removeClass('hidden');
       }
