@@ -761,6 +761,8 @@ if (backStatus == 'true') {
       jQuery(this).addClass('hidden');
       jQuery('.elem_prot_start').removeClass('hidden');
       jQuery('.cards_wrapper').addClass('hidden');
+      jQuery('.chart').data('easyPieChart').update(0);
+      jQuery('.chart').find('span').text('0');
   });
 
 
