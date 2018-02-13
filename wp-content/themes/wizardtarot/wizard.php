@@ -120,7 +120,7 @@
                         </div>
                         <div class="col-xs-10">
                           <div class="row">
-                            <!-- <div class="col-xs-1 elems_prot_screen elem_card_place"></div> -->
+                            <div class="prot_elem_title">Активирован протокол <span class="prot_elem_name"></span></div>
                           </div>
                         </div>
                         <div class="col-xs-1">

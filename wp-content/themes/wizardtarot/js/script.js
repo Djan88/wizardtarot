@@ -184,6 +184,7 @@ if (backStatus == 'true') {
     localStorage.setItem('elem_type', elem_type);
     jQuery('.four_slide').addClass('hidden');
     jQuery('.five_slide').removeClass('hidden');
+    jQuery('.prot_elem_name').text(jQuery(this).text())
     // if (elem_type == "sword") {
     //   jQuery('.elem_card_place').css('background', '#fff url(/wp-content/themes/wizardtarot/images/gallery/48-Minor-Swords-Queen.png) 0 0/100% no-repeat');
     // } else if (elem_type == "jezl") {
