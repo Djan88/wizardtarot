@@ -722,8 +722,8 @@ if (backStatus == 'true') {
         } else if (count_animation == 480){
           e_one.css({
             background: 'rgba(255,255,255, 0.5)',
-            color: 'red',
-            borderColor: 'red',
+            color: 'crimson',
+            borderColor: 'crimson',
             opacity: 1,
             borderWidth: '1px',
             paddingTop: '14px',
@@ -735,7 +735,7 @@ if (backStatus == 'true') {
             borderColor: 'transparent',
             opacity: 0.8,
             borderWidth: '1px',
-            paddingTop: '14px',
+            paddingTop: '7px',
             zIndex: '1000'
           });
           jQuery('.first_cards').addClass('hidden');
@@ -750,11 +750,11 @@ if (backStatus == 'true') {
       } else {
         e_two.css({
           background: 'rgba(255,255,255, 0.5)',
-          color: 'red',
-          borderColor: 'red',
+          color: 'crimson',
+          borderColor: 'crimson',
           opacity: 1,
           borderWidth: '1px',
-          paddingTop: '14px',
+          paddingTop: '7px',
           zIndex: '1'
         });
         clearInterval(phaseOne);
