@@ -1305,7 +1305,7 @@ input[type=submit]{
 {
   color: #fff;
 }
-.chart
+.chart, .chartTwo
 {
   display: inline-block;
   width: 110px;
@@ -1320,7 +1320,7 @@ input[type=submit]{
   color: #687273;
 }
 
-.chart span
+.chart span, .chartTwo span
 {
   display: block;
   font-size: 2em;
@@ -1329,7 +1329,7 @@ input[type=submit]{
   padding-top: 5px;
 }
 
-.chart canvas
+.chart canvas, .chartTwo canvas
 {
   position: absolute;
   left: 0;
