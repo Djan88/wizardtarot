@@ -136,12 +136,14 @@
                             <div class="col-xs-2 elem_card_place elem_card_2" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_3" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_4" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place" style="margin-left: 10px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
                           </div>
                           <div class="second_cards cards_wrapper  animated fadeInRight hidden col-xs-12">
                             <div class="col-xs-2 elem_card_place elem_card_4" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_3" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_2" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_1" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place" style="margin-left: 10px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
                           </div>
                         </div>
                       </div>
