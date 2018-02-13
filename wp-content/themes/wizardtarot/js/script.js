@@ -801,6 +801,14 @@ if (backStatus == 'true') {
       jQuery('.cards_wrapper').addClass('hidden');
       jQuery('.chartTwo').data('easyPieChart').update(0);
       jQuery('.chartTwo').find('span').text('0');
+      jQuery('.elems_zone').css({
+        background: 'rgba(255,255,255, 0.5)',
+        color: 'crimson',
+        borderColor: 'crimson',
+        opacity: 1,
+        borderWidth: '1px',
+        zIndex: '1'
+      });
   });
 
 
