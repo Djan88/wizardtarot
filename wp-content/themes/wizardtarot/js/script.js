@@ -718,8 +718,8 @@ if (backStatus == 'true') {
             .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5) +'px');;
         }
         count_animation += 1;
-        jQuery('.chartTwo').data('easyPieChart').update(10);
-        jQuery('.chartTwo').find('span').text('10');
+        jQuery('.chartTwo').data('easyPieChart').update(count_animation / 9.6);
+        jQuery('.chartTwo').find('span').text(count_animation / 9.6);
       } else {
         clearInterval(phaseOne);
         onEnd();
