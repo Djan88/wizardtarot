@@ -719,7 +719,7 @@ if (backStatus == 'true') {
         }
         count_animation += 1;
         jQuery('.chartTwo').data('easyPieChart').update(count_animation / 9.6);
-        jQuery('.chartTwo').find('span').text(count_animation / 9.6);
+        jQuery('.chartTwo').find('span').text(Math.round(count_animation / 9.6).toFixed(0));
       } else {
         clearInterval(phaseOne);
         onEnd();
