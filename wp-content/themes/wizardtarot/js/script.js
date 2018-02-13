@@ -701,6 +701,15 @@ if (backStatus == 'true') {
     phaseOne = setInterval(function(){
       if (count_animation <= 960){                                                                         //90
         if (count_animation == 1){
+          e_one.css({
+            background: '#fff url(/wp-content/themes/wizardtarot/images/life_vater.png) 0 0/100% no-repeat',
+            color: 'transparent',
+            borderColor: 'transparent',
+            opacity: 0.8,
+            borderWidth: '1px',
+            paddingTop: '14px',
+            zIndex: '1000'
+          });
           // e_one.css('marginTop', parseInt(jQuery('#draggable31').css('top'))/2+'px');
           jQuery('.first_cards').removeClass('hidden');
           jQuery('.elem_card_1').css('background', e_dama);
@@ -711,6 +720,24 @@ if (backStatus == 'true') {
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.first_cards').css('top', parseInt(e_one.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');
         } else if (count_animation == 480){
+          e_one.css({
+            background: 'rgba(255,255,255, 0.5)',
+            color: 'red',
+            borderColor: 'red',
+            opacity: 1,
+            borderWidth: '1px',
+            paddingTop: '14px',
+            zIndex: '1'
+          });
+          e_two.css({
+            background: '#fff url(/wp-content/themes/wizardtarot/images/life_vater.png) 0 0/100% no-repeat',
+            color: 'transparent',
+            borderColor: 'transparent',
+            opacity: 0.8,
+            borderWidth: '1px',
+            paddingTop: '14px',
+            zIndex: '1000'
+          });
           jQuery('.first_cards').addClass('hidden');
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.second_cards')
@@ -721,6 +748,15 @@ if (backStatus == 'true') {
         jQuery('.chartTwo').data('easyPieChart').update(count_animation / 9.6);
         jQuery('.chartTwo').find('span').text(Math.round(count_animation / 9.6).toFixed(0));
       } else {
+        e_two.css({
+          background: 'rgba(255,255,255, 0.5)',
+          color: 'red',
+          borderColor: 'red',
+          opacity: 1,
+          borderWidth: '1px',
+          paddingTop: '14px',
+          zIndex: '1'
+        });
         clearInterval(phaseOne);
         onEnd();
         jQuery('.second_cards').addClass('hidden');
