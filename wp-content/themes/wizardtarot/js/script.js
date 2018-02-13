@@ -708,7 +708,6 @@ if (backStatus == 'true') {
             borderColor: 'transparent',
             opacity: 0.8,
             borderWidth: '1px',
-            paddingTop: '14px',
             zIndex: '1000'
           });
           // e_one.css('marginTop', parseInt(jQuery('#draggable31').css('top'))/2+'px');
@@ -727,7 +726,6 @@ if (backStatus == 'true') {
             borderColor: 'crimson',
             opacity: 1,
             borderWidth: '1px',
-            paddingTop: '14px',
             zIndex: '1'
           });
           e_two.css({
@@ -736,7 +734,6 @@ if (backStatus == 'true') {
             borderColor: 'transparent',
             opacity: 0.8,
             borderWidth: '1px',
-            paddingTop: '7px',
             zIndex: '1000'
           });
           jQuery('.first_cards').addClass('hidden');
@@ -755,7 +752,6 @@ if (backStatus == 'true') {
           borderColor: 'crimson',
           opacity: 1,
           borderWidth: '1px',
-          paddingTop: '7px',
           zIndex: '1'
         });
         clearInterval(phaseOne);
