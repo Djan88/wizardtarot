@@ -720,6 +720,8 @@ if (backStatus == 'true') {
         jQuery('.second_cards').addClass('hidden');
         jQuery('.chart').data('easyPieChart').update(6);
         jQuery('.chart').find('span').text('6');
+        jQuery('.elem_prot_stop').addClass('hidden');
+        jQuery('.elem_prot_start').removeClass('hidden');
       }
     }, 250);
   };
@@ -762,7 +764,7 @@ if (backStatus == 'true') {
       pointsStatus = false;
       clearInterval(phaseOne);
       jQuery(this).addClass('hidden');
-      jQuery('.elem_prot_start').removeClass('hidden')
+      jQuery('.elem_prot_start').removeClass('hidden');
   });
 
 
