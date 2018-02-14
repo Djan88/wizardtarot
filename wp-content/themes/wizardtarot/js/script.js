@@ -719,6 +719,14 @@ if (backStatus == 'true') {
           var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.first_cards').css('top', parseInt(e_one.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');
+        } else if (count_animation == 8) {
+          jQuery('.first_cards_2').removeClass('hidden');
+        } else if (count_animation == 16) {
+          jQuery('.first_cards_3').removeClass('hidden');
+        } else if (count_animation == 24) {
+          jQuery('.first_cards_4').removeClass('hidden');
+        } else if (count_animation == 32) {
+          jQuery('.first_cards_5').removeClass('hidden');
         } else if (count_animation == 480){
           e_one.css({
             background: 'rgba(255,255,255, 0.5)',
@@ -741,16 +749,6 @@ if (backStatus == 'true') {
           jQuery('.second_cards')
             .removeClass('hidden')
             .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5) +'px');;
-        }
-        //Image Animation
-        if (count_animation == 8) {
-          jQuery('.first_cards_2').removeClass('hidden');
-        } else if (count_animation == 16) {
-          jQuery('.first_cards_3').removeClass('hidden');
-        } else if (count_animation == 24) {
-          jQuery('.first_cards_4').removeClass('hidden');
-        } else if (count_animation == 32) {
-          jQuery('.first_cards_5').removeClass('hidden');
         } else if (count_animation == 480) {
           jQuery('.first_cards_1, .first_cards_2, .first_cards_3, .first_cards_4, .first_cards_5').addClass('hidden');
           jQuery('.second_cards_1').removeClass('hidden');
