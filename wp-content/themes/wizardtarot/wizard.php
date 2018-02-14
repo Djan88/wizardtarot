@@ -132,14 +132,14 @@
                       <div class="col-xs-3 col-xs-offset-2 elems_prot_screen elems_returned_img"></div>
                       <div class="col-xs-5">
                         <div class="row">
-                          <div class="first_cards cards_wrapper animated fadeInRight hidden col-xs-12">
+                          <div class="first_cards cards_wrapper col-xs-12">
                             <div class="col-xs-2 elem_card_place elem_card_1 first_cards_1 fadeInLeft hidden" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_2 first_cards_2 fadeInLeft hidden" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_3 first_cards_3 fadeInLeft hidden" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_4 first_cards_4 fadeInLeft hidden" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_5 first_cards_5 fadeInLeft hidden" style="margin-left: 10px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
                           </div>
-                          <div class="second_cards cards_wrapper animated fadeInRight hidden col-xs-12">
+                          <div class="second_cards cards_wrapper col-xs-12">
                             <div class="col-xs-2 elem_card_place elem_card_1 second_cards_5 fadeInRight hidden" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_2 second_cards_4 fadeInRight hidden" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place elem_card_3 second_cards_3 fadeInRight hidden" style="margin-left: 10px"></div>
