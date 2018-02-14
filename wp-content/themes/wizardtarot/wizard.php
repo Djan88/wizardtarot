@@ -140,11 +140,11 @@
                             <div class="col-xs-2 elem_card_place elem_card_5 first_cards_5 fadeInLeft animated hidden" style="margin-left: 10px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
                           </div>
                           <div class="second_cards cards_wrapper col-xs-12">
-                            <div class="col-xs-2 elem_card_place elem_card_1 second_cards_5 fadeInLeft pull-right animated hidden" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_2 second_cards_4 fadeInLeft pull-right animated hidden" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_3 second_cards_3 fadeInLeft pull-right animated hidden" style="margin-left: 10px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_4 second_cards_2 fadeInLeft pull-right animated hidden" style="margin-left: 10px"></div>
                             <div class="col-xs-2 elem_card_place second_cards_1 fadeInLeft pull-right animated hidden" style="margin-left: 10px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_4 second_cards_2 fadeInLeft pull-right animated hidden" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_3 second_cards_3 fadeInLeft pull-right animated hidden" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_2 second_cards_4 fadeInLeft pull-right animated hidden" style="margin-left: 10px"></div>
+                            <div class="col-xs-2 elem_card_place elem_card_1 second_cards_5 fadeInLeft pull-right animated hidden" style="margin-left: 10px"></div>
                           </div>
                         </div>
                       </div>
