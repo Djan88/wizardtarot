@@ -742,6 +742,25 @@ if (backStatus == 'true') {
             .removeClass('hidden')
             .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5) +'px');;
         }
+        //Image Animation
+        if (count_animation == 8) {
+          jQuery('.first_cards_2').removeClass('hidden');
+        } else if (count_animation == 16) {
+          jQuery('.first_cards_3').removeClass('hidden');
+        } else if (count_animation == 24) {
+          jQuery('.first_cards_4').removeClass('hidden');
+        } else if (count_animation == 32) {
+          jQuery('.first_cards_5').removeClass('hidden');
+        } else if (count_animation == 488) {
+          jQuery('.first_cards_2, .first_cards_3, .first_cards_4, .first_cards_5').addClass('hidden');
+          jQuery('.second_cards_2').removeClass('hidden');
+        } else if (count_animation == 496) {
+          jQuery('.second_cards_3').removeClass('hidden');
+        } else if (count_animation == 504) {
+          jQuery('.second_cards_4').removeClass('hidden');
+        } else if (count_animation == 512) {
+          jQuery('.second_cards_5').removeClass('hidden');
+        }
         count_animation += 1;
         jQuery('.chartTwo').data('easyPieChart').update(count_animation / 9.6);
         jQuery('.chartTwo').find('span').text(Math.round(count_animation / 9.6).toFixed(0));
@@ -754,6 +773,7 @@ if (backStatus == 'true') {
           borderWidth: '1px',
           zIndex: '1'
         });
+        jQuery('.second_cards_2, .second_cards_3, .second_cards_4, .second_cards_5').addClass('hidden');
         clearInterval(phaseOne);
         onEnd();
         jQuery('.second_cards').addClass('hidden');
