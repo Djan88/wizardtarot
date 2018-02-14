@@ -711,7 +711,7 @@ if (backStatus == 'true') {
             zIndex: '1000'
           });
           // e_one.css('marginTop', parseInt(jQuery('#draggable31').css('top'))/2+'px');
-          jQuery('.first_cards').removeClass('hidden');
+          jQuery('.first_cards_1').removeClass('hidden');
           jQuery('.elem_card_1').css('background', e_dama);
           jQuery('.elem_card_2').css('background', e_king);
           jQuery('.elem_card_3').css('background', e_paje);
@@ -751,8 +751,10 @@ if (backStatus == 'true') {
           jQuery('.first_cards_4').removeClass('hidden');
         } else if (count_animation == 32) {
           jQuery('.first_cards_5').removeClass('hidden');
+        } else if (count_animation == 480) {
+          jQuery('.first_cards_1, .first_cards_2, .first_cards_3, .first_cards_4, .first_cards_5').addClass('hidden');
+          jQuery('.second_cards_1').removeClass('hidden');
         } else if (count_animation == 488) {
-          jQuery('.first_cards_2, .first_cards_3, .first_cards_4, .first_cards_5').addClass('hidden');
           jQuery('.second_cards_2').removeClass('hidden');
         } else if (count_animation == 496) {
           jQuery('.second_cards_3').removeClass('hidden');
