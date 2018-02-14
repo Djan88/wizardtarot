@@ -726,6 +726,7 @@ if (backStatus == 'true') {
         } else if (count_animation == 24) {
           jQuery('.first_cards_4').removeClass('hidden');
         } else if (count_animation == 32) {
+          jQuery('.second_cards').css('width', jQuery('.first_cards').css('width')+'px');
           jQuery('.first_cards_5').removeClass('hidden');
         } else if (count_animation == 480){
           e_one.css({
