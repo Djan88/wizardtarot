@@ -772,7 +772,7 @@ if (backStatus == 'true') {
           borderWidth: '1px',
           zIndex: '1'
         });
-        jQuery('.second_cards_2, .second_cards_3, .second_cards_4, .second_cards_5').addClass('hidden');
+        jQuery('.second_cards_1, .second_cards_2, .second_cards_3, .second_cards_4, .second_cards_5').addClass('hidden');
         clearInterval(phaseOne);
         onEnd();
         jQuery('.chartTwo').data('easyPieChart').update(100);
@@ -815,6 +815,8 @@ if (backStatus == 'true') {
       pointsStatusElems = false;
       clearInterval(phaseOne);
       jQuery(this).addClass('hidden');
+      jQuery('.first_cards_1, .first_cards_2, .first_cards_3, .first_cards_4, .first_cards_5').addClass('hidden');
+      jQuery('.second_cards_1, .second_cards_2, .second_cards_3, .second_cards_4, .second_cards_5').addClass('hidden');
       jQuery('.elem_prot_start').removeClass('hidden');
       jQuery('.cards_wrapper').addClass('hidden');
       jQuery('.chartTwo').data('easyPieChart').update(0);
