@@ -781,13 +781,13 @@ if (backStatus == 'true') {
       }
   });
   jQuery('.elem_prot_start').on('click', function(event) {
-    jQuery(this).addClass('hidden');
       pointsStatusElems = false;
       checkPointsElems()
       if(pointsStatusElems == false){
         swal("Не все зоны перенесены", "Перед началом процедуры необходимо перенести все зоны", "info");
       } else {
         if(prot_type == 'elements'){
+          jQuery(this).addClass('hidden');
           elems();
           jQuery('.elem_prot_stop').removeClass('hidden')
         }
