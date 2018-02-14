@@ -745,7 +745,6 @@ if (backStatus == 'true') {
             borderWidth: '1px',
             zIndex: '1000'
           });
-          jQuery('.first_cards').addClass('hidden');
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.second_cards')
             .removeClass('hidden')
@@ -776,7 +775,6 @@ if (backStatus == 'true') {
         jQuery('.second_cards_2, .second_cards_3, .second_cards_4, .second_cards_5').addClass('hidden');
         clearInterval(phaseOne);
         onEnd();
-        jQuery('.second_cards').addClass('hidden');
         jQuery('.chartTwo').data('easyPieChart').update(100);
         jQuery('.chartTwo').find('span').text('100');
         jQuery('.elem_prot_stop').addClass('hidden');
