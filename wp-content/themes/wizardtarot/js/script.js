@@ -156,11 +156,10 @@ if (backStatus == 'true') {
   }
   
   jQuery( ".btn-elements" ).on('click', function(event) {
-    localStorage.setItem('backStatus', 'false');
     toElemChoice('.prot-choice', function() {
       jQuery( '.elem-choice' ).removeClass('hidden').addClass('animated fadeInDown');
-      localStorage.setItem('prot_type', 'elements');
     });
+    localStorage.setItem('prot_type', 'elements');
   });
   jQuery('.home').on('click', function(event) {
     localStorage.setItem('backStatus', 'false');
@@ -169,8 +168,8 @@ if (backStatus == 'true') {
     localStorage.setItem('backStatus', 'false');
     toElemChoice('.prot-choice', function() {
       jQuery( '.tarot-choice' ).removeClass('hidden').addClass('animated fadeInDown');
-      localStorage.setItem('prot_type', 'tarot');
     });
+    localStorage.setItem('prot_type', 'tarot');
   });
   jQuery( ".btn-tarot_open" ).on('click', function(event) {
     localStorage.setItem('backStatus', 'false');
