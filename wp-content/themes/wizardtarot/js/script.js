@@ -745,7 +745,7 @@ if (backStatus == 'true') {
             borderWidth: '1px',
             zIndex: '1000'
           });
-          jQuery('.elem_card_place').css('height', (card_img_w * 2.5)+'px');
+          jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.second_cards')
             .removeClass('hidden')
             .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5) +'px');
