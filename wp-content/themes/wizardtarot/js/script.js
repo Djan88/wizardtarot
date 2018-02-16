@@ -244,14 +244,10 @@ if (backStatus == 'true') {
       jQuery( '.second_slide' ).removeClass('hidden').addClass('animated fadeInDown');
     });
   });
-  jQuery('.elem-to-load').on('click', function(event) {
-    localStorage.setItem('prot_type', 'elements');
-    console.log(localStorage.getItem('prot_type'));
-  });
   // Если фото уже загружено
   if(jQuery('.tarot_returned_img')){
     //Получение данных из локального хранилища
-    if(supportsStorage && localStorage.getItem('prot_card')){
+    if(supportsStorage){
       prot_card = localStorage.getItem('prot_card');
       prot_type = localStorage.getItem('prot_type');
       elem_type = localStorage.getItem('elem_type');
