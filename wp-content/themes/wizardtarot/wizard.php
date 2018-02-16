@@ -18,7 +18,7 @@
                 $ratio =($cur_data - $regtime) - $year_val;
             ?>
 
-            <?php if(!current_user_can('contributor') && $ratio > 0) { ?>
+            <?php if(current_user_can('contributor') && $ratio > 0) { ?>
                 <div class="machine_screen clearfix" style="text-align:center;">
                     <h2 class="heading heading_dashboard">Срок действия вашей лицензии истек</h2>
                     <h3 class="heading">Информация по вашему аккаунту</h3>
