@@ -155,7 +155,7 @@ if (backStatus == 'true') {
     callback();
   }
   
-  jQuery( ".btn-elements" ).click(function() {
+  jQuery( ".btn-elements" ).on('click', function(event) {
     localStorage.setItem('backStatus', 'false');
     toElemChoice('.prot-choice', function() {
       jQuery( '.elem-choice' ).removeClass('hidden').addClass('animated fadeInDown');
@@ -165,14 +165,14 @@ if (backStatus == 'true') {
   jQuery('.home').on('click', function(event) {
     localStorage.setItem('backStatus', 'false');
   });
-  jQuery( ".btn-tarot" ).click(function() {
+  jQuery( ".btn-tarot" ).on('click', function(event) {
     localStorage.setItem('backStatus', 'false');
     toElemChoice('.prot-choice', function() {
       jQuery( '.tarot-choice' ).removeClass('hidden').addClass('animated fadeInDown');
       localStorage.setItem('prot_type', 'tarot');
     });
   });
-  jQuery( ".btn-tarot_open" ).click(function() {
+  jQuery( ".btn-tarot_open" ).on('click', function(event) {
     localStorage.setItem('backStatus', 'false');
     toElemChoice('.prot-choice', function() {
       jQuery( '.tarot-choice_open' ).removeClass('hidden').addClass('animated fadeInDown');
