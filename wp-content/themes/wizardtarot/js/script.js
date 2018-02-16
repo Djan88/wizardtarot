@@ -262,7 +262,7 @@ if (backStatus == 'true') {
       prot_type = localStorage.getItem('prot_type');
       elem_type = localStorage.getItem('elem_type');
     }
-    // console.log(prot_card);
+    console.log(prot_type);
     if(prot_type == 'tarot'){
       jQuery('.third_slide').removeClass('hidden');
       jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
