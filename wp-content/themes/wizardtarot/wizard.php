@@ -79,7 +79,7 @@
                 </div>
                 <div class="four_slide container animated fadeInDown hidden">
                   <div class="container">
-                    <div class="row">
+                    <div class="row graf_controls">
                       <div class="btn-group btn-group-graf" data-toggle="buttons">
                         <label class="btn btn_sm btn-default btn__graf">
                             <input type="radio" name="grafOps" id="option1"> С графиком

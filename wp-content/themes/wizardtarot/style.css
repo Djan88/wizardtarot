@@ -1453,12 +1453,16 @@ input[type=submit]{
   font-size: 20px;
   padding-top: 10px;
 }
+.graf_controls
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
 .btn-group-graf label 
 {
-    margin: 0!important;
-    display: inline;
-    padding: 6px;
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
+  display: inline!important;
+  padding: 7px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  float: none!important;
 }
