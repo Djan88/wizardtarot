@@ -154,10 +154,14 @@ if(supportsStorage && localStorage.getItem('grafSt')){
 if(grafSt === 'graf'){
     // jQuery('.btn__graf').button('toggle');
     jQuery('.btn__clgraf').removeClass('disabled');
+    jQuery('.btn__graf').addClass('active');
+    jQuery('.btn__nograf').removeClass('active');
     console.log('1')
 } else {
     // jQuery('.btn__nograf').button('toggle');
     jQuery('.btn__clgraf').addClass('disabled');
+    jQuery('.btn__graf').removeClass('active');
+    jQuery('.btn__nograf').addClass('active');
     console.log('2')
 }
 jQuery('.btn__clgraf').on('click', function (event) {
