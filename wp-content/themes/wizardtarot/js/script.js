@@ -152,11 +152,11 @@ if(supportsStorage && localStorage.getItem('grafSt')){
     console.log(grafSt);
 }
 if(grafSt === 'graf'){
-    jQuery('.btn__graf').button('toggle');
+    // jQuery('.btn__graf').button('toggle');
     jQuery('.btn__clgraf').removeClass('disabled');
     console.log('1')
 } else {
-    jQuery('.btn__nograf').button('toggle');
+    // jQuery('.btn__nograf').button('toggle');
     jQuery('.btn__clgraf').addClass('disabled');
     console.log('2')
 }
