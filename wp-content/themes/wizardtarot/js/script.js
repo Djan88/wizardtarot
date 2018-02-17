@@ -244,22 +244,22 @@ if (backStatus == 'true') {
     // Если выложены все карты
     if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length === 0){
       // Если открыто менее 3 карт открываем следующую карту
-      if (tarot_cards_count <= 3 && jQuery(this).hasClass('tarot_card_reject')) {
+      if (tarot_cards_count <= 4 && jQuery(this).hasClass('tarot_card_reject')) {
         tarot_cards_count ++;
         jQuery(this).removeClass('tarot_card_reject');
         jQuery(this).find('.hexagon-in2').removeClass('tarot_full_cell');
         tarot_devil_cell.find('.hexagon-in2').removeClass('tarot_devil_cell');
         // Показ кнопки перехода к загрузке фото
-        if (tarot_cards_count == 4) {
+        if (tarot_cards_count == 5) {
           jQuery('.tarot_to_photo').removeClass('hidden');
           prot_card = jQuery(this).find('.hexagon-in2').find('a').attr('href');
           localStorage.setItem('prot_card', prot_card);
         };
-      // Если открыто 3 карты запрещаем дальнейшее открытие карт
+      // Если открыто 4 карты запрещаем дальнейшее открытие карт
       // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
       } else {
         if(jQuery(this).hasClass('tarot_card_reject')){
-          sweetAlert("Открыто 2 карты", "Разрешается открыть только 2 карты на поле!", "info");
+          sweetAlert("Открыто 3 карты", "Разрешается открыть только 3 карты на поле!", "info");
         }
       };
     // Если выложены не все карты выкладываем следующую карту
