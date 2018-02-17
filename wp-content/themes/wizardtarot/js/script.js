@@ -987,6 +987,7 @@ jQuery(function() {
   knifeDateOld = new Date();
   jQuery( "#devil_move" ).draggable({ 
     containment: "#elems_devil-devil",
+    axis: "y",
     drag: function() {
       knife = jQuery('.devil_move').css('top');
       knife = knife.substr(0, knife.length - 2);
