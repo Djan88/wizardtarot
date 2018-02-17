@@ -35,6 +35,7 @@ jQuery(function() {
   e_king,
   e_paje,
   e_knight,
+  grafSt = 'graf',
   prot_type,
   elem_type,
   prot_card,
