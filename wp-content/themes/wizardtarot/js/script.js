@@ -160,30 +160,30 @@ if(supportsStorage && localStorage.getItem('backStatus')){
 //     jQuery('.btn__clgraf').addClass('disabled');
 //     console.log('2')
 // }
-// jQuery('.btn__clgraf').on('click', function (event) {
-//     if(!jQuery(this).hasClass('disabled')){
-//         jQuery('.knife_rate').detach();
-//     }
-// });
+jQuery('.btn__clgraf').on('click', function (event) {
+    if(!jQuery(this).hasClass('disabled')){
+      jQuery('.knife_rate').detach();
+    }
+});
 jQuery('.btn__graf').on('click', function (event) {
-    grafSt = 'graf';
-    localStorage.setItem('grafSt', grafSt);
-    jQuery('.btn__clgraf').removeClass('disabled');
-    jQuery('.btn__graf').addClass('active');
-    jQuery('.btn__nograf').removeClass('active');
+  grafSt = 'graf';
+  localStorage.setItem('grafSt', grafSt);
+  jQuery('.btn__clgraf').removeClass('disabled');
+  jQuery('.btn__graf').addClass('active');
+  jQuery('.btn__nograf').removeClass('active');
 });
 jQuery('.btn__nograf').on('click', function (event) {
-    grafSt = 'nograf';
-    localStorage.setItem('grafSt', grafSt);
-    jQuery('.btn__clgraf').addClass('disabled');
-    jQuery('.knife_rate').detach();
-    jQuery('.btn__graf').removeClass('active');
-    jQuery('.btn__nograf').addClass('active');
+  grafSt = 'nograf';
+  localStorage.setItem('grafSt', grafSt);
+  jQuery('.btn__clgraf').addClass('disabled');
+  jQuery('.knife_rate').detach();
+  jQuery('.btn__graf').removeClass('active');
+  jQuery('.btn__nograf').addClass('active');
 });
 
 if (backStatus == 'true') {
-    jQuery('.first_slide').addClass('hidden');
-    jQuery('.second_slide').removeClass('hidden').addClass('animated fadeInDown');
+  jQuery('.first_slide').addClass('hidden');
+  jQuery('.second_slide').removeClass('hidden').addClass('animated fadeInDown');
 }
 // Обработчики переходов между экранами
   // Переход к выбору первоэлемента
