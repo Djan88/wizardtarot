@@ -80,15 +80,15 @@
                 <div class="four_slide container animated fadeInDown hidden">
                   <div class="container">
                     <div class="row">
-                      <div class="btn-group btn-group-graf" data-toggle="buttons">
-                        <label class="btn btn_sm btn_warning btn__graf active">
+                      <div class="btn-group btn-group-graf hidden" data-toggle="buttons">
+                        <label class="btn btn_sm btn_warning btn__graf">
                             <input type="radio" name="grafOps" id="option1"> С графиком
                         </label>
                         <label class="btn btn_sm btn_warning btn__nograf">
                             <input type="radio" name="grafOps" id="option3"> Без графика
                         </label>
                       </div>
-                      <div class="btn btn_sm btn_warning btn__clgraf">ОЧИСТИТЬ ГРАФИК</div>
+                      <div class="btn btn_sm btn_warning btn__clgraf hidden" >ОЧИСТИТЬ ГРАФИК</div>
                     </div>
                     <div class="col-xs-1"></div>
                     <div class="col-xs-4 elems_devil elems_devil-client"></div>
