@@ -195,6 +195,41 @@ if (backStatus == 'true') {
     jQuery('.four_slide').removeClass('hidden');
   });
 
+  // Управление графиком ножа
+  if(supportsStorage && localStorage.getItem('grafSt')){
+      grafSt = localStorage.getItem('grafSt');
+      console.log(grafSt);
+  }
+  if(grafSt === 'graf'){
+      jQuery('.btn__graf').button('toggle');
+      jQuery('.btn__clgraf').removeClass('disabled');
+      console.log('1')
+  } else {
+      jQuery('.btn__nograf').button('toggle');
+      jQuery('.btn__clgraf').addClass('disabled');
+      console.log('2')
+  }
+  jQuery('.btn__clgraf').on('click', function (event) {
+      if(!jQuery(this).hasClass('disabled')){
+          jQuery('.knife_rate').detach();
+      }
+  });
+  jQuery('.btn__graf').on('click', function (event) {
+      grafSt = 'graf';
+      localStorage.setItem('grafSt', grafSt);
+      jQuery('.btn__clgraf').removeClass('disabled');
+      jQuery('.btn__graf').addClass('active');
+      jQuery('.btn__nograf').removeClass('active');
+  });
+  jQuery('.btn__nograf').on('click', function (event) {
+      grafSt = 'nograf';
+      localStorage.setItem('grafSt', grafSt);
+      jQuery('.btn__clgraf').addClass('disabled');
+      jQuery('.knife_rate').detach();
+      jQuery('.btn__graf').removeClass('active');
+      jQuery('.btn__nograf').addClass('active');
+  });
+
   //Перетягивание элементов
   jQuery( ".draggable" ).draggable({ 
     snap: false
