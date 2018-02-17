@@ -81,7 +81,7 @@
                   <div class="container">
                     <div class="row graf_controls">
                       <div class="btn-group btn-group-graf" data-toggle="buttons">
-                        <label class="btn btn_sm btn-default btn__graf">
+                        <label class="btn btn_sm btn-default btn__graf active">
                             <input type="radio" name="grafOps" id="option1"> С графиком
                         </label>
                         <label class="btn btn_sm btn-default btn__nograf">
