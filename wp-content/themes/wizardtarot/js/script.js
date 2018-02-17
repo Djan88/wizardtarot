@@ -147,19 +147,19 @@ if(supportsStorage && localStorage.getItem('backStatus')){
 }
 
 // Управление графиком ножа
-// if(supportsStorage && localStorage.getItem('grafSt')){
-//     grafSt = localStorage.getItem('grafSt');
-//     console.log(grafSt);
-// }
-// if(grafSt === 'graf'){
-//     // jQuery('.btn__graf').button('toggle');
-//     jQuery('.btn__clgraf').removeClass('disabled');
-//     console.log('1')
-// } else {
-//     // jQuery('.btn__nograf').button('toggle');
-//     jQuery('.btn__clgraf').addClass('disabled');
-//     console.log('2')
-// }
+if(supportsStorage && localStorage.getItem('grafSt')){
+    grafSt = localStorage.getItem('grafSt');
+    console.log(grafSt);
+}
+if(grafSt === 'graf'){
+    // jQuery('.btn__graf').button('toggle');
+    jQuery('.btn__clgraf').removeClass('disabled');
+    console.log('1')
+} else {
+    // jQuery('.btn__nograf').button('toggle');
+    jQuery('.btn__clgraf').addClass('disabled');
+    console.log('2')
+}
 jQuery('.btn__clgraf').on('click', function (event) {
     if(!jQuery(this).hasClass('disabled')){
       jQuery('.knife_rate').detach();
@@ -1025,18 +1025,20 @@ jQuery(function() {
     containment: "#elems_devil-devil",
     axis: "y",
     drag: function() {
-      knife = jQuery('.devil_move').css('top');
-      knife = knife.substr(0, knife.length - 2);
-      knifeDate = new Date();
-      knifeDateDiff = knifeDate - knifeDateOld;
-      knife_rate_class = 'knife_rate-'+knife;
-      knife_rate_class_dotted = '.knife_rate-'+knife;
-      jQuery('.elems_graph').append('<div class='+knife_rate_class+'></div>');
-      jQuery(knife_rate_class_dotted).addClass('knife_rate').css({
-          top: +knife+45+'px',
-          width: knifeDateDiff*2+'px'
-      });
-      knifeDateOld = knifeDate;
+      if(jQuery('.btn__graf').hasClass('active')){
+        knife = jQuery('.devil_move').css('top');
+        knife = knife.substr(0, knife.length - 2);
+        knifeDate = new Date();
+        knifeDateDiff = knifeDate - knifeDateOld;
+        knife_rate_class = 'knife_rate-'+knife;
+        knife_rate_class_dotted = '.knife_rate-'+knife;
+        jQuery('.elems_graph').append('<div class='+knife_rate_class+'></div>');
+        jQuery(knife_rate_class_dotted).addClass('knife_rate').css({
+            top: +knife+45+'px',
+            width: knifeDateDiff*2+'px'
+        });
+        knifeDateOld = knifeDate;
+      }
     }
   });
    
