@@ -88,7 +88,7 @@
                             <input type="radio" name="grafOps" id="option3"> Без графика
                         </label>
                       </div>
-                      <div class="btn btn_sm btn_default btn__clgraf hidden" >ОЧИСТИТЬ ГРАФИК</div>
+                      <div class="btn btn_sm btn_default btn__clgraf" >ОЧИСТИТЬ ГРАФИК</div>
                     </div>
                     <div class="col-xs-1"></div>
                     <div class="col-xs-4 elems_devil elems_devil-client"></div>
