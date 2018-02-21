@@ -747,7 +747,7 @@ if (backStatus == 'true') {
           jQuery('.elem_card_3').css('background', e_paje);
           jQuery('.elem_card_2').css('background', e_knight);
           jQuery('.elem_card_1').css('background', e_solar);
-          jQuery('.elem_card_1').removeClass('hidden');
+          jQuery('.first_cards_1').removeClass('hidden');
           var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.first_cards').css('top', parseInt(e_one.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');
