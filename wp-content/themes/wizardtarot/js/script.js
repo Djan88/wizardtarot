@@ -782,7 +782,7 @@ if (backStatus == 'true') {
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.second_cards')
             .removeClass('hidden')
-            .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5+50) +'px');
+            .css('top', parseInt(e_two.css('top')) - (parseInt(jQuery('.second_cards').css('height'))/3.5+35) +'px');
           jQuery('.first_cards_1, .first_cards_2, .first_cards_3, .first_cards_4, .first_cards_5').addClass('hidden');
           jQuery('.second_cards_2').removeClass('hidden');
         } else if (count_animation == 488) {
