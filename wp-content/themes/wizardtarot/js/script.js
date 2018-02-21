@@ -741,24 +741,24 @@ if (backStatus == 'true') {
             zIndex: '1000'
           });
           // e_one.css('marginTop', parseInt(jQuery('#draggable31').css('top'))/2+'px');
-          jQuery('.first_cards_1').removeClass('hidden');
-          jQuery('.elem_card_1').css('background', e_dama);
-          jQuery('.elem_card_2').css('background', e_king);
+          jQuery('.elem_card_5').css('background', e_dama);
+          jQuery('.elem_card_4').css('background', e_king);
           jQuery('.elem_card_3').css('background', e_paje);
-          jQuery('.elem_card_4').css('background', e_knight);
-          jQuery('.elem_card_5').css('background', "#fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;");
+          jQuery('.elem_card_2').css('background', e_knight);
+          jQuery('.elem_card_1').css('background', "#fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;");
+          jQuery('.elem_card_1').removeClass('hidden');
           var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.first_cards').css('top', parseInt(e_one.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');
         } else if (count_animation == 8) {
-          jQuery('.first_cards_2').removeClass('hidden');
-        } else if (count_animation == 16) {
-          jQuery('.first_cards_3').removeClass('hidden');
-        } else if (count_animation == 24) {
-          jQuery('.first_cards_4').removeClass('hidden');
-        } else if (count_animation == 32) {
-          jQuery('.second_cards').css('width', jQuery('.first_cards').css('width')+'px');
           jQuery('.first_cards_5').removeClass('hidden');
+        } else if (count_animation == 16) {
+          jQuery('.first_cards_4').removeClass('hidden');
+        } else if (count_animation == 24) {
+          jQuery('.first_cards_3').removeClass('hidden');
+        } else if (count_animation == 32) {
+          jQuery('.first_cards_2').removeClass('hidden');
+          jQuery('.second_cards').css('width', jQuery('.first_cards').css('width')+'px');
         } else if (count_animation == 480){
           e_one.css({
             background: 'rgba(255,255,255, 0.5)',
