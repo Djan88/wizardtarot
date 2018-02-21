@@ -695,6 +695,7 @@ if (backStatus == 'true') {
     }, 250);
   };
   elems = function(){
+      e_solar = '#fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat'
     if(elem_type == 'cup'){
       e_one = jQuery('#draggable41');
       e_two = jQuery('#draggable31');
@@ -745,7 +746,7 @@ if (backStatus == 'true') {
           jQuery('.elem_card_4').css('background', e_king);
           jQuery('.elem_card_3').css('background', e_paje);
           jQuery('.elem_card_2').css('background', e_knight);
-          jQuery('.elem_card_1').css('background', "#fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;");
+          jQuery('.elem_card_1').css('background', e_solar);
           jQuery('.elem_card_1').removeClass('hidden');
           var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
