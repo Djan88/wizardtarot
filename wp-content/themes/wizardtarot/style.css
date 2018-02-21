@@ -1466,3 +1466,8 @@ input[type=submit]{
   text-transform: uppercase;
   float: none!important;
 }
+.elem_card_place
+{
+  margin-left: 5px; 
+  margin-right: 5px
+}
