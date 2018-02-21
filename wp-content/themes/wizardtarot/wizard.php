@@ -151,11 +151,11 @@
   <div class="col-xs-2 elem_card_place elem_card_1 first_cards_1 fadeInLeft animated hidden"></div>
 </div>
 <div class="second_cards cards_wrapper col-xs-12">
-  <div class="col-xs-2 elem_card_place elem_card_1 second_cards_1 fadeInRight animated hidden"></div>
   <div class="col-xs-2 elem_card_place elem_card_2 second_cards_2 fadeInRight animated hidden"></div>
   <div class="col-xs-2 elem_card_place elem_card_3 second_cards_3 fadeInRight animated hidden"></div>
   <div class="col-xs-2 elem_card_place elem_card_4 second_cards_4 fadeInRight animated hidden"></div>
   <div class="col-xs-2 elem_card_place elem_card_5 second_cards_5 fadeInRight animated hidden"></div>
+  <div class="col-xs-2 elem_card_place elem_card_1 second_cards_1 fadeInRight animated hidden"></div>
 </div>
                         </div>
                       </div>
