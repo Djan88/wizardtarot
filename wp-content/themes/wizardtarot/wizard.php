@@ -144,19 +144,19 @@
                       <div class="col-xs-5">
                         <div class="row">
                           <div class="first_cards cards_wrapper col-xs-12">
-                            <div class="col-xs-2 elem_card_place elem_card_5 first_cards_1 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_4 first_cards_2 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_3 first_cards_3 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_2 first_cards_4 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_1 first_cards_5 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
-                          </div>
-                          <div class="second_cards cards_wrapper col-xs-12">
-                            <div class="col-xs-2 elem_card_place second_cards_1 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_4 second_cards_2 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_3 second_cards_3 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_2 second_cards_4 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
-                            <div class="col-xs-2 elem_card_place elem_card_1 second_cards_5 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
-                          </div>
+  <div class="col-xs-2 elem_card_place elem_card_5 first_cards_1 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
+  <div class="col-xs-2 elem_card_place elem_card_4 first_cards_2 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
+  <div class="col-xs-2 elem_card_place elem_card_3 first_cards_3 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
+  <div class="col-xs-2 elem_card_place elem_card_2 first_cards_4 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
+  <div class="col-xs-2 elem_card_place elem_card_1 first_cards_5 fadeInLeft animated hidden" style="margin-left: 5px; margin-right: 5px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
+</div>
+<div class="second_cards cards_wrapper col-xs-12">
+  <div class="col-xs-2 elem_card_place second_cards_1 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px; background: #fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;"></div>
+  <div class="col-xs-2 elem_card_place elem_card_4 second_cards_2 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
+  <div class="col-xs-2 elem_card_place elem_card_3 second_cards_3 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
+  <div class="col-xs-2 elem_card_place elem_card_2 second_cards_4 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
+  <div class="col-xs-2 elem_card_place elem_card_1 second_cards_5 fadeInLeft pull-right animated hidden" style="margin-left: 5px; margin-right: 5px"></div>
+</div>
                         </div>
                       </div>
                     </div>

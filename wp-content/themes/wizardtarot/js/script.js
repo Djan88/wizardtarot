@@ -746,6 +746,7 @@ if (backStatus == 'true') {
           jQuery('.elem_card_2').css('background', e_king);
           jQuery('.elem_card_3').css('background', e_paje);
           jQuery('.elem_card_4').css('background', e_knight);
+          jQuery('.elem_card_5').css('background', "#fff url(/wp-content/themes/wizardtarot/images/gallery/solar.png) 0 0/100% no-repeat;");
           var card_img_w = parseInt(jQuery('.elem_card_place').css('width'));
           jQuery('.elem_card_place').css('height', (card_img_w * 1.5)+'px');
           jQuery('.first_cards').css('top', parseInt(e_one.css('top')) - (parseInt(jQuery('.first_cards').css('height'))/3.5) +'px');
