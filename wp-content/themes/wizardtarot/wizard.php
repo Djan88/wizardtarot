@@ -144,11 +144,11 @@
                       <div class="col-xs-5">
                         <div class="row">
 <div class="first_cards cards_wrapper col-xs-12">
-  <div class="col-xs-2 elem_card_place elem_card_1 first_cards_1 fadeInRight pull-right animated hidden"></div>
-  <div class="col-xs-2 elem_card_place elem_card_5 first_cards_5 fadeInRight pull-right animated hidden"></div>
-  <div class="col-xs-2 elem_card_place elem_card_4 first_cards_4 fadeInRight pull-right animated hidden"></div>
-  <div class="col-xs-2 elem_card_place elem_card_3 first_cards_3 fadeInRight pull-right animated hidden"></div>
-  <div class="col-xs-2 elem_card_place elem_card_2 first_cards_2 fadeInRight pull-right animated hidden"></div>
+  <div class="col-xs-2 elem_card_place elem_card_1 first_cards_1 fadeInLeft pull-right animated hidden"></div>
+  <div class="col-xs-2 elem_card_place elem_card_5 first_cards_5 fadeInLeft pull-right animated hidden"></div>
+  <div class="col-xs-2 elem_card_place elem_card_4 first_cards_4 fadeInLeft pull-right animated hidden"></div>
+  <div class="col-xs-2 elem_card_place elem_card_3 first_cards_3 fadeInLeft pull-right animated hidden"></div>
+  <div class="col-xs-2 elem_card_place elem_card_2 first_cards_2 fadeInLeft pull-right animated hidden"></div>
 </div>
 <div class="second_cards cards_wrapper col-xs-12">
   <div class="col-xs-2 elem_card_place elem_card_2 second_cards_2 fadeInLeft animated hidden"></div>
