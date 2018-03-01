@@ -121,10 +121,8 @@
             <h4 class="modal-title">Выбрано 3 карты</h4>
           </div>
           <div class="modal-body">
-            <p class="text_centered">
-              <div>Теперь необходимо загрузить фото</div>
+            <p>Теперь необходимо загрузить фото</p>
               <button type="button" class="btn btn-primary btn-lg tarot_sucess">Загрузить фото</button>
-            </p>
           </div>
         </div>
       </div>
