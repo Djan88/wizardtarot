@@ -1494,6 +1494,12 @@ input[type=submit]{
   margin-left: -30%;
   z-index: 100;
   position: absolute;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  -ms-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  opacity: 0;
 }
 .progress1
 {
