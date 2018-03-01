@@ -1074,4 +1074,5 @@ jQuery(window).resize(function(event) {
   jQuery('.elems_returned_img').css('height', (elem_img_w * 1.5)+'px');
   tarto_scene = parseInt(jQuery('.tarot_scene').css('width'));
   jQuery('.tarot_scene, .progress_wrap').css('height', (tarto_scene * 1.5)+'px');
+  jQuery('.progress2').css('top', (tarto_scene * 1.5)/2-10+'px');
 })
