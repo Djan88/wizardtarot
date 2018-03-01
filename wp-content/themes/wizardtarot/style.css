@@ -765,7 +765,7 @@ and (max-width : 559px) {
 .tarot_to_photo
 {
   width: 200px;
-  margin: -5% auto 10px;
+  margin: -5% 0 10px;
   /*position: fixed;*/
   right: 20px;
   top: 140px;
