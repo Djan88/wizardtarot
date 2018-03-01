@@ -124,7 +124,7 @@
         </div>
     </div>
     <!-- footer end -->    
-
+<button class="btn btn-primary" data-toggle="modal" data-target=".cards_opened">Малая модаль</button>
     <div class="modal fade cards_opened" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
