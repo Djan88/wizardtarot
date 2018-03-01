@@ -1480,6 +1480,7 @@ input[type=submit]{
   border: 1px solid #ddd;
   border-radius: 4px;
   height: 500px;
+  z-index: 150;
 }
 .progress
 {
@@ -1488,4 +1489,24 @@ input[type=submit]{
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); 
+  width: 150%;
+  margin-left: -30%;
+  z-index: 100;
+  position: absolute;
+}
+.progress1
+{
+  top: 40px;
+}
+.progress2
+{
+  top: 140px;
+}
+.progress3
+{
+  bottom: 40px;
+}
+.progress_wrap
+{
+  position: relative;
 }

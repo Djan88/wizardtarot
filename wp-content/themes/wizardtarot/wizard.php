@@ -75,8 +75,18 @@
                     <div class="container tarot_screen">
                       <div class="col-xs-2"></div>
                       <div class="col-xs-3 tarot_scene tarot_prot_returned"></div>
-                      <div class="col-xs-2">
-                        <div class="progress progress-striped active">
+                      <div class="col-xs-2 progress_wrap">
+                        <div class="progress progress1 progress-striped active">
+                          <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <!-- <span class="sr-only">45% Complete</span> -->
+                          </div>
+                        </div>
+                        <div class="progress progress2 progress-striped active">
+                          <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <!-- <span class="sr-only">45% Complete</span> -->
+                          </div>
+                        </div>
+                        <div class="progress progress3 progress-striped active">
                           <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
                             <!-- <span class="sr-only">45% Complete</span> -->
                           </div>
