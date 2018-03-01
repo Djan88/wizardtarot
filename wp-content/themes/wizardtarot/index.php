@@ -116,7 +116,13 @@
     <div class="modal fade cards_opened" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
-          <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Выбрано 3 карты</h4>
+          </div>
+          <div class="modal-body">
+            <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузить фото</button>
+          </div>
         </div>
       </div>
     </div>
