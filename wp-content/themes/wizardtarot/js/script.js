@@ -348,6 +348,7 @@ if (backStatus == 'true') {
         jQuery('.chart').data('easyPieChart').update(100);
         jQuery('.chart').find('span').text('100');
         count_animation = 1;
+        jQuery('.tarot_to_photo').removeClass('hidden');
         jQuery('.progress').css('opacity', 0);
         onEnd();
         }
