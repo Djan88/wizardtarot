@@ -143,6 +143,7 @@
 <script src="<?php bloginfo('template_url'); ?>/js/sweet-alert.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/exif.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.Jcrop.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <?php wp_footer(); ?>
   </body>
