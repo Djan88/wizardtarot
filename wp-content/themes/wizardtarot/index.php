@@ -18,18 +18,6 @@
     <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
     <?php wp_head(); ?>
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery-ui.min.js"></script> 
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.ui.touch-punch.min.js"></script> 
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/canvas.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/easypie.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/pieChartPlugin.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/sweet-alert.min.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/exif.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.Jcrop.min.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
     <script>
     function showhide()
     {
@@ -124,7 +112,7 @@
         </div>
     </div>
     <!-- footer end -->    
-<button class="btn btn-primary" data-toggle="modal" data-target=".cards_opened">Малая модаль</button>
+<!-- <button class="btn btn-primary" data-toggle="modal" data-target=".cards_opened">Малая модаль</button> -->
     <div class="modal fade cards_opened" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
@@ -144,6 +132,18 @@
   });
     </script>
 <!-- templatemo 400 polygon -->
+<script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.2.min.js"></script> 
+<script src="<?php bloginfo('template_url'); ?>/js/jquery-ui.min.js"></script> 
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.ui.touch-punch.min.js"></script> 
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.lightbox.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/canvas.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/easypie.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/pieChartPlugin.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/templatemo_custom.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/sweet-alert.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/exif.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.Jcrop.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <?php wp_footer(); ?>
   </body>
 </html>
