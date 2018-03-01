@@ -122,7 +122,7 @@
           </div>
           <div class="modal-body">
             <p class="text_centered">
-              <p>Теперь необходимо загрузить фото</p>
+              <div>Теперь необходимо загрузить фото</div>
               <button type="button" class="btn btn-primary btn-lg tarot_sucess">Загрузить фото</button>
             </p>
           </div>
