@@ -284,6 +284,9 @@ if (backStatus == 'true') {
       jQuery( '.second_slide' ).removeClass('hidden').addClass('animated fadeInDown');
     });
   });
+  jQuery('.tarot_sucess').on('click', function(event) {
+    jQuery('.cards_opened').modal('show');
+  });
   // Если фото уже загружено
   if(jQuery('.tarot_returned_img')){
     //Получение данных из локального хранилища

@@ -124,6 +124,14 @@
         </div>
     </div>
     <!-- footer end -->    
+
+    <div class="modal fade cards_opened" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
+        </div>
+      </div>
+    </div>
   <script>
   $('.gallery_more').click(function(){
     var $this = $(this);
