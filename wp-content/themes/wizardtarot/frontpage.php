@@ -431,9 +431,9 @@
               </div>
             </div>
           </div>
-          <div class="well tarot_to_photo hidden">
+          <!-- <div class="well tarot_to_photo hidden">
             <button type="button" class="btn btn-primary btn-lg btn-block tarot_sucess">Загрузка фото</button>
-          </div>
+          </div> -->
         </div>
 <!-- tarot_open -->
         <div class="tarot-choice_open hidden">
