@@ -259,8 +259,10 @@ if (backStatus == 'true') {
       // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
       } else {
         if(jQuery(this).hasClass('tarot_card_reject')){
+          jQuery('.cards_opened').modal('show');
           sweetAlert("Открыто 3 карты", "Разрешается открыть только 3 карты на поле!", "info");
         }
+
       };
     // Если выложены не все карты выкладываем следующую карту
     } else if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length > 0){
@@ -285,7 +287,7 @@ if (backStatus == 'true') {
     });
   });
   jQuery('.tarot_sucess').on('click', function(event) {
-    jQuery('.cards_opened').modal('show');
+    jQuery('.cards_opened').modal('hide');
   });
   // Если фото уже загружено
   if(jQuery('.tarot_returned_img')){
