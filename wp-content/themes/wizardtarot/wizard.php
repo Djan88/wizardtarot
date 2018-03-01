@@ -112,7 +112,7 @@
                               </div>
                             </div>
                             <div class="col-md-4 col-md-offset-4 tarot_prots hidden">
-                              <button type="button" class="btn btn-primary btn-lg btn-block tarot_from_devil">Завершить диагностику</button>
+                              <button type="button" class="btn btn-primary btn-lg btn-block tarot_from_devil">Продолжить</button>
                             </div>
                             </div>
                           </div>

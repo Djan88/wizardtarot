@@ -297,8 +297,6 @@ if (backStatus == 'true') {
     jQuery('.elems_devil-client, .elems_returned_img').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
     if(prot_type == 'tarot'){
       // jQuery('.four_slide').removeClass('hidden');
-      jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
-      jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
       jQuery('.tarot_prots').removeClass('hidden');
     } else if(prot_type == 'elements') {
       // jQuery('.four_slide').removeClass('hidden');
@@ -318,6 +316,13 @@ if (backStatus == 'true') {
       // console.log("devil_w "+devil_w)
     }
   }
+
+  jQuery('.tarot_from_devil').on('click', function(event) {
+    jQuery('.four_slide').addClass('hidden');
+    jQuery('.third_slide').removeClass('hidden');
+    jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
+    jQuery('.tarot_prot_cell_1, .tarot_prot_cell_2, .tarot_prot_cell_4, .tarot_prot_cell_5').css('background', 'url('+prot_card+') no-repeat top left/100%');
+  });
   //На шаг назад
   jQuery('.tarot_back').on('click', function(event) {
       localStorage.setItem('backStatus', 'true');
