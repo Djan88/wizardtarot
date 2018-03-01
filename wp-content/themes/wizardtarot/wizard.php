@@ -50,32 +50,37 @@
                 </div>
             <?php } else if(current_user_can('contributor') || current_user_can('administrator')) { ?>
                 <div class="third_slide container animated fadeInDown hidden">
-                    <div class="well tarot_to_prev">
+                    <!-- <div class="well tarot_to_prev">
                       <button type="button" class="btn btn-primary btn-lg btn-block tarot_back">Назад</button>
-                    </div>
-                    <div class="tarot_zones well">
+                    </div> -->
+                    <!-- <div class="tarot_zones well">
                         <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 6px; top: 6px;">D++</div>
                         <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 71px; top: 6px;">D+</div>
                         <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 136px; top: 6px;">S++</div>
                         <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable" style="left: 202px; top: 6px;">S+</div>
-                        <!-- <div id="draggable4" class="itemlist_item itemZone item_list__mid draggable" style="left: 210px; top: 10px;">V0</div> -->
                         <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable" style="left: 268px; top: 6px;">V1</div>
                         <div id="draggable6" class="itemlist_item itemZone item_list__mid draggable" style="left: 334px; top: 6px;">V2</div>
                         <div id="draggable7" class="itemlist_item itemZone item_list__mid draggable" style="left: 400px; top: 6px;">V3</div>
                         <div id="draggable8" class="itemlist_item itemZone item_list__mid draggable" style="left: 466px; top: 6px;">V4</div>
-                    </div>
+                    </div> -->
                     <div class="chart" data-percent="0"><span>0</span>%</div>
-                    <div class="tarot_prot_cell tarot_prot_cell_1"></div>
+                    <!-- <div class="tarot_prot_cell tarot_prot_cell_1"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_2"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
                     <div class="tarot_prot_cell tarot_prot_cell_4"></div>
-                    <div class="tarot_prot_cell tarot_prot_cell_5"></div>
-                    <!-- <div class="box_rounded">
-                        <li id="draggableD12" class="itemlist_item item_list__mid draggable hidden" style="left: 45%; top: 5px;"></li>
-                    </div> -->
+                    <div class="tarot_prot_cell tarot_prot_cell_5"></div> -->
                     <div class="well tarot_to_photo">
                       <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Старт</button>
                     </div>
+                    <div class="container tarot_screen">
+                      <div class="col-xs-1"></div>
+                      <div class="col-xs-4 tarot_scene tarot_prot_returned"></div>
+                      <div class="col-xs-2"></div>
+                      <div class="col-xs-4 tarot_scene tarot_prot_card"></div>
+                      <div class="col-xs-1"></div>
+                    </div>
+
+
                 </div>
                 <div class="four_slide container animated fadeInDown hidden">
                   <div class="container">
@@ -100,25 +105,25 @@
                   </div>
                   <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                          <div class="row">
-                            <div class="col-md-4 col-md-offset-4 elem_prots hidden">
-                              <h2>Выберите протокол</h2>
-                              <div class="btn-group">
-                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="jezl">2</button>
-                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="sword">3</button>
-                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="cup">4</button>
-                                <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="pentacle">5</button>
-                              </div>
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-4 col-md-offset-4 elem_prots hidden">
+                            <h2>Выберите протокол</h2>
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="jezl">2</button>
+                              <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="sword">3</button>
+                              <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="cup">4</button>
+                              <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="pentacle">5</button>
                             </div>
-                            <div class="col-md-4 col-md-offset-4 tarot_prots hidden">
-                              <button type="button" class="btn btn-primary btn-lg btn-block tarot_from_devil">Продолжить</button>
-                            </div>
-                            </div>
+                          </div>
+                          <div class="col-md-4 col-md-offset-4 tarot_prots hidden">
+                            <button type="button" class="btn btn-primary btn-lg btn-block tarot_from_devil">Продолжить</button>
                           </div>
                         </div>
                       </div>
+                    </div>
                   </div>
+                </div>
                 </div>
                 <div class="five_slide container animated fadeInDown hidden">
                   <div class="container">

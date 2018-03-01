@@ -1471,3 +1471,13 @@ input[type=submit]{
   margin-left: 5px; 
   margin-right: 5px
 }
+.tarot_scene
+{
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 500px;
+}
