@@ -325,8 +325,8 @@ if (backStatus == 'true') {
   jQuery('.tarot_from_devil').on('click', function(event) {
     jQuery('.four_slide').addClass('hidden');
     jQuery('.third_slide').removeClass('hidden');
-    jQuery('.tarot_prot_returned').css('background', 'url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
-    jQuery('.tarot_prot_card').css('background', 'url('+prot_card+') no-repeat top left/100%');
+    jQuery('.tarot_prot_returned').css('background', '#fff url('+jQuery(".tarot_returned_img").attr('src')+') no-repeat top left/100%');
+    jQuery('.tarot_prot_card').css('background', '#fff url('+prot_card+') no-repeat top left/100%');
     var tarto_scene = parseInt(jQuery('.tarot_scene').css('width'));
     jQuery('.tarot_scene, .progress_wrap').css('height', (tarto_scene * 1.5)+'px');
     jQuery('.progress2').css('top', (tarto_scene * 1.5)/2-10+'px');
