@@ -102,7 +102,7 @@
                     <div class="row">
                         <div class="col-md-12">
                           <div class="row">
-                            <div class="col-md-4 col-md-offset-4 elem_prots">
+                            <div class="col-md-4 col-md-offset-4 elem_prots hidden">
                               <h2>Выберите протокол</h2>
                               <div class="btn-group">
                                 <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="jezl">2</button>
@@ -110,6 +110,10 @@
                                 <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="cup">4</button>
                                 <button type="button" class="btn btn-default btn-lg elem-choice-item btn-default" data-elem="pentacle">5</button>
                               </div>
+                            </div>
+                            <div class="col-md-4 col-md-offset-4 tarot_prots hidden">
+                              <button type="button" class="btn btn-primary btn-lg btn-block tarot_from_devil">Завершить диагностику</button>
+                            </div>
                             </div>
                           </div>
                         </div>
