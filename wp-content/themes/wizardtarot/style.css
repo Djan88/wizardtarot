@@ -1490,21 +1490,24 @@ input[type=submit]{
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); 
   width: 150%;
+  margin: 0;
   margin-left: -30%;
   z-index: 100;
   position: absolute;
 }
 .progress1
 {
-  top: 40px;
+  top: 60px;
+  transform: rotate(200deg);
 }
 .progress2
 {
-  top: 140px;
+  /*top: 140px;*/
 }
 .progress3
 {
-  bottom: 40px;
+  bottom: 60px;
+  transform: rotate(160deg);
 }
 .progress_wrap
 {
