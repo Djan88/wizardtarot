@@ -252,6 +252,7 @@ if (backStatus == 'true') {
         // Показ кнопки перехода к загрузке фото
         if (tarot_cards_count == 5) {
           jQuery('.tarot_to_photo').removeClass('hidden');
+          jQuery('.cards_opened').modal('show');
           prot_card = jQuery(this).find('.hexagon-in2').find('a').attr('href');
           localStorage.setItem('prot_card', prot_card);
         };
@@ -259,10 +260,9 @@ if (backStatus == 'true') {
       // Открываем доступ к следующему этапу и запоминаем карту выбранную последней
       } else {
         if(jQuery(this).hasClass('tarot_card_reject')){
-          jQuery('.cards_opened').modal('show');
           sweetAlert("Открыто 3 карты", "Разрешается открыть только 3 карты на поле!", "info");
+          jQuery('.cards_opened').modal('show');
         }
-
       };
     // Если выложены не все карты выкладываем следующую карту
     } else if(jQuery(this).hasClass('tarot_has_card') && Object.keys(tarot_cards).length > 0){
