@@ -97,7 +97,7 @@
     <div class="templatemo_footer">
       <div class="container">
       <div class="row">
-          <div class="col-md-9 col-sm-12">2018 Wizard Tarot Версия 4.1</div><div class="logout"><a class="logout" href="http://wizardtarot.ru/wp-login.php?action=logout&amp;_wpnonce=bc0c947e8d">Выход</a></div>
+          <div class="col-md-9 col-sm-12">2018 Wizard Tarot Версия 4.2</div><div class="logout"><a class="logout" href="http://wizardtarot.ru/wp-login.php?action=logout&amp;_wpnonce=bc0c947e8d">Выход</a></div>
             <div class="col-md-3 col-sm-12 templatemo_rfooter">
                 <a href="#">
                   <div class="hex_footer">
