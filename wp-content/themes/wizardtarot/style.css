@@ -1519,3 +1519,11 @@ input[type=submit]{
 {
   position: relative;
 }
+h4.modal-title 
+{
+  color: #000;
+}
+.text_centered
+{
+  text-align: center;
+}
