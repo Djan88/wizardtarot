@@ -1534,7 +1534,6 @@ h4.modal-title
   width: 100px;
   left: 30px;
   top: 0;
-  transform: rotate(90deg);
 }
 .tarot_prot_devil.card_rotated 
 {
@@ -1544,6 +1543,7 @@ h4.modal-title
   background: #fff url(/wp-content/themes/wizardtarot/images/15.jpg) 0 0/100% no-repeat;
 }
 .card_rotated {
+  transform: rotate(90deg);
   border: 1px solid #428bca;
   border-radius: 4px;
   position: absolute;
