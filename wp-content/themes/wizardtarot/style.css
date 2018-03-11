@@ -1540,7 +1540,7 @@ h4.modal-title
   width: 100px;
   right: 30px;
   top: 0;
-  background: #fff url(/wp-content/themes/wizardtarot/images/gallery/15-Major-Devil.png) 0 0/100% no-repeat;
+  background: #fff url(/wp-content/themes/wizardtarot/images/15.jpg) 0 0/100% no-repeat;
 }
 .card_rotated {
   transform: rotate(-90deg);
