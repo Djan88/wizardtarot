@@ -1534,16 +1534,17 @@ h4.modal-title
   width: 100px;
   left: 30px;
   top: 0;
+  transform: rotate(-90deg);
 }
 .tarot_prot_devil.card_rotated 
 {
   width: 100px;
   right: 30px;
   top: 0;
+  transform: rotate(90deg);
   background: #fff url(/wp-content/themes/wizardtarot/images/15_1.jpg) center/90% no-repeat;
 }
 .card_rotated {
-  transform: rotate(90deg);
   border: 1px solid #428bca;
   border-radius: 4px;
   position: absolute;
