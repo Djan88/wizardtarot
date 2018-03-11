@@ -1481,6 +1481,7 @@ input[type=submit]{
   border-radius: 4px;
   height: 500px;
   z-index: 150;
+  position: relative;
 }
 .progress
 {
