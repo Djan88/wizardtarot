@@ -93,7 +93,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-xs-5 tarot_scene">
+                    <div class="col-xs-5 tarot_scene" id="card_rotated_wrap">
                       <div class="tarot_prot_card card_rotated"></div>
                       <div class="tarot_prot_devil card_rotated"></div>
                     </div>

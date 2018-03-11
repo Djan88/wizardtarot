@@ -716,6 +716,9 @@ jQuery(function() {
       }
     }
   });
+  jQuery( ".card_rotated" ).draggable({ 
+    containment: "#card_rotated_wrap"
+  });
    
 });
 
