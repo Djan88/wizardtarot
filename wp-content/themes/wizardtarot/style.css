@@ -1541,7 +1541,7 @@ h4.modal-title
   width: 100px;
   right: 30px;
   top: 0;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   background: #fff url(/wp-content/themes/wizardtarot/images/15_1.jpg) center/90% no-repeat;
 }
 .card_rotated {
