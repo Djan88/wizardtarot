@@ -73,8 +73,6 @@
                     <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Старт</button>
                   </div>
                   <div class="container tarot_screen">
-                    <!-- <div class="col-xs-2"></div> -->
-                    <div class="col-xs-1"></div>
                     <div class="col-xs-3 tarot_scene tarot_prot_returned"></div>
                     <div class="col-xs-2 progress_wrap">
                       <div class="progress progress1 progress-striped active">
