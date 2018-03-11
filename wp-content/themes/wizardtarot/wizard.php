@@ -49,59 +49,57 @@
                     </div>
                 </div>
             <?php } else if(current_user_can('contributor') || current_user_can('administrator')) { ?>
-                <div class="third_slide container animated fadeInDown hidden">
-                    <!-- <div class="well tarot_to_prev">
-                      <button type="button" class="btn btn-primary btn-lg btn-block tarot_back">Назад</button>
-                    </div> -->
-                    <!-- <div class="tarot_zones well">
-                        <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 6px; top: 6px;">D++</div>
-                        <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 71px; top: 6px;">D+</div>
-                        <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 136px; top: 6px;">S++</div>
-                        <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable" style="left: 202px; top: 6px;">S+</div>
-                        <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable" style="left: 268px; top: 6px;">V1</div>
-                        <div id="draggable6" class="itemlist_item itemZone item_list__mid draggable" style="left: 334px; top: 6px;">V2</div>
-                        <div id="draggable7" class="itemlist_item itemZone item_list__mid draggable" style="left: 400px; top: 6px;">V3</div>
-                        <div id="draggable8" class="itemlist_item itemZone item_list__mid draggable" style="left: 466px; top: 6px;">V4</div>
-                    </div> -->
-                    <div class="chart" data-percent="0"><span>0</span>%</div>
-                    <!-- <div class="tarot_prot_cell tarot_prot_cell_1"></div>
-                    <div class="tarot_prot_cell tarot_prot_cell_2"></div>
-                    <div class="tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
-                    <div class="tarot_prot_cell tarot_prot_cell_4"></div>
-                    <div class="tarot_prot_cell tarot_prot_cell_5"></div> -->
-                    <div class="well tarot_to_photo">
-                      <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Старт</button>
-                    </div>
-                    <div class="container tarot_screen">
-                      <!-- <div class="col-xs-2"></div> -->
-                      <div class="col-xs-3 tarot_scene tarot_prot_returned"></div>
-                      <div class="col-xs-1 progress_wrap">
-                        <div class="progress progress1 progress-striped active">
-                          <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                            <!-- <span class="sr-only">45% Complete</span> -->
-                          </div>
-                        </div>
-                        <div class="progress progress2 progress-striped active">
-                          <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                            <!-- <span class="sr-only">45% Complete</span> -->
-                          </div>
-                        </div>
-                        <div class="progress progress3 progress-striped active">
-                          <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                            <!-- <span class="sr-only">45% Complete</span> -->
-                          </div>
+              <div class="third_slide container animated fadeInDown hidden">
+                  <!-- <div class="well tarot_to_prev">
+                    <button type="button" class="btn btn-primary btn-lg btn-block tarot_back">Назад</button>
+                  </div> -->
+                  <!-- <div class="tarot_zones well">
+                      <div id="draggable0" class="itemlist_item itemZone item_list__mid draggable" style="left: 6px; top: 6px;">D++</div>
+                      <div id="draggable1" class="itemlist_item itemZone item_list__mid draggable" style="left: 71px; top: 6px;">D+</div>
+                      <div id="draggable2" class="itemlist_item itemZone item_list__mid draggable" style="left: 136px; top: 6px;">S++</div>
+                      <div id="draggable3" class="itemlist_item itemZone item_list__mid draggable" style="left: 202px; top: 6px;">S+</div>
+                      <div id="draggable5" class="itemlist_item itemZone item_list__mid draggable" style="left: 268px; top: 6px;">V1</div>
+                      <div id="draggable6" class="itemlist_item itemZone item_list__mid draggable" style="left: 334px; top: 6px;">V2</div>
+                      <div id="draggable7" class="itemlist_item itemZone item_list__mid draggable" style="left: 400px; top: 6px;">V3</div>
+                      <div id="draggable8" class="itemlist_item itemZone item_list__mid draggable" style="left: 466px; top: 6px;">V4</div>
+                  </div> -->
+                  <div class="chart" data-percent="0"><span>0</span>%</div>
+                  <!-- <div class="tarot_prot_cell tarot_prot_cell_1"></div>
+                  <div class="tarot_prot_cell tarot_prot_cell_2"></div>
+                  <div class="tarot_prot_cell tarot_prot_cell_3 tarot_prot_returned"></div>
+                  <div class="tarot_prot_cell tarot_prot_cell_4"></div>
+                  <div class="tarot_prot_cell tarot_prot_cell_5"></div> -->
+                  <div class="well tarot_to_photo">
+                    <button type="button" class="btn btn-primary btn-lg btn-block tarot_start">Старт</button>
+                  </div>
+                  <div class="container tarot_screen">
+                    <!-- <div class="col-xs-2"></div> -->
+                    <div class="col-xs-3 tarot_scene tarot_prot_returned"></div>
+                    <div class="col-xs-1 progress_wrap">
+                      <div class="progress progress1 progress-striped active">
+                        <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                          <!-- <span class="sr-only">45% Complete</span> -->
                         </div>
                       </div>
-                      <div class="col-xs-3 tarot_scene">
-                        <div class="tarot_prot_card card_rotated"></div>
+                      <div class="progress progress2 progress-striped active">
+                        <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                          <!-- <span class="sr-only">45% Complete</span> -->
+                        </div>
                       </div>
-                      <div class="col-xs-1"></div>
-                      <div class="col-xs-3 tarot_scene">
-                        <div class="tarot_prot_devil card_rotated"></div>
+                      <div class="progress progress3 progress-striped active">
+                        <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                          <!-- <span class="sr-only">45% Complete</span> -->
+                        </div>
                       </div>
                     </div>
-
-
+                    <div class="col-xs-3 tarot_scene">
+                      <div class="tarot_prot_card card_rotated"></div>
+                    </div>
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-3 tarot_scene">
+                      <div class="tarot_prot_devil card_rotated"></div>
+                    </div>
+                  </div>
                 </div>
                 <div class="four_slide container animated fadeInDown hidden">
                   <div class="container">

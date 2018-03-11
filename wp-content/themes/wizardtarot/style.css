@@ -1528,3 +1528,7 @@ h4.modal-title
   text-align: center;
   font-size: 16px;
 }
+.tarot_prot_card.card_rotated 
+{
+    width: 100px;
+}

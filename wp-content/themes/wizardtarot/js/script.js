@@ -330,6 +330,8 @@ if (backStatus == 'true') {
     var tarto_scene = parseInt(jQuery('.tarot_scene').css('width'));
     jQuery('.tarot_scene, .progress_wrap').css('height', (tarto_scene * 1.5)+'px');
     jQuery('.progress2').css('top', (tarto_scene * 1.5)/2-10+'px');
+    var tarot_moved_img = parseInt(jQuery('.tarot_prot_card').css('width'));
+    jQuery('.tarot_prot_card, .tarot_prot_devil').css('height', (tarot_moved_img * 1.5)+'px');
   });
   //На шаг назад
   jQuery('.tarot_back').on('click', function(event) {
@@ -728,4 +730,6 @@ jQuery(window).resize(function(event) {
   tarto_scene = parseInt(jQuery('.tarot_scene').css('width'));
   jQuery('.tarot_scene, .progress_wrap').css('height', (tarto_scene * 1.5)+'px');
   jQuery('.progress2').css('top', (tarto_scene * 1.5)/2-10+'px');
+  tarot_moved_img = parseInt(jQuery('.tarot_prot_card').css('width'));
+  jQuery('.tarot_prot_card, .tarot_prot_devil').css('height', (tarot_moved_img * 1.5)+'px');
 })

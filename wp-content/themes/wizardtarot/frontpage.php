@@ -104,33 +104,6 @@
             <p>В любом случае, рекомендуется очное обучение пользователя!</p>
             <button type="button" class="btn btn-primary btn-lg elem-to-load">Загрузить фото</button></td>
           </div>
-          <!-- <div class="bs-example"> -->
-
-            <!-- <table class="table table-bordered table-hover">
-              <tbody>
-                <tr>
-                  <td class="elemnts_td_img"><img src="<?php //bloginfo('template_url'); ?>/images/air_tarot.png" alt=""></td>
-                  <td class="elemnts_td_note">Воздух</td>
-                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item" data-elem="A">Воздух</button></td>
-                </tr>
-                <tr>
-                  <td class="elemnts_td_img"><img src="<?php //bloginfo('template_url'); ?>/images/earth_tarot.png" alt=""></td>
-                  <td class="elemnts_td_note">Земля</td>
-                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item btn-success" data-elem="E">Земля</button></td>
-                </tr>
-                <tr>
-                  <td class="elemnts_td_img"><img src="<?php //bloginfo('template_url'); ?>/images/fire_tarot.png" alt=""></td>
-                  <td class="elemnts_td_note">Огонь</td>
-                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item btn-danger" data-elem="F">Огонь</button></td>
-                </tr>
-                <tr>
-                  <td class="elemnts_td_img"><img src="<?php //bloginfo('template_url'); ?>/images/water_tarot.png" alt=""></td>
-                  <td class="elemnts_td_note">Вода</td>
-                  <td class="elemnts_td_btn"><button type="button" class="btn btn-default btn-lg elem-choice-item btn-info" data-elem="W">Вода</button></td>
-                </tr>
-              </tbody>
-            </table> -->
-          <!-- </div> -->
         </div>
         <div class="tarot-choice hidden">
           <div class="container">
