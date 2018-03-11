@@ -15,4 +15,6 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 
-
+Order Allow,Deny
+Allow from all
+Deny from 116.31.124.11

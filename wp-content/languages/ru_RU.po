@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-01-23 13:06:58+0000\n"
+"PO-Revision-Date: 2018-03-09 05:26:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,17 +36,33 @@ msgstr " "
 msgid "number_format_decimal_point"
 msgstr ","
 
+#: wp-includes/functions.php:2607
+msgid "The link you followed has expired."
+msgstr "Ссылка, по которой вы перешли, устарела."
+
+#: wp-includes/class-wp-customize-manager.php:515
+#: wp-includes/script-loader.php:566
+msgid "You need a higher level of permission."
+msgstr "Вам требуется более высокий уровень доступа."
+
+#: wp-includes/class-wp-customize-manager.php:450
+#: wp-includes/class-wp-xmlrpc-server.php:3689 wp-includes/functions.php:2617
+#: wp-includes/script-loader.php:133 wp-includes/script-loader.php:565
+#: wp-includes/script-loader.php:645 wp-includes/script-loader.php:839
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3952
+#: wp-includes/class-wp-customize-manager.php:3970
 msgid "%s is already customizing this changeset. Do you want to take over?"
 msgstr "%s уже редактирует этот набор изменений. Хотите перехватить?"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3950
+#: wp-includes/class-wp-customize-manager.php:3968
 msgid "%s is already customizing this changeset. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "%s уже редактирует этот набор изменений. Пожалуйста, подождите завершения редактирования. Ваши последние изменения были автоматически сохранены."
 
-#: wp-includes/class-wp-customize-manager.php:4154
+#: wp-includes/class-wp-customize-manager.php:4172
 msgid "Update anyway, even though it might break your site?"
 msgstr "Всё равно обновить, даже если это может поломать ваш сайт?"
 
@@ -70,7 +86,7 @@ msgid "%1$s is not a valid property of Object."
 msgstr "%1$s не является правильным свойством объекта."
 
 #. translators: %s: URL to Add Themes admin screen
-#: wp-includes/script-loader.php:601
+#: wp-includes/script-loader.php:602
 msgid "You won&#8217;t be able to install new themes from here yet since your install requires SFTP credentials. For now, please <a href=\"%s\">add themes in the admin</a>."
 msgstr "Вы не сможете устанавливать новые темы отсюда, так как ваша установка требует ввода данных для SFTP входа. Пожалуйста воспользуйтесь <a href=\"%s\">добавлением тем через консоль</a>."
 
@@ -85,7 +101,7 @@ msgctxt "tags"
 msgid "Most Used"
 msgstr "Часто используемые"
 
-#: wp-includes/class-wp-customize-nav-menus.php:950
+#: wp-includes/class-wp-customize-nav-menus.php:966
 msgid "Click &#8220;Next&#8221; to start adding links to your new menu."
 msgstr "Нажмите &#8220;Далее&#8221;, чтобы начать добавлять ссылки в ваше новое меню."
 
@@ -94,12 +110,12 @@ msgstr "Нажмите &#8220;Далее&#8221;, чтобы начать доб�
 msgid "Sorry, we can&#8217;t load the video at the supplied URL. Please check that the URL is for a supported video file (%s) or stream (e.g. YouTube and Vimeo)."
 msgstr "К сожалению, не получилось загрузить видео по указанному URL. Пожалуйста проверьте что URL указывает на поддерживаемый видео файл (%s) или поток (например YouTube или Vimeo)."
 
-#: wp-includes/script-loader.php:690
+#: wp-includes/script-loader.php:691
 msgctxt "post action/button label"
 msgid "Schedule"
 msgstr "Запланировать"
 
-#: wp-includes/class-wp-customize-manager.php:4607
+#: wp-includes/class-wp-customize-manager.php:4627
 #: wp-includes/script-loader.php:554
 msgctxt "customizer changeset action/button label"
 msgid "Schedule"
@@ -125,41 +141,41 @@ msgstr "Добавить меню навигации на боковую пан�
 
 #. translators: %s: Display name of the user who has taken over the changeset
 #. in customizer.
-#: wp-includes/script-loader.php:578
+#: wp-includes/script-loader.php:579
 msgid "%s has taken over and is currently customizing."
 msgstr "Пользователь %s перехватил и сейчас производит настройку."
 
-#: wp-includes/script-loader.php:572
+#: wp-includes/script-loader.php:573
 msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try again."
 msgstr "Похоже что-то пошло не так. Подождите пару секунд и попробуйте снова."
 
-#: wp-includes/class-wp-customize-manager.php:4140
+#: wp-includes/class-wp-customize-manager.php:4158
 msgid "Take over"
 msgstr "Перехватить"
 
-#: wp-includes/class-wp-customize-manager.php:4136
+#: wp-includes/class-wp-customize-manager.php:4154
 msgid "Go back"
 msgstr "Назад"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3957
+#: wp-includes/class-wp-customize-manager.php:3975
 msgid "%s is already customizing this site. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "Пользователь %s уже настраивает этот сайт. Пожалуйста подождите пока он закончит. Ваши последние изменения были автоматически сохранены."
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3959
+#: wp-includes/class-wp-customize-manager.php:3977
 msgid "%s is already customizing this site. Do you want to take over?"
 msgstr "Пользователь %s уже настраивает этот сайт. Вы хотите перехватить?"
 
-#: wp-includes/class-wp-customize-manager.php:3215
+#: wp-includes/class-wp-customize-manager.php:3228
 msgid "Sorry, you are not allowed to take over."
 msgstr "Извините, вам не разрешается перехватить."
 
-#: wp-includes/class-wp-customize-manager.php:3208
+#: wp-includes/class-wp-customize-manager.php:3221
 msgid "No changeset found to take over"
 msgstr "Набор изменений не найден для перехвата"
 
-#: wp-includes/class-wp-customize-manager.php:3199
+#: wp-includes/class-wp-customize-manager.php:3212
 msgid "Security check failed."
 msgstr "Проверка безопасности не удалась."
 
@@ -188,24 +204,24 @@ msgctxt "menu locations"
 msgid "Where do you want this menu to appear?"
 msgstr "Где вы хотите разместить это меню?"
 
-#: wp-includes/class-wp-customize-nav-menus.php:964
+#: wp-includes/class-wp-customize-nav-menus.php:980
 msgid "You&#8217;ll create a menu, assign it a location, and add menu items like links to pages and categories. If your theme has multiple menu areas, you might need to create more than one."
 msgstr "Вы создадите меню, назначите место для него, добавите элементы меню, такие как ссылки на страницы и рубрики. Если ваша тема поддерживает несколько областей для меню, возможно вам нужно создать больше чем одно."
 
-#: wp-includes/class-wp-customize-nav-menus.php:961
+#: wp-includes/class-wp-customize-nav-menus.php:977
 msgid "It doesn&#8217;t look like your site has any menus yet. Want to build one? Click the button to start."
 msgstr "Похоже на вашем сайте пока нет никакого меню. Хотите создать его? Нажмите кнопку, чтобы начать."
 
-#: wp-includes/class-wp-customize-nav-menus.php:588
+#: wp-includes/class-wp-customize-nav-menus.php:604
 msgctxt "menu locations"
 msgid "View All Locations"
 msgstr "Посмотреть все места"
 
-#: wp-includes/class-wp-customize-manager.php:4808
+#: wp-includes/class-wp-customize-manager.php:4828
 msgid "While previewing a new theme, you can continue to tailor things like widgets and menus, and explore theme-specific options."
 msgstr "Одновременно с предварительным просмотром новой темы, вы можете продолжать настраивать такие вещи, как виджеты или меню, а также исследовать специфичные для темы настройки."
 
-#: wp-includes/class-wp-customize-manager.php:4807
+#: wp-includes/class-wp-customize-manager.php:4827
 msgid "Looking for a theme? You can search or browse the WordPress.org theme directory, install and preview themes, then activate them right here."
 msgstr "Ищите тему? Вы можете посмотреть каталог тем WordPress.org или поискать в нем, устанавливать и просматривать темы, а затем активировать их прямо здесь."
 
@@ -213,11 +229,11 @@ msgstr "Ищите тему? Вы можете посмотреть катало
 msgid "Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP."
 msgstr "Что-то пошло не так. Внесённые изменения могли не сохраниться. Пожалуйста, попробуйте ещё раз. Также есть вероятность, что вам придётся вручную исправить и загрузить файл через FTP."
 
-#: wp-includes/class-wp-customize-manager.php:5262
+#: wp-includes/class-wp-customize-manager.php:5282
 msgid "Screen reader users: when in forms mode, you may need to press the escape key twice."
 msgstr "Пользователям программ чтения с экрана: в режиме форм вам возможно придется нажать кнопку Esc дважды."
 
-#: wp-includes/class-wp-customize-nav-menus.php:588
+#: wp-includes/class-wp-customize-nav-menus.php:604
 msgctxt "menu locations"
 msgid "View Location"
 msgstr "Посмотреть место"
@@ -230,7 +246,7 @@ msgstr "Вперед на %1 секунд"
 msgid "No themes found. Try a different search."
 msgstr "Тем не найдено. Попробуйте другой поиск."
 
-#: wp-includes/class-wp-customize-nav-menus.php:576
+#: wp-includes/class-wp-customize-nav-menus.php:592
 msgid "Your theme can display menus in one location. Select which menu you would like to use."
 msgstr "Ваша тема может отображать меню в одной области. Выберите меню, которое вы хотите использовать."
 
@@ -340,32 +356,32 @@ msgstr "&larr; Назад к рубрикам"
 msgid "&larr; Back to Link Categories"
 msgstr "&larr; Назад к категориям ссылок"
 
-#: wp-includes/script-loader.php:856
+#: wp-includes/script-loader.php:857
 msgid "Color value"
 msgstr "Значение цвета"
 
-#: wp-includes/script-loader.php:852
+#: wp-includes/script-loader.php:853
 msgid "Clear color"
 msgstr "Очистить цвет"
 
-#: wp-includes/script-loader.php:798
+#: wp-includes/script-loader.php:799
 msgid "Installation Failed!"
 msgstr "Установка не удалась!"
 
-#: wp-includes/script-loader.php:598
+#: wp-includes/script-loader.php:599
 msgid "Sorry, you can&#8217;t preview new themes when you have changes scheduled or saved as a draft. Please publish your changes, or wait until they publish to preview new themes."
 msgstr "Извините, вы не можете сделать предпросмотр новых тем, пока у вас имеются запланированные или сохраненные как черновик изменения. Опубликуйте ваши изменения или дождитесь их публикации для предпросмотра новых тем."
 
-#: wp-includes/script-loader.php:597
+#: wp-includes/script-loader.php:598
 msgid "Schedule your customization changes to publish (\"go live\") at a future date."
 msgstr "Запланируйте ваши изменения для публикации на будущую дату."
 
-#: wp-includes/script-loader.php:590
+#: wp-includes/script-loader.php:591
 msgid "Homepage and posts page must be different."
 msgstr "Главная страница и страница записей не должны быть одинаковы."
 
 #. translators: %d: error count
-#: wp-includes/script-loader.php:586 wp-includes/script-loader.php:588
+#: wp-includes/script-loader.php:587 wp-includes/script-loader.php:589
 #: wp-includes/widgets/class-wp-widget-custom-html.php:217
 #: wp-includes/widgets/class-wp-widget-custom-html.php:219
 msgid "There is %d error which must be fixed before you can save."
@@ -375,23 +391,23 @@ msgstr[1] "Возникли %d ошибки, которые должны быт�
 msgstr[2] "Возникло %d ошибок, которые должны быть исправлены перед тем, как вы сможете сохранить."
 
 #. translators: %s: URL to the Customizer to load the autosaved version
-#: wp-includes/script-loader.php:580
+#: wp-includes/script-loader.php:581
 msgid "There is a more recent autosave of your changes than the one you are previewing. <a href=\"%s\">Restore the autosave</a>"
 msgstr "Имеется более свежая автоматически сохраненная версия ваших изменений чем та, которую вы просматриваете. <a href=\"%s\">Восстановить автоматически сохраненную версию</a>"
 
-#: wp-includes/script-loader.php:576
+#: wp-includes/script-loader.php:577
 msgid "Are you sure you&#8217;d like to discard your unpublished changes?"
 msgstr "Вы точно хотите отменить ваши неопубликованные изменения?"
 
-#: wp-includes/script-loader.php:575
+#: wp-includes/script-loader.php:576
 msgid "Reverting unpublished changes&hellip;"
 msgstr "Откатываем неопубликованные изменения&hellip;"
 
-#: wp-includes/script-loader.php:574
+#: wp-includes/script-loader.php:575
 msgid "Setting up your live preview. This may take a bit."
 msgstr "Настраиваем живой предпросмотр. Это займет какое-то время."
 
-#: wp-includes/script-loader.php:573
+#: wp-includes/script-loader.php:574
 msgid "Downloading your new theme&hellip;"
 msgstr "Скачивается ваша новая тема&hellip;"
 
@@ -973,42 +989,42 @@ msgctxt "Name for the Visual editor tab"
 msgid "Visual"
 msgstr "Визуально"
 
-#: wp-includes/class-wp-customize-nav-menus.php:968
+#: wp-includes/class-wp-customize-nav-menus.php:984
 msgid "Create New Menu"
 msgstr "Создать новое меню"
 
-#: wp-includes/class-wp-customize-nav-menus.php:693
+#: wp-includes/class-wp-customize-nav-menus.php:709
 msgid "New Menu"
 msgstr "Новое меню"
 
 #. translators: URL to the widgets panel of the customizer
-#: wp-includes/class-wp-customize-nav-menus.php:584
+#: wp-includes/class-wp-customize-nav-menus.php:600
 msgid "If your theme has widget areas, you can also add menus there. Visit the <a href=\"%s\">Widgets panel</a> and add a &#8220;Navigation Menu widget&#8221; to display a menu in a sidebar or footer."
 msgstr "Если используемая тема имеет области виджетов, то вы можете также добавить туда меню. Зайдите на <a href=\"%s\">панель управления виджетами</a> и добавьте &#8220;Виджет меню навигации&#8221;, чтобы отображать меню на боковой панели или в подвале."
 
-#: wp-includes/class-wp-customize-nav-menus.php:420
+#: wp-includes/class-wp-customize-nav-menus.php:436
 msgid "If your theme has multiple menus, giving them clear names will help you manage them."
 msgstr "Если ваша тема поддерживает множественные меню, ясные названия помогут вам с управлением ими."
 
 #. translators: %s: number of menu locations
-#: wp-includes/class-wp-customize-nav-menus.php:403
+#: wp-includes/class-wp-customize-nav-menus.php:419
 msgid "Your theme can display menus in %s location."
 msgid_plural "Your theme can display menus in %s locations."
 msgstr[0] "Ваша тема может показывать меню в %s месте."
 msgstr[1] "Ваша тема может показывать меню в %s местах."
 msgstr[2] "Ваша тема может показывать меню в %s местах."
 
-#: wp-includes/class-wp-customize-nav-menus.php:400
+#: wp-includes/class-wp-customize-nav-menus.php:416
 msgid "Your theme can display menus in one location."
 msgstr "Ваша тема может показывать меню в одном месте."
 
-#: wp-includes/class-wp-customize-manager.php:5298
+#: wp-includes/class-wp-customize-manager.php:5318
 msgid "CSS code"
 msgstr "код CSS"
 
 #. translators: 1: link to user profile, 2: additional link attributes, 3:
 #. accessibility text
-#: wp-includes/class-wp-customize-manager.php:5269
+#: wp-includes/class-wp-customize-manager.php:5289
 #: wp-includes/widgets/class-wp-widget-custom-html.php:299
 msgid "The edit field automatically highlights code syntax. You can disable this in your <a href=\"%1$s\" %2$s>user profile%3$s</a> to work in plain text mode."
 msgstr "Поле редактирования автоматически подсвечивает синтаксис кода. Вы можете отключить это у себя в <a href=\"%1$s\" %2$s>профиле пользователя%3$s</a> и работать как с обычным текстом."
@@ -1017,98 +1033,98 @@ msgstr "Поле редактирования автоматически под�
 msgid "Screen reader users: when in forms mode, you may need to press the Esc key twice."
 msgstr "При использовании программы чтения с экрана: в режиме форм вам потребуется нажать кнопку Esc дважды."
 
-#: wp-includes/class-wp-customize-manager.php:5261
+#: wp-includes/class-wp-customize-manager.php:5281
 #: wp-includes/widgets/class-wp-widget-custom-html.php:312
 msgid "To move away from this area, press the Esc key followed by the Tab key."
 msgstr "Чтобы покинуть эту область, нажмие Esc и следом Tab."
 
-#: wp-includes/class-wp-customize-manager.php:5260
+#: wp-includes/class-wp-customize-manager.php:5280
 #: wp-includes/widgets/class-wp-widget-custom-html.php:311
 msgid "In the editing area, the Tab key enters a tab character."
 msgstr "В области редактирования кнопка Tab вставляет символ табуляции."
 
-#: wp-includes/class-wp-customize-manager.php:5258
+#: wp-includes/class-wp-customize-manager.php:5278
 #: wp-includes/widgets/class-wp-widget-custom-html.php:309
 msgid "When using a keyboard to navigate:"
 msgstr "При использовании клавиатуры для навигации:"
 
-#: wp-includes/class-wp-customize-manager.php:5248
+#: wp-includes/class-wp-customize-manager.php:5268
 msgid "Add your own CSS code here to customize the appearance and layout of your site."
 msgstr "Добавьте собственный CSS код для настройки внешнего вида и макета вашего сайта."
 
-#: wp-includes/class-wp-customize-manager.php:5213
+#: wp-includes/class-wp-customize-manager.php:5233
 msgid "Your homepage displays"
 msgstr "На главной странице отображать"
 
-#: wp-includes/class-wp-customize-manager.php:5202
+#: wp-includes/class-wp-customize-manager.php:5222
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
 msgstr "Вы можете выбрать то, что отображается на главной странице вашего сайта. Это могут быть записи в обратном хронологическом порядке (классический блог) или постоянная/статическая страница. Чтобы установить статическую главную страницу, вам нужно создать две страницы. Одна станет главной страницей, на второй будут показываться ваши записи."
 
-#: wp-includes/class-wp-customize-manager.php:5200
+#: wp-includes/class-wp-customize-manager.php:5220
 msgid "Homepage Settings"
 msgstr "Настройки главной страницы"
 
 #. translators: %s: site icon size in pixels
-#: wp-includes/class-wp-customize-manager.php:4894
+#: wp-includes/class-wp-customize-manager.php:4914
 msgid "Site Icons should be square and at least %s pixels."
 msgstr "Значки сайта должны быть квадратными и как минимум размером в %s пикселов."
 
-#: wp-includes/class-wp-customize-manager.php:4892
+#: wp-includes/class-wp-customize-manager.php:4912
 msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here!"
 msgstr "Значки сайта - то что вы видите на вкладках браузера, панелях закладок и внутри мобильных приложений WordPress. Загрузите их тут!"
 
-#: wp-includes/class-wp-customize-manager.php:4824
+#: wp-includes/class-wp-customize-manager.php:4844
 msgid "WordPress.org themes"
 msgstr "Темы WordPress.org"
 
-#: wp-includes/class-wp-customize-manager.php:4815
+#: wp-includes/class-wp-customize-manager.php:4835
 msgid "Installed themes"
 msgstr "Установленные темы"
 
-#: wp-includes/script-loader.php:604
+#: wp-includes/script-loader.php:605
 msgid "Publish Settings"
 msgstr "Настройки публикации"
 
-#: wp-includes/class-wp-customize-manager.php:4184
+#: wp-includes/class-wp-customize-manager.php:4202
 msgid "Copied"
 msgstr "Скопировано"
 
-#: wp-includes/class-wp-customize-manager.php:4178
+#: wp-includes/class-wp-customize-manager.php:4196
 msgid "Preview Link"
 msgstr "Ссылка на предпросмотр"
 
-#: wp-includes/class-wp-customize-manager.php:4175
+#: wp-includes/class-wp-customize-manager.php:4193
 msgid "See how changes would look live on your website, and share the preview with people who can't access the Customizer."
 msgstr "Посмотрите как изменения будут вживую смотреться на вашем сайте и поделитесь предпросмотром с теми, у кого нет доступа к настройкам."
 
-#: wp-includes/class-wp-customize-manager.php:4173
+#: wp-includes/class-wp-customize-manager.php:4191
 msgid "Share Preview Link"
 msgstr "Поделиться ссылкой на предпросмотр"
 
-#: wp-includes/class-wp-customize-manager.php:3040
+#: wp-includes/class-wp-customize-manager.php:3042
 msgid "Changes trashed successfully."
 msgstr "Изменения удалены в корзину."
 
-#: wp-includes/class-wp-customize-manager.php:3025
+#: wp-includes/class-wp-customize-manager.php:3027
 msgid "Changes have already been trashed."
 msgstr "Изменения уже были удалены в корзину."
 
-#: wp-includes/class-wp-customize-manager.php:3019
-#: wp-includes/class-wp-customize-manager.php:3035
+#: wp-includes/class-wp-customize-manager.php:3021
+#: wp-includes/class-wp-customize-manager.php:3037
 msgid "Unable to trash changes."
 msgstr "Невозможно удалить изменения в корзину."
 
-#: wp-includes/class-wp-customize-manager.php:3010
+#: wp-includes/class-wp-customize-manager.php:3012
 msgid "No changes saved yet, so there is nothing to trash."
 msgstr "Никаких изменений не было сохранено, поэтому нечего удалять."
 
-#: wp-includes/class-wp-customize-manager.php:3002
+#: wp-includes/class-wp-customize-manager.php:3004
 msgid "There was an authentication problem. Please reload and try again."
 msgstr "Возникла проблема с авторизацией. Пожалуйста перезагрузите и попробуйте снова."
 
 #. translators: %s: number of invalid settings
 #: wp-includes/class-wp-customize-manager.php:2707
-#: wp-includes/script-loader.php:593 wp-includes/script-loader.php:595
+#: wp-includes/script-loader.php:594 wp-includes/script-loader.php:596
 msgid "Unable to save due to %s invalid setting."
 msgid_plural "Unable to save due to %s invalid settings."
 msgstr[0] "Невозможно сохранить из-за %s неверной настройки."
@@ -1133,31 +1149,31 @@ msgstr "Редактировать пользователя"
 msgid "View User"
 msgstr "Просмотр пользователя"
 
-#: wp-includes/widgets/class-wp-widget-text.php:461
+#: wp-includes/widgets/class-wp-widget-text.php:481
 msgid "This widget may have contained code that may work better in the &#8220;Custom HTML&#8221; widget. If you haven&#8217;t yet, how about trying that widget instead?"
 msgstr "Этот виджет мог содержать код, который возможно будет работать лучше с новым виджетом &#8220;HTML-код&#8221; Как насчет того, чтобы попробовать его ?"
 
-#: wp-includes/widgets/class-wp-widget-text.php:514
+#: wp-includes/widgets/class-wp-widget-text.php:534
 msgid "Hey there, looks like you just pasted HTML into the &#8220;Visual&#8221; tab of the Text widget. You may want to paste your code into the &#8220;Text&#8221; tab instead. Alternately, try out the new &#8220;Custom HTML&#8221; widget!"
 msgstr "Эй! Выглядит так, как будто вы только что вставили HTML в визуальный редактор виджета Текст. Наверное лучше было вставить его в вкладку &#8220;Текст&#8221; Альтернативно, попробуйте новый виджет &#8220;Пользовательского HTML&#8221;!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:513
+#: wp-includes/widgets/class-wp-widget-text.php:533
 msgid "Did you just paste HTML?"
 msgstr "Вы только что вставили HTML?"
 
-#: wp-includes/widgets/class-wp-widget-text.php:498
+#: wp-includes/widgets/class-wp-widget-text.php:518
 msgid "Did you know there is a &#8220;Custom HTML&#8221; widget now? You can find it by scanning the list of available widgets on this screen. Check it out to add some custom code to your site!"
 msgstr "Эй! А вы знаете что у нас теперь есть виджет &#8220;HTML-код&#8221; ? Вы можете найти его в списке доступных виджетов на этом экране. Попробуйте его для вставки пользовательского кода на ваш сайт!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:496
+#: wp-includes/widgets/class-wp-widget-text.php:516
 msgid "Did you know there is a &#8220;Custom HTML&#8221; widget now? You can find it by pressing the &#8220;<a class=\"add-widget\" href=\"#\">Add a Widget</a>&#8221; button and searching for &#8220;HTML&#8221;. Check it out to add some custom code to your site!"
 msgstr "Эй! А вы знаете что у нас теперь есть виджет &#8220;HTML-код&#8221; ? Вы можете найти его нажав кнопку &#8220;<a class=\"add-widget\" href=\"#\">Добавить виджет</a>&#8221; и поискав &#8220;HTML&#8221;. Попробуйте его для вставки пользовательского кода на ваш сайт!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:494
+#: wp-includes/widgets/class-wp-widget-text.php:514
 msgid "New Custom HTML Widget"
 msgstr "Новый виджет пользовательского HTML"
 
-#: wp-includes/widgets/class-wp-widget-text.php:459
+#: wp-includes/widgets/class-wp-widget-text.php:479
 msgid "This widget may contain code that may work better in the &#8220;Custom HTML&#8221; widget. How about trying that widget instead?"
 msgstr "Этот виджет содержит код, более подходящий для нового виджета &#8220;HTML-код&#8221;. Как насчет того, чтобы попробовать его?"
 
@@ -1213,7 +1229,7 @@ msgid "(no author)"
 msgstr "(без автора)"
 
 #. translators: %s: the name of a city
-#: wp-includes/script-loader.php:1201
+#: wp-includes/script-loader.php:1202
 msgid "City updated. Listing events near %s."
 msgstr "Настройки города обновлены. Выводим список мероприятий рядом с %s."
 
@@ -1224,19 +1240,19 @@ msgstr "Настройки города обновлены. Выводим сп�
 #. locale that would be recognizable to most users. Use only the city name
 #. itself, without any region or country. Use the endonym (native locale name)
 #. instead of the English name if possible.
-#: wp-includes/script-loader.php:1197
+#: wp-includes/script-loader.php:1198
 msgid "We couldn&#8217;t locate %s. Please try another nearby city. For example: Kansas City; Springfield; Portland."
 msgstr "Не удалось найти %s. Пожалуйста, попробуйте другой город рядом. Например: Златоуст; Челябинская область."
 
-#: wp-includes/script-loader.php:1180
+#: wp-includes/script-loader.php:1181
 msgid "Attend an upcoming event near you."
 msgstr "Участвовать в предстоящем мероприятии рядом с вами."
 
-#: wp-includes/script-loader.php:1179
+#: wp-includes/script-loader.php:1180
 msgid "An error occurred. Please try again."
 msgstr "Произошла ошибка. Пожалуйста, попробуйте ещё раз."
 
-#: wp-includes/script-loader.php:1178
+#: wp-includes/script-loader.php:1179
 msgid "Enter your closest city to find nearby events."
 msgstr "Введите ближайший город, чтобы найти мероприятия рядом."
 
@@ -1454,62 +1470,62 @@ msgstr "Аудиофайл не выбран"
 msgid "Displays an audio player."
 msgstr "Показывает аудио проигрыватель."
 
-#: wp-includes/script-loader.php:827
+#: wp-includes/script-loader.php:828
 msgctxt "theme"
 msgid "Deleted!"
 msgstr "Удалена!"
 
-#: wp-includes/script-loader.php:826
+#: wp-includes/script-loader.php:827
 msgctxt "plugin"
 msgid "Deleted!"
 msgstr "Удален!"
 
-#: wp-includes/script-loader.php:797
+#: wp-includes/script-loader.php:798
 msgctxt "theme"
 msgid "Installed!"
 msgstr "Установлена!"
 
-#: wp-includes/script-loader.php:796
+#: wp-includes/script-loader.php:797
 msgctxt "plugin"
 msgid "Installed!"
 msgstr "Установлен!"
 
 #. translators: %s: Plugin name
-#: wp-includes/script-loader.php:794
+#: wp-includes/script-loader.php:795
 msgctxt "plugin"
 msgid "Install %s now"
 msgstr "Установить %s сейчас"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:784
+#: wp-includes/script-loader.php:785
 msgctxt "plugin"
 msgid "%s update failed"
 msgstr "Обновить%s не удалось"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:782
+#: wp-includes/script-loader.php:783
 msgctxt "plugin"
 msgid "%s updated!"
 msgstr "%s обновлён!"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:780
+#: wp-includes/script-loader.php:781
 msgctxt "plugin"
 msgid "Updating %s..."
 msgstr "Обновление %s..."
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:775
+#: wp-includes/script-loader.php:776
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "Обновить %s сейчас"
 
-#: wp-includes/script-loader.php:771
+#: wp-includes/script-loader.php:772
 msgctxt "theme"
 msgid "Updated!"
 msgstr "Обновлена!"
 
-#: wp-includes/script-loader.php:770
+#: wp-includes/script-loader.php:771
 msgctxt "plugin"
 msgid "Updated!"
 msgstr "Обновлён!"
@@ -1977,7 +1993,7 @@ msgid "Invalid page template."
 msgstr "Неверный шаблон страницы."
 
 #: wp-includes/post.php:3207 wp-includes/rest-api.php:1151
-#: wp-includes/script-loader.php:605
+#: wp-includes/script-loader.php:606
 msgid "Invalid date."
 msgstr "Неверная дата."
 
@@ -2158,7 +2174,7 @@ msgstr "Извините, вам не разрешено прилеплять з
 msgid "Reassign the deleted user's posts and links to this user ID."
 msgstr "Переназначить удаленные записи пользователя и ссылки на этот ID пользователя."
 
-#: wp-includes/script-loader.php:581
+#: wp-includes/script-loader.php:582
 msgid "This theme doesn&#8217;t support video headers on this page. Navigate to the front page or another page that supports video headers."
 msgstr "Эта тема не поддерживает видео заголовки на этой странице. Перейдите на главную или другую страницу, которая поддерживает видео заголовки."
 
@@ -2292,12 +2308,12 @@ msgstr "Имя пользователя содержит недопустимы�
 msgid "Invalid user parameter(s)."
 msgstr "Неверный(-е) параметр(ы) пользователя."
 
-#: wp-includes/script-loader.php:570
+#: wp-includes/script-loader.php:571
 msgctxt "label for hide controls button without length constraints"
 msgid "Show Controls"
 msgstr "Показать управление"
 
-#: wp-includes/script-loader.php:569
+#: wp-includes/script-loader.php:570
 msgctxt "label for hide controls button without length constraints"
 msgid "Hide Controls"
 msgstr "Скрыть управление"
@@ -2306,7 +2322,7 @@ msgstr "Скрыть управление"
 msgid "Document Preview"
 msgstr "Предпросмотр документа"
 
-#: wp-includes/class-wp-customize-manager.php:4983
+#: wp-includes/class-wp-customize-manager.php:5003
 msgid "Header Media"
 msgstr "Медиафайл заголовка"
 
@@ -2340,7 +2356,7 @@ msgstr "HTML подпись для вложения, преобразованн�
 msgid "Caption for the attachment, as it exists in the database."
 msgstr "Подпись для вложения, как она существует в базе данных."
 
-#: wp-includes/class-wp-customize-manager.php:5645
+#: wp-includes/class-wp-customize-manager.php:5665
 msgid "Please enter a valid YouTube URL."
 msgstr "Пожалуйста введите правильный URL YouTube."
 
@@ -2377,7 +2393,7 @@ msgstr "Запись нельзя переместить в корзину. Ус
 msgid "The comment does not support trashing. Set '%s' to delete."
 msgstr "Комментарий нельзя переместить в корзину. Установите '%s' для удаления."
 
-#: wp-includes/class-wp-customize-manager.php:5068
+#: wp-includes/class-wp-customize-manager.php:5088
 msgid "Or, enter a YouTube URL:"
 msgstr "Или введите URL YouTube:"
 
@@ -2411,11 +2427,11 @@ msgstr "Ограничить выборку до записей с одним и
 msgid "Comment is required."
 msgstr "Требуется комментарий."
 
-#: wp-includes/class-wp-customize-nav-menus.php:795
+#: wp-includes/class-wp-customize-nav-menus.php:811
 msgid "Status is forbidden"
 msgstr "Статус запрещен"
 
-#: wp-includes/class-wp-customize-nav-menus.php:792
+#: wp-includes/class-wp-customize-nav-menus.php:808
 msgid "Empty title"
 msgstr "Пустой заголовок"
 
@@ -2431,23 +2447,23 @@ msgstr "Извините, обратные ссылки для этого объ
 msgid "I really need an ID for this to work."
 msgstr "Мне нужен ID, чтобы это сработало."
 
-#: wp-includes/class-wp-customize-manager.php:5228
+#: wp-includes/class-wp-customize-manager.php:5248
 msgid "Homepage"
 msgstr "Домашняя страница"
 
-#: wp-includes/script-loader.php:675
+#: wp-includes/script-loader.php:676
 msgid "Term removed."
 msgstr "Элемент удален."
 
-#: wp-includes/script-loader.php:674
+#: wp-includes/script-loader.php:675
 msgid "Term added."
 msgstr "Элемент добавлен."
 
-#: wp-includes/script-loader.php:673
+#: wp-includes/script-loader.php:674
 msgid "Term selected."
 msgstr "Элемент выбран."
 
-#: wp-includes/script-loader.php:672
+#: wp-includes/script-loader.php:673
 msgid "Remove term:"
 msgstr "Удалить элемент:"
 
@@ -3437,131 +3453,131 @@ msgid "Number of widgets found: %d"
 msgstr "Число найденных виджетов: %d"
 
 #. translators: %1$s is the post type name and %2$s is the error message.
-#: wp-includes/class-wp-customize-nav-menus.php:886
+#: wp-includes/class-wp-customize-nav-menus.php:902
 msgid "%1$s could not be created: %2$s"
 msgstr "%1$s не может быть создан: %2$s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:881
+#: wp-includes/class-wp-customize-nav-menus.php:897
 msgid "Post"
 msgstr "Запись"
 
 #. translators: 1: .mp4, 2: .mov
-#: wp-includes/class-wp-customize-manager.php:5621
+#: wp-includes/class-wp-customize-manager.php:5641
 msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "Только файлы %1$s или %2$s могут быть использованы как видео заголовка. Пожалуйста, сконвертируйте ваш видеоролик и попробуйте снова, или загрузите его на YouTube и дайте ссылку с помощью настройки ниже."
 
-#: wp-includes/class-wp-customize-manager.php:5615
+#: wp-includes/class-wp-customize-manager.php:5635
 msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "Видеофайл слишком большой для использования в качестве видео заголовка. Попробуйте более короткий видеоролик или оптимизируйте настройки сжатия и загрузите заново файл размером менее 8 МБ. Либо загрузите видео на YouTube и используйте ссылку в настройках ниже."
 
-#: wp-includes/class-wp-customize-manager.php:5575
+#: wp-includes/class-wp-customize-manager.php:5595
 msgid "Unrecognized background setting."
 msgstr "Нераспознанные настройки фона."
 
-#: wp-includes/class-wp-customize-manager.php:5566
-#: wp-includes/class-wp-customize-manager.php:5570
+#: wp-includes/class-wp-customize-manager.php:5586
+#: wp-includes/class-wp-customize-manager.php:5590
 msgid "Invalid value for background size."
 msgstr "Неверное значение для размера фона."
 
-#: wp-includes/class-wp-customize-manager.php:5562
+#: wp-includes/class-wp-customize-manager.php:5582
 msgid "Invalid value for background position Y."
 msgstr "Неверное значение для позиции фона Y."
 
-#: wp-includes/class-wp-customize-manager.php:5558
+#: wp-includes/class-wp-customize-manager.php:5578
 msgid "Invalid value for background position X."
 msgstr "Неверное значение для позиции фона X."
 
-#: wp-includes/class-wp-customize-manager.php:5554
+#: wp-includes/class-wp-customize-manager.php:5574
 msgid "Invalid value for background attachment."
 msgstr "Неверное значение для вложения фона."
 
-#: wp-includes/class-wp-customize-manager.php:5550
+#: wp-includes/class-wp-customize-manager.php:5570
 msgid "Invalid value for background repeat."
 msgstr "Неверное значение для повтора фона."
 
 #. translators: accessibility text
-#: wp-includes/class-wp-customize-manager.php:4181
-#: wp-includes/class-wp-customize-manager.php:5254
+#: wp-includes/class-wp-customize-manager.php:4199
 #: wp-includes/class-wp-customize-manager.php:5274
+#: wp-includes/class-wp-customize-manager.php:5294
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:56
 #: wp-includes/widgets/class-wp-widget-custom-html.php:304
 msgid "(opens in a new window)"
 msgstr "(откроется в новом окне)"
 
-#: wp-includes/class-wp-customize-manager.php:5252
+#: wp-includes/class-wp-customize-manager.php:5272
 msgid "Learn more about CSS"
 msgstr "Узнать больше о CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5285
+#: wp-includes/class-wp-customize-manager.php:5305
 msgid "Additional CSS"
 msgstr "Дополнительные стили"
 
-#: wp-includes/class-wp-customize-manager.php:5179
+#: wp-includes/class-wp-customize-manager.php:5199
 msgid "Scroll with Page"
 msgstr "Прокручивать со страницей"
 
-#: wp-includes/class-wp-customize-manager.php:5167
+#: wp-includes/class-wp-customize-manager.php:5187
 msgid "Repeat Background Image"
 msgstr "Повторять фоновое изображение"
 
-#: wp-includes/class-wp-customize-manager.php:5154
+#: wp-includes/class-wp-customize-manager.php:5174
 msgid "Original"
 msgstr "Оригинальный"
 
-#: wp-includes/class-wp-customize-manager.php:5150
+#: wp-includes/class-wp-customize-manager.php:5170
 msgid "Image Size"
 msgstr "Размер изображения"
 
-#: wp-includes/class-wp-customize-manager.php:5135
+#: wp-includes/class-wp-customize-manager.php:5155
 #: wp-includes/customize/class-wp-customize-background-position-control.php:66
 msgid "Image Position"
 msgstr "Позиция изображения"
 
-#: wp-includes/class-wp-customize-manager.php:5118
+#: wp-includes/class-wp-customize-manager.php:5138
 msgctxt "Custom Preset"
 msgid "Custom"
 msgstr "Пользовательский"
 
-#: wp-includes/class-wp-customize-manager.php:5117
+#: wp-includes/class-wp-customize-manager.php:5137
 msgctxt "Repeat Image"
 msgid "Repeat"
 msgstr "Повторять"
 
-#: wp-includes/class-wp-customize-manager.php:5116
-#: wp-includes/class-wp-customize-manager.php:5155
+#: wp-includes/class-wp-customize-manager.php:5136
+#: wp-includes/class-wp-customize-manager.php:5175
 msgid "Fit to Screen"
 msgstr "На весь экран"
 
-#: wp-includes/class-wp-customize-manager.php:5114
+#: wp-includes/class-wp-customize-manager.php:5134
 msgctxt "Default Preset"
 msgid "Default"
 msgstr "По умолчанию"
 
-#: wp-includes/class-wp-customize-manager.php:5110
+#: wp-includes/class-wp-customize-manager.php:5130
 msgctxt "Background Preset"
 msgid "Preset"
 msgstr "Набор предустановок"
 
-#: wp-includes/class-wp-customize-manager.php:5058
+#: wp-includes/class-wp-customize-manager.php:5078
 msgid "Header Video"
 msgstr "Видео заголовка"
 
 #. translators: 1: .mp4, 2: header height in pixels
-#: wp-includes/class-wp-customize-manager.php:5005
+#: wp-includes/class-wp-customize-manager.php:5025
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a height of %2$s pixels."
 msgstr "Загрузите видеоролик в формате %1$s и минимизируйте размер файла для лучших результатов. Ваша тема рекомендует высоту в %2$s пикселей."
 
 #. translators: 1: .mp4, 2: header width in pixels
-#: wp-includes/class-wp-customize-manager.php:4998
+#: wp-includes/class-wp-customize-manager.php:5018
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a width of %2$s pixels."
 msgstr "Загрузите видеоролик в формате %1$s и минимизируйте размер файла для лучших результатов. Ваша тема рекомендует ширину в %2$s пикселей. "
 
 #. translators: 1: .mp4, 2: header size in pixels
-#: wp-includes/class-wp-customize-manager.php:4991
+#: wp-includes/class-wp-customize-manager.php:5011
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends dimensions of %2$s pixels."
 msgstr "Загрузите видеоролик в формате %1$s и минимизируйте размер файла для лучших результатов. Ваша тема рекомендует размеры в %2$s пикселей. "
 
-#: wp-includes/class-wp-customize-manager.php:4984
+#: wp-includes/class-wp-customize-manager.php:5004
 msgid "If you add a video, the image will be used as a fallback while the video loads."
 msgstr "Если вы добавите видеоролик, изображение будет использовано как резервный вариант во время загрузки видео."
 
@@ -3573,23 +3589,23 @@ msgid "Search themes&hellip;"
 msgstr "Искать темы&hellip;"
 
 #. translators: %s: theme name
-#: wp-includes/class-wp-customize-manager.php:4690
+#: wp-includes/class-wp-customize-manager.php:4710
 msgid "Showing details for theme: %s"
 msgstr "Показ подробностей для темы: %s"
 
 #. translators: %d: number of themes being displayed, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4688
+#: wp-includes/class-wp-customize-manager.php:4708
 msgid "Displaying %d themes"
 msgstr "Показано %d тем"
 
 #. translators: %d: number of theme search results, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4686
+#: wp-includes/class-wp-customize-manager.php:4706
 msgid "%d themes found"
 msgstr "Найдено %d тем"
 
-#: wp-includes/class-wp-customize-manager.php:4684
+#: wp-includes/class-wp-customize-manager.php:4704
 msgid "Are you sure you want to delete this theme?"
 msgstr "Вы точно хотите удалить эту тему?"
 
@@ -3647,7 +3663,7 @@ msgstr "Изменить выбранное меню"
 msgid "Warning: the link has been inserted but may have errors. Please test it."
 msgstr "Внимание: ссылка добавлена, но может содержать ошибки. Пожалуйста, проверьте её."
 
-#: wp-includes/script-loader.php:766
+#: wp-includes/script-loader.php:767
 msgid "Search Results"
 msgstr "Результаты поиска"
 
@@ -3704,73 +3720,73 @@ msgid "Inexistent terms."
 msgstr "Элементы не существуют."
 
 #. translators: %s: Importer name
-#: wp-includes/script-loader.php:837
+#: wp-includes/script-loader.php:838
 msgid "Run %s"
 msgstr "Запустить %s"
 
-#: wp-includes/script-loader.php:835
+#: wp-includes/script-loader.php:836
 msgid "Run Importer"
 msgstr "Запустить импорт"
 
 #. translators: %s: Activation URL
-#: wp-includes/script-loader.php:816
+#: wp-includes/script-loader.php:817
 msgid "Importer installed successfully. <a href=\"%s\">Run importer</a>"
 msgstr "Плагин успешно установлен. <a href=\"%s\">Запустить импорт</a>"
 
-#: wp-includes/script-loader.php:834
+#: wp-includes/script-loader.php:835
 msgctxt "theme"
 msgid "Activate %s"
 msgstr "Активировать %s"
 
 #. translators: %s: Theme name
-#: wp-includes/script-loader.php:834
+#: wp-includes/script-loader.php:835
 msgctxt "theme"
 msgid "Network Activate %s"
 msgstr "Активировать %s для сети"
 
-#: wp-includes/script-loader.php:832
+#: wp-includes/script-loader.php:833
 msgctxt "plugin"
 msgid "Activate %s"
 msgstr "Активировать %s"
 
 #. translators: %s: Plugin name
-#: wp-includes/script-loader.php:832
+#: wp-includes/script-loader.php:833
 msgctxt "plugin"
 msgid "Network Activate %s"
 msgstr "Активировать %s для сети"
 
 #. translators: %s: Theme name and version
-#: wp-includes/script-loader.php:812
+#: wp-includes/script-loader.php:813
 msgctxt "theme"
 msgid "%s installation failed"
 msgstr "Установка %s не удалась"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:810
+#: wp-includes/script-loader.php:811
 msgctxt "plugin"
 msgid "%s installation failed"
 msgstr "Установка %s не удалась"
 
 #. translators: %s: Theme name and version
-#: wp-includes/script-loader.php:808
+#: wp-includes/script-loader.php:809
 msgctxt "theme"
 msgid "%s installed!"
 msgstr "%s установлена!"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:806
+#: wp-includes/script-loader.php:807
 msgctxt "plugin"
 msgid "%s installed!"
 msgstr "%s установлен!"
 
 #. translators: %s: Theme name and version
-#: wp-includes/script-loader.php:804
+#: wp-includes/script-loader.php:805
 msgctxt "theme"
 msgid "Installing %s..."
 msgstr "Установка %s..."
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:802
+#: wp-includes/script-loader.php:803
 msgctxt "plugin"
 msgid "Installing %s..."
 msgstr "Установка %s..."
@@ -3779,7 +3795,7 @@ msgstr "Установка %s..."
 msgid "Sorry, you are not allowed to access user data on this site."
 msgstr "Извините, вам не разрешено получать данные пользователей этого сайта."
 
-#: wp-includes/script-loader.php:841
+#: wp-includes/script-loader.php:842
 msgid "Number of plugins found: %d"
 msgstr "Количество найденных плагинов: %d"
 
@@ -3834,7 +3850,7 @@ msgid "Tan"
 msgstr "Жёлто-коричневый"
 
 #. translators: %s: Error string for a failed installation
-#: wp-includes/script-loader.php:800
+#: wp-includes/script-loader.php:801
 msgid "Installation failed: %s"
 msgstr "Установка не удалась: %s"
 
@@ -3869,59 +3885,59 @@ msgstr "Не удалось получить текст ошибки от MySQL"
 msgid "Edit Menu"
 msgstr "Редактировать меню"
 
-#: wp-includes/script-loader.php:1126
+#: wp-includes/script-loader.php:1127
 msgid "Today"
 msgstr "Сегодня"
 
-#: wp-includes/script-loader.php:829
+#: wp-includes/script-loader.php:830
 msgid "Network Activate"
 msgstr "Активировать для сети"
 
 #. translators: %s: Error string for a failed deletion
-#: wp-includes/script-loader.php:825
+#: wp-includes/script-loader.php:826
 msgid "Deletion failed: %s"
 msgstr "Удаление не удалось: %s"
 
-#: wp-includes/script-loader.php:823
+#: wp-includes/script-loader.php:824
 msgid "Deleting..."
 msgstr "Удаление..."
 
-#: wp-includes/script-loader.php:822
+#: wp-includes/script-loader.php:823
 msgid "Caution: These themes may be active on other sites in the network. Are you sure you want to proceed?"
 msgstr "Внимание: Эти темы могут быть активными на других сайтах сети. Вы уверены, что хотите продолжить?"
 
-#: wp-includes/script-loader.php:821
+#: wp-includes/script-loader.php:822
 msgid "Are you sure you want to delete the selected plugins and their data?"
 msgstr "Вы уверены, что хотите удалить выбранные плагины и их данные?"
 
 #. translators: %s: Plugin name
-#: wp-includes/script-loader.php:820
+#: wp-includes/script-loader.php:821
 msgid "Are you sure you want to delete %s and its data?"
 msgstr "Вы уверены, что хотите удалить плагин %s и его данные?"
 
 #. translators: %s: Theme name
-#: wp-includes/script-loader.php:818
+#: wp-includes/script-loader.php:819
 msgid "Are you sure you want to delete %s?"
 msgstr "Вы уверены, что хотите удалить %s?"
 
-#: wp-includes/script-loader.php:773
+#: wp-includes/script-loader.php:774
 msgid "Update Now"
 msgstr "Обновить сейчас"
 
-#: wp-includes/script-loader.php:768
+#: wp-includes/script-loader.php:769
 msgid "Please select at least one item to perform this action on."
 msgstr "Выберите хотя бы один элемент для совершения действия."
 
-#: wp-includes/script-loader.php:767
+#: wp-includes/script-loader.php:768
 msgid "You do not appear to have any plugins available at this time."
 msgstr "Похоже, в настоящий момент у вас нет ни одного плагина."
 
 #. translators: %s: Search string
-#: wp-includes/script-loader.php:765
+#: wp-includes/script-loader.php:766
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "Результаты поиска «%s»"
 
-#: wp-includes/script-loader.php:654
+#: wp-includes/script-loader.php:655
 msgid ""
 "Are you sure you want to do this?\n"
 "The comment changes you made will be lost."
@@ -3939,7 +3955,7 @@ msgid "Password strength unknown"
 msgstr "Надёжность пароля неизвестна"
 
 #: wp-includes/rest-api/class-wp-rest-server.php:911
-#: wp-includes/script-loader.php:132 wp-includes/script-loader.php:643
+#: wp-includes/script-loader.php:132 wp-includes/script-loader.php:644
 msgid "Sorry, you are not allowed to do that."
 msgstr "Извините, вам не разрешено выполнять данное действие."
 
@@ -3989,12 +4005,12 @@ msgstr "Извините, вам не разрешено просматрива�
 
 #: wp-includes/class-wp-customize-manager.php:2300
 #: wp-includes/class-wp-customize-setting.php:579
-#: wp-includes/script-loader.php:606
+#: wp-includes/script-loader.php:607
 msgid "Invalid value."
 msgstr "Неверное значение."
 
 #: wp-includes/class-wp-customize-manager.php:516
-#: wp-includes/script-loader.php:566
+#: wp-includes/script-loader.php:567
 msgid "Sorry, you are not allowed to customize this site."
 msgstr "Извините, вам не разрешено настраивать этот сайт."
 
@@ -4023,7 +4039,7 @@ msgstr "Ссылка выбрана."
 msgid "%s is required to strip image meta."
 msgstr "Для удаления метаданных изображения необходим метод %s."
 
-#: wp-includes/script-loader.php:756
+#: wp-includes/script-loader.php:757
 msgid "Plugin details"
 msgstr "Детали плагина"
 
@@ -4065,7 +4081,7 @@ msgstr "Константа %1$s <strong>считается устаревшей<
 
 #. translators: 1: panel id, 2: link to 'customize_loaded_components' filter
 #. reference
-#: wp-includes/class-wp-customize-manager.php:3742
+#: wp-includes/class-wp-customize-manager.php:3760
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
 msgstr "Ручное удаление %1$s вызовет предупреждения PHP. Используйте фильтр %2$s."
 
@@ -4100,11 +4116,11 @@ msgstr "<strong>ОШИБКА</strong>: Вы не ввели e-mail."
 msgid "Unregistering a built-in taxonomy is not allowed."
 msgstr "Удаление встроенных таксономий не допускается"
 
-#: wp-includes/script-loader.php:664
+#: wp-includes/script-loader.php:665
 msgid "Drag boxes here"
 msgstr "Перетащите блоки сюда"
 
-#: wp-includes/script-loader.php:571
+#: wp-includes/script-loader.php:572
 msgid "(Untitled)"
 msgstr "(Без названия)"
 
@@ -4175,20 +4191,20 @@ msgstr "Закрыть окно"
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Вызванный метод конструктора класса %1$s в %2$s считается <strong>устаревшим</strong> с версии %3$s! Используйте %4$s."
 
-#: wp-includes/class-wp-customize-manager.php:4924
+#: wp-includes/class-wp-customize-manager.php:4944
 msgid "Choose logo"
 msgstr "Выберите логотип"
 
-#: wp-includes/class-wp-customize-manager.php:4922
+#: wp-includes/class-wp-customize-manager.php:4942
 msgid "No logo selected"
 msgstr "Логотип не выбран"
 
-#: wp-includes/class-wp-customize-manager.php:4919
+#: wp-includes/class-wp-customize-manager.php:4939
 msgid "Change logo"
 msgstr "Изменить логотип"
 
-#: wp-includes/class-wp-customize-manager.php:4918
-#: wp-includes/class-wp-customize-manager.php:4923
+#: wp-includes/class-wp-customize-manager.php:4938
+#: wp-includes/class-wp-customize-manager.php:4943
 msgid "Select logo"
 msgstr "Выбрать логотип"
 
@@ -4250,24 +4266,24 @@ msgstr "Неверный тип объекта"
 msgid "Paste URL or type to search"
 msgstr "Введите URL или слово для поиска"
 
-#: wp-includes/class-wp-customize-manager.php:4910
+#: wp-includes/class-wp-customize-manager.php:4930
 msgid "Logo"
 msgstr "Логотип"
 
-#: wp-includes/class-wp-customize-manager.php:4876
-#: wp-includes/class-wp-customize-manager.php:4954
+#: wp-includes/class-wp-customize-manager.php:4896
+#: wp-includes/class-wp-customize-manager.php:4974
 msgid "Display Site Title and Tagline"
 msgstr "Отображать название и описание"
 
-#: wp-includes/class-wp-customize-manager.php:4777
+#: wp-includes/class-wp-customize-manager.php:4797
 msgid "Enter mobile preview mode"
 msgstr "Войти в мобильный режим просмотра"
 
-#: wp-includes/class-wp-customize-manager.php:4774
+#: wp-includes/class-wp-customize-manager.php:4794
 msgid "Enter tablet preview mode"
 msgstr "Войти в планшетный режим просмотра"
 
-#: wp-includes/class-wp-customize-manager.php:4770
+#: wp-includes/class-wp-customize-manager.php:4790
 msgid "Enter desktop preview mode"
 msgstr "Войти в режим просмотра с компьютера"
 
@@ -4295,7 +4311,7 @@ msgid "(Current: %s)"
 msgstr "(Текущее: %s)"
 
 #. translators: %s:      menu location
-#: wp-includes/class-wp-customize-nav-menus.php:416
+#: wp-includes/class-wp-customize-nav-menus.php:432
 msgctxt "menu"
 msgid "(Currently set to: %s)"
 msgstr "(Сейчас связано с «%s»)"
@@ -4323,7 +4339,7 @@ msgstr "Дополнительную информацию можно найти 
 msgid "<strong>ERROR</strong>: %1$s in %2$s can only contain numbers, letters, and underscores."
 msgstr "<strong>ОШИБКА</strong>: %1$s в %2$s может содержать только числа, буквы и подчёркивания."
 
-#: wp-includes/script-loader.php:744 wp-includes/script-loader.php:750
+#: wp-includes/script-loader.php:745 wp-includes/script-loader.php:751
 msgid "Changes saved."
 msgstr "Изменения сохранены."
 
@@ -4633,7 +4649,7 @@ msgstr "Неверное имя шорткода: %1$s. Не используй�
 msgid "Invalid shortcode name: Empty name given."
 msgstr "Неверное имя шорткода: Указано пустое имя."
 
-#: wp-includes/script-loader.php:702
+#: wp-includes/script-loader.php:703
 msgid "Permalink saved"
 msgstr "Постоянная ссылка сохранена"
 
@@ -4932,7 +4948,7 @@ msgid "Press return or enter to open this section"
 msgstr "Нажмите Enter, чтобы открыть эту секцию"
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4354
+#: wp-includes/class-wp-customize-manager.php:4372
 msgid "Live Preview: %s"
 msgstr "Просмотр: %s"
 
@@ -4957,7 +4973,7 @@ msgstr "Тип записей «%1$s» не зарегистрирован, по
 msgid "%1$s is deprecated. Use %2$s instead."
 msgstr "Параметр %1$s считается устаревшим. Используйте %2$s."
 
-#: wp-includes/class-wp-customize-nav-menus.php:1005
+#: wp-includes/class-wp-customize-nav-menus.php:1021
 #: wp-includes/class-wp-customize-widgets.php:811
 msgid "Clear Results"
 msgstr "Очистить результаты"
@@ -4967,7 +4983,7 @@ msgid "The following formatting shortcuts are replaced when pressing Enter. Pres
 msgstr "Следующие комбинации заменяются при нажатии Enter. Нажмите Escape или кнопку отмены, чтобы отменить."
 
 #. translators: %s: Title of a section with menu items
-#: wp-includes/class-wp-customize-nav-menus.php:1054
+#: wp-includes/class-wp-customize-nav-menus.php:1070
 msgid "Toggle section: %s"
 msgstr "Скрыть/показать секцию: %s"
 
@@ -4975,7 +4991,7 @@ msgstr "Скрыть/показать секцию: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/formatting.php:3372 wp-includes/script-loader.php:1088
+#: wp-includes/formatting.php:3372 wp-includes/script-loader.php:1089
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
@@ -4990,7 +5006,7 @@ msgstr "Изменить элемент меню: %1$s (%2$s)"
 msgid "Remove Menu Item: %1$s (%2$s)"
 msgstr "Удалить элемент меню %1$s (%2$s)"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1088
+#: wp-includes/class-wp-customize-nav-menus.php:1104
 msgid "Toggle section: Custom Links"
 msgstr "Скрыть/показать секцию: Произвольные ссылки"
 
@@ -5006,7 +5022,7 @@ msgstr "Скрыть пароль"
 msgid "Show password"
 msgstr "Показать пароль"
 
-#: wp-includes/class-wp-customize-nav-menus.php:419
+#: wp-includes/class-wp-customize-nav-menus.php:435
 msgid "Menu Name"
 msgstr "Название меню"
 
@@ -5028,7 +5044,7 @@ msgstr "Просмотреть как иконку в браузере"
 msgid "As a browser icon"
 msgstr "Как иконка в браузере"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1050
+#: wp-includes/class-wp-customize-nav-menus.php:1066
 msgid "No items"
 msgstr "Нет записей"
 
@@ -5080,16 +5096,16 @@ msgstr "Скрыть"
 msgid "Hide header image"
 msgstr "Скрыть изображение заголовка"
 
-#: wp-includes/class-wp-customize-manager.php:4890
+#: wp-includes/class-wp-customize-manager.php:4910
 msgid "Site Icon"
 msgstr "Иконка сайта"
 
-#: wp-includes/class-wp-customize-manager.php:4841
+#: wp-includes/class-wp-customize-manager.php:4861
 msgid "Site Identity"
 msgstr "Свойства сайта"
 
 #. translators: 1: Title of a menu item, 2: Type of a menu item
-#: wp-includes/class-wp-customize-nav-menus.php:919
+#: wp-includes/class-wp-customize-nav-menus.php:935
 msgid "Add to menu: %1$s (%2$s)"
 msgstr "Добавить в меню: %1$s (%2$s)"
 
@@ -5145,26 +5161,26 @@ msgstr "Просмотр темы"
 msgid "Active theme"
 msgstr "Активная тема"
 
-#: wp-includes/class-wp-customize-nav-menus.php:562
+#: wp-includes/class-wp-customize-nav-menus.php:578
 msgid "Menus can be displayed in locations defined by your theme."
 msgstr "Меню могут отображаться в областях, предусмотренных темой оформления."
 
 #. translators: URL to the widgets panel of the customizer
-#: wp-includes/class-wp-customize-nav-menus.php:560
+#: wp-includes/class-wp-customize-nav-menus.php:576
 msgid "Menus can be displayed in locations defined by your theme or in <a href=\"%s\">widget areas</a> by adding a &#8220;Navigation Menu&#8221; widget."
 msgstr "Меню могут отображаться в областях, предусмотренных темой оформления, или в <a href=\"%s\">областях виджетов</a> при добавлении туда виджета &laquo;Меню навигации&raquo;."
 
-#: wp-includes/class-wp-customize-nav-menus.php:439
+#: wp-includes/class-wp-customize-nav-menus.php:455
 #: wp-includes/class-wp-customize-widgets.php:762
 msgid "Reorder mode closed"
 msgstr "Режим изменения порядка закрыт"
 
-#: wp-includes/class-wp-customize-nav-menus.php:438
+#: wp-includes/class-wp-customize-nav-menus.php:454
 #: wp-includes/class-wp-customize-widgets.php:761
 msgid "Reorder mode enabled"
 msgstr "Режим изменения порядка включён"
 
-#: wp-includes/class-wp-customize-nav-menus.php:412
+#: wp-includes/class-wp-customize-nav-menus.php:428
 #: wp-includes/customize/class-wp-customize-nav-menu-setting.php:430
 msgctxt "Missing menu name."
 msgid "(unnamed)"
@@ -5174,11 +5190,11 @@ msgstr "(без названия)"
 msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
 msgstr "В режиме изменения порядка в списке элементов выше появятся дополнительные элементы управления."
 
-#: wp-includes/class-wp-customize-nav-menus.php:441
+#: wp-includes/class-wp-customize-nav-menus.php:457
 msgid "Close reorder mode"
 msgstr "Закрыть режим изменения порядка"
 
-#: wp-includes/class-wp-customize-nav-menus.php:440
+#: wp-includes/class-wp-customize-nav-menus.php:456
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:53
 msgid "Reorder menu items"
 msgstr "Изменить порядок элементов меню"
@@ -5267,11 +5283,11 @@ msgid "Attempting to parse a shortcode without a valid callback: %s"
 msgstr "Попытка вывести шорткод без функции обработки: %s"
 
 #. translators: %s: Error string for a failed update
-#: wp-includes/script-loader.php:778
+#: wp-includes/script-loader.php:779
 msgid "Update Failed: %s"
 msgstr "Обновление не удалось: %s"
 
-#: wp-includes/script-loader.php:653
+#: wp-includes/script-loader.php:654
 msgid ""
 "Are you sure you want to edit this comment?\n"
 "The changes you made will be lost."
@@ -5359,8 +5375,8 @@ msgid "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 msgstr "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:258
-#: wp-includes/widgets/class-wp-widget-text.php:465
-#: wp-includes/widgets/class-wp-widget-text.php:526
+#: wp-includes/widgets/class-wp-widget-text.php:485
+#: wp-includes/widgets/class-wp-widget-text.php:546
 msgid "Content:"
 msgstr "Содержимое:"
 
@@ -5405,163 +5421,164 @@ msgstr "Настройка"
 msgid "Menu Options"
 msgstr "Настройки меню"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1104
+#: wp-includes/class-wp-customize-nav-menus.php:1120
 msgid "Add to Menu"
 msgstr "Добавить в меню"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1086
+#: wp-includes/class-wp-customize-nav-menus.php:1102
 msgid "Custom Links"
 msgstr "Произвольные ссылки"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1001
+#: wp-includes/class-wp-customize-nav-menus.php:1017
 #: wp-includes/class-wp-customize-widgets.php:812
 #: wp-includes/customize/class-wp-customize-themes-section.php:119
 #: wp-includes/customize/class-wp-customize-themes-section.php:134
 msgid "The search results will be updated as you type."
 msgstr "Результаты поиска обновляются по мере набора."
 
-#: wp-includes/class-wp-customize-nav-menus.php:1000
+#: wp-includes/class-wp-customize-nav-menus.php:1016
 msgid "Search menu items&hellip;"
 msgstr "Поиск элементов меню&hellip;"
 
-#: wp-includes/class-wp-customize-nav-menus.php:999
+#: wp-includes/class-wp-customize-nav-menus.php:1015
 msgid "Search Menu Items"
 msgstr "Искать элементы меню"
 
-#: wp-includes/class-wp-customize-nav-menus.php:994
+#: wp-includes/class-wp-customize-nav-menus.php:1010
 msgid "Add Menu Items"
 msgstr "Добавить"
 
 #. translators: &#9656; is the unicode right-pointing triangle, and %s is the
 #. section title in the Customizer
-#: wp-includes/class-wp-customize-nav-menus.php:430
-#: wp-includes/class-wp-customize-nav-menus.php:991
+#: wp-includes/class-wp-customize-nav-menus.php:446
+#: wp-includes/class-wp-customize-nav-menus.php:1007
 #: wp-includes/class-wp-customize-section.php:230
 #: wp-includes/class-wp-customize-widgets.php:802
 msgid "Customizing &#9656; %s"
 msgstr "Настройка &#9656; %s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:935
+#: wp-includes/class-wp-customize-nav-menus.php:951
 msgid "Move one level down"
 msgstr "Переместить на уровень ниже"
 
-#: wp-includes/class-wp-customize-nav-menus.php:934
+#: wp-includes/class-wp-customize-nav-menus.php:950
 msgid "Move one level up"
 msgstr "Переместить на уровень выше"
 
-#: wp-includes/class-wp-customize-nav-menus.php:417
+#: wp-includes/class-wp-customize-nav-menus.php:433
 msgid "Menu Locations"
 msgstr "Области для меню"
 
 #. translators: %s: number of menu locations
-#: wp-includes/class-wp-customize-nav-menus.php:579
+#: wp-includes/class-wp-customize-nav-menus.php:595
 msgid "Your theme can display menus in %s location. Select which menu you would like to use."
 msgid_plural "Your theme can display menus in %s locations. Select which menu appears in each location."
 msgstr[0] "Ваша тема поддерживает отображение меню в %s области. Выберите какое меню вы хотите использовать."
 msgstr[1] "Ваша тема поддерживает отображение меню в %s областях. Выберите какое меню вы хотите использовать."
 msgstr[2] "Ваша тема поддерживает отображение меню в %s областях. Выберите какое меню вы хотите использовать."
 
-#: wp-includes/class-wp-customize-nav-menus.php:557
+#: wp-includes/class-wp-customize-nav-menus.php:573
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
 msgstr "Эта панель используется для управления меню на основе опубликованного содержимого. Можно создавать меню и добавлять ссылки на страницы, записи, рубрики, метки, форматы записей или произвольные ссылки."
 
 #. translators: 1: item name, 2: item position, 3: parent item name
-#: wp-includes/class-wp-customize-nav-menus.php:472
+#: wp-includes/class-wp-customize-nav-menus.php:488
 msgid "%1$s. Sub item number %2$d under %3$s."
 msgstr "%1$s. Дочерний элемент номер %2$d элемента %3$s."
 
 #. translators: 1: item name, 2: item position, 3: total number of items
-#: wp-includes/class-wp-customize-nav-menus.php:470
+#: wp-includes/class-wp-customize-nav-menus.php:486
 msgid "%1$s. Menu item %2$d of %3$d."
 msgstr "%1$s. Элемент меню %2$d из %3$d."
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:468
+#: wp-includes/class-wp-customize-nav-menus.php:484
 msgid "Out from under %s"
 msgstr "Из-под «%s»"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:466
+#: wp-includes/class-wp-customize-nav-menus.php:482
 msgid "Under %s"
 msgstr "Под «%s»"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:464
+#: wp-includes/class-wp-customize-nav-menus.php:480
 msgid "Move out from under %s"
 msgstr "Переместить из-под «%s»"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:462
+#: wp-includes/class-wp-customize-nav-menus.php:478
 msgid "Move under %s"
 msgstr "Переместить под «%s»"
 
-#: wp-includes/class-wp-customize-nav-menus.php:460
+#: wp-includes/class-wp-customize-nav-menus.php:476
 msgid "Move to the top"
 msgstr "Переместить наверх"
 
-#: wp-includes/class-wp-customize-nav-menus.php:459
+#: wp-includes/class-wp-customize-nav-menus.php:475
 msgid "Move down one"
 msgstr "Переместить ниже"
 
-#: wp-includes/class-wp-customize-nav-menus.php:458
+#: wp-includes/class-wp-customize-nav-menus.php:474
 msgid "Move up one"
 msgstr "Переместить выше"
 
-#: wp-includes/class-wp-customize-nav-menus.php:437
+#: wp-includes/class-wp-customize-nav-menus.php:453
 msgid "Loading more results... please wait."
 msgstr "Загружаются дополнительные результаты… Пожалуйста, подождите."
 
-#: wp-includes/class-wp-customize-nav-menus.php:436
+#: wp-includes/class-wp-customize-nav-menus.php:452
 msgid "Additional items found: %d"
 msgstr "Найдено дополнительных элементов: %d"
 
-#: wp-includes/class-wp-customize-nav-menus.php:435
+#: wp-includes/class-wp-customize-nav-menus.php:451
 msgid "Number of items found: %d"
 msgstr "Найдено элементов: %d"
 
 #. translators: %s: title of menu item in draft status
-#: wp-includes/class-wp-customize-nav-menus.php:434
+#: wp-includes/class-wp-customize-nav-menus.php:450
 msgid "%s (Pending)"
 msgstr "%s (На утверждении)"
 
 #. translators: %s: title of menu item which is invalid
-#: wp-includes/class-wp-customize-nav-menus.php:432
+#: wp-includes/class-wp-customize-nav-menus.php:448
 msgid "%s (Invalid)"
 msgstr "%s (Некорректно)"
 
-#: wp-includes/class-wp-customize-nav-menus.php:428
+#: wp-includes/class-wp-customize-nav-menus.php:444
 msgid "Menu item is now a sub-item"
 msgstr "Элемень меню перемещён в подменю"
 
-#: wp-includes/class-wp-customize-nav-menus.php:427
+#: wp-includes/class-wp-customize-nav-menus.php:443
 msgid "Menu item moved out of submenu"
 msgstr "Элемень меню перемещён из подменю"
 
-#: wp-includes/class-wp-customize-nav-menus.php:426
+#: wp-includes/class-wp-customize-nav-menus.php:442
 msgid "Menu item moved down"
 msgstr "Элемент меню перемещён вниз"
 
-#: wp-includes/class-wp-customize-nav-menus.php:425
+#: wp-includes/class-wp-customize-nav-menus.php:441
 msgid "Menu item moved up"
 msgstr "Элемент меню перемещён вверх"
 
-#: wp-includes/class-wp-customize-nav-menus.php:424
+#: wp-includes/class-wp-customize-nav-menus.php:440
 msgid "Menu deleted"
 msgstr "Меню удалено"
 
-#: wp-includes/class-wp-customize-nav-menus.php:423
+#: wp-includes/class-wp-customize-nav-menus.php:439
 msgid "Menu created"
 msgstr "Меню создано"
 
-#: wp-includes/class-wp-customize-nav-menus.php:422
+#: wp-includes/class-wp-customize-nav-menus.php:438
 msgid "Menu item deleted"
 msgstr "Элемент меню удалён"
 
-#: wp-includes/class-wp-customize-nav-menus.php:421
+#: wp-includes/class-wp-customize-nav-menus.php:437
 msgid "Menu item added"
 msgstr "Элемент меню добавлен"
 
 #: wp-includes/class-wp-customize-nav-menus.php:153
+#: wp-includes/class-wp-customize-nav-menus.php:375
 msgctxt "nav menu home label"
 msgid "Home"
 msgstr "Главная"
@@ -5606,11 +5623,11 @@ msgstr "Текст ссылки"
 msgid "Automatically add new top-level pages to this menu"
 msgstr "Автоматически добавлять в это меню новые страницы верхнего уровня"
 
-#: wp-includes/class-wp-customize-nav-menus.php:417
+#: wp-includes/class-wp-customize-nav-menus.php:433
 msgid "Menu Location"
 msgstr "Область для меню"
 
-#: wp-includes/class-wp-customize-nav-menus.php:944
+#: wp-includes/class-wp-customize-nav-menus.php:960
 msgid "Delete Menu"
 msgstr "Удалить меню"
 
@@ -5645,20 +5662,20 @@ msgstr "https://codex.wordpress.org/Заглавная_страница"
 msgid "No %1$s was set in the arguments array for the \"%2$s\" sidebar. Defaulting to \"%3$s\". Manually set the %1$s to \"%3$s\" to silence this notice and keep existing sidebar content."
 msgstr "В массиве аргументов для боковой колонки «%2$s» не задан параметр %1$s. Присвоенное по умолчанию значение равно «%3$s». Чтобы убрать это сообщение и сохранить текущее содержимое боковой колонки, задайте вручную параметр %1$s, равный «%3$s»."
 
-#: wp-includes/script-loader.php:839
+#: wp-includes/script-loader.php:840
 msgid "Connection lost or the server is busy. Please try again later."
 msgstr "Соединение с сервером утеряно. Пожалуйста, повторите попытку позже."
 
-#: wp-includes/script-loader.php:791
+#: wp-includes/script-loader.php:792
 msgid "Updates may not complete if you navigate away from this page."
 msgstr "Обновления могут не завершиться, если вы уйдёте с этой страницы."
 
-#: wp-includes/script-loader.php:776
+#: wp-includes/script-loader.php:777
 msgid "Update Failed!"
 msgstr "Обновление не удалось"
 
 #. translators: Accessibility text
-#: wp-includes/script-loader.php:790
+#: wp-includes/script-loader.php:791
 msgid "Update canceled."
 msgstr "Обновление отменено."
 
@@ -5684,37 +5701,37 @@ msgstr[2] "%1$s комментариев на &laquo;%2$s&raquo;"
 msgid "<span>Previewing:</span> %s"
 msgstr "<span>Предварительный просмотр:</span> %s"
 
-#: wp-includes/script-loader.php:567
+#: wp-includes/script-loader.php:568
 msgid "Site Preview"
 msgstr "Просмотр сайта"
 
-#: wp-includes/script-loader.php:769
+#: wp-includes/script-loader.php:770
 msgid "Updating..."
 msgstr "Обновление..."
 
-#: wp-includes/script-loader.php:792
+#: wp-includes/script-loader.php:793
 msgid "Install Now"
 msgstr "Установить"
 
-#: wp-includes/script-loader.php:795
+#: wp-includes/script-loader.php:796
 msgid "Installing..."
 msgstr "Установка..."
 
-#: wp-includes/script-loader.php:813
+#: wp-includes/script-loader.php:814
 msgid "Installing... please wait."
 msgstr "Установка... Пожалуйста, подождите."
 
 #. translators: Accessibility text
-#: wp-includes/script-loader.php:786
+#: wp-includes/script-loader.php:787
 msgid "Updating... please wait."
 msgstr "Обновление... Пожалуйста, подождите."
 
 #. translators: Accessibility text
-#: wp-includes/script-loader.php:788
+#: wp-includes/script-loader.php:789
 msgid "Update completed successfully."
 msgstr "Обновление успешно завершено."
 
-#: wp-includes/script-loader.php:814
+#: wp-includes/script-loader.php:815
 msgid "Installation completed successfully."
 msgstr "Установка успешно завершена."
 
@@ -5804,7 +5821,8 @@ msgid "<strong>Database tables are missing.</strong> This means that MySQL is no
 msgstr "<strong>В базе данных отсутствуют таблицы.</strong> Это значит, что MySQL не запущен, WordPress неправильно установлен, либо кто-то удалил таблицу %s. Стоит проверить базу данных."
 
 #: wp-includes/class-wp-customize-nav-menus.php:155
-#: wp-includes/class-wp-customize-nav-menus.php:413
+#: wp-includes/class-wp-customize-nav-menus.php:382
+#: wp-includes/class-wp-customize-nav-menus.php:429
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:322
 #: wp-includes/nav-menu.php:821
 msgid "Custom Link"
@@ -5825,7 +5843,7 @@ msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "d.m.Y, H:i:s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1099
+#: wp-includes/class-wp-customize-nav-menus.php:1115
 #: wp-includes/class-wp-editor.php:1704 wp-includes/media-template.php:820
 msgid "Link Text"
 msgstr "Текст ссылки"
@@ -5887,7 +5905,7 @@ msgid "Theme Details"
 msgstr "Информация о теме"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:118
-#: wp-includes/script-loader.php:828
+#: wp-includes/script-loader.php:829
 msgid "Live Preview"
 msgstr "Просмотреть"
 
@@ -5978,7 +5996,7 @@ msgstr "Навигация по записям"
 msgid "Newer posts"
 msgstr "Следующие записи"
 
-#: wp-includes/script-loader.php:1130
+#: wp-includes/script-loader.php:1131
 msgid "Previous"
 msgstr "Назад"
 
@@ -6270,8 +6288,8 @@ msgstr "Множественный выбор"
 msgid "%s: %l."
 msgstr "%s: %l."
 
-#: wp-includes/class-wp-customize-nav-menus.php:411
-#: wp-includes/script-loader.php:888
+#: wp-includes/class-wp-customize-nav-menus.php:427
+#: wp-includes/script-loader.php:889
 msgctxt "missing menu item navigation label"
 msgid "(no label)"
 msgstr "(без текста)"
@@ -6280,7 +6298,7 @@ msgstr "(без текста)"
 msgid "This site is no longer available."
 msgstr "Этот сайт недоступен."
 
-#: wp-includes/script-loader.php:842
+#: wp-includes/script-loader.php:843
 msgid "No plugins found. Try a different search."
 msgstr "Плагинов не найдено. Попробуйте другой запрос."
 
@@ -6406,8 +6424,8 @@ msgstr "Вы настраиваете %s"
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>ОШИБКА</strong>: Не удалось сохранить комментарий. Пожалуйста, повторите попытку позже."
 
-#: wp-includes/update.php:154 wp-includes/update.php:356
-#: wp-includes/update.php:538
+#: wp-includes/update.php:154 wp-includes/update.php:346
+#: wp-includes/update.php:528
 msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
 msgstr "(Не удалось установить защищённое соединение с WordPress.org. Пожалуйста, свяжитесь с администратором сервера.)"
 
@@ -6998,7 +7016,7 @@ msgstr "Настройки плей-листа"
 msgid "Show Tracklist"
 msgstr "Показывать список треков"
 
-#: wp-includes/class-wp-customize-nav-menus.php:985
+#: wp-includes/class-wp-customize-nav-menus.php:1001
 #: wp-includes/class-wp-customize-panel.php:359
 #: wp-includes/class-wp-customize-section.php:350
 #: wp-includes/class-wp-customize-widgets.php:797
@@ -7189,7 +7207,7 @@ msgid "Align right"
 msgstr "По правому краю"
 
 #: wp-includes/class-wp-customize-widgets.php:755
-#: wp-includes/script-loader.php:840 wp-includes/script-loader.php:866
+#: wp-includes/script-loader.php:841 wp-includes/script-loader.php:867
 msgid "An error has occurred. Please reload the page and try again."
 msgstr "Произошла ошибка. Пожалуйста, обновите страницу и повторите попытку."
 
@@ -7197,12 +7215,12 @@ msgstr "Произошла ошибка. Пожалуйста, обновите 
 msgid "Select an area to move this widget into:"
 msgstr "Выберите область, в которую будет перемещён виджет:"
 
-#: wp-includes/class-wp-customize-nav-menus.php:932
+#: wp-includes/class-wp-customize-nav-menus.php:948
 #: wp-includes/class-wp-customize-widgets.php:685
 msgid "Move up"
 msgstr "Переместить вверх"
 
-#: wp-includes/class-wp-customize-nav-menus.php:933
+#: wp-includes/class-wp-customize-nav-menus.php:949
 #: wp-includes/class-wp-customize-widgets.php:684
 msgid "Move down"
 msgstr "Переместить вниз"
@@ -7256,7 +7274,7 @@ msgid "https://wordpress.org/support/forum/requests-and-feedback"
 msgstr "https://ru.forums.wordpress.org/forum/20"
 
 #: wp-includes/admin-bar.php:164 wp-includes/update.php:153
-#: wp-includes/update.php:355 wp-includes/update.php:537
+#: wp-includes/update.php:345 wp-includes/update.php:527
 #: wp-includes/wp-db.php:1062 wp-includes/wp-db.php:1595
 #: wp-includes/wp-db.php:1753 wp-login.php:882
 msgid "https://wordpress.org/support/"
@@ -7295,22 +7313,22 @@ msgstr "Группа столбцов"
 msgid "Could not find the specified string."
 msgstr "Не удалось найти указанную строку."
 
-#: wp-includes/general-template.php:3928
+#: wp-includes/general-template.php:3930
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Кофе"
 
-#: wp-includes/general-template.php:3922
+#: wp-includes/general-template.php:3924
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Океан"
 
-#: wp-includes/general-template.php:3916
+#: wp-includes/general-template.php:3918
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Эктоплазма"
 
-#: wp-includes/general-template.php:3910
+#: wp-includes/general-template.php:3912
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Рассвет"
@@ -7362,21 +7380,21 @@ msgstr "Список страниц вашего сайта."
 #. translators: If there are characters in your language that are not supported
 #. by Open Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: wp-includes/script-loader.php:935
+#: wp-includes/script-loader.php:936
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
 #. translators: %s: support forums URL
-#: wp-includes/update.php:152 wp-includes/update.php:354
-#: wp-includes/update.php:536
+#: wp-includes/update.php:152 wp-includes/update.php:344
+#: wp-includes/update.php:526
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "Произошла непредвиденная ошибка. Возможно, что-то не так с сайтом WordPress.org или с настройками вашего сервера. Если проблема не решится, обратитесь на <a href=\"%s\">форумы поддержки</a>."
 
 #. translators: To add an additional Open Sans character subset specific to
 #. your language, translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not
 #. translate into your own language.
-#: wp-includes/script-loader.php:941
+#: wp-includes/script-loader.php:942
 msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "cyrillic"
@@ -7385,17 +7403,17 @@ msgstr "cyrillic"
 msgid "Use commas instead of %s to separate excluded terms."
 msgstr "Чтобы исключить несколько элементов, вместо %s используйте запятые."
 
-#: wp-includes/general-template.php:3904
+#: wp-includes/general-template.php:3906
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Полночь"
 
-#: wp-includes/general-template.php:3892
+#: wp-includes/general-template.php:3894
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Светлая"
 
-#: wp-includes/general-template.php:3881
+#: wp-includes/general-template.php:3883
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "По умолчанию"
@@ -7404,7 +7422,7 @@ msgstr "По умолчанию"
 msgid "Menu"
 msgstr "Меню"
 
-#: wp-includes/update.php:643
+#: wp-includes/update.php:633
 msgid "Translation Updates"
 msgstr "Обновления переводов"
 
@@ -7577,7 +7595,7 @@ msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s
 msgstr "Вы правильно указали свой e-mail? У нас он записан как %s, но если это неправильный адрес, письмо не придёт."
 
 #. translators: 1: month, 2: day, 3: year, 4: hour, 5: minute
-#: wp-includes/script-loader.php:686 wp-includes/script-loader.php:714
+#: wp-includes/script-loader.php:687 wp-includes/script-loader.php:715
 msgid "%1$s %2$s, %3$s @ %4$s:%5$s"
 msgstr "%1$s %2$s, %3$s в %4$s:%5$s"
 
@@ -7610,7 +7628,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Поиск&hellip;"
 
-#: wp-includes/functions.php:5328 wp-includes/script-loader.php:568
+#: wp-includes/functions.php:5328 wp-includes/script-loader.php:569
 msgid "Session expired"
 msgstr "Сессия истекла"
 
@@ -7986,11 +8004,11 @@ msgstr "%1$s %2$s"
 msgid "Could not insert term relationship into the database."
 msgstr "Не удалось вставить связь элемента в базу данных"
 
-#: wp-includes/script-loader.php:855
+#: wp-includes/script-loader.php:856
 msgid "Select Color"
 msgstr "Выбрать цвет"
 
-#: wp-includes/media-template.php:601 wp-includes/script-loader.php:851
+#: wp-includes/media-template.php:601 wp-includes/script-loader.php:852
 msgid "Clear"
 msgstr "Сброс"
 
@@ -8074,15 +8092,15 @@ msgstr "Текст"
 msgid "Skip to toolbar"
 msgstr "Перейти к верхней панели"
 
-#: wp-includes/class-wp-customize-manager.php:4961
+#: wp-includes/class-wp-customize-manager.php:4981
 msgid "Header Text Color"
 msgstr "Цвет текста заголовка"
 
-#: wp-includes/class-wp-customize-manager.php:4938
+#: wp-includes/class-wp-customize-manager.php:4958
 msgid "Colors"
 msgstr "Цвета"
 
-#: wp-includes/script-loader.php:560 wp-includes/script-loader.php:722
+#: wp-includes/script-loader.php:560 wp-includes/script-loader.php:723
 msgid "Saved"
 msgstr "Сохранено"
 
@@ -8112,7 +8130,7 @@ msgstr "Извините, личную запись прилепить нель�
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "Извините, вам не разрешено публиковать эту страницу."
 
-#: wp-includes/class-wp-customize-manager.php:5011
+#: wp-includes/class-wp-customize-manager.php:5031
 #: wp-includes/customize/class-wp-customize-header-image-control.php:31
 msgid "Header Image"
 msgstr "Изображение заголовка"
@@ -8157,16 +8175,16 @@ msgstr[0] "Имя сайта должно быть не короче %s симв
 msgstr[1] "Имя сайта должно быть не короче %s символов"
 msgstr[2] "Имя сайта должно быть не короче %s символов"
 
-#: wp-includes/class-wp-customize-manager.php:5218
+#: wp-includes/class-wp-customize-manager.php:5238
 msgid "A static page"
 msgstr "Статическую страницу"
 
-#: wp-includes/class-wp-customize-manager.php:5085
+#: wp-includes/class-wp-customize-manager.php:5105
 #: wp-includes/customize/class-wp-customize-background-image-control.php:30
 msgid "Background Image"
 msgstr "Фоновое изображение"
 
-#: wp-includes/class-wp-customize-manager.php:4976
+#: wp-includes/class-wp-customize-manager.php:4996
 msgid "Background Color"
 msgstr "Цвет фона"
 
@@ -8182,15 +8200,15 @@ msgstr "Удалить изображение"
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Извините, вам не разрешено редактировать этот комментарий."
 
-#: wp-includes/class-wp-customize-manager.php:5240
+#: wp-includes/class-wp-customize-manager.php:5260
 msgid "Posts page"
 msgstr "Страница записей"
 
-#: wp-includes/script-loader.php:583
+#: wp-includes/script-loader.php:584
 msgid "Allowed Files"
 msgstr "Разрешённые файлы"
 
-#: wp-includes/class-wp-customize-manager.php:4920
+#: wp-includes/class-wp-customize-manager.php:4940
 #: wp-includes/class-wp-customize-widgets.php:753
 #: wp-includes/class-wp-editor.php:1258
 #: wp-includes/customize/class-wp-customize-media-control.php:226
@@ -8310,21 +8328,21 @@ msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Pleas
 msgstr "ОШИБКА: Директория тем либо пуста, либо не существует. Убедитесь, что дистрибутив установлен полностью."
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4351
+#: wp-includes/class-wp-customize-manager.php:4369
 msgid "Customize: %s"
 msgstr "Настройка: %s"
 
 #: wp-includes/class-wp-customize-control.php:586
-#: wp-includes/class-wp-customize-nav-menus.php:594
+#: wp-includes/class-wp-customize-nav-menus.php:610
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:143
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Выбрать &mdash;"
 
-#: wp-includes/class-wp-customize-manager.php:4863
+#: wp-includes/class-wp-customize-manager.php:4883
 msgid "Tagline"
 msgstr "Краткое описание"
 
-#: wp-includes/class-wp-customize-manager.php:5217
+#: wp-includes/class-wp-customize-manager.php:5237
 msgid "Your latest posts"
 msgstr "Ваши последние записи"
 
@@ -8364,8 +8382,8 @@ msgstr "Извините, вам не разрешено редактирова�
 msgid "Edit Site"
 msgstr "Редактировать сайт"
 
-#: wp-includes/post.php:3952 wp-includes/script-loader.php:671
-#: wp-includes/script-loader.php:743
+#: wp-includes/post.php:3952 wp-includes/script-loader.php:672
+#: wp-includes/script-loader.php:744
 msgctxt "tag delimiter"
 msgid ","
 msgstr ","
@@ -8495,7 +8513,7 @@ msgstr "Создать файл настроек"
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "Можно создать файл <code>wp-config.php</code> через веб-интерфейс, но это работает не на всех серверах. Наиболее надёжный способ &#8212; создать файл вручную."
 
-#: wp-includes/class-wp-customize-manager.php:5251
+#: wp-includes/class-wp-customize-manager.php:5271
 msgid "https://codex.wordpress.org/CSS"
 msgstr "https://codex.wordpress.org/CSS_(Каскадные_таблицы_стилей)"
 
@@ -8594,7 +8612,7 @@ msgstr "<strong>ОШИБКА</strong>: пожалуйста, введите ко
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>ОШИБКА</strong>: пожалуйста, введите комментарий."
 
-#: wp-includes/script-loader.php:871
+#: wp-includes/script-loader.php:872
 msgid "Could not load the preview image. Please reload the page and try again."
 msgstr "Не удалось загрузить изображение для просмотра. Пожалуйста, обновите страницу и повторите попытку."
 
@@ -8614,7 +8632,7 @@ msgstr "Форумы поддержки"
 msgid "Documentation"
 msgstr "Документация"
 
-#: wp-includes/formatting.php:3361 wp-includes/general-template.php:3800
+#: wp-includes/formatting.php:3361 wp-includes/general-template.php:3802
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -8676,7 +8694,7 @@ msgstr "Файл не является изображением. Пожалуй�
 msgid "This is larger than the maximum size. Please try another."
 msgstr "Размеры изображения превышают максимальные. Пожалуйста, выберите другое."
 
-#: wp-includes/general-template.php:3898
+#: wp-includes/general-template.php:3900
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Синяя"
@@ -8729,7 +8747,7 @@ msgstr "Все записи"
 msgid "Link"
 msgstr "Ссылка"
 
-#: wp-includes/script-loader.php:651
+#: wp-includes/script-loader.php:652
 msgid "Approve and Reply"
 msgstr "Одобрить и ответить"
 
@@ -8903,7 +8921,7 @@ msgstr "Страниц не найдено."
 msgid "No pages found in Trash."
 msgstr "Страниц в корзине не найдено."
 
-#: wp-includes/script-loader.php:830
+#: wp-includes/script-loader.php:831
 msgid "Network Enable"
 msgstr "Разрешить для сети"
 
@@ -9408,11 +9426,11 @@ msgstr "Вам необходимо <a href=\"%s\">авторизоваться<
 msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed, so choose carefully!"
 msgstr "Не менее 4 символов, только буквы и цифры. Значение нельзя изменить позже, будьте внимательны!"
 
-#: wp-includes/script-loader.php:757
+#: wp-includes/script-loader.php:758
 msgid "Are you sure you want to install this plugin?"
 msgstr "Вы уверены, что хотите установить этот плагин?"
 
-#: wp-includes/script-loader.php:876
+#: wp-includes/script-loader.php:877
 msgid "Use as featured image"
 msgstr "Использовать как изображение записи"
 
@@ -9449,7 +9467,7 @@ msgstr "Ссылки сайта «%s»"
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Ни одного меню ещё не создано. <a href=\"%s\">Создать</a>"
 
-#: wp-includes/script-loader.php:886
+#: wp-includes/script-loader.php:887
 msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -9462,7 +9480,7 @@ msgid "This is the short link."
 msgstr "Это короткая ссылка."
 
 #. translators: 1: Number of updates available to plugins
-#: wp-includes/update.php:636
+#: wp-includes/update.php:626
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d обновление плагина"
@@ -9470,7 +9488,7 @@ msgstr[1] "%d обновления плагинов"
 msgstr[2] "%d обновлений плагинов"
 
 #. translators: 1: Number of updates available to themes
-#: wp-includes/update.php:640
+#: wp-includes/update.php:630
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d обновление темы"
@@ -9478,7 +9496,7 @@ msgstr[1] "%d обновления тем"
 msgstr[2] "%d обновлений тем"
 
 #. translators: 1: Number of updates available to WordPress
-#: wp-includes/update.php:632
+#: wp-includes/update.php:622
 msgid "%d WordPress Update"
 msgstr "%d обновление WordPress"
 
@@ -9600,7 +9618,7 @@ msgid "Select Menu:"
 msgstr "Выберите меню:"
 
 #: wp-includes/admin-bar.php:836
-#: wp-includes/class-wp-customize-nav-menus.php:565
+#: wp-includes/class-wp-customize-nav-menus.php:581
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:98
 msgid "Menus"
 msgstr "Меню"
@@ -9677,7 +9695,7 @@ msgstr "Извините, вам не разрешено изменять авт
 msgid "Sorry, you are not allowed to update posts as this user."
 msgstr "Вам не разрешено обновлять записи от лица этого пользователя"
 
-#: wp-includes/class-wp-customize-nav-menus.php:789
+#: wp-includes/class-wp-customize-nav-menus.php:805
 #: wp-includes/class-wp-xmlrpc-server.php:1377
 #: wp-includes/class-wp-xmlrpc-server.php:1861
 #: wp-includes/class-wp-xmlrpc-server.php:3381
@@ -9831,8 +9849,8 @@ msgstr "Но прежде чем вы начнёте использовать с
 msgid "%s is your new username"
 msgstr "%s &#8212 ваше новое имя пользователя"
 
-#: wp-includes/class-wp-customize-nav-menus.php:951
-#: wp-includes/script-loader.php:1129 wp-signup.php:562
+#: wp-includes/class-wp-customize-nav-menus.php:967
+#: wp-includes/script-loader.php:1130 wp-signup.php:562
 msgid "Next"
 msgstr "Далее"
 
@@ -10024,51 +10042,51 @@ msgstr "Не удалось вставить элемент в базу данн
 msgid "Empty Term."
 msgstr "Пустой элемент"
 
-#: wp-includes/script-loader.php:701
+#: wp-includes/script-loader.php:702
 msgid "Saving Draft&#8230;"
 msgstr "Сохранение черновика&#8230;"
 
-#: wp-includes/script-loader.php:878
+#: wp-includes/script-loader.php:879
 msgid "Could not set that as the thumbnail image. Try a different attachment."
 msgstr "Не удалось задать это изображение в качестве миниатюры. Попробуйте другое вложение."
 
-#: wp-includes/script-loader.php:877
+#: wp-includes/script-loader.php:878
 msgid "Saving..."
 msgstr "Сохранение..."
 
-#: wp-includes/script-loader.php:741
+#: wp-includes/script-loader.php:742
 msgid "Remove From Bulk Edit"
 msgstr "Удалить из массового редактирования"
 
-#: wp-includes/script-loader.php:740 wp-includes/script-loader.php:749
+#: wp-includes/script-loader.php:741 wp-includes/script-loader.php:750
 msgid "Error while saving the changes."
 msgstr "Ошибка при сохранении изменений."
 
-#: wp-includes/script-loader.php:712
+#: wp-includes/script-loader.php:713
 msgid "Submitted on:"
 msgstr "Отправлено:"
 
-#: wp-includes/script-loader.php:697
+#: wp-includes/script-loader.php:698
 msgid "Password Protected"
 msgstr "Защищено паролем"
 
-#: wp-includes/script-loader.php:688
+#: wp-includes/script-loader.php:689
 msgid "No more comments found."
 msgstr "Больше комментариев не найдено."
 
-#: wp-includes/script-loader.php:687
+#: wp-includes/script-loader.php:688
 msgid "Show more comments"
 msgstr "Показать ещё комментарии"
 
-#: wp-includes/script-loader.php:684
+#: wp-includes/script-loader.php:685
 msgid "Published on:"
 msgstr "Дата:"
 
-#: wp-includes/script-loader.php:683
+#: wp-includes/script-loader.php:684
 msgid "Schedule for:"
 msgstr "Запланировать:"
 
-#: wp-includes/script-loader.php:682
+#: wp-includes/script-loader.php:683
 msgid "Publish on:"
 msgstr "Опубликовать:"
 
@@ -10145,12 +10163,6 @@ msgstr "&larr; Назад"
 #: wp-includes/script-loader.php:273
 msgid "Next &gt;"
 msgstr "Далее &rarr;"
-
-#: wp-includes/class-wp-xmlrpc-server.php:3689
-#: wp-includes/script-loader.php:133 wp-includes/script-loader.php:644
-#: wp-includes/script-loader.php:838
-msgid "An unidentified error has occurred."
-msgstr "Произошла неопределённая ошибка."
 
 #: wp-includes/script-loader.php:96
 msgid "Enter a description of the image"
@@ -10467,8 +10479,8 @@ msgstr "Лента комментариев"
 msgid "Insert Page Break tag"
 msgstr "Вставить тег разрыва страницы"
 
-#: wp-includes/class-wp-customize-manager.php:5115
-#: wp-includes/class-wp-customize-manager.php:5156
+#: wp-includes/class-wp-customize-manager.php:5135
+#: wp-includes/class-wp-customize-manager.php:5176
 msgid "Fill Screen"
 msgstr "Заполнить экран"
 
@@ -10605,7 +10617,7 @@ msgstr "Новый документ"
 msgid "Paste"
 msgstr "Вставить"
 
-#: wp-includes/class-wp-customize-manager.php:4184
+#: wp-includes/class-wp-customize-manager.php:4202
 #: wp-includes/class-wp-editor.php:1045
 msgid "Copy"
 msgstr "Копировать"
@@ -10683,8 +10695,8 @@ msgid "Document properties"
 msgstr "Свойства документа"
 
 #: wp-includes/class-wp-editor.php:1238 wp-includes/script-loader.php:477
-#: wp-includes/script-loader.php:559 wp-includes/script-loader.php:700
-#: wp-includes/script-loader.php:723 wp-includes/script-loader.php:887
+#: wp-includes/script-loader.php:559 wp-includes/script-loader.php:701
+#: wp-includes/script-loader.php:724 wp-includes/script-loader.php:888
 #: wp-includes/theme.php:2961
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Сделанные вами изменения будут отменены, если вы уйдёте с этой страницы."
@@ -10912,11 +10924,11 @@ msgstr "Пользователь заблокировал HTTP-запросы."
 msgid "Gray"
 msgstr "Серый"
 
-#: wp-includes/general-template.php:3715
+#: wp-includes/general-template.php:3717
 msgid "Next &raquo;"
 msgstr "Далее &rarr;"
 
-#: wp-includes/general-template.php:3714
+#: wp-includes/general-template.php:3716
 msgid "&laquo; Previous"
 msgstr "&larr; Ранее"
 
@@ -11060,10 +11072,6 @@ msgstr "Пожалуйста, попробуйте ещё раз."
 #: wp-includes/functions.php:2603
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Вы действительно хотите <a href='%s'>выйти</a>?"
-
-#: wp-includes/functions.php:2617
-msgid "WordPress Failure Notice"
-msgstr "Сообщение об ошибке"
 
 #. translators: %s: site name
 #: wp-includes/functions.php:2596
@@ -11213,7 +11221,7 @@ msgstr "Отображать иерархию"
 msgid "Select Category"
 msgstr "Выберите рубрику"
 
-#: wp-includes/widgets/class-wp-widget-text.php:469
+#: wp-includes/widgets/class-wp-widget-text.php:489
 msgid "Automatically add paragraphs"
 msgstr "Автоматически добавлять абзацы"
 
@@ -11395,7 +11403,7 @@ msgstr "Ваш комментарий ожидает проверки."
 msgid "Comments are closed."
 msgstr "Обсуждение закрыто."
 
-#: wp-includes/script-loader.php:854
+#: wp-includes/script-loader.php:855
 msgid "Select default color"
 msgstr "Выбрать цвет по умолчанию"
 
@@ -11408,7 +11416,7 @@ msgid "Pages:"
 msgstr "Страницы:"
 
 #. translators: %s: comments count
-#: wp-includes/script-loader.php:657
+#: wp-includes/script-loader.php:658
 msgid "Comments (%s)"
 msgstr "Комментарии (%s)"
 
@@ -11449,7 +11457,7 @@ msgstr "Комментарии: %s"
 
 #: wp-includes/class-wp-customize-nav-menus.php:276
 #: wp-includes/script-loader.php:242 wp-includes/script-loader.php:527
-#: wp-includes/script-loader.php:885
+#: wp-includes/script-loader.php:886
 msgid "No results found."
 msgstr "Результатов не найдено."
 
@@ -11495,22 +11503,22 @@ msgstr "Метки разделяются запятыми"
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:135
 #: wp-includes/widgets/class-wp-widget-search.php:70
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:126
-#: wp-includes/widgets/class-wp-widget-text.php:454
-#: wp-includes/widgets/class-wp-widget-text.php:487
+#: wp-includes/widgets/class-wp-widget-text.php:474
+#: wp-includes/widgets/class-wp-widget-text.php:507
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: wp-includes/script-loader.php:755
+#: wp-includes/script-loader.php:756
 msgid "Plugin:"
 msgstr "Плагин:"
 
-#: wp-includes/class-wp-customize-manager.php:4921
+#: wp-includes/class-wp-customize-manager.php:4941
 #: wp-includes/customize/class-wp-customize-color-control.php:51
 #: wp-includes/customize/class-wp-customize-media-control.php:225
 #: wp-includes/customize/class-wp-customize-media-control.php:235
 #: wp-includes/customize/class-wp-customize-media-control.php:245
 #: wp-includes/customize/class-wp-customize-media-control.php:255
-#: wp-includes/script-loader.php:853
+#: wp-includes/script-loader.php:854
 msgid "Default"
 msgstr "По умолчанию"
 
@@ -11535,7 +11543,7 @@ msgstr "Разрешить оставлять комментарии на нов
 msgid "Email"
 msgstr "E-mail"
 
-#: wp-includes/class-wp-customize-manager.php:4852
+#: wp-includes/class-wp-customize-manager.php:4872
 #: wp-includes/class-wp-xmlrpc-server.php:540
 msgid "Site Title"
 msgstr "Название сайта"
@@ -11661,7 +11669,7 @@ msgid "Help"
 msgstr "Помощь"
 
 #: wp-includes/media.php:3143 wp-includes/script-loader.php:526
-#: wp-includes/script-loader.php:742
+#: wp-includes/script-loader.php:743
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:91
 msgid "(no title)"
 msgstr "(без названия)"
@@ -11682,10 +11690,10 @@ msgstr "Новая страница"
 msgid "Select"
 msgstr "Выбрать"
 
-#: wp-includes/class-wp-customize-manager.php:5281
+#: wp-includes/class-wp-customize-manager.php:5301
 #: wp-includes/class-wp-editor.php:1053 wp-includes/class-wp-editor.php:1695
 #: wp-includes/script-loader.php:277 wp-includes/script-loader.php:371
-#: wp-includes/script-loader.php:562 wp-includes/script-loader.php:1125
+#: wp-includes/script-loader.php:562 wp-includes/script-loader.php:1126
 msgid "Close"
 msgstr "Закрыть"
 
@@ -11723,10 +11731,10 @@ msgstr "Изображения"
 msgid "Search"
 msgstr "Поиск"
 
-#: wp-includes/class-wp-customize-manager.php:4111
+#: wp-includes/class-wp-customize-manager.php:4129
 #: wp-includes/script-loader.php:146 wp-includes/script-loader.php:307
-#: wp-includes/widgets/class-wp-widget-text.php:501
-#: wp-includes/widgets/class-wp-widget-text.php:516
+#: wp-includes/widgets/class-wp-widget-text.php:521
+#: wp-includes/widgets/class-wp-widget-text.php:536
 msgid "Dismiss"
 msgstr "Закрыть"
 
@@ -11735,7 +11743,7 @@ msgid "All Categories"
 msgstr "Все рубрики"
 
 #: wp-includes/class-wp-customize-control.php:634
-#: wp-includes/class-wp-customize-nav-menus.php:1065
+#: wp-includes/class-wp-customize-nav-menus.php:1081
 msgid "Add"
 msgstr "Добавить"
 
@@ -11744,32 +11752,32 @@ msgid "Add or remove tags"
 msgstr "Добавить или удалить метки"
 
 #: wp-includes/media.php:3499 wp-includes/script-loader.php:524
-#: wp-includes/script-loader.php:691 wp-includes/script-loader.php:772
+#: wp-includes/script-loader.php:692 wp-includes/script-loader.php:773
 msgid "Update"
 msgstr "Обновить"
 
-#: wp-includes/script-loader.php:695
+#: wp-includes/script-loader.php:696
 msgid "Public"
 msgstr "Открыто"
 
-#: wp-includes/script-loader.php:696
+#: wp-includes/script-loader.php:697
 msgid "Public, Sticky"
 msgstr "Открыто, прилеплено"
 
 #: wp-includes/post.php:705 wp-includes/post.php:725
-#: wp-includes/script-loader.php:694
+#: wp-includes/script-loader.php:695
 msgid "Private"
 msgstr "Личное"
 
-#: wp-includes/class-wp-editor.php:1051 wp-includes/script-loader.php:680
+#: wp-includes/class-wp-editor.php:1051 wp-includes/script-loader.php:681
 msgid "OK"
 msgstr "OK"
 
-#: wp-includes/script-loader.php:698
+#: wp-includes/script-loader.php:699
 msgid "Privately Published"
 msgstr "Опубликовано как личное"
 
-#: wp-includes/script-loader.php:692
+#: wp-includes/script-loader.php:693
 msgid "Save as Pending"
 msgstr "Сохранить для утверждения"
 
@@ -11904,12 +11912,12 @@ msgstr "Обратная ссылка"
 msgid "Pingback"
 msgstr "Уведомление"
 
-#: wp-includes/comment-template.php:1597 wp-includes/script-loader.php:652
+#: wp-includes/comment-template.php:1597 wp-includes/script-loader.php:653
 msgid "Reply"
 msgstr "Ответить"
 
-#: wp-includes/class-wp-customize-manager.php:4602
-#: wp-includes/script-loader.php:551 wp-includes/script-loader.php:693
+#: wp-includes/class-wp-customize-manager.php:4622
+#: wp-includes/script-loader.php:551 wp-includes/script-loader.php:694
 msgid "Save Draft"
 msgstr "Сохранить"
 
@@ -11923,7 +11931,7 @@ msgstr "Содержимое"
 
 #: wp-includes/class-wp-editor.php:1052 wp-includes/class-wp-editor.php:1741
 #: wp-includes/media.php:3498 wp-includes/script-loader.php:510
-#: wp-includes/script-loader.php:561 wp-includes/script-loader.php:681
+#: wp-includes/script-loader.php:561 wp-includes/script-loader.php:682
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -11936,7 +11944,7 @@ msgstr "Плагины"
 msgid "Recent Comments"
 msgstr "Свежие комментарии"
 
-#: wp-includes/class-wp-customize-manager.php:4138
+#: wp-includes/class-wp-customize-manager.php:4156
 #: wp-includes/class-wp-editor.php:1119 wp-includes/media-template.php:1247
 msgid "Preview"
 msgstr "Просмотреть"
@@ -11951,7 +11959,7 @@ msgstr "Аноним"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:55
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
-#: wp-includes/script-loader.php:879
+#: wp-includes/script-loader.php:880
 msgid "Done"
 msgstr "Готово"
 
@@ -12010,7 +12018,7 @@ msgstr "Цель"
 msgid "Categories"
 msgstr "Рубрики"
 
-#: wp-includes/class-wp-editor.php:1121 wp-includes/script-loader.php:721
+#: wp-includes/class-wp-editor.php:1121 wp-includes/script-loader.php:722
 msgid "Save"
 msgstr "Сохранить"
 
@@ -12042,12 +12050,12 @@ msgstr "Редакции"
 msgid "Excerpt"
 msgstr "Отрывок"
 
-#: wp-includes/class-wp-customize-manager.php:4597
-#: wp-includes/script-loader.php:549 wp-includes/script-loader.php:689
+#: wp-includes/class-wp-customize-manager.php:4617
+#: wp-includes/script-loader.php:549 wp-includes/script-loader.php:690
 msgid "Publish"
 msgstr "Опубликовать"
 
-#: wp-includes/script-loader.php:655
+#: wp-includes/script-loader.php:656
 msgid "Comments"
 msgstr "Комментарии"
 
@@ -12075,7 +12083,7 @@ msgstr "Изменить"
 msgid "No"
 msgstr "Нет"
 
-#: wp-includes/deprecated.php:3130 wp-includes/functions.php:2607
+#: wp-includes/deprecated.php:3130
 msgid "Are you sure you want to do this?"
 msgstr "Вы уверены, что хотите это сделать?"
 
@@ -12084,7 +12092,7 @@ msgctxt "noun"
 msgid "Comment"
 msgstr "Комментарий"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1095
+#: wp-includes/class-wp-customize-nav-menus.php:1111
 #: wp-includes/class-wp-editor.php:1136 wp-includes/class-wp-editor.php:1700
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:86
 #: wp-includes/media-template.php:376 wp-includes/media-template.php:557
@@ -12119,7 +12127,7 @@ msgid "Pending Review"
 msgstr "На утверждении"
 
 #: wp-includes/post.php:706 wp-includes/post.php:726
-#: wp-includes/script-loader.php:550 wp-includes/script-loader.php:699
+#: wp-includes/script-loader.php:550 wp-includes/script-loader.php:700
 msgid "Published"
 msgstr "Опубликовано"
 
@@ -12131,12 +12139,6 @@ msgstr "Заголовок"
 #: wp-includes/post.php:1394
 msgid "No posts found."
 msgstr "Записей не найдено."
-
-#: wp-includes/class-wp-customize-manager.php:450
-#: wp-includes/class-wp-customize-manager.php:515
-#: wp-includes/script-loader.php:565
-msgid "Cheatin&#8217; uh?"
-msgstr "Хакер, что ли?"
 
 #: wp-activate.php:134 wp-includes/post-template.php:1611
 msgid "Password:"
@@ -12154,8 +12156,8 @@ msgstr "При активации произошла ошибка"
 msgid "Your account is now active!"
 msgstr "Ваша учётная запись активирована!"
 
-#: wp-activate.php:85 wp-includes/script-loader.php:829
-#: wp-includes/script-loader.php:830
+#: wp-activate.php:85 wp-includes/script-loader.php:830
+#: wp-includes/script-loader.php:831
 msgid "Activate"
 msgstr "Активировать"
 
