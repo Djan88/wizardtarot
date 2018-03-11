@@ -1531,5 +1531,20 @@ h4.modal-title
 }
 .tarot_prot_card.card_rotated 
 {
-    width: 100px;
+  width: 100px;
+  left: 30px;
+  top: 0;
+}
+.tarot_prot_devil.card_rotated 
+{
+  width: 100px;
+  right: 30px;
+  top: 0;
+  background: #fff url(/wp-content/themes/wizardtarot/images/gallery/15-Major-Devil.png) 0 0/100% no-repeat;
+}
+.card_rotated {
+  transform: rotate(-90deg);
+  border: 1px solid #428bca;
+  border-radius: 4px;
+  position: absolute;
 }
